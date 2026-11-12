@@ -1,0 +1,200 @@
+{
+  "altshiller-court": {
+    "name": "Nathan Altshiller-Court",
+    "dates": "1881–1968",
+    "role": "Mathematician & Author of College Geometry",
+    "bio": "Polish-born University of Oklahoma geometer whose College Geometry (1925; 2nd ed. 1952) cites Casey's Sequel to Euclid as a foundational English treatise on modern synthetic circle and triangle geometry."
+  },
+  "apollonius": {
+    "name": "Apollonius of Perga",
+    "dates": "c. 240 – c. 190 BC",
+    "role": "Ancient Greek Geometer ('The Great Geometer')",
+    "bio": "Author of the Conics, De Locis Planis, and De Tactionibus. Casey develops Apollonius's median theorem (Book II, Prop. 1), the Circle of Apollonius as a coaxal constant-ratio locus (Book VI, Sec. V), and the Problem of Apollonius via centres of similitude and Gergonne's pole-polar method."
+  },
+  "brianchon": {
+    "name": "Charles Julien Brianchon",
+    "dates": "1783–1864",
+    "role": "French Projective Geometer & Co-Discoverer of the Nine-Points Circle",
+    "bio": "Student at the École Polytechnique who derived Brianchon's Theorem on circumscribed hexagons by polar reciprocation of Pascal's Hexagrammum Mysticum (1806) and co-published the nine-points circle theorem with Poncelet (1820–1821)."
+  },
+  "brocard": {
+    "name": "Henri Brocard",
+    "dates": "1845–1922",
+    "role": "French Meteorological Officer & Co-Founder of Recent Triangle Geometry",
+    "bio": "Discovered the properties of the Brocard points (Ω, Ω'), the Brocard angle ω, Brocard's First and Second Triangles, and the seven-point Brocard Circle (AFAS Alger, 1881), expounded systematically in Casey's Supplementary Chapter (Secs. II & V)."
+  },
+  "casey": {
+    "name": "John Casey",
+    "dates": "1820–1891",
+    "role": "Irish Geometer, Professor at the Catholic University of Ireland, F.R.S.",
+    "bio": "Born in Kilbehenny, Co. Limerick; entered Trinity College Dublin at age 38 after teaching in Kilkenny National Schools. Discovered his inversion proof of Feuerbach's Theorem as an undergraduate (1860–1861) and his Generalized Ptolemy Theorem for four circles tangent to a fifth (Proc. R.I.A., 1866). His Sequel to Euclid (1st ed. 1881; 5th ed. 1888; 6th ed. 1892) introduced English-speaking students worldwide to inversion, coaxal circles, harmonic/anharmonic projectivity, and Lemoine–Brocard triangle geometry."
+  },
+  "ceva": {
+    "name": "Giovanni Ceva",
+    "dates": "1647–1734",
+    "role": "Italian Geometer & Hydraulic Engineer",
+    "bio": "Published De lineis rectis se invicem secantibus statica constructio (1678), establishing the concurrency ratio criterion for three cevians presented in Casey Book VI, Sec. I, Prop. 2 (p. 67)."
+  },
+  "chasles": {
+    "name": "Michel Chasles",
+    "dates": "1793–1880",
+    "role": "French Projective Geometer & Historian of Geometry",
+    "bio": "Systematized signed segments, anharmonic (cross) ratios, and homographic ranges and pencils in the Aperçu historique (1837) and Traité de géométrie supérieure (1852), forming the backbone of Casey Book VI, Sec. VI."
+  },
+  "desargues": {
+    "name": "Girard Desargues",
+    "dates": "1591–1661",
+    "role": "French Architect & Founder of Projective Geometry",
+    "bio": "Established perspective homology of triangles, involution on secants, and harmonic pole-polar properties. Casey proves Desargues's Theorem both by Menelaus/anharmonic ratios (Book VI, Sec. VI) and by polar reciprocation (Sec. VII, p. 142)."
+  },
+  "dowling": {
+    "name": "Patrick A. E. Dowling",
+    "dates": "fl. 1888–1892",
+    "role": "Irish Mathematician & Editor of the 6th Edition of Casey's Sequel",
+    "bio": "Son-in-law and mathematical collaborator of John Casey who edited and saw through the press the posthumous Sixth Edition of A Sequel to Euclid (1892)."
+  },
+  "euclid": {
+    "name": "Euclid of Alexandria",
+    "dates": "fl. c. 300 BC",
+    "role": "Author of the Elements",
+    "bio": "Author of the Stoicheia, whose first six planar books serve as the direct structural framework for Casey's Sequel."
+  },
+  "euler": {
+    "name": "Leonhard Euler",
+    "dates": "1707–1783",
+    "role": "Swiss Mathematician & Physicist",
+    "bio": "Proved the collinearity and 2:1 trisection of the circumcentre O, centroid G, and orthocentre H (1765), the quadrilateral midpoint-diagonal sum-of-squares theorem (Casey Book II, Prop. 2), and the four-point collinearity identity AB·CD + BC·AD = AC·BD (Book II, Prop. 7)."
+  },
+  "feuerbach": {
+    "name": "Karl Wilhelm Feuerbach",
+    "dates": "1800–1834",
+    "role": "German Geometer",
+    "bio": "Published Eigenschaften einiger merkwürdigen Punkte des geradlinigen Dreiecks (1822), proving that the circle through the side midpoints touches the incircle internally and all three excircles externally. Casey presents three distinct synthetic proofs of Feuerbach's Theorem."
+  },
+  "gaultier": {
+    "name": "Louis Gaultier",
+    "dates": "c. 1776–c. 1840",
+    "role": "French Geometer (École Polytechnique)",
+    "bio": "Introduced the term 'radical axis' (axe radical) and 'radical centre' in the Journal de l'École Polytechnique (1813), foundational to Casey Book III, Props. 23–24."
+  },
+  "gergonne": {
+    "name": "Joseph Diaz Gergonne",
+    "dates": "1771–1859",
+    "role": "French Mathematician & Codifier of Projective Duality",
+    "bio": "Formulated the principle of duality, introduced the words 'pole' and 'polar', discovered the Gergonne concurrency point of incircle contact cevians, and solved Apollonius's problem via radical centre and poles."
+  },
+  "hart": {
+    "name": "Andrew Searle Hart",
+    "dates": "1811–1890",
+    "role": "Irish Geometer & Vice-Provost of Trinity College Dublin",
+    "bio": "Mentor and colleague of Casey in Dublin; generalized Feuerbach's Theorem from rectilinear triangles to circular triangles formed by three arbitrary circles (Hart's Circle, Quarterly Journal of Mathematics, 1861), proved in Casey Book VI, Sec. IV, Prop. 11 (pp. 106–108)."
+  },
+  "lahire": {
+    "name": "Philippe de La Hire",
+    "dates": "1640–1718",
+    "role": "French Projective Geometer & Astronomer",
+    "bio": "Discovered the fundamental reciprocity theorem of poles and polars in Sectiones Conicae (1685): if Q lies on the polar of P, then P lies on the polar of Q (Casey Book III, Prop. 25, p. 45)."
+  },
+  "lemoine": {
+    "name": "Émile Michel Hyacinthe Lemoine",
+    "dates": "1840–1912",
+    "role": "French Civil Engineer & Co-Founder of Modern Triangle Geometry",
+    "bio": "Revived synthetic triangle geometry with his 1873 AFAS Lyon memoir on the symmedian point K = X(6), the First Lemoine Circle (triplicate-ratio circle), and the Cosine (Second Lemoine) Circle, central to Casey's Supplementary Chapter."
+  },
+  "longchamps": {
+    "name": "Gaston Albert Gohierre de Longchamps",
+    "dates": "1842–1906",
+    "role": "French Mathematician",
+    "bio": "Investigated the point X(20) (reflection of orthocentre H across circumcentre O) and Longchamps' Circle orthogonal to the median-radius circles at the vertices/midpoints (Casey Supp. Ch., Misc. Ex. 146–158, p. 247)."
+  },
+  "mclelland": {
+    "name": "William J. M'Clelland",
+    "dates": "fl. 1885–1900",
+    "role": "Irish Geometer",
+    "bio": "Author of A Treatise on the Geometry of the Circle (1891) and contributor of the second similitude proof of Feuerbach's Theorem acknowledged by Casey in the Preface and Supplementary Chapter (pp. vi, 201–203)."
+  },
+  "menelaus": {
+    "name": "Menelaus of Alexandria",
+    "dates": "c. 70 – c. 140 CE",
+    "role": "Greco-Roman Mathematician & Astronomer",
+    "bio": "Formulated in Sphaerica III.1 the transversal ratio theorem for triangles, proved for planar directed ratios in Casey Book VI, Sec. I, Prop. 4 (p. 69)."
+  },
+  "monge": {
+    "name": "Gaspard Monge",
+    "dates": "1746–1818",
+    "role": "French Geometer & Creator of Descriptive Geometry",
+    "bio": "Proved that the six centres of similitude of three circles lie three by three upon four axes of similitude (Casey Book VI, Sec. II)."
+  },
+  "neuberg": {
+    "name": "Joseph Jean Baptiste Neuberg",
+    "dates": "1840–1926",
+    "role": "Luxembourgeois-Belgian Geometer (University of Liège)",
+    "bio": "Close correspondent of Casey (thanked warmly in Casey's Preface, p. vi); discovered the Neuberg circles, Neuberg cubic, and associated Brocard–Steiner–Tarry theorems integrated into Casey's Supplementary Chapter."
+  },
+  "pappus": {
+    "name": "Pappus of Alexandria",
+    "dates": "c. 290 – c. 350 CE",
+    "role": "Late Antique Greek Geometer (Author of the Synagoge)",
+    "bio": "Preserved cross-ratio invariance, complete-quadrilateral harmonic properties, locus to three/four lines, and the ancient Arbelos shoemaker's-knife chain theorem proved by inversion in Casey Book VI, Sec. IV, Prop. 9 Cor. 1 (p. 103)."
+  },
+  "pascal": {
+    "name": "Blaise Pascal",
+    "dates": "1623–1662",
+    "role": "French Mathematician, Physicist & Philosopher",
+    "bio": "Discovered at age sixteen the Hexagrammum Mysticum (Essai pour les coniques, 1640) that opposite sides of a hexagon inscribed in a circle or conic meet collinearly (Casey Book VI, Sec. VI)."
+  },
+  "poncelet": {
+    "name": "Jean-Victor Poncelet",
+    "dates": "1788–1867",
+    "role": "French Geometer & Author of the Traité des propriétés projectives des figures",
+    "bio": "Developed coaxal pencils of circles and their real/ideal limiting points (points limites), polar reciprocation, and the nine-points circle (1822), deeply shaping Units 2–4 of Casey's Sequel."
+  },
+  "ptolemy": {
+    "name": "Claudius Ptolemy",
+    "dates": "c. 100 – c. 170 CE",
+    "role": "Greco-Egyptian Astronomer & Mathematician",
+    "bio": "Proved in Almagest I.10 that in a cyclic quadrilateral AB·CD + AD·BC = AC·BD—the zero-radius specialization of Casey's 1866 Generalized Ptolemy Theorem (Book VI, Sec. IV, Prop. 10, p. 103)."
+  },
+  "salmon": {
+    "name": "George Salmon",
+    "dates": "1819–1904",
+    "role": "Irish Mathematician & Provost of Trinity College Dublin",
+    "bio": "Author of A Treatise on Conic Sections (1848) who encouraged Casey's geometric career at Trinity College Dublin and proved Salmon's harmonic-distance theorem for poles and polars (Casey Book VI, Sec. VII, Prop. 3)."
+  },
+  "steiner": {
+    "name": "Jakob Steiner",
+    "dates": "1796–1863",
+    "role": "Swiss Synthetic Geometer (University of Berlin)",
+    "bio": "Formulated the power of a point (Potenz eines Punktes, 1826), inversion constructions, complete-quadrangle straightedge polar constructions, and Steiner's point X(99) on the circumcircle (Casey Supp. Ch., Sec. VII)."
+  },
+  "stewart": {
+    "name": "Matthew Stewart",
+    "dates": "1717–1785",
+    "role": "Scottish Geometer (University of Edinburgh)",
+    "bio": "Published Some General Theorems of Considerable Use in the Higher Parts of Mathematics (1746), stating the cevian metric relation proved in Casey Book II, Prop. 10 (p. 26)."
+  },
+  "tarry": {
+    "name": "Gaston Tarry",
+    "dates": "1843–1913",
+    "role": "French Mathematician",
+    "bio": "Discovered Tarry's point X(98) on the circumcircle—antipodal to Steiner's point X(99) and centre of concurrency of perpendiculars from the vertices of ABC to the sides of Brocard's First Triangle (Casey Supp. Ch., Sec. VII)."
+  },
+  "taylor": {
+    "name": "Henry Martyn Taylor",
+    "dates": "1842–1927",
+    "role": "English Mathematician (Trinity College, Cambridge)",
+    "bio": "Proved that the six orthogonal projections of the three altitude feet upon the other two sides of a triangle lie on a single Tucker circle—Taylor's Circle (Messenger of Mathematics, 1882; Casey Supp. Ch., Sec. III)."
+  },
+  "townsend": {
+    "name": "Richard Townsend",
+    "dates": "1821–1884",
+    "role": "Irish Geometer & Fellow of Trinity College Dublin",
+    "bio": "Author of Chapters on the Modern Geometry of the Point, Line, and Circle (1863–1865) and mentor to John Casey at Trinity College Dublin."
+  },
+  "tucker": {
+    "name": "Robert Tucker",
+    "dates": "1832–1905",
+    "role": "English Mathematician & Honorary Secretary of the London Mathematical Society",
+    "bio": "Discovered the one-parameter family of six-point Tucker Circles generalizing the First Lemoine, Cosine, Taylor, and circumcircle configurations (1883; thanked in Casey's Preface, p. vi, and expounded in Supp. Ch., Sec. III)."
+  }
+}

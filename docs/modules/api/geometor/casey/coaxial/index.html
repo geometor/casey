@@ -1,0 +1,383 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.casey.coaxial &mdash; GEOMETOR • casey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../sequel_to_euclid/index.html"  >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../brocard/index.html" title="geometor.casey.brocard">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.casey.concordance"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.casey.coaxial">
+        <span id="geometor-casey-coaxial"></span><h1>geometor.casey.coaxial<a class="headerlink" href="#module-geometor.casey.coaxial" title="Link to this heading">¶</a></h1>
+        <p>Exact straightedge-and-compass constructions for Radical Axes, Coaxal Systems &amp; Limiting Points.</p>
+        <p>Implements Unit 2 of the Casey Codex:</p>
+        <ul class="simple">
+        <li><p><strong>Book III, Prop. 22 (p. 42)</strong>: Orthogonal circles (<code class="docutils literal notranslate"><span class="pre">|O1</span> <span class="pre">O2|^2</span> <span class="pre">=</span> <span class="pre">r1^2</span> <span class="pre">+</span> <span class="pre">r2^2</span></code>).</p></li>
+        <li><p><strong>Book III, Prop. 23 &amp; Defs. (p. 43)</strong>: Radical Axis, Radical Centre, Radical Circle, and
+        Poncelet’s <strong>Limiting Points</strong> <code class="docutils literal notranslate"><span class="pre">L1,</span> <span class="pre">L2</span></code> on the line of centres (<code class="docutils literal notranslate"><span class="pre">|D</span> <span class="pre">L1|</span> <span class="pre">=</span> <span class="pre">|D</span> <span class="pre">L2|</span> <span class="pre">=</span> <span class="pre">sqrt(pow)</span></code>).</p></li>
+        <li><p><strong>Book III, Prop. 24 (p. 44)</strong>: Fundamental Theorem of Coaxal Circles: the difference of the
+        squares of tangents from any point <code class="docutils literal notranslate"><span class="pre">P</span></code> to two circles equals twice the rectangle contained
+        by the distance between their centres and the perpendicular from <code class="docutils literal notranslate"><span class="pre">P</span></code> to their radical axis:
+        <code class="docutils literal notranslate"><span class="pre">pow(P,</span> <span class="pre">C1)</span> <span class="pre">-</span> <span class="pre">pow(P,</span> <span class="pre">C2)</span> <span class="pre">=</span> <span class="pre">2</span> <span class="pre">*</span> <span class="pre">(O2</span> <span class="pre">-</span> <span class="pre">O1)</span> <span class="pre">.</span> <span class="pre">(E</span> <span class="pre">-</span> <span class="pre">P)</span></code>.</p></li>
+        <li><p><strong>Book III, Prop. 28 &amp; Book VI, Sec. V (pp. 113–119)</strong>: Compass-and-straightedge construction
+        of the radical axis of two disjoint circles via an auxiliary secant circle and conjugate
+        orthogonal pencils passing through <code class="docutils literal notranslate"><span class="pre">L1</span></code> and <code class="docutils literal notranslate"><span class="pre">L2</span></code>.</p></li>
+        </ul>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.coaxial.CoaxialTheoremReport" title="geometor.casey.coaxial.CoaxialTheoremReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CoaxialTheoremReport</span></code></a></p></td>
+        <td><p>Symbolic verification certificate for Casey's Fundamental Theorem (Book III, Prop. 24).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.coaxial.CoaxialPencilResult" title="geometor.casey.coaxial.CoaxialPencilResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CoaxialPencilResult</span></code></a></p></td>
+        <td><p>Constructed elements for the Disjoint Coaxal Pencil &amp; Poncelet Limiting Points (Unit 2).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.coaxial.verify_coaxial_fundamental_theorem" title="geometor.casey.coaxial.verify_coaxial_fundamental_theorem"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_coaxial_fundamental_theorem</span></code></a>(→ CoaxialTheoremReport)</p></td>
+        <td><p>Verify Casey Book III Props. 22–24 symbolically and on the constructed coaxal system.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil" title="geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_radical_axis_and_coaxial_pencil</span></code></a>(...)</p></td>
+        <td><p>Construct the radical axis, coaxal system, orthogonal pencil, and limiting points.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.coaxial.</span></span><span class="sig-name descname"><span class="pre">CoaxialTheoremReport</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Symbolic verification certificate for Casey’s Fundamental Theorem (Book III, Prop. 24).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.symbolic_prop24_residual">
+        <span class="sig-name descname"><span class="pre">symbolic_prop24_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.symbolic_prop24_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.radical_axis_power_diff">
+        <span class="sig-name descname"><span class="pre">radical_axis_power_diff</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.radical_axis_power_diff" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.limiting_point_power_c1">
+        <span class="sig-name descname"><span class="pre">limiting_point_power_c1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.limiting_point_power_c1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.limiting_point_power_c2">
+        <span class="sig-name descname"><span class="pre">limiting_point_power_c2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.limiting_point_power_c2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c1">
+        <span class="sig-name descname"><span class="pre">orthogonal_to_c1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c2">
+        <span class="sig-name descname"><span class="pre">orthogonal_to_c2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c3">
+        <span class="sig-name descname"><span class="pre">orthogonal_to_c3</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.orthogonal_to_c3" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialTheoremReport.verified">
+        <span class="sig-name descname"><span class="pre">verified</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialTheoremReport.verified" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.coaxial.</span></span><span class="sig-name descname"><span class="pre">CoaxialPencilResult</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for the Disjoint Coaxal Pencil &amp; Poncelet Limiting Points (Unit 2).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.c1">
+        <span class="sig-name descname"><span class="pre">c1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.c1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.c2">
+        <span class="sig-name descname"><span class="pre">c2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.c2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.c3_coaxial">
+        <span class="sig-name descname"><span class="pre">c3_coaxial</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.c3_coaxial" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.aux_secant_circle">
+        <span class="sig-name descname"><span class="pre">aux_secant_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.aux_secant_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.radical_center">
+        <span class="sig-name descname"><span class="pre">radical_center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.radical_center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.radical_foot">
+        <span class="sig-name descname"><span class="pre">radical_foot</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.radical_foot" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.radical_axis">
+        <span class="sig-name descname"><span class="pre">radical_axis</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.radical_axis" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.line_of_centers">
+        <span class="sig-name descname"><span class="pre">line_of_centers</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.line_of_centers" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.tangent_contact_c1">
+        <span class="sig-name descname"><span class="pre">tangent_contact_c1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.tangent_contact_c1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.limiting_points">
+        <span class="sig-name descname"><span class="pre">limiting_points</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.limiting_points" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.orthogonal_circle_1">
+        <span class="sig-name descname"><span class="pre">orthogonal_circle_1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.orthogonal_circle_1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.orthogonal_circle_2">
+        <span class="sig-name descname"><span class="pre">orthogonal_circle_2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.orthogonal_circle_2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.CoaxialPencilResult.report">
+        <span class="sig-name descname"><span class="pre">report</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#geometor.casey.coaxial.CoaxialTheoremReport" title="geometor.casey.coaxial.CoaxialTheoremReport"><span class="pre">CoaxialTheoremReport</span></a></span><a class="headerlink" href="#geometor.casey.coaxial.CoaxialPencilResult.report" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.verify_coaxial_fundamental_theorem">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.coaxial.</span></span><span class="sig-name descname"><span class="pre">verify_coaxial_fundamental_theorem</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c3_coaxial</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">orth_circle</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">limiting_points</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.coaxial.CoaxialTheoremReport" title="geometor.casey.coaxial.CoaxialTheoremReport"><span class="pre">CoaxialTheoremReport</span></a></span></span><a class="headerlink" href="#geometor.casey.coaxial.verify_coaxial_fundamental_theorem" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Casey Book III Props. 22–24 symbolically and on the constructed coaxal system.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>c1</strong> – First primary circle of the coaxal pencil.</p></li>
+        <li><p><strong>c2</strong> – Second primary circle of the coaxal pencil.</p></li>
+        <li><p><strong>c3_coaxial</strong> – Third circle belonging to the same coaxal pencil.</p></li>
+        <li><p><strong>orth_circle</strong> – Conjugate circle cutting the pencil orthogonally.</p></li>
+        <li><p><strong>limiting_points</strong> – Pair <code class="docutils literal notranslate"><span class="pre">(L1,</span> <span class="pre">L2)</span></code> of Poncelet limiting points.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Frozen <a class="reference internal" href="#geometor.casey.coaxial.CoaxialTheoremReport" title="geometor.casey.coaxial.CoaxialTheoremReport"><code class="xref py py-class docutils literal notranslate"><span class="pre">CoaxialTheoremReport</span></code></a> certificate.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.coaxial.</span></span><span class="sig-name descname"><span class="pre">construct_radical_axis_and_coaxial_pencil</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.coaxial.CoaxialPencilResult" title="geometor.casey.coaxial.CoaxialPencilResult"><span class="pre">CoaxialPencilResult</span></a></span></span><a class="headerlink" href="#geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the radical axis, coaxal system, orthogonal pencil, and limiting points.</p>
+        <p>Uses exact integer-rational circles <code class="docutils literal notranslate"><span class="pre">C1</span> <span class="pre">=</span> <span class="pre">((-10,</span> <span class="pre">0),</span> <span class="pre">6)</span></code> and <code class="docutils literal notranslate"><span class="pre">C2</span> <span class="pre">=</span> <span class="pre">((17,</span> <span class="pre">0),</span> <span class="pre">15)</span></code>:</p>
+        <ol class="arabic simple">
+        <li><p>Draws an auxiliary secant circle <code class="docutils literal notranslate"><span class="pre">C_aux</span> <span class="pre">=</span> <span class="pre">((2,</span> <span class="pre">8),</span> <span class="pre">10)</span></code> cutting <code class="docutils literal notranslate"><span class="pre">C1</span></code> in <code class="docutils literal notranslate"><span class="pre">U1,</span> <span class="pre">V1</span></code>
+        and <code class="docutils literal notranslate"><span class="pre">C2</span></code> in <code class="docutils literal notranslate"><span class="pre">U2,</span> <span class="pre">V2</span></code> (Casey Book III, Prop. 28).</p></li>
+        <li><p>Intersects common chords <code class="docutils literal notranslate"><span class="pre">[U1</span> <span class="pre">V1]</span></code> and <code class="docutils literal notranslate"><span class="pre">[U2</span> <span class="pre">V2]</span></code> to obtain the <strong>Radical Centre</strong>
+        <code class="docutils literal notranslate"><span class="pre">Rc</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">-6)</span></code> (Book III, Prop. 23, Cor. 2).</p></li>
+        <li><p>Drops the perpendicular from <code class="docutils literal notranslate"><span class="pre">Rc</span></code> to the line of centres <code class="docutils literal notranslate"><span class="pre">[O1</span> <span class="pre">O2]</span></code> to construct
+        the <strong>Radical Axis</strong> <code class="docutils literal notranslate"><span class="pre">x</span> <span class="pre">=</span> <span class="pre">0</span></code> and foot <code class="docutils literal notranslate"><span class="pre">D</span> <span class="pre">=</span> <span class="pre">(0,</span> <span class="pre">0)</span></code>.</p></li>
+        <li><p>Constructs the tangent <code class="docutils literal notranslate"><span class="pre">D</span> <span class="pre">T1</span></code> to <code class="docutils literal notranslate"><span class="pre">C1</span></code> by Euclid III.17 (Thales circle on <code class="docutils literal notranslate"><span class="pre">O1</span> <span class="pre">D</span></code>)
+        and transfers <code class="docutils literal notranslate"><span class="pre">|D</span> <span class="pre">T1|</span> <span class="pre">=</span> <span class="pre">8</span></code> onto <code class="docutils literal notranslate"><span class="pre">[O1</span> <span class="pre">O2]</span></code> via circle <code class="docutils literal notranslate"><span class="pre">(D,</span> <span class="pre">T1)</span></code> to construct
+        <strong>Poncelet’s Limiting Points</strong> <code class="docutils literal notranslate"><span class="pre">L1</span> <span class="pre">=</span> <span class="pre">(-8,</span> <span class="pre">0)</span></code> and <code class="docutils literal notranslate"><span class="pre">L2</span> <span class="pre">=</span> <span class="pre">(8,</span> <span class="pre">0)</span></code>.</p></li>
+        <li><p>Constructs two members <code class="docutils literal notranslate"><span class="pre">(Rc,</span> <span class="pre">L1)</span></code> and <code class="docutils literal notranslate"><span class="pre">(D,</span> <span class="pre">T1)</span></code> of the conjugate orthogonal pencil
+        passing through <code class="docutils literal notranslate"><span class="pre">L1,</span> <span class="pre">L2</span></code> and cutting <code class="docutils literal notranslate"><span class="pre">C1,</span> <span class="pre">C2,</span> <span class="pre">C3</span></code> orthogonally.</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.casey.coaxial.CoaxialPencilResult" title="geometor.casey.coaxial.CoaxialPencilResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">CoaxialPencilResult</span></code></a> with exact coordinates and verification report.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../brocard/index.html" title="geometor.casey.brocard">&larr; <span class="nav-label">geometor.casey.brocard</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.casey.concordance"><span class="nav-label">geometor.casey.concordance</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../../../../tags/casey.html">casey</a></li>
+        <li><a href="../../../../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../../../../tags/codex.html">codex</a></li>
+        <li><a href="../../../../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../../../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../../../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

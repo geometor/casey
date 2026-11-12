@@ -1,0 +1,80 @@
+{
+  "work": {
+    "slug": "sequel_to_euclid",
+    "title": "A Sequel to the First Six Books of the Elements of Euclid",
+    "subtitle": "Containing an Easy Introduction to Modern Geometry, with Numerous Examples",
+    "author": "John Casey, LL.D., F.R.S.",
+    "author_dates": "1820–1891",
+    "primary_witness": {
+      "edition": "Fifth Edition, Revised and Enlarged",
+      "year": 1888,
+      "publishers": [
+        "Hodges, Figgis, & Co., Grafton-Street, Dublin",
+        "Longmans, Green, & Co., London"
+      ],
+      "series": " Dublin University Press Series",
+      "archive_id": "asequeltofirsts00casegoog",
+      "local_pdf_relpath": "resources/sequel_to_euclid/pdfs/casey_sequel_1888_5ed.pdf",
+      "pdf_pages": 276,
+      "pdf_bytes": 10278035,
+      "sha256": "8689d8864a4e6e075302680577365eba672dd71435bf13c2558f2ad068a2212b",
+      "folio_offset_law": "PDF Folio = Printed Body Page + 26 (pp. 1–248 <-> folios 0027–0274)",
+      "rights": "Public Domain (Author died 1891; published 1888)"
+    },
+    "collated_sixth_edition": {
+      "edition": "Sixth Edition, Revised and Enlarged",
+      "editor": "Patrick A. E. Dowling, B.A.",
+      "year": 1892,
+      "publishers": [
+        "Hodges, Figgis, & Co., Ltd., Dublin",
+        "Longmans, Green, & Co., London"
+      ],
+      "citation_in_altshiller_court": "casey:sequel:1892 (College Geometry, 2nd ed., 1952, p. 295)",
+      "notes": "Posthumous printing seen through the press by Casey's son-in-law Patrick A. E. Dowling after Casey's death on 3 January 1891, preserving the 5th-edition six-book and Supplementary Chapter architecture (8 sections on Recent Elementary Geometry)."
+    }
+  },
+  "units": [
+    {
+      "unit": "unit-1",
+      "title": "Books I, II & IV Extensions — Concurrency, Euler Line, Nine-Points Circle, Medians & Mean Centres",
+      "folios": "0027–0060, 0078–0086",
+      "pages": "1–34, 52–60",
+      "verified_scans": ["0007", "0009", "0010", "0011", "0012", "0013", "0014", "0015", "0016", "0017", "0018", "0019", "0020", "0021", "0022", "0023", "0024", "0025", "0032", "0033", "0034", "0039", "0046", "0048", "0081", "0083", "0084"]
+    },
+    {
+      "unit": "unit-2",
+      "title": "Book III & Book VI Sec. V Extensions — Power of a Point, Orthogonal Circles, Radical Axis & Coaxal Systems",
+      "folios": "0061–0077, 0139–0145",
+      "pages": "35–51, 113–119",
+      "verified_scans": ["0067", "0068", "0069", "0070", "0071", "0073", "0139", "0142"]
+    },
+    {
+      "unit": "unit-3",
+      "title": "Book VI Extensions, Part A (Sec. I–III & VI) — Ceva & Menelaus, Similitude, Harmonic & Anharmonic Section",
+      "folios": "0093–0120, 0153–0166",
+      "pages": "67–94, 127–140",
+      "verified_scans": ["0093", "0095", "0108", "0115", "0117"]
+    },
+    {
+      "unit": "unit-4",
+      "title": "Book VI Extensions, Part B (Sec. IV & VII) — Inversion, Casey's Theorem, Feuerbach's Theorem & Poles and Polars",
+      "folios": "0070–0073, 0121–0138, 0167–0173",
+      "pages": "44–47, 95–112, 141–147",
+      "verified_scans": ["0070", "0071", "0073", "0128", "0129", "0130", "0131", "0132", "0167", "0168"]
+    },
+    {
+      "unit": "unit-5",
+      "title": "Supplementary Chapter, Sec. I & III (Part 1) — Isogonal Conjugates, Antiparallels, Symmedians & Lemoine's Circles",
+      "folios": "0191–0200, 0205–0209",
+      "pages": "165–174, 179–183",
+      "verified_scans": ["0191", "0193", "0197", "0198", "0205", "0206", "0209"]
+    },
+    {
+      "unit": "unit-6",
+      "title": "Supplementary Chapter, Sec. II–VII & Exercises — Similar Figures, Brocard Geometry, Tucker/Taylor Circles & Associated Figures",
+      "folios": "0201–0274",
+      "pages": "175–248",
+      "verified_scans": ["0203", "0204", "0205", "0206", "0209", "0220", "0221", "0227", "0228", "0249", "0269", "0271", "0273"]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.casey.concordance &mdash; GEOMETOR • casey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../sequel_to_euclid/index.html"  >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../coaxial/index.html" title="geometor.casey.coaxial">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../feuerbach/index.html" title="geometor.casey.feuerbach"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.casey.concordance">
+        <span id="geometor-casey-concordance"></span><h1>geometor.casey.concordance<a class="headerlink" href="#module-geometor.casey.concordance" title="Link to this heading">¶</a></h1>
+        <p>Cross-repository concordance and SymPy capability audit for Casey’s <em>Sequel to Euclid</em>.</p>
+        <p>Provides structured access to <code class="docutils literal notranslate"><span class="pre">resources/sequel_to_euclid/concordance.json</span></code> mapping Casey’s
+        propositions across <code class="docutils literal notranslate"><span class="pre">euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">elements</span></code>, <code class="docutils literal notranslate"><span class="pre">altshiller-court</span></code>, <code class="docutils literal notranslate"><span class="pre">etc</span></code>, and <code class="docutils literal notranslate"><span class="pre">pappus</span></code>,
+        alongside an empirical audit of <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> capability gaps filled by
+        <a class="reference internal" href="../../../../index.html#module-geometor.casey" title="geometor.casey"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey</span></code></a>.</p>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.concordance.ConcordanceEntry" title="geometor.casey.concordance.ConcordanceEntry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ConcordanceEntry</span></code></a></p></td>
+        <td><p>Single proposition/topic concordance mapping across the GEOMETOR canon.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.concordance.SympyCircleGap" title="geometor.casey.concordance.SympyCircleGap"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SympyCircleGap</span></code></a></p></td>
+        <td><p>Audit record comparing <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> against <a class="reference internal" href="../../../../index.html#module-geometor.casey" title="geometor.casey"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey</span></code></a>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.concordance.get_resources_dir" title="geometor.casey.concordance.get_resources_dir"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_resources_dir</span></code></a>(→ pathlib.Path)</p></td>
+        <td><p>Return the path to <code class="docutils literal notranslate"><span class="pre">resources/sequel_to_euclid/</span></code> inside the repository.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.concordance.load_apparatus_registry" title="geometor.casey.concordance.load_apparatus_registry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_apparatus_registry</span></code></a>(→ dict[str, Any])</p></td>
+        <td><p>Load a JSON apparatus file (<code class="docutils literal notranslate"><span class="pre">persons</span></code>, <code class="docutils literal notranslate"><span class="pre">citations</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary</span></code>, <code class="docutils literal notranslate"><span class="pre">sources_manifest</span></code>).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.concordance.load_concordance" title="geometor.casey.concordance.load_concordance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">load_concordance</span></code></a>(→ list[ConcordanceEntry])</p></td>
+        <td><p>Load all cross-repository concordance entries from <code class="docutils literal notranslate"><span class="pre">concordance.json</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.concordance.audit_sympy_circle_gaps" title="geometor.casey.concordance.audit_sympy_circle_gaps"><code class="xref py py-obj docutils literal notranslate"><span class="pre">audit_sympy_circle_gaps</span></code></a>(→ list[SympyCircleGap])</p></td>
+        <td><p>Inspect <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> for modern-circle-geometry primitives in Casey.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">ConcordanceEntry</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry" title="Link to this definition">¶</a></dt>
+        <dd><p>Single proposition/topic concordance mapping across the GEOMETOR canon.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.id">
+        <span class="sig-name descname"><span class="pre">id</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.id" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.unit">
+        <span class="sig-name descname"><span class="pre">unit</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.unit" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.casey_locus">
+        <span class="sig-name descname"><span class="pre">casey_locus</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.casey_locus" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.folio">
+        <span class="sig-name descname"><span class="pre">folio</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.folio" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.page">
+        <span class="sig-name descname"><span class="pre">page</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.page" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.title">
+        <span class="sig-name descname"><span class="pre">title</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.title" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.euclid_refs">
+        <span class="sig-name descname"><span class="pre">euclid_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.euclid_refs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.altshiller_court_refs">
+        <span class="sig-name descname"><span class="pre">altshiller_court_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.altshiller_court_refs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.etc_centers">
+        <span class="sig-name descname"><span class="pre">etc_centers</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.etc_centers" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.pappus_refs">
+        <span class="sig-name descname"><span class="pre">pappus_refs</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="p"><span class="pre">...</span></span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.pappus_refs" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.ConcordanceEntry.casey_symbol">
+        <span class="sig-name descname"><span class="pre">casey_symbol</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.ConcordanceEntry.casey_symbol" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.SympyCircleGap">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">SympyCircleGap</span></span><a class="headerlink" href="#geometor.casey.concordance.SympyCircleGap" title="Link to this definition">¶</a></dt>
+        <dd><p>Audit record comparing <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> against <a class="reference internal" href="../../../../index.html#module-geometor.casey" title="geometor.casey"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey</span></code></a>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.SympyCircleGap.capability">
+        <span class="sig-name descname"><span class="pre">capability</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.SympyCircleGap.capability" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.SympyCircleGap.sympy_method_present">
+        <span class="sig-name descname"><span class="pre">sympy_method_present</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.concordance.SympyCircleGap.sympy_method_present" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.SympyCircleGap.casey_locus">
+        <span class="sig-name descname"><span class="pre">casey_locus</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.SympyCircleGap.casey_locus" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.SympyCircleGap.geometor_casey_api">
+        <span class="sig-name descname"><span class="pre">geometor_casey_api</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">str</span></span><a class="headerlink" href="#geometor.casey.concordance.SympyCircleGap.geometor_casey_api" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.get_resources_dir">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">get_resources_dir</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">pathlib.Path</span></span></span><a class="headerlink" href="#geometor.casey.concordance.get_resources_dir" title="Link to this definition">¶</a></dt>
+        <dd><p>Return the path to <code class="docutils literal notranslate"><span class="pre">resources/sequel_to_euclid/</span></code> inside the repository.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.load_apparatus_registry">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">load_apparatus_registry</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Any</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.casey.concordance.load_apparatus_registry" title="Link to this definition">¶</a></dt>
+        <dd><p>Load a JSON apparatus file (<code class="docutils literal notranslate"><span class="pre">persons</span></code>, <code class="docutils literal notranslate"><span class="pre">citations</span></code>, <code class="docutils literal notranslate"><span class="pre">glossary</span></code>, <code class="docutils literal notranslate"><span class="pre">sources_manifest</span></code>).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>name</strong> – Filename stem without <code class="docutils literal notranslate"><span class="pre">.json</span></code> extension.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Parsed JSON dictionary.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.load_concordance">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">load_concordance</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.casey.concordance.ConcordanceEntry" title="geometor.casey.concordance.ConcordanceEntry"><span class="pre">ConcordanceEntry</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.casey.concordance.load_concordance" title="Link to this definition">¶</a></dt>
+        <dd><p>Load all cross-repository concordance entries from <code class="docutils literal notranslate"><span class="pre">concordance.json</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>List of <a class="reference internal" href="#geometor.casey.concordance.ConcordanceEntry" title="geometor.casey.concordance.ConcordanceEntry"><code class="xref py py-class docutils literal notranslate"><span class="pre">ConcordanceEntry</span></code></a> records in codex order.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.concordance.audit_sympy_circle_gaps">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.concordance.</span></span><span class="sig-name descname"><span class="pre">audit_sympy_circle_gaps</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="#geometor.casey.concordance.SympyCircleGap" title="geometor.casey.concordance.SympyCircleGap"><span class="pre">SympyCircleGap</span></a><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.casey.concordance.audit_sympy_circle_gaps" title="Link to this definition">¶</a></dt>
+        <dd><p>Inspect <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> for modern-circle-geometry primitives in Casey.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>List of <a class="reference internal" href="#geometor.casey.concordance.SympyCircleGap" title="geometor.casey.concordance.SympyCircleGap"><code class="xref py py-class docutils literal notranslate"><span class="pre">SympyCircleGap</span></code></a> entries documenting native presence vs.
+        <a class="reference internal" href="../../../../index.html#module-geometor.casey" title="geometor.casey"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey</span></code></a> exact symbolic implementations.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../coaxial/index.html" title="geometor.casey.coaxial">&larr; <span class="nav-label">geometor.casey.coaxial</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../feuerbach/index.html" title="geometor.casey.feuerbach"><span class="nav-label">geometor.casey.feuerbach</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../../../../tags/casey.html">casey</a></li>
+        <li><a href="../../../../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../../../../tags/codex.html">codex</a></li>
+        <li><a href="../../../../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../../../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../../../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

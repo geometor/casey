@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0117.g1" role="img" aria-label="Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section">
+  <title>Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section</title>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-base: #0369a1;
+    --circle-featured: #b45309;
+    --circle-secondary: #0f766e;
+    --circle-orth: #7c3aed;
+    --circle-aux: #64748b;
+    --highlight-line: #d97706;
+    --polar-line: #059669;
+    --symmedian-line: #db2777;
+    --tri-fill: #0284c7;
+    --brocard-fill: #7c3aed;
+    --pt-given: #0f172a;
+    --pt-center: #0369a1;
+    --pt-highlight: #d97706;
+    --pt-brocard: #7c3aed;
+    --pt-harmonic: #059669;
+    font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-base: #38bdf8;
+      --circle-featured: #fbbf24;
+      --circle-secondary: #2dd4bf;
+      --circle-orth: #c084fc;
+      --circle-aux: #94a3b8;
+      --highlight-line: #fbbf24;
+      --polar-line: #34d399;
+      --symmedian-line: #f472b6;
+      --tri-fill: #38bdf8;
+      --brocard-fill: #c084fc;
+      --pt-given: #e2e8f0;
+      --pt-center: #38bdf8;
+      --pt-highlight: #fbbf24;
+      --pt-brocard: #c084fc;
+      --pt-harmonic: #34d399;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: #fafaf9; fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; }
+  .euclid-graphic .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96; }
+  .euclid-graphic .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5; }
+  .euclid-graphic .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5; }
+  .euclid-graphic .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72; }
+  .euclid-graphic .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; }
+  .euclid-graphic .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92; }
+  .euclid-graphic .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3; }
+  .euclid-graphic .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5; }
+  .euclid-graphic .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4; }
+  .euclid-graphic .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86; }
+  .euclid-graphic .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72; }
+  .euclid-graphic .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; }
+  .euclid-graphic .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .center-point { fill: #0369a1; fill: var(--pt-center); }
+  .euclid-graphic .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9; }
+  .euclid-graphic .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9; }
+  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8; }
+  .euclid-graphic .geom-label {
+    fill: #1c1917;
+    fill: var(--ink);
+    font-size: 13px;
+    font-weight: 650;
+    paint-order: stroke fill;
+    stroke: #fafaf9;
+    stroke: var(--label-halo);
+    stroke-width: 3.5px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 9.8px; font-weight: 650; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <polygon class="geom-polygon primary-poly" points="305.26,396.32 513.68,396.32 444.21,326.84 374.74,292.11" data-ref="&lt; A B C D &gt;" />
+      <path class="geom-line carrier-line" d="M 14 396.32 L 340 396.32 L 666 396.32" data-ref="[ A B ]" data-aliases="/ A B / | [ A E ] | / A E / | [ B E ] | / B E /" fill="none"><title>[ A B ]: y = 0</title></path>
+      <path class="geom-line carrier-line" d="M 583.37 466 L 357.37 240 L 131.37 14" data-ref="[ B C ]" data-aliases="/ B C / | [ B F ] | / B F / | [ C F ] | / C F /" fill="none"><title>[ B C ]: -2*x - 2*y + 12 = 0</title></path>
+      <path class="geom-line carrier-line" d="M 14 111.74 L 340 274.74 L 666 437.74" data-ref="[ C D ]" data-aliases="/ C D / | [ C E ] | / C E / | [ D E ] | / D E /" fill="none"><title>[ C D ]: -x - 2*y + 8 = 0</title></path>
+      <path class="geom-line carrier-line" d="M 258.81 466 L 409.47 240 L 560.14 14" data-ref="[ D A ]" data-aliases="[ A D ] | / A D / | [ A F ] | / A F / | [ D F ] | / D F /" fill="none"><title>[ D A ]: 3*x - 2*y = 0</title></path>
+      <path class="geom-line cross-line" d="M 666 215.95 L 415.95 340.97 L 165.89 466" data-ref="[ A C ]" data-aliases="/ A C / | [ A P ] | / A P / | [ A Qa ] | / A Qa / | [ C P ] | / C P / | [ C Qa ] | / C Qa / | [ P Qa ] | / P Qa /" fill="none"><title>[ A C ]: -2*x + 4*y = 0</title></path>
+      <path class="geom-line cross-line" d="M 14 21.55 L 310.3 243.78 L 606.6 466" data-ref="[ B D ]" data-aliases="/ B D / | [ B P ] | / B P / | [ B Qb ] | / B Qb / | [ D P ] | / D P / | [ D Qb ] | / D Qb / | [ P Qb ] | / P Qb /" fill="none"><title>[ B D ]: -3*x - 4*y + 18 = 0</title></path>
+      <path class="geom-line highlight-line" d="M 14 30.43 L 340 240 L 666 449.57" data-ref="[ E F ]" data-aliases="/ E F / | [ E Qa ] | / E Qa / | [ E Qb ] | / E Qb / | [ F Qa ] | / F Qa / | [ F Qb ] | / F Qb / | [ Qa Qb ] | / Qa Qb /" fill="none"><title>[ E F ]: -18*x/5 - 28*y/5 + 144/5 = 0</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point" cx="305.26" cy="396.32" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
+      <circle class="geom-point" cx="513.68" cy="396.32" r="4.4" data-ref="B" data-latex-x="6" data-latex-y="0"><title>B = (6, 0)</title></circle>
+      <circle class="geom-point" cx="444.21" cy="326.84" r="4.4" data-ref="C" data-latex-x="4" data-latex-y="2"><title>C = (4, 2)</title></circle>
+      <circle class="geom-point" cx="374.74" cy="292.11" r="4.4" data-ref="D" data-latex-x="2" data-latex-y="3"><title>D = (2, 3)</title></circle>
+      <circle class="geom-point" cx="583.16" cy="396.32" r="4.4" data-ref="E" data-latex-x="8" data-latex-y="0"><title>E = (8, 0)</title></circle>
+      <circle class="geom-point" cx="388.63" cy="271.26" r="4.4" data-ref="F" data-latex-x="\frac{12}{5}" data-latex-y="\frac{18}{5}"><title>F = (12/5, 18/5)</title></circle>
+      <circle class="geom-point-halo" cx="430.32" cy="333.79" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point harmonic-point" cx="430.32" cy="333.79" r="4.6" data-ref="P" data-latex-x="\frac{18}{5}" data-latex-y="\frac{9}{5}"><title>P = (18/5, 9/5)</title></circle>
+      <circle class="geom-point-halo" cx="461.58" cy="318.16" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point highlight-point" cx="461.58" cy="318.16" r="5.5" data-ref="Qa" data-latex-x="\frac{9}{2}" data-latex-y="\frac{9}{4}"><title>Qa = (9/2, 9/4)</title></circle>
+      <circle class="geom-point-halo" cx="96.84" cy="83.68" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point highlight-point" cx="96.84" cy="83.68" r="5.5" data-ref="Qb" data-latex-x="-6" data-latex-y="9"><title>Qb = (-6, 9)</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="286.51" y="386.05" data-ref="A">A</text>
+      <text class="geom-label" x="507.92" y="381.63" data-ref="B">B</text>
+      <text class="geom-label" x="438.45" y="350.71" data-ref="C">C</text>
+      <text class="geom-label" x="350.54" y="304.9" data-ref="D">D</text>
+      <text class="geom-label" x="577.4" y="381.63" data-ref="E">E</text>
+      <text class="geom-label" x="362.49" y="275.85" data-ref="F">F</text>
+      <text class="geom-label" x="424.56" y="357.85" data-ref="P">P</text>
+      <text class="geom-label" x="453.12" y="302.37" data-ref="Qa">Q<tspan class="geom-label-sub" dy="3">a</tspan></text>
+      <text class="geom-label" x="88.38" y="67.9" data-ref="Qb">Q<tspan class="geom-label-sub" dy="3">b</tspan></text>
+    </g>
+  </g>
+</svg>

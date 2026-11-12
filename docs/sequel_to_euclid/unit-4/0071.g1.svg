@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0071.g1" role="img" aria-label="Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity">
+  <title>Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity</title>
+  <style>
+.euclid-graphic {
+    --svg-bg: #fafaf9;
+    --ink: #1c1917;
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-base: #0369a1;
+    --circle-featured: #b45309;
+    --circle-secondary: #0f766e;
+    --circle-orth: #7c3aed;
+    --circle-aux: #64748b;
+    --highlight-line: #d97706;
+    --polar-line: #059669;
+    --symmedian-line: #db2777;
+    --tri-fill: #0284c7;
+    --brocard-fill: #7c3aed;
+    --pt-given: #0f172a;
+    --pt-center: #0369a1;
+    --pt-highlight: #d97706;
+    --pt-brocard: #7c3aed;
+    --pt-harmonic: #059669;
+    font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --svg-bg: #141417;
+      --ink: #f4f4f5;
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-base: #38bdf8;
+      --circle-featured: #fbbf24;
+      --circle-secondary: #2dd4bf;
+      --circle-orth: #c084fc;
+      --circle-aux: #94a3b8;
+      --highlight-line: #fbbf24;
+      --polar-line: #34d399;
+      --symmedian-line: #f472b6;
+      --tri-fill: #38bdf8;
+      --brocard-fill: #c084fc;
+      --pt-given: #e2e8f0;
+      --pt-center: #38bdf8;
+      --pt-highlight: #fbbf24;
+      --pt-brocard: #c084fc;
+      --pt-harmonic: #34d399;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: #fafaf9; fill: var(--svg-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; }
+  .euclid-graphic .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96; }
+  .euclid-graphic .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5; }
+  .euclid-graphic .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5; }
+  .euclid-graphic .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72; }
+  .euclid-graphic .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; }
+  .euclid-graphic .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92; }
+  .euclid-graphic .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3; }
+  .euclid-graphic .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5; }
+  .euclid-graphic .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4; }
+  .euclid-graphic .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86; }
+  .euclid-graphic .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72; }
+  .euclid-graphic .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
+  .euclid-graphic .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; }
+  .euclid-graphic .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .center-point { fill: #0369a1; fill: var(--pt-center); }
+  .euclid-graphic .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9; }
+  .euclid-graphic .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9; }
+  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8; }
+  .euclid-graphic .geom-label {
+    fill: #1c1917;
+    fill: var(--ink);
+    font-size: 13px;
+    font-weight: 650;
+    paint-order: stroke fill;
+    stroke: #fafaf9;
+    stroke: var(--label-halo);
+    stroke-width: 3.5px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 9.8px; font-weight: 650; }
+  </style>
+  <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
+  <g id="elements">
+    <g id="graphics">
+      <circle class="geom-circle featured-circle" cx="307" cy="295" r="110" data-ref="( O H2 )" data-aliases="( O ) | ( O G1 ) | ( O H1 ) | ( O G2 ) | ( G1 H1 G2 )" fill="none"><title>( O H2 ): x**2 + y**2 - 25 = 0</title></circle>
+      <path class="geom-line carrier-line" d="M 14 38.5 L 340 201.5 L 666 364.5" data-ref="[ G1 H1 ]" data-aliases="/ G1 H1 / | [ G1 D ] | / G1 D / | [ G1 J1 ] | / G1 J1 / | [ H1 D ] | / H1 D / | [ H1 J1 ] | / H1 J1 / | [ D J1 ] | / D J1 /" fill="none"><title>[ G1 H1 ]: 2*x + 4*y - 20 = 0</title></path>
+      <path class="geom-line carrier-line" d="M 666 170.5 L 370.5 318.25 L 75 466" data-ref="[ G2 H2 ]" data-aliases="/ G2 H2 / | [ G2 D ] | / G2 D / | [ G2 J2 ] | / G2 J2 / | [ H2 D ] | / H2 D / | [ H2 J2 ] | / H2 J2 / | [ D J2 ] | / D J2 /" fill="none"><title>[ G2 H2 ]: -4*x + 8*y + 20 = 0</title></path>
+      <path class="geom-line cross-line" d="M 588 466 L 362 240 L 136 14" data-ref="[ G1 H2 ]" data-aliases="/ G1 H2 / | [ G1 U ] | / G1 U / | [ H2 U ] | / H2 U /" fill="none"><title>[ G1 H2 ]: 5*x + 5*y - 25 = 0</title></path>
+      <path class="geom-line cross-line" d="M 158 466 L 384 240 L 610 14" data-ref="[ G2 H1 ]" data-aliases="[ H1 G2 ] | / H1 G2 / | [ H1 U ] | / H1 U / | [ G2 U ] | / G2 U /" fill="none"><title>[ G2 H1 ]: -7*x + 7*y + 7 = 0</title></path>
+      <path class="geom-line cross-line" d="M 213.33 466 L 288.67 240 L 364 14" data-ref="[ G1 G2 ]" data-aliases="/ G1 G2 / | [ G1 V ] | / G1 V / | [ G2 V ] | / G2 V /" fill="none"><title>[ G1 G2 ]: 9*x - 3*y + 15 = 0</title></path>
+      <path class="geom-line cross-line" d="M 474 466 L 398.67 240 L 323.33 14" data-ref="[ H1 H2 ]" data-aliases="/ H1 H2 / | [ H1 V ] | / H1 V / | [ H2 V ] | / H2 V /" fill="none"><title>[ H1 H2 ]: 3*x + y - 15 = 0</title></path>
+      <path class="geom-line highlight-line" d="M 408.83 466 L 371.17 240 L 333.5 14" data-ref="[ U V ]" data-aliases="/ U V / | [ U J1 ] | / U J1 / | [ U J2 ] | / U J2 / | [ U Q ] | / U Q / | [ V J1 ] | / V J1 / | [ V J2 ] | / V J2 / | [ V Q ] | / V Q / | [ J1 J2 ] | / J1 J2 / | [ J1 Q ] | / J1 Q / | [ J2 Q ] | / J2 Q /" fill="none"><title>[ U V ]: -8*x - 4*y/3 + 80/3 = 0</title></path>
+      <path class="geom-line cross-line" d="M 666 73.5 L 469.75 269.75 L 273.5 466" data-ref="[ polarQ ]" fill="none"><title>[ polarQ ]: -5*sqrt(7)*x/4 + 5*sqrt(7)*y/4 + 125*sqrt(7)/16 = 0</title></path>
+    </g>
+    <g id="highlights"></g>
+    <g id="points">
+      <circle class="geom-point center-point" cx="307" cy="295" r="4.3" data-ref="O" data-latex-x="0" data-latex-y="0"><title>O = (0, 0)</title></circle>
+      <circle class="geom-point" cx="307" cy="185" r="4.4" data-ref="G1" data-latex-x="0" data-latex-y="5"><title>G1 = (0, 5)</title></circle>
+      <circle class="geom-point" cx="395" cy="229" r="4.4" data-ref="H1" data-latex-x="4" data-latex-y="3"><title>H1 = (4, 3)</title></circle>
+      <circle class="geom-point" cx="241" cy="383" r="4.4" data-ref="G2" data-latex-x="-3" data-latex-y="-4"><title>G2 = (-3, -4)</title></circle>
+      <circle class="geom-point" cx="417" cy="295" r="4.4" data-ref="H2" data-latex-x="5" data-latex-y="0"><title>H2 = (5, 0)</title></circle>
+      <circle class="geom-point-halo" cx="472" cy="267.5" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point highlight-point" cx="472" cy="267.5" r="5.5" data-ref="D" data-latex-x="\frac{15}{2}" data-latex-y="\frac{5}{4}"><title>D = (15/2, 5/4)</title></circle>
+      <circle class="geom-point-halo" cx="373" cy="251" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point harmonic-point" cx="373" cy="251" r="4.6" data-ref="U" data-latex-x="3" data-latex-y="2"><title>U = (3, 2)</title></circle>
+      <circle class="geom-point-halo" cx="343.67" cy="75" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point harmonic-point" cx="343.67" cy="75" r="4.6" data-ref="V" data-latex-x="\frac{5}{3}" data-latex-y="10"><title>V = (5/3, 10)</title></circle>
+      <circle class="geom-point harmonic-point" cx="367" cy="215" r="4.6" data-ref="J1" data-latex-x="\frac{30}{11}" data-latex-y="\frac{40}{11}"><title>J1 = (30/11, 40/11)</title></circle>
+      <circle class="geom-point harmonic-point" cx="383.15" cy="311.92" r="4.6" data-ref="J2" data-latex-x="\frac{45}{13}" data-latex-y="- \frac{10}{13}"><title>J2 = (45/13, -10/13)</title></circle>
+      <circle class="geom-point-halo" cx="395" cy="383" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point harmonic-point" cx="395" cy="383" r="4.6" data-ref="Q" data-latex-x="4" data-latex-y="-4"><title>Q = (4, -4)</title></circle>
+      <circle class="geom-point" cx="351" cy="339" r="3.9" data-ref="C" data-latex-x="2" data-latex-y="-2"><title>C = (2, -2)</title></circle>
+    </g>
+    <g id="labels">
+      <text class="geom-label" x="301.24" y="280.41" data-ref="O">O</text>
+      <text class="geom-label" x="318.88" y="181.38" data-ref="G1">G<tspan class="geom-label-sub" dy="3">1</tspan></text>
+      <text class="geom-label" x="409.02" y="233.59" data-ref="H1">H<tspan class="geom-label-sub" dy="3">1</tspan></text>
+      <text class="geom-label" x="255.02" y="387.59" data-ref="G2">G<tspan class="geom-label-sub" dy="3">2</tspan></text>
+      <text class="geom-label" x="386.06" y="299.59" data-ref="H2">H<tspan class="geom-label-sub" dy="3">2</tspan></text>
+      <text class="geom-label" x="466.24" y="251.72" data-ref="D">D</text>
+      <text class="geom-label" x="346.66" y="255.59" data-ref="U">U</text>
+      <text class="geom-label" x="358.49" y="79.59" data-ref="V">V</text>
+      <text class="geom-label" x="335.86" y="219.59" data-ref="J1">J<tspan class="geom-label-sub" dy="3">1</tspan></text>
+      <text class="geom-label" x="360.24" y="301.51" data-ref="J2">J<tspan class="geom-label-sub" dy="3">2</tspan></text>
+      <text class="geom-label" x="402.36" y="372.58" data-ref="Q">Q</text>
+      <text class="geom-label" x="345.24" y="362.36" data-ref="C">C</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,503 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.casey.brocard &mdash; GEOMETOR • casey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../sequel_to_euclid/index.html"  >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../__main__/index.html" title="geometor.casey.__main__">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../coaxial/index.html" title="geometor.casey.coaxial"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.casey.brocard">
+        <span id="geometor-casey-brocard"></span><h1>geometor.casey.brocard<a class="headerlink" href="#module-geometor.casey.brocard" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic constructions and proofs for Symmedians, Lemoine Circles &amp; Brocard Geometry.</p>
+        <p>Implements Units 5 &amp; 6 of the Casey Codex (Supplementary Chapter, Sections I–VII, pp. 165–248):</p>
+        <ul class="simple">
+        <li><p><strong>Symmedians &amp; Lemoine’s Point ``K = X(6)``</strong> (Sec. I, Props. 5–7, pp. 170–172): Constructed via
+        circumcircle tangents (Prop. 6), verifying barycentric weights <code class="docutils literal notranslate"><span class="pre">(a^2</span> <span class="pre">:</span> <span class="pre">b^2</span> <span class="pre">:</span> <span class="pre">c^2)</span></code> and
+        Lagrange’s minimum-sum-of-squares property <code class="docutils literal notranslate"><span class="pre">min(x^2</span> <span class="pre">+</span> <span class="pre">y^2</span> <span class="pre">+</span> <span class="pre">z^2)</span> <span class="pre">=</span> <span class="pre">4*Delta^2</span> <span class="pre">/</span> <span class="pre">(a^2+b^2+c^2)</span></code>.</p></li>
+        <li><p><strong>First Lemoine Circle &amp; Cosine Circle</strong> (Sec. III, Prop. 1 &amp; Cor. 4, pp. 179–183): Six concyclic
+        side-parallel intersections <code class="docutils literal notranslate"><span class="pre">D1,</span> <span class="pre">D2,</span> <span class="pre">E1,</span> <span class="pre">E2,</span> <span class="pre">F1,</span> <span class="pre">F2</span></code> centered at <code class="docutils literal notranslate"><span class="pre">Ml</span> <span class="pre">=</span> <span class="pre">midpoint(O,</span> <span class="pre">K)</span></code> with
+        intercepts <code class="docutils literal notranslate"><span class="pre">a^3</span> <span class="pre">:</span> <span class="pre">b^3</span> <span class="pre">:</span> <span class="pre">c^3</span></code>, and six concyclic antiparallel intersections centered at <code class="docutils literal notranslate"><span class="pre">K</span></code>.</p></li>
+        <li><p><strong>Brocard Points ``Om1, Om2``, Brocard Angle ``omega``, Brocard’s First Triangle &amp; Brocard Circle</strong>
+        (Sec. II, pp. 175–179; Sec. V, pp. 194–196): Constructed by pure compass-and-straightedge tangent
+        circles, verifying <code class="docutils literal notranslate"><span class="pre">cot(omega)</span> <span class="pre">=</span> <span class="pre">cot</span> <span class="pre">A</span> <span class="pre">+</span> <span class="pre">cot</span> <span class="pre">B</span> <span class="pre">+</span> <span class="pre">cot</span> <span class="pre">C</span> <span class="pre">=</span> <span class="pre">(a^2</span> <span class="pre">+</span> <span class="pre">b^2</span> <span class="pre">+</span> <span class="pre">c^2)</span> <span class="pre">/</span> <span class="pre">(4*Delta)</span></code> and
+        the seven-point <strong>Brocard Circle</strong> on diameter <code class="docutils literal notranslate"><span class="pre">OK</span></code> containing <code class="docutils literal notranslate"><span class="pre">O,</span> <span class="pre">K,</span> <span class="pre">Om1,</span> <span class="pre">Om2,</span> <span class="pre">A1,</span> <span class="pre">B1,</span> <span class="pre">C1</span></code>.</p></li>
+        <li><p><strong>Associated Figures: Steiner Point ``X(99)``, Tarry Point ``X(98)`` &amp; Longchamps Point ``X(20)``</strong>
+        (Sec. VII &amp; Misc. Ex. 146–158, p. 247).</p></li>
+        </ul>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.brocard.BrocardLemoineReport" title="geometor.casey.brocard.BrocardLemoineReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BrocardLemoineReport</span></code></a></p></td>
+        <td><p>Exact rational invariant summary for Symmedian, Lemoine &amp; Brocard geometry on <code class="docutils literal notranslate"><span class="pre">(15,13,14)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.brocard.LemoineCirclesResult" title="geometor.casey.brocard.LemoineCirclesResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">LemoineCirclesResult</span></code></a></p></td>
+        <td><p>Constructed elements for Symmedians, First Lemoine Circle &amp; Cosine Circle (Unit 5).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.brocard.BrocardLemoineResult" title="geometor.casey.brocard.BrocardLemoineResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BrocardLemoineResult</span></code></a></p></td>
+        <td><p>Constructed elements for Brocard Points, Brocard Circle, Lemoine Circle, Steiner &amp; Tarry.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.brocard.verify_brocard_identities_symbolic" title="geometor.casey.brocard.verify_brocard_identities_symbolic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">verify_brocard_identities_symbolic</span></code></a>(→ dict[str, sympy.Expr])</p></td>
+        <td><p>Verify Casey's universal algebraic identities for <code class="docutils literal notranslate"><span class="pre">cot(omega)</span></code> and <code class="docutils literal notranslate"><span class="pre">K</span></code>'s minimum property.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.brocard.construct_symmedian_and_lemoine_circles" title="geometor.casey.brocard.construct_symmedian_and_lemoine_circles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_symmedian_and_lemoine_circles</span></code></a>(...)</p></td>
+        <td><p>Construct Lemoine's Point <code class="docutils literal notranslate"><span class="pre">K</span></code>, First Lemoine Circle &amp; Cosine Circle (Unit 5).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.brocard.construct_brocard_and_lemoine_circles" title="geometor.casey.brocard.construct_brocard_and_lemoine_circles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_brocard_and_lemoine_circles</span></code></a>(...)</p></td>
+        <td><p>Construct the Brocard Points, Brocard Circle, First Lemoine Circle, Steiner &amp; Tarry Points.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">BrocardLemoineReport</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational invariant summary for Symmedian, Lemoine &amp; Brocard geometry on <code class="docutils literal notranslate"><span class="pre">(15,13,14)</span></code>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.cot_omega">
+        <span class="sig-name descname"><span class="pre">cot_omega</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.cot_omega" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.sin_sq_omega">
+        <span class="sig-name descname"><span class="pre">sin_sq_omega</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.sin_sq_omega" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.symmedian_point">
+        <span class="sig-name descname"><span class="pre">symmedian_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.symmedian_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.brocard_center">
+        <span class="sig-name descname"><span class="pre">brocard_center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.brocard_center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.brocard_1">
+        <span class="sig-name descname"><span class="pre">brocard_1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.brocard_1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.brocard_2">
+        <span class="sig-name descname"><span class="pre">brocard_2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.brocard_2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.brocard_first_triangle">
+        <span class="sig-name descname"><span class="pre">brocard_first_triangle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.brocard_first_triangle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.steiner_point">
+        <span class="sig-name descname"><span class="pre">steiner_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.steiner_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.tarry_point">
+        <span class="sig-name descname"><span class="pre">tarry_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.tarry_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.longchamps_point">
+        <span class="sig-name descname"><span class="pre">longchamps_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.longchamps_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.lemoine_intercept_ratios">
+        <span class="sig-name descname"><span class="pre">lemoine_intercept_ratios</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.lemoine_intercept_ratios" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.min_perp_squares_sum">
+        <span class="sig-name descname"><span class="pre">min_perp_squares_sum</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.min_perp_squares_sum" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineReport.verified">
+        <span class="sig-name descname"><span class="pre">verified</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineReport.verified" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">LemoineCirclesResult</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for Symmedians, First Lemoine Circle &amp; Cosine Circle (Unit 5).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.circumcenter">
+        <span class="sig-name descname"><span class="pre">circumcenter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.circumcenter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.circumcircle">
+        <span class="sig-name descname"><span class="pre">circumcircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.circumcircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.tangential_vertices">
+        <span class="sig-name descname"><span class="pre">tangential_vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.tangential_vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.symmedian_point">
+        <span class="sig-name descname"><span class="pre">symmedian_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.symmedian_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.lemoine_center">
+        <span class="sig-name descname"><span class="pre">lemoine_center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.lemoine_center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.lemoine_hexagon">
+        <span class="sig-name descname"><span class="pre">lemoine_hexagon</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.lemoine_hexagon" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.first_lemoine_circle">
+        <span class="sig-name descname"><span class="pre">first_lemoine_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.first_lemoine_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.cosine_hexagon">
+        <span class="sig-name descname"><span class="pre">cosine_hexagon</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.cosine_hexagon" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.LemoineCirclesResult.cosine_circle">
+        <span class="sig-name descname"><span class="pre">cosine_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.LemoineCirclesResult.cosine_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">BrocardLemoineResult</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for Brocard Points, Brocard Circle, Lemoine Circle, Steiner &amp; Tarry.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.circumcenter">
+        <span class="sig-name descname"><span class="pre">circumcenter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.circumcenter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.circumcircle">
+        <span class="sig-name descname"><span class="pre">circumcircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.circumcircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.symmedian_point">
+        <span class="sig-name descname"><span class="pre">symmedian_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.symmedian_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.brocard_center">
+        <span class="sig-name descname"><span class="pre">brocard_center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.brocard_center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.brocard_1">
+        <span class="sig-name descname"><span class="pre">brocard_1</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.brocard_1" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.brocard_2">
+        <span class="sig-name descname"><span class="pre">brocard_2</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.brocard_2" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.brocard_first_triangle">
+        <span class="sig-name descname"><span class="pre">brocard_first_triangle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.brocard_first_triangle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.brocard_circle">
+        <span class="sig-name descname"><span class="pre">brocard_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.brocard_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.lemoine_hexagon">
+        <span class="sig-name descname"><span class="pre">lemoine_hexagon</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.lemoine_hexagon" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.first_lemoine_circle">
+        <span class="sig-name descname"><span class="pre">first_lemoine_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.first_lemoine_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.steiner_point">
+        <span class="sig-name descname"><span class="pre">steiner_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.steiner_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.tarry_point">
+        <span class="sig-name descname"><span class="pre">tarry_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.tarry_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.longchamps_point">
+        <span class="sig-name descname"><span class="pre">longchamps_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.longchamps_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.BrocardLemoineResult.report">
+        <span class="sig-name descname"><span class="pre">report</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#geometor.casey.brocard.BrocardLemoineReport" title="geometor.casey.brocard.BrocardLemoineReport"><span class="pre">BrocardLemoineReport</span></a></span><a class="headerlink" href="#geometor.casey.brocard.BrocardLemoineResult.report" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.verify_brocard_identities_symbolic">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">verify_brocard_identities_symbolic</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Expr</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#geometor.casey.brocard.verify_brocard_identities_symbolic" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Casey’s universal algebraic identities for <code class="docutils literal notranslate"><span class="pre">cot(omega)</span></code> and <code class="docutils literal notranslate"><span class="pre">K</span></code>’s minimum property.</p>
+        <ol class="arabic simple">
+        <li><p>By the Law of Cosines, <code class="docutils literal notranslate"><span class="pre">cot</span> <span class="pre">A</span> <span class="pre">+</span> <span class="pre">cot</span> <span class="pre">B</span> <span class="pre">+</span> <span class="pre">cot</span> <span class="pre">C</span> <span class="pre">=</span> <span class="pre">(b^2+c^2-a^2)/(4*Delta)</span> <span class="pre">+</span>
+        <span class="pre">(c^2+a^2-b^2)/(4*Delta)</span> <span class="pre">+</span> <span class="pre">(a^2+b^2-c^2)/(4*Delta)</span> <span class="pre">=</span> <span class="pre">(a^2+b^2+c^2)/(4*Delta)</span></code>.</p></li>
+        <li><p>By Lagrange’s identity (Sec. I, Prop. 7, p. 171):
+        <code class="docutils literal notranslate"><span class="pre">(a^2+b^2+c^2)*(x^2+y^2+z^2)</span> <span class="pre">-</span> <span class="pre">(a*x+b*y+c*z)^2</span> <span class="pre">=</span>
+        <span class="pre">(b*z</span> <span class="pre">-</span> <span class="pre">c*y)^2</span> <span class="pre">+</span> <span class="pre">(c*x</span> <span class="pre">-</span> <span class="pre">a*z)^2</span> <span class="pre">+</span> <span class="pre">(a*y</span> <span class="pre">-</span> <span class="pre">b*x)^2</span></code>, proving that under <code class="docutils literal notranslate"><span class="pre">a*x+b*y+c*z</span> <span class="pre">=</span> <span class="pre">2*Delta</span></code>,
+        <code class="docutils literal notranslate"><span class="pre">x^2</span> <span class="pre">+</span> <span class="pre">y^2</span> <span class="pre">+</span> <span class="pre">z^2</span></code> attains its unique minimum when <code class="docutils literal notranslate"><span class="pre">x/a</span> <span class="pre">=</span> <span class="pre">y/b</span> <span class="pre">=</span> <span class="pre">z/c</span></code> (at <code class="docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">X(6)</span></code>).</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Dictionary of zero-verified symbolic residuals.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.construct_symmedian_and_lemoine_circles">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">construct_symmedian_and_lemoine_circles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.brocard.LemoineCirclesResult" title="geometor.casey.brocard.LemoineCirclesResult"><span class="pre">LemoineCirclesResult</span></a></span></span><a class="headerlink" href="#geometor.casey.brocard.construct_symmedian_and_lemoine_circles" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Lemoine’s Point <code class="docutils literal notranslate"><span class="pre">K</span></code>, First Lemoine Circle &amp; Cosine Circle (Unit 5).</p>
+        <p>Follows Casey, Supplementary Chapter, Sec. I, Props. 5–6 (pp. 170–171) and Sec. III,
+        Prop. 1 &amp; Cor. 4 (pp. 179–183) on <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.casey.brocard.LemoineCirclesResult" title="geometor.casey.brocard.LemoineCirclesResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">LemoineCirclesResult</span></code></a>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.brocard.construct_brocard_and_lemoine_circles">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.brocard.</span></span><span class="sig-name descname"><span class="pre">construct_brocard_and_lemoine_circles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.brocard.BrocardLemoineResult" title="geometor.casey.brocard.BrocardLemoineResult"><span class="pre">BrocardLemoineResult</span></a></span></span><a class="headerlink" href="#geometor.casey.brocard.construct_brocard_and_lemoine_circles" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the Brocard Points, Brocard Circle, First Lemoine Circle, Steiner &amp; Tarry Points.</p>
+        <p>On the Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> triangle <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>:</p>
+        <ol class="arabic simple">
+        <li><p>Constructs <code class="docutils literal notranslate"><span class="pre">O</span> <span class="pre">=</span> <span class="pre">(7,</span> <span class="pre">33/8)</span></code>, <code class="docutils literal notranslate"><span class="pre">K</span> <span class="pre">=</span> <span class="pre">X(6)</span> <span class="pre">=</span> <span class="pre">(1673/295,</span> <span class="pre">1176/295)</span></code>, and the First Lemoine
+        Circle centered at <code class="docutils literal notranslate"><span class="pre">Ml</span> <span class="pre">=</span> <span class="pre">midpoint(O,</span> <span class="pre">K)</span> <span class="pre">=</span> <span class="pre">(4053/590,</span> <span class="pre">9567/2360)</span></code>.</p></li>
+        <li><p>Constructs the <strong>First Brocard Point ``Om1``</strong> via tangent circles <code class="docutils literal notranslate"><span class="pre">(Ob1,</span> <span class="pre">B)</span></code> (tangent to
+        <code class="docutils literal notranslate"><span class="pre">BC</span></code> at <code class="docutils literal notranslate"><span class="pre">B</span></code> through <code class="docutils literal notranslate"><span class="pre">A</span></code>) and <code class="docutils literal notranslate"><span class="pre">(Oc1,</span> <span class="pre">C)</span></code> (tangent to <code class="docutils literal notranslate"><span class="pre">CA</span></code> at <code class="docutils literal notranslate"><span class="pre">C</span></code> through <code class="docutils literal notranslate"><span class="pre">B</span></code>),
+        verifying concurrency with <code class="docutils literal notranslate"><span class="pre">(Oa1,</span> <span class="pre">A)</span></code> (tangent to <code class="docutils literal notranslate"><span class="pre">AB</span></code> at <code class="docutils literal notranslate"><span class="pre">A</span></code> through <code class="docutils literal notranslate"><span class="pre">C</span></code>).</p></li>
+        <li><p>Constructs the <strong>Second Brocard Point ``Om2``</strong> via reversed tangent circles.</p></li>
+        <li><p>Constructs <strong>Brocard’s First Triangle ``A1 B1 C1``</strong> (<code class="docutils literal notranslate"><span class="pre">A1</span> <span class="pre">=</span> <span class="pre">[B</span> <span class="pre">Om1]</span> <span class="pre">∩</span> <span class="pre">[C</span> <span class="pre">Om2]</span></code>, etc.)
+        and proves that <strong>all seven points ``O, K, Om1, Om2, A1, B1, C1``</strong> lie on the
+        <strong>Brocard Circle</strong> with diameter <code class="docutils literal notranslate"><span class="pre">OK</span></code> (Casey, Supp. Sec. V, pp. 194–195).</p></li>
+        <li><p>Constructs <strong>Steiner’s Point ``St = X(99)``</strong> (parallels through <code class="docutils literal notranslate"><span class="pre">A,</span> <span class="pre">B,</span> <span class="pre">C</span></code> to sides of
+        <code class="docutils literal notranslate"><span class="pre">A1</span> <span class="pre">B1</span> <span class="pre">C1</span></code>), <strong>Tarry’s Point ``Tr = X(98)``</strong> (antipode of <code class="docutils literal notranslate"><span class="pre">St</span></code> on circumcircle), and
+        <strong>de Longchamps’ Point ``Lo = X(20)``</strong> (reflection of <code class="docutils literal notranslate"><span class="pre">H</span></code> across <code class="docutils literal notranslate"><span class="pre">O</span></code>).</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.casey.brocard.BrocardLemoineResult" title="geometor.casey.brocard.BrocardLemoineResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">BrocardLemoineResult</span></code></a> with full exact symbolic report.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../__main__/index.html" title="geometor.casey.__main__">&larr; <span class="nav-label">geometor.casey.__main__</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../coaxial/index.html" title="geometor.casey.coaxial"><span class="nav-label">geometor.casey.coaxial</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../../../../tags/casey.html">casey</a></li>
+        <li><a href="../../../../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../../../../tags/codex.html">codex</a></li>
+        <li><a href="../../../../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../../../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../../../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

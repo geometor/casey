@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Master Cross-Repository Concordance &amp; SymPy Circle Audit &mdash; A Sequel to the First Six Books of the Elements of Euclid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="index.html" class="is-active" aria-selected="true" >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="index.html">A Sequel to the First Six Books of the Elements of Euclid</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="unit-6/unit-6-en.html" title="Unit 6: Supplementary Chapter, Secs. II–VII &amp; Misc. — Brocard Geometry, Tucker/Taylor Circles &amp; Associated Points">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="bibliography.html" title="Systematic Bibliography &amp; Editions"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="master-cross-repository-concordance-sympy-circle-audit">
+        <span id="concordance"></span><h1>Master Cross-Repository Concordance &amp; SymPy Circle Audit<a class="headerlink" href="#master-cross-repository-concordance-sympy-circle-audit" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Mapping Casey’s <em>Sequel</em> (1888 / 1892) Across <code class="docutils literal notranslate"><span class="pre">euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">elements</span></code>, <code class="docutils literal notranslate"><span class="pre">altshiller-court</span></code>, <code class="docutils literal notranslate"><span class="pre">etc</span></code>, <code class="docutils literal notranslate"><span class="pre">pappus</span></code>, and <code class="docutils literal notranslate"><span class="pre">sympy.geometry</span></code></p>
+        <section class="level-2" id="cross-repository-canon-concordance">
+        <h2>1. Cross-Repository Canon Concordance<a class="headerlink" href="#cross-repository-canon-concordance" title="Link to this heading">¶</a></h2>
+        <p>Every proposition cluster in <a class="person-ref" id="occ-person-casey-1" href="persons.html#person-casey" data-person="casey" title="John Casey (1820–1891) — Irish Geometer, Professor at the Catholic University of Ireland, F.R.S.">John Casey's</a> <a class="citation-ref" id="occ-cite-casey-sequel-1892-1" href="bibliography.html#cite-casey-sequel-1892" data-cite="casey:sequel:1892" title="John Casey (ed. Patrick A. E. Dowling) — A Sequel to the First Six Books of the Elements of Euclid (6th ed., rev. and enlarged) (Dublin: Hodges, Figgis, &amp; Co. / London: Longmans, Green, &amp; Co., 1892)"><em>Sequel to Euclid</em></a> bridges classical Euclidean propositions (<code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code>) forward to <a class="person-ref" id="occ-person-altshiller-court-1" href="persons.html#person-altshiller-court" data-person="altshiller-court" title="Nathan Altshiller-Court (1881–1968) — Mathematician &amp; Author of College Geometry">Nathan Altshiller-Court's</a> <a class="citation-ref" id="occ-cite-altshiller-court-1952-1" href="bibliography.html#cite-altshiller-court-1952" data-cite="altshiller-court:1952" title="Nathan Altshiller-Court — College Geometry: An Introduction to the Modern Geometry of the Triangle and the Circle (2nd ed.) (New York: Barnes &amp; Noble, 1952 (Dover 2007))"><em>College Geometry</em></a> (<code class="docutils literal notranslate"><span class="pre">geometor/altshiller-court</span></code>), <a class="person-ref" id="occ-person-casey-2" href="persons.html#person-casey" data-person="casey" title="John Casey (1820–1891) — Irish Geometer, Professor at the Catholic University of Ireland, F.R.S.">Clark Kimberling's</a> <a class="citation-ref" id="occ-cite-kimberling-etc-1" href="bibliography.html#cite-kimberling-etc" data-cite="kimberling:etc" title="Clark Kimberling — Encyclopedia of Triangle Centers (ETC) (University of Evansville / geometor-etc (X(1)–X(53144)))"><em>Encyclopedia of Triangle Centers</em></a> (<code class="docutils literal notranslate"><span class="pre">geometor/etc</span></code>), and projective configurations in <code class="docutils literal notranslate"><span class="pre">geometor/pappus</span></code>:</p>
+        <table class="docutils align-default" id="id1">
+        <caption><span class="caption-text">Master Concordance of Casey’s <em>Sequel to Euclid</em> (Units 1–6)</span><a class="headerlink" href="#id1" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 10.0%" />
+        <col style="width: 22.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 18.0%" />
+        <col style="width: 12.0%" />
+        <col style="width: 10.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Unit</p></th>
+        <th class="head"><p>Casey Locus &amp; Folio (pp.)</p></th>
+        <th class="head"><p>Theorem / Topic</p></th>
+        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">euclid</span></code> / <code class="docutils literal notranslate"><span class="pre">elements</span></code></p></th>
+        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">altshiller-court</span></code> (1952)</p></th>
+        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">etc</span></code> Centers</p></th>
+        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">geometor.casey</span></code> Symbol</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-1/unit-1-en.html#sequel-unit-1-en"><span class="std std-ref">Unit 1</span></a></p></td>
+        <td><p>Book I, Prop. 10 Cor. · f. <code class="docutils literal notranslate"><span class="pre">0034</span></code> (p. 8)</p></td>
+        <td><p>Concurrency of Altitudes (Orthocentre $H$)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">I.12</span></code>, <code class="docutils literal notranslate"><span class="pre">I.31</span></code>, <code class="docutils literal notranslate"><span class="pre">I.34</span></code></p></td>
+        <td><p>§§ 93–96 (Ch. III)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(4)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_euler_nine_point</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-1/unit-1-en.html#sequel-unit-1-en"><span class="std std-ref">Unit 1</span></a></p></td>
+        <td><p>Book I, Props. 17–18 · f. <code class="docutils literal notranslate"><span class="pre">0038–0039</span></code> (pp. 12–13)</p></td>
+        <td><p>Centres of Mean Position (Weighted Barycentres)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">I.10</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.2</span></code></p></td>
+        <td><p>§§ 65–72 (Ch. III)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(2)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">barycentric_point</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-1/unit-1-en.html#sequel-unit-1-en"><span class="std std-ref">Unit 1</span></a></p></td>
+        <td><p>Book I, Misc. Ex. 42–46 · f. <code class="docutils literal notranslate"><span class="pre">0046</span></code> (p. 20)</p></td>
+        <td><p>Euler Line ($O, G, N, H$ with $HG = 2\,GO$)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">I.29</span></code>, <code class="docutils literal notranslate"><span class="pre">IV.5</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.4</span></code></p></td>
+        <td><p>§§ 101–103 (Ch. III)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(2)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(3)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(4)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(5)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_euler_nine_point</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-1/unit-1-en.html#sequel-unit-1-en"><span class="std std-ref">Unit 1</span></a></p></td>
+        <td><p>Book II, Props. 1–2, 7, 10 · f. <code class="docutils literal notranslate"><span class="pre">0048–0052</span></code> (pp. 22–26)</p></td>
+        <td><p>Apollonius Median, Euler Identity &amp; Stewart’s Theorem</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">II.4</span></code>, <code class="docutils literal notranslate"><span class="pre">II.7</span></code>, <code class="docutils literal notranslate"><span class="pre">II.12</span></code>, <code class="docutils literal notranslate"><span class="pre">II.13</span></code></p></td>
+        <td><p>§§ 68, 243, 307–309</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(2)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">prove_casey_theorem_symbolic</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-1/unit-1-en.html#sequel-unit-1-en"><span class="std std-ref">Unit 1</span></a></p></td>
+        <td><p>Book IV, Prop. 5 · f. <code class="docutils literal notranslate"><span class="pre">0083–0084</span></code> (pp. 57–58)</p></td>
+        <td><p>Nine-Points Circle ($R_9 = R/2$, 9 concyclic points)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.21</span></code>, <code class="docutils literal notranslate"><span class="pre">III.31</span></code>, <code class="docutils literal notranslate"><span class="pre">IV.5</span></code></p></td>
+        <td><p>§§ 104–113 (Ch. III)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(5)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_euler_nine_point</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-2/unit-2-en.html#sequel-unit-2-en"><span class="std std-ref">Unit 2</span></a></p></td>
+        <td><p>Book III, Props. 20–22 · f. <code class="docutils literal notranslate"><span class="pre">0067–0068</span></code> (pp. 41–42)</p></td>
+        <td><p>Inverse Points, Power of a Point &amp; Orthogonal Circles</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">I.47</span></code>, <code class="docutils literal notranslate"><span class="pre">III.35–37</span></code></p></td>
+        <td><p>§§ 358–376, 417–428 (Ch. VIII)</p></td>
+        <td><p>—</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">are_orthogonal_circles</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-2/unit-2-en.html#sequel-unit-2-en"><span class="std std-ref">Unit 2</span></a></p></td>
+        <td><p>Book III, Props. 23–24, 28 &amp; VI.V · f. <code class="docutils literal notranslate"><span class="pre">0069–0070</span></code>, <code class="docutils literal notranslate"><span class="pre">0139–0145</span></code></p></td>
+        <td><p>Radical Axis, Radical Centre, Coaxal Pencils &amp; Limiting Points</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.17</span></code>, <code class="docutils literal notranslate"><span class="pre">III.36</span></code></p></td>
+        <td><p>§§ 429–498 (Ch. VIII)</p></td>
+        <td><p>—</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_radical_axis_and_coaxial_pencil</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-3/unit-3-en.html#sequel-unit-3-en"><span class="std std-ref">Unit 3</span></a></p></td>
+        <td><p>Book VI, Sec. I, Props. 2 &amp; 4 · f. <code class="docutils literal notranslate"><span class="pre">0093–0095</span></code> (pp. 67–69)</p></td>
+        <td><p>Ceva’s Concurrency &amp; Menelaus’s Transversal Theorems</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">VI.1</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.2</span></code></p></td>
+        <td><p>§§ 313–335 (Ch. VI)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(1)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(2)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(4)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(7)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(8)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">barycentric_point</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-3/unit-3-en.html#sequel-unit-3-en"><span class="std std-ref">Unit 3</span></a></p></td>
+        <td><p>Book VI, Sec. II, Props. 1–6 · f. <code class="docutils literal notranslate"><span class="pre">0108–0113</span></code> (pp. 82–87)</p></td>
+        <td><p>Centres of Similitude &amp; Monge’s Four Axes Theorem</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">VI.3</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.4</span></code></p></td>
+        <td><p>§§ 23–53, 402–416</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(55)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(56)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">radical_axis_line</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-3/unit-3-en.html#sequel-unit-3-en"><span class="std std-ref">Unit 3</span></a></p></td>
+        <td><p>Book VI, Sec. III &amp; Sec. VI · f. <code class="docutils literal notranslate"><span class="pre">0113–0120</span></code>, <code class="docutils literal notranslate"><span class="pre">0153–0166</span></code></p></td>
+        <td><p>Harmonic Section, Complete Quadrilateral, Anharmonic Ratio, Desargues &amp; Pascal</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">VI.3</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.A</span></code></p></td>
+        <td><p>§§ 339–357 (Chs. VI–VII)</p></td>
+        <td><p><em>(Pappus VII.129–139)</em></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_complete_quadrilateral_harmonic</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-4/unit-4-en.html#sequel-unit-4-en"><span class="std std-ref">Unit 4</span></a></p></td>
+        <td><p>Book VI, Sec. IV, Props. 1–9 &amp; Cor. 1 · f. <code class="docutils literal notranslate"><span class="pre">0121–0129</span></code> (pp. 95–103)</p></td>
+        <td><p>Circular Inversion &amp; Pappus’s Arbelos Chain</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.32</span></code>, <code class="docutils literal notranslate"><span class="pre">III.36</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.6</span></code></p></td>
+        <td><p>§§ 518–535 (Ch. IX)</p></td>
+        <td><p><em>(Pappus IV)</em></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">invert_point</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-4/unit-4-en.html#sequel-unit-4-en"><span class="std std-ref">Unit 4</span></a></p></td>
+        <td><p>Book VI, Sec. IV, Props. 10–11 &amp; Cor. 2 · f. <code class="docutils literal notranslate"><span class="pre">0129–0134</span></code> (pp. 103–108)</p></td>
+        <td><p><strong>Casey’s Generalized Ptolemy Theorem</strong>, <strong>Feuerbach’s Theorem</strong> &amp; Hart’s Circle</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">IV.4</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.D</span></code></p></td>
+        <td><p>§§ 200–205, 502–504, 536–546</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(1)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(5)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(11)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_casey_feuerbach</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-4/unit-4-en.html#sequel-unit-4-en"><span class="std std-ref">Unit 4</span></a></p></td>
+        <td><p>Book III, Props. 25, 27 &amp; VI.VII · f. <code class="docutils literal notranslate"><span class="pre">0070–0073</span></code>, <code class="docutils literal notranslate"><span class="pre">0167–0173</span></code></p></td>
+        <td><p>Poles &amp; Polars, La Hire’s Reciprocity, Self-Conjugate Triangles &amp; Brianchon</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.17</span></code>, <code class="docutils literal notranslate"><span class="pre">III.36</span></code></p></td>
+        <td><p>§§ 377–401 (Ch. VIII)</p></td>
+        <td><p><em>(Dual of Pascal)</em></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_pole_and_polar</span></code></p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="unit-5/unit-5-en.html#sequel-unit-5-en"><span class="std std-ref">Unit 5</span></a></p></td>
+        <td><p>Supp. Ch., Secs. I &amp; III · f. <code class="docutils literal notranslate"><span class="pre">0191–0198</span></code>, <code class="docutils literal notranslate"><span class="pre">0205–0209</span></code> (pp. 165–183)</p></td>
+        <td><p>Isogonal Conjugates, Symmedians, Lemoine’s Point $K$, Lemoine &amp; Cosine Circles</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.32</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.2</span></code></p></td>
+        <td><p>§§ 557–590, 616–628, 661–673</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(6)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(182)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_symmedian_and_lemoine_circles</span></code></p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="unit-6/unit-6-en.html#sequel-unit-6-en"><span class="std std-ref">Unit 6</span></a></p></td>
+        <td><p>Supp. Ch., Secs. II–VII &amp; Misc. · f. <code class="docutils literal notranslate"><span class="pre">0201–0274</span></code> (pp. 175–248)</p></td>
+        <td><p>Brocard Points $\Omega, \Omega'$, Brocard Circle, Tucker/Taylor, Harmonic Polygons, Steiner, Tarry &amp; Longchamps</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">III.21</span></code>, <code class="docutils literal notranslate"><span class="pre">III.32</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.4</span></code>, <code class="docutils literal notranslate"><span class="pre">VI.18</span></code></p></td>
+        <td><p>§§ 629–689 (Ch. X)</p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">X(3)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(6)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(20)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(39)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(98)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(99)</span></code>, <code class="docutils literal notranslate"><span class="pre">X(182)</span></code></p></td>
+        <td><p><code class="docutils literal notranslate"><span class="pre">construct_brocard_and_lemoine_circles</span></code></p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="sympy-geometry-circle-capability-audit-vs-geometor-casey">
+        <h2>2. <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> Capability Audit vs. <code class="docutils literal notranslate"><span class="pre">geometor.casey</span></code><a class="headerlink" href="#sympy-geometry-circle-capability-audit-vs-geometor-casey" title="Link to this heading">¶</a></h2>
+        <p>Inspection of <code class="docutils literal notranslate"><span class="pre">sympy.geometry.curve.Circle</span></code> in SymPy confirms that standard <code class="docutils literal notranslate"><span class="pre">sympy.geometry</span></code> provides basic Euclidean primitives (<code class="docutils literal notranslate"><span class="pre">center</span></code>, <code class="docutils literal notranslate"><span class="pre">radius</span></code>, <code class="docutils literal notranslate"><span class="pre">equation</span></code>, <code class="docutils literal notranslate"><span class="pre">tangent_lines</span></code>, <code class="docutils literal notranslate"><span class="pre">is_tangent</span></code>) yet <strong>omits the entire modern Euclidean circle-algebra toolkit codified by Casey</strong>. <a class="reference internal" href="../modules/index.html#module-geometor.casey" title="geometor.casey"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey</span></code></a> supplies exact closed-form symbolic implementations for every gap (audited programmatically via <a class="reference internal" href="../modules/api/geometor/casey/concordance/index.html#geometor.casey.concordance.audit_sympy_circle_gaps" title="geometor.casey.concordance.audit_sympy_circle_gaps"><code class="xref py py-func docutils literal notranslate"><span class="pre">audit_sympy_circle_gaps()</span></code></a>):</p>
+        <table class="docutils align-default" id="id2">
+        <caption><span class="caption-text">Audit of <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> Capabilities vs. <code class="docutils literal notranslate"><span class="pre">geometor.casey</span></code></span><a class="headerlink" href="#id2" title="Link to this table">¶</a></caption>
+        <colgroup>
+        <col style="width: 22.0%" />
+        <col style="width: 14.0%" />
+        <col style="width: 26.0%" />
+        <col style="width: 38.0%" />
+        </colgroup>
+        <thead>
+        <tr class="row-odd"><th class="head"><p>Euclidean Circle Concept</p></th>
+        <th class="head"><p>In <code class="docutils literal notranslate"><span class="pre">sympy.geometry</span></code>?</p></th>
+        <th class="head"><p><code class="docutils literal notranslate"><span class="pre">geometor.casey</span></code> Implementation</p></th>
+        <th class="head"><p>Algebraic Invariant / Upstream Candidate Note</p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr class="row-even"><td><p>Power of a Point $\operatorname{pow}(P, C)$</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.circle_power" title="geometor.casey.invariants.circle_power"><code class="xref py py-func docutils literal notranslate"><span class="pre">circle_power()</span></code></a></p></td>
+        <td><p>Exact rational/radical $|PO|^2 - r^2$ (Casey III.20–24).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p>Circle Orthogonality ($C_1 \perp C_2$)</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.are_orthogonal_circles" title="geometor.casey.invariants.are_orthogonal_circles"><code class="xref py py-func docutils literal notranslate"><span class="pre">are_orthogonal_circles()</span></code></a></p></td>
+        <td><p>Exact <code class="docutils literal notranslate"><span class="pre">zero_test(|O1</span> <span class="pre">O2|^2</span> <span class="pre">-</span> <span class="pre">r1^2</span> <span class="pre">-</span> <span class="pre">r2^2)</span></code> (Casey III.22).</p></td>
+        </tr>
+        <tr class="row-even"><td><p>Radical Axis &amp; Radical Centre</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.radical_axis_line" title="geometor.casey.invariants.radical_axis_line"><code class="xref py py-func docutils literal notranslate"><span class="pre">radical_axis_line()</span></code></a> / <a class="reference internal" href="../modules/api/geometor/casey/coaxial/index.html#geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil" title="geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_radical_axis_and_coaxial_pencil()</span></code></a></p></td>
+        <td><p>Linear difference $C_1(x, y) - C_2(x, y) = 0$ + compass construction for disjoint circles (Casey III.21, 23–24).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p>Poncelet Limiting Points $L_1, L_2$</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/coaxial/index.html#geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil" title="geometor.casey.coaxial.construct_radical_axis_and_coaxial_pencil"><code class="xref py py-func docutils literal notranslate"><span class="pre">construct_radical_axis_and_coaxial_pencil()</span></code></a></p></td>
+        <td><p>Real zero-radius members $D \pm |DT_1|\,\hat{u}$ of non-intersecting coaxal pencil (Casey III.23, VI.V).</p></td>
+        </tr>
+        <tr class="row-even"><td><p>Circular Inversion $P \mapsto P'$</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.invert_point" title="geometor.casey.invariants.invert_point"><code class="xref py py-func docutils literal notranslate"><span class="pre">invert_point()</span></code></a></p></td>
+        <td><p>Exact conformal map $O + \frac{r^2}{|OP|^2}(P - O)$ (Casey VI.IV.1–9).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p>Pole, Polar &amp; La Hire Reciprocity</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.polar_line" title="geometor.casey.invariants.polar_line"><code class="xref py py-func docutils literal notranslate"><span class="pre">polar_line()</span></code></a>, <a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.pole_of_line" title="geometor.casey.invariants.pole_of_line"><code class="xref py py-func docutils literal notranslate"><span class="pre">pole_of_line()</span></code></a></p></td>
+        <td><p>Bilinear polarization $(x_0 - h)(x - h) + (y_0 - k)(y - k) = r^2$ + pure-straightedge quadrangle construction (Casey III.25, VI.VII).</p></td>
+        </tr>
+        <tr class="row-even"><td><p>Direct &amp; Transverse Bitangent Quadrance</p></td>
+        <td><p><strong>Missing</strong> (<code class="docutils literal notranslate"><span class="pre">False</span></code>)</p></td>
+        <td><p><a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.bitangent_quadrance" title="geometor.casey.invariants.bitangent_quadrance"><code class="xref py py-func docutils literal notranslate"><span class="pre">bitangent_quadrance()</span></code></a>, <a class="reference internal" href="../modules/api/geometor/casey/invariants/index.html#geometor.casey.invariants.bitangent_length" title="geometor.casey.invariants.bitangent_length"><code class="xref py py-func docutils literal notranslate"><span class="pre">bitangent_length()</span></code></a></p></td>
+        <td><p>Exact $|O_1 O_2|^2 - (r_1 \mp r_2)^2$ powering Casey’s Generalized Ptolemy Theorem (Casey VI.IV.9–10).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="unit-6/unit-6-en.html" title="Unit 6: Supplementary Chapter, Secs. II–VII &amp; Misc. — Brocard Geometry, Tucker/Taylor Circles &amp; Associated Points">&larr; <span class="nav-label">Unit 6: Supplementary Chapter, Secs. II–VII & Misc. — Brocard Geometry, Tucker/Taylor Circles & Associated Points</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="index.html">A Sequel to the First Six Books of the Elements of Euclid</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="bibliography.html" title="Systematic Bibliography &amp; Editions"><span class="nav-label">Systematic Bibliography & Editions</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../tags/brocard.html">brocard</a></li>
+        <li><a href="../tags/casey.html">casey</a></li>
+        <li><a href="../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../tags/codex.html">codex</a></li>
+        <li><a href="../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

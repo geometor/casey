@@ -1,0 +1,576 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.casey.feuerbach &mdash; GEOMETOR • casey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../sequel_to_euclid/index.html"  >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.casey.concordance">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../invariants/index.html" title="geometor.casey.invariants"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.casey.feuerbach">
+        <span id="geometor-casey-feuerbach"></span><h1>geometor.casey.feuerbach<a class="headerlink" href="#module-geometor.casey.feuerbach" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic proofs and compass-and-straightedge constructions of Casey’s &amp; Feuerbach’s Theorems.</p>
+        <p>Implements:</p>
+        <ul class="simple">
+        <li><p><strong>Unit 1 (Book I Misc. Ex. 42–46 &amp; Book IV Prop. 5, pp. 20, 57–58)</strong>: The Euler line
+        (<code class="docutils literal notranslate"><span class="pre">O,</span> <span class="pre">G,</span> <span class="pre">N,</span> <span class="pre">H</span></code>) and the Nine-Points Circle through side midpoints <code class="docutils literal notranslate"><span class="pre">Ma,</span> <span class="pre">Mb,</span> <span class="pre">Mc</span></code>, altitude
+        feet <code class="docutils literal notranslate"><span class="pre">Da,</span> <span class="pre">Db,</span> <span class="pre">Dc</span></code>, and Euler midpoints <code class="docutils literal notranslate"><span class="pre">Ea,</span> <span class="pre">Eb,</span> <span class="pre">Ec</span></code>.</p></li>
+        <li><p><strong>Unit 4 (Book VI, Sec. IV, Prop. 9, Prop. 10 &amp; Cor. 2, pp. 102–106)</strong>:</p>
+        <ol class="arabic simple">
+        <li><p>Universal polynomial proof of Casey’s Generalized Ptolemy Theorem
+        (<code class="docutils literal notranslate"><span class="pre">t_12*t_34</span> <span class="pre">+</span> <span class="pre">t_14*t_23</span> <span class="pre">=</span> <span class="pre">t_13*t_24</span></code>) via circular inversion and bitangent invariance.</p></li>
+        <li><p>Universal side-length <code class="docutils literal notranslate"><span class="pre">(a,</span> <span class="pre">b,</span> <span class="pre">c)</span></code> bitangent proof of Feuerbach’s Theorem for both the
+        incircle and the excircles.</p></li>
+        <li><p>Exact compass-and-straightedge construction on the canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>
+        triangle verifying bitangent lengths, Casey’s 1861 orthogonal inversion circle at <code class="docutils literal notranslate"><span class="pre">Ma</span></code>,
+        and exact tangency at the Feuerbach point <code class="docutils literal notranslate"><span class="pre">Fe</span> <span class="pre">=</span> <span class="pre">X(11)</span> <span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">8)</span></code> plus all three excircles.</p></li>
+        </ol>
+        </li>
+        </ul>
+        <section class="level-2" id="classes">
+        <h2>Classes<a class="headerlink" href="#classes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.CaseySymbolicProof" title="geometor.casey.feuerbach.CaseySymbolicProof"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CaseySymbolicProof</span></code></a></p></td>
+        <td><p>Symbolic verification certificate for Casey's Generalized Ptolemy Theorem.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport" title="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CaseyFeuerbachHeronianReport</span></code></a></p></td>
+        <td><p>Exact rational invariant report for Casey's Theorem &amp; Feuerbach tangency on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.EulerNinePointResult" title="geometor.casey.feuerbach.EulerNinePointResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">EulerNinePointResult</span></code></a></p></td>
+        <td><p>Constructed elements for the Euler Line and Nine-Points Circle (Unit 1).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachResult" title="geometor.casey.feuerbach.CaseyFeuerbachResult"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CaseyFeuerbachResult</span></code></a></p></td>
+        <td><p>Constructed elements for Casey's &amp; Feuerbach's Theorem on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> (Unit 4).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.compass_internal_angle_bisector" title="geometor.casey.feuerbach.compass_internal_angle_bisector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compass_internal_angle_bisector</span></code></a>(→ sympy.geometry.Line)</p></td>
+        <td><p>Construct the internal bisector of <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">arm_p1</span> <span class="pre">vertex</span> <span class="pre">arm_p2</span> <span class="pre">)</span></code> by Euclid I.9.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.prove_casey_theorem_symbolic" title="geometor.casey.feuerbach.prove_casey_theorem_symbolic"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prove_casey_theorem_symbolic</span></code></a>(→ CaseySymbolicProof)</p></td>
+        <td><p>Prove Casey's Generalized Ptolemy Theorem &amp; Feuerbach's Corollary symbolically.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.prove_casey_feuerbach_heronian" title="geometor.casey.feuerbach.prove_casey_feuerbach_heronian"><code class="xref py py-obj docutils literal notranslate"><span class="pre">prove_casey_feuerbach_heronian</span></code></a>(...)</p></td>
+        <td><p>Verify Casey's bitangent equation and all 4 Feuerbach tangencies on Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.construct_euler_nine_point" title="geometor.casey.feuerbach.construct_euler_nine_point"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_euler_nine_point</span></code></a>(→ EulerNinePointResult)</p></td>
+        <td><p>Construct the Euler Line and Nine-Points Circle by straightedge and compass (Unit 1).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.feuerbach.construct_casey_feuerbach" title="geometor.casey.feuerbach.construct_casey_feuerbach"><code class="xref py py-obj docutils literal notranslate"><span class="pre">construct_casey_feuerbach</span></code></a>(→ CaseyFeuerbachResult)</p></td>
+        <td><p>Construct Casey's Inversion Proof &amp; Feuerbach's Tangency Theorem on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">CaseySymbolicProof</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof" title="Link to this definition">¶</a></dt>
+        <dd><p>Symbolic verification certificate for Casey’s Generalized Ptolemy Theorem.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.inversion_invariance_residual">
+        <span class="sig-name descname"><span class="pre">inversion_invariance_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.inversion_invariance_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.tangent_line_euler_residual">
+        <span class="sig-name descname"><span class="pre">tangent_line_euler_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.tangent_line_euler_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.incircle_casey_residual">
+        <span class="sig-name descname"><span class="pre">incircle_casey_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.incircle_casey_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.incircle_cor2_squares_residual">
+        <span class="sig-name descname"><span class="pre">incircle_cor2_squares_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.incircle_cor2_squares_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.excircle_a_casey_residual">
+        <span class="sig-name descname"><span class="pre">excircle_a_casey_residual</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.excircle_a_casey_residual" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseySymbolicProof.verified">
+        <span class="sig-name descname"><span class="pre">verified</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseySymbolicProof.verified" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">CaseyFeuerbachHeronianReport</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport" title="Link to this definition">¶</a></dt>
+        <dd><p>Exact rational invariant report for Casey’s Theorem &amp; Feuerbach tangency on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.sides">
+        <span class="sig-name descname"><span class="pre">sides</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Integer</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.sides" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.area">
+        <span class="sig-name descname"><span class="pre">area</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.area" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inradius">
+        <span class="sig-name descname"><span class="pre">inradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.circumradius">
+        <span class="sig-name descname"><span class="pre">circumradius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.circumradius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.nine_point_radius">
+        <span class="sig-name descname"><span class="pre">nine_point_radius</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.nine_point_radius" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.exradii">
+        <span class="sig-name descname"><span class="pre">exradii</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.exradii" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.midpoint_chords">
+        <span class="sig-name descname"><span class="pre">midpoint_chords</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.midpoint_chords" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.incircle_midpoint_tangents">
+        <span class="sig-name descname"><span class="pre">incircle_midpoint_tangents</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.Rational</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.incircle_midpoint_tangents" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.casey_signed_sum">
+        <span class="sig-name descname"><span class="pre">casey_signed_sum</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Expr</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.casey_signed_sum" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.feuerbach_point">
+        <span class="sig-name descname"><span class="pre">feuerbach_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.feuerbach_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.excircle_feuerbach_points">
+        <span class="sig-name descname"><span class="pre">excircle_feuerbach_points</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.excircle_feuerbach_points" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.ni_distance">
+        <span class="sig-name descname"><span class="pre">ni_distance</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.Rational</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.ni_distance" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inversion_circle_orthogonal_to_incircle">
+        <span class="sig-name descname"><span class="pre">inversion_circle_orthogonal_to_incircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inversion_circle_orthogonal_to_incircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inversion_circle_orthogonal_to_excircle_a">
+        <span class="sig-name descname"><span class="pre">inversion_circle_orthogonal_to_excircle_a</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.inversion_circle_orthogonal_to_excircle_a" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.verified">
+        <span class="sig-name descname"><span class="pre">verified</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">bool</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport.verified" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">EulerNinePointResult</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for the Euler Line and Nine-Points Circle (Unit 1).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.vertices">
+        <span class="sig-name descname"><span class="pre">vertices</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.vertices" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.midpoints">
+        <span class="sig-name descname"><span class="pre">midpoints</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.midpoints" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.altitude_feet">
+        <span class="sig-name descname"><span class="pre">altitude_feet</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.altitude_feet" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.euler_midpoints">
+        <span class="sig-name descname"><span class="pre">euler_midpoints</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.euler_midpoints" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.centroid">
+        <span class="sig-name descname"><span class="pre">centroid</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.centroid" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.circumcenter">
+        <span class="sig-name descname"><span class="pre">circumcenter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.circumcenter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.orthocenter">
+        <span class="sig-name descname"><span class="pre">orthocenter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.orthocenter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.nine_point_center">
+        <span class="sig-name descname"><span class="pre">nine_point_center</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.nine_point_center" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.euler_line">
+        <span class="sig-name descname"><span class="pre">euler_line</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.euler_line" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.circumcircle">
+        <span class="sig-name descname"><span class="pre">circumcircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.circumcircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.EulerNinePointResult.nine_point_circle">
+        <span class="sig-name descname"><span class="pre">nine_point_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.feuerbach.EulerNinePointResult.nine_point_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py class">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult">
+        <span class="property"><span class="k"><span class="pre">class</span></span><span class="w"> </span></span><span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">CaseyFeuerbachResult</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult" title="Link to this definition">¶</a></dt>
+        <dd><p>Constructed elements for Casey’s &amp; Feuerbach’s Theorem on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> (Unit 4).</p>
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.model">
+        <span class="sig-name descname"><span class="pre">model</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.model" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.euler_nine_point">
+        <span class="sig-name descname"><span class="pre">euler_nine_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><a class="reference internal" href="#geometor.casey.feuerbach.EulerNinePointResult" title="geometor.casey.feuerbach.EulerNinePointResult"><span class="pre">EulerNinePointResult</span></a></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.euler_nine_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.incenter">
+        <span class="sig-name descname"><span class="pre">incenter</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.incenter" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.incircle_contacts">
+        <span class="sig-name descname"><span class="pre">incircle_contacts</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.incircle_contacts" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.incircle">
+        <span class="sig-name descname"><span class="pre">incircle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.incircle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.feuerbach_point">
+        <span class="sig-name descname"><span class="pre">feuerbach_point</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.feuerbach_point" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.casey_inversion_circle">
+        <span class="sig-name descname"><span class="pre">casey_inversion_circle</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Circle</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.casey_inversion_circle" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        <dl class="py attribute">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.CaseyFeuerbachResult.fourth_common_tangent">
+        <span class="sig-name descname"><span class="pre">fourth_common_tangent</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">sympy.geometry.Line</span></span><a class="headerlink" href="#geometor.casey.feuerbach.CaseyFeuerbachResult.fourth_common_tangent" title="Link to this definition">¶</a></dt>
+        <dd></dd></dl>
+
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.compass_internal_angle_bisector">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">compass_internal_angle_bisector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">vertex</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arm_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">arm_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.feuerbach.compass_internal_angle_bisector" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the internal bisector of <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">arm_p1</span> <span class="pre">vertex</span> <span class="pre">arm_p2</span> <span class="pre">)</span></code> by Euclid I.9.</p>
+        <p>Transfers <code class="docutils literal notranslate"><span class="pre">|vertex</span> <span class="pre">arm_p1|</span></code> onto ray <code class="docutils literal notranslate"><span class="pre">vertex</span> <span class="pre">arm_p2</span></code> via circle <code class="docutils literal notranslate"><span class="pre">(vertex,</span> <span class="pre">arm_p1)</span></code>
+        and bisects the resulting isosceles base chord.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>.</p></li>
+        <li><p><strong>vertex</strong> – Angle vertex.</p></li>
+        <li><p><strong>arm_p1</strong> – Point on the first ray.</p></li>
+        <li><p><strong>arm_p2</strong> – Point on the second ray.</p></li>
+        <li><p><strong>ID</strong> – Optional explicit line identifier.</p></li>
+        <li><p><strong>classes</strong> – Optional semantic CSS classes.</p></li>
+        <li><p><strong>guide</strong> – Whether the angle bisector should remain a guide.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact internal angle bisector <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.prove_casey_theorem_symbolic">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">prove_casey_theorem_symbolic</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.feuerbach.CaseySymbolicProof" title="geometor.casey.feuerbach.CaseySymbolicProof"><span class="pre">CaseySymbolicProof</span></a></span></span><a class="headerlink" href="#geometor.casey.feuerbach.prove_casey_theorem_symbolic" title="Link to this definition">¶</a></dt>
+        <dd><p>Prove Casey’s Generalized Ptolemy Theorem &amp; Feuerbach’s Corollary symbolically.</p>
+        <p>Verifies four algebraic pillars from Casey, Book VI, Sec. IV, Props. 9–10 (pp. 102–106):</p>
+        <ol class="arabic simple">
+        <li><p><strong>Inversion Invariance (Prop. 9, pp. 102–103)</strong>: Under inversion in <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">k)</span></code> at the
+        origin, for two circles <code class="docutils literal notranslate"><span class="pre">(x1,</span> <span class="pre">y1,</span> <span class="pre">r1)</span></code> and <code class="docutils literal notranslate"><span class="pre">(x2,</span> <span class="pre">y2,</span> <span class="pre">r2)</span></code> not passing through <code class="docutils literal notranslate"><span class="pre">O</span></code>,
+        the normalized bitangent ratio <code class="docutils literal notranslate"><span class="pre">t_12^2</span> <span class="pre">/</span> <span class="pre">(r1</span> <span class="pre">*</span> <span class="pre">r2)</span></code> is strictly invariant:
+        <code class="docutils literal notranslate"><span class="pre">t'_12^2</span> <span class="pre">/</span> <span class="pre">(r'_1</span> <span class="pre">*</span> <span class="pre">r'_2)</span> <span class="pre">-</span> <span class="pre">t_12^2</span> <span class="pre">/</span> <span class="pre">(r1</span> <span class="pre">*</span> <span class="pre">r2)</span> <span class="pre">==</span> <span class="pre">0</span></code>.</p></li>
+        <li><p><strong>Collinear Contact Reduction (Prop. 10, pp. 103–104)</strong>: Inverting from a point on the
+        fifth tangent circle maps it to <code class="docutils literal notranslate"><span class="pre">y</span> <span class="pre">=</span> <span class="pre">0</span></code> and the four tangent circles to <code class="docutils literal notranslate"><span class="pre">(u_i,</span> <span class="pre">r_i)</span></code>
+        with <code class="docutils literal notranslate"><span class="pre">t_ij</span> <span class="pre">=</span> <span class="pre">|u_i</span> <span class="pre">-</span> <span class="pre">u_j|</span></code>, reducing <code class="docutils literal notranslate"><span class="pre">t_12*t_34</span> <span class="pre">+</span> <span class="pre">t_14*t_23</span> <span class="pre">=</span> <span class="pre">t_13*t_24</span></code> for ordered
+        contacts <code class="docutils literal notranslate"><span class="pre">u_1</span> <span class="pre">&lt;</span> <span class="pre">u_2</span> <span class="pre">&lt;</span> <span class="pre">u_3</span> <span class="pre">&lt;</span> <span class="pre">u_4</span></code> to Euler’s identity (Book II, Prop. 7, p. 24).</p></li>
+        <li><p><strong>Universal Incircle Bitangent Identity (Prop. 10, Cor. 2, pp. 104–105)</strong>: For general
+        positive side lengths <code class="docutils literal notranslate"><span class="pre">b</span> <span class="pre">&lt;=</span> <span class="pre">c</span> <span class="pre">&lt;=</span> <span class="pre">a</span></code>, <code class="docutils literal notranslate"><span class="pre">t_23</span> <span class="pre">=</span> <span class="pre">a/2,</span> <span class="pre">t_31</span> <span class="pre">=</span> <span class="pre">b/2,</span> <span class="pre">t_12</span> <span class="pre">=</span> <span class="pre">c/2</span></code> and
+        <code class="docutils literal notranslate"><span class="pre">t_14</span> <span class="pre">=</span> <span class="pre">(c</span> <span class="pre">-</span> <span class="pre">b)/2,</span> <span class="pre">t_24</span> <span class="pre">=</span> <span class="pre">(a</span> <span class="pre">-</span> <span class="pre">c)/2,</span> <span class="pre">t_34</span> <span class="pre">=</span> <span class="pre">(a</span> <span class="pre">-</span> <span class="pre">b)/2</span></code> satisfy
+        <code class="docutils literal notranslate"><span class="pre">t_23*t_14</span> <span class="pre">+</span> <span class="pre">t_31*t_24</span> <span class="pre">-</span> <span class="pre">t_12*t_34</span> <span class="pre">==</span> <span class="pre">0</span></code>, alongside Casey’s squared identity
+        <code class="docutils literal notranslate"><span class="pre">(b^2</span> <span class="pre">-</span> <span class="pre">c^2)</span> <span class="pre">+</span> <span class="pre">(c^2</span> <span class="pre">-</span> <span class="pre">a^2)</span> <span class="pre">+</span> <span class="pre">(a^2</span> <span class="pre">-</span> <span class="pre">b^2)</span> <span class="pre">==</span> <span class="pre">0</span></code>.</p></li>
+        <li><p><strong>Universal Excircle Bitangent Identity</strong>: For the <code class="docutils literal notranslate"><span class="pre">A</span></code>-excircle,
+        <code class="docutils literal notranslate"><span class="pre">t_14</span> <span class="pre">=</span> <span class="pre">(c</span> <span class="pre">-</span> <span class="pre">b)/2,</span> <span class="pre">t_24</span> <span class="pre">=</span> <span class="pre">(a</span> <span class="pre">+</span> <span class="pre">c)/2,</span> <span class="pre">t_34</span> <span class="pre">=</span> <span class="pre">(a</span> <span class="pre">+</span> <span class="pre">b)/2</span></code> satisfy
+        <code class="docutils literal notranslate"><span class="pre">t_23*t_14</span> <span class="pre">+</span> <span class="pre">t_31*t_24</span> <span class="pre">-</span> <span class="pre">t_12*t_34</span> <span class="pre">==</span> <span class="pre">0</span></code> (with <code class="docutils literal notranslate"><span class="pre">t_31*t_24</span> <span class="pre">=</span> <span class="pre">t_12*t_34</span> <span class="pre">+</span> <span class="pre">t_23*t_14</span></code>).</p></li>
+        </ol>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Frozen <a class="reference internal" href="#geometor.casey.feuerbach.CaseySymbolicProof" title="geometor.casey.feuerbach.CaseySymbolicProof"><code class="xref py py-class docutils literal notranslate"><span class="pre">CaseySymbolicProof</span></code></a> certificate with zero residuals.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.prove_casey_feuerbach_heronian">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">prove_casey_feuerbach_heronian</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport" title="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport"><span class="pre">CaseyFeuerbachHeronianReport</span></a></span></span><a class="headerlink" href="#geometor.casey.feuerbach.prove_casey_feuerbach_heronian" title="Link to this definition">¶</a></dt>
+        <dd><p>Verify Casey’s bitangent equation and all 4 Feuerbach tangencies on Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p>
+        <p>Evaluates exact coordinates on <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code> (<code class="docutils literal notranslate"><span class="pre">a=15,</span> <span class="pre">b=13,</span> <span class="pre">c=14</span></code>),
+        confirming:</p>
+        <ul class="simple">
+        <li><p>Midpoint chords <code class="docutils literal notranslate"><span class="pre">t_23</span> <span class="pre">=</span> <span class="pre">15/2</span></code>, <code class="docutils literal notranslate"><span class="pre">t_31</span> <span class="pre">=</span> <span class="pre">13/2</span></code>, <code class="docutils literal notranslate"><span class="pre">t_12</span> <span class="pre">=</span> <span class="pre">7</span></code>.</p></li>
+        <li><p>Midpoint-to-incircle bitangents <code class="docutils literal notranslate"><span class="pre">|Ma</span> <span class="pre">Ta|</span> <span class="pre">=</span> <span class="pre">1/2</span></code>, <code class="docutils literal notranslate"><span class="pre">|Mb</span> <span class="pre">Tb|</span> <span class="pre">=</span> <span class="pre">1/2</span></code>, <code class="docutils literal notranslate"><span class="pre">|Mc</span> <span class="pre">Tc|</span> <span class="pre">=</span> <span class="pre">1</span></code>.</p></li>
+        <li><p>Casey’s equation <code class="docutils literal notranslate"><span class="pre">(15/2)*(1/2)</span> <span class="pre">+</span> <span class="pre">(13/2)*(1/2)</span> <span class="pre">-</span> <span class="pre">7*1</span> <span class="pre">=</span> <span class="pre">15/4</span> <span class="pre">+</span> <span class="pre">13/4</span> <span class="pre">-</span> <span class="pre">7</span> <span class="pre">=</span> <span class="pre">0</span></code>.</p></li>
+        <li><p>Internal tangency of Nine-Points Circle <code class="docutils literal notranslate"><span class="pre">N=(6,</span> <span class="pre">63/16),</span> <span class="pre">R_9=65/16</span></code> with Incircle
+        <code class="docutils literal notranslate"><span class="pre">I=(6,</span> <span class="pre">4),</span> <span class="pre">r=4</span></code> at <code class="docutils literal notranslate"><span class="pre">Fe</span> <span class="pre">=</span> <span class="pre">X(11)</span> <span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">8)</span></code> with <code class="docutils literal notranslate"><span class="pre">|NI|</span> <span class="pre">=</span> <span class="pre">1/16</span> <span class="pre">=</span> <span class="pre">R_9</span> <span class="pre">-</span> <span class="pre">r</span></code>.</p></li>
+        <li><p>External tangency of Nine-Points Circle with all three Excircles <code class="docutils literal notranslate"><span class="pre">(Ia,</span> <span class="pre">r_a),</span> <span class="pre">(Ib,</span> <span class="pre">r_b),</span>
+        <span class="pre">(Ic,</span> <span class="pre">r_c)</span></code> with <code class="docutils literal notranslate"><span class="pre">|N</span> <span class="pre">I_k|</span> <span class="pre">=</span> <span class="pre">R_9</span> <span class="pre">+</span> <span class="pre">r_k</span></code>.</p></li>
+        <li><p>Casey’s 1861 inversion circle <code class="docutils literal notranslate"><span class="pre">(Ma,</span> <span class="pre">1/2)</span></code> cuts both <code class="docutils literal notranslate"><span class="pre">(I,</span> <span class="pre">4)</span></code> and <code class="docutils literal notranslate"><span class="pre">(Ia,</span> <span class="pre">14)</span></code>
+        orthogonally and inverts their fourth common internal tangent into the Nine-Points Circle.</p></li>
+        </ul>
+        <dl class="field-list simple">
+        <dt class="field-odd">Returns<span class="colon">:</span></dt>
+        <dd class="field-odd"><p>Frozen <a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachHeronianReport" title="geometor.casey.feuerbach.CaseyFeuerbachHeronianReport"><code class="xref py py-class docutils literal notranslate"><span class="pre">CaseyFeuerbachHeronianReport</span></code></a> with exact rational values.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.construct_euler_nine_point">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">construct_euler_nine_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.feuerbach.EulerNinePointResult" title="geometor.casey.feuerbach.EulerNinePointResult"><span class="pre">EulerNinePointResult</span></a></span></span><a class="headerlink" href="#geometor.casey.feuerbach.construct_euler_nine_point" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the Euler Line and Nine-Points Circle by straightedge and compass (Unit 1).</p>
+        <p>Follows Casey, Book I, Misc. Ex. 42–46 (p. 20) and Book IV, Prop. 5 (pp. 57–58) on
+        <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>, verifying exact incidence of all nine classical points
+        and Euler trisection <code class="docutils literal notranslate"><span class="pre">|HG|^2</span> <span class="pre">=</span> <span class="pre">4*|GO|^2</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>. Created with
+        <code class="docutils literal notranslate"><span class="pre">auto_intersect=False</span></code> when <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.casey.feuerbach.EulerNinePointResult" title="geometor.casey.feuerbach.EulerNinePointResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">EulerNinePointResult</span></code></a>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.feuerbach.construct_casey_feuerbach">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.feuerbach.</span></span><span class="sig-name descname"><span class="pre">construct_casey_feuerbach</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><span class="pre">geometor.model.Model</span></a><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachResult" title="geometor.casey.feuerbach.CaseyFeuerbachResult"><span class="pre">CaseyFeuerbachResult</span></a></span></span><a class="headerlink" href="#geometor.casey.feuerbach.construct_casey_feuerbach" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct Casey’s Inversion Proof &amp; Feuerbach’s Tangency Theorem on <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code>.</p>
+        <p>Builds the Nine-Points Circle, constructs the Incentre <code class="docutils literal notranslate"><span class="pre">I</span></code> and Incircle <code class="docutils literal notranslate"><span class="pre">(I,</span> <span class="pre">Ta)</span></code> by
+        pure compass-and-straightedge (Euclid IV.4), erects Casey’s 1861 orthogonal inversion
+        circle <code class="docutils literal notranslate"><span class="pre">(Ma,</span> <span class="pre">Ta)</span></code> (Book VI, Sec. IV, p. 106), constructs the fourth common internal
+        tangent of <code class="docutils literal notranslate"><span class="pre">(I,</span> <span class="pre">r)</span></code> and <code class="docutils literal notranslate"><span class="pre">(Ia,</span> <span class="pre">r_a)</span></code> via reflection across line of centres <code class="docutils literal notranslate"><span class="pre">AI</span></code>, and
+        discovers the exact Feuerbach point <code class="docutils literal notranslate"><span class="pre">Fe</span> <span class="pre">=</span> <span class="pre">X(11)</span> <span class="pre">=</span> <span class="pre">(6,</span> <span class="pre">8)</span></code> as <code class="docutils literal notranslate"><span class="pre">(N,</span> <span class="pre">Ma)</span> <span class="pre">∩</span> <span class="pre">(I,</span> <span class="pre">Ta)</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>model</strong> – Optional existing <a class="reference external" href="https://geometor.github.io/model/modules/index.html#geometor.model.Model" title="(in GEOMETOR • model v0.6.0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code></a>.</p>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Populated <a class="reference internal" href="#geometor.casey.feuerbach.CaseyFeuerbachResult" title="geometor.casey.feuerbach.CaseyFeuerbachResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">CaseyFeuerbachResult</span></code></a>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../concordance/index.html" title="geometor.casey.concordance">&larr; <span class="nav-label">geometor.casey.concordance</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../invariants/index.html" title="geometor.casey.invariants"><span class="nav-label">geometor.casey.invariants</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../../../../tags/casey.html">casey</a></li>
+        <li><a href="../../../../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../../../../tags/codex.html">codex</a></li>
+        <li><a href="../../../../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../../../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../../../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

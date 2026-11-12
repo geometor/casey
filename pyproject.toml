@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometor-casey"
+dynamic = ["version"]
+authors = [
+  { name = "phi ARCHITECT", email = "phi@geometor.com" },
+]
+description = "Scholarly Digital Scriptorium Book Codex and exact symbolic demonstrations for John Casey's A Sequel to the First Six Books of the Elements of Euclid (1888 / 1892)."
+readme = "README.rst"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+dependencies = [
+  "sympy",
+  "rich",
+  "geometor-model",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[project.scripts]
+casey = "geometor.casey.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["geometor*"]
+namespaces = true
+
+[tool.setuptools.dynamic]
+version = { attr = "geometor.casey.__version__" }
+
+[project.urls]
+"Website" = "https://geometor.github.io/casey"
+"Repository" = "https://github.com/geometor/casey"
+"Issues" = "https://github.com/geometor/casey/issues"
+
+[tool.ruff]
+target-version = "py313"
+line-length = 100
+lint.select = ["E", "F", "I", "ANN", "D"]
+lint.ignore = ["E501"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "../model/src"]
+testpaths = ["tests"]
