@@ -21,6 +21,6 @@ resources/**/pages/
 resources/**/*.png
 scratch/
 
-# Compiled Sphinx HTML output is tracked only if desired; keep doctrees ignored
-docs/.doctrees/
-docs/.buildinfo
+# Compiled Sphinx HTML output & generated AutoAPI RST
+docs/
+docsrc/modules/api/
