@@ -1,0 +1,294 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unit 5: Supplementary Chapter, Secs. I &amp; III (Part 1) — Symmedians, Lemoine’s Point &amp; Lemoine Circles &mdash; A Sequel to the First Six Books of the Elements of Euclid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../index.html">A Sequel to the First Six Books of the Elements of Euclid</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-4/unit-4-en.html" title="Unit 4: Book VI Extensions, Part B &amp; Book III Props. 25, 27 — Inversion, Casey’s &amp; Feuerbach’s Theorems, Poles &amp; Polars">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <strong class="book-track-item is-active" aria-current="page">English</strong>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-5-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="unit-5-notes.html">Notes</a>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-6/unit-6-en.html" title="Unit 6: Supplementary Chapter, Secs. II–VII &amp; Misc. — Brocard Geometry, Tucker/Taylor Circles &amp; Associated Points"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="unit-5-supplementary-chapter-secs-i-iii-part-1-symmedians-lemoine-s-point-lemoine-circles">
+        <span id="sequel-unit-5-en"></span><h1>Unit 5: Supplementary Chapter, Secs. I &amp; III (Part 1) — Symmedians, Lemoine’s Point &amp; Lemoine Circles<a class="headerlink" href="#unit-5-supplementary-chapter-secs-i-iii-part-1-symmedians-lemoine-s-point-lemoine-circles" title="Link to this heading">¶</a></h1>
+        <p class="rubric">John Casey — <em>Supplementary Chapter on the Recent Elementary Geometry of the Triangle</em> (5th ed., 1888 / 6th ed., 1892)</p>
+        <nav class="contents local" id="in-this-unit">
+        <p class="topic-title">In This Unit</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="#section-i-isogonal-isotomic-conjugates-and-antiparallels" id="id1">Section I — Isogonal &amp; Isotomic Conjugates and Antiparallels</a></p></li>
+        <li><p><a class="reference internal" href="#theory-of-symmedians-lemoine-s-point-photonmathplaceholder000691end" id="id2">Theory of Symmedians &amp; Lemoine’s Point $K = X(6)$</a></p></li>
+        <li><p><a class="reference internal" href="#section-iii-part-1-lemoine-s-first-circle-the-cosine-circle" id="id3">Section III (Part 1) — Lemoine’s First Circle &amp; the Cosine Circle</a></p></li>
+        </ul>
+        </nav>
+        <hr class="docutils" />
+        <div class="folio-milestone" id="folio-0191" data-folio="0191" data-page="165">[Folio 0191 | p. 165]</div>
+        <section class="level-2" id="section-i-isogonal-isotomic-conjugates-and-antiparallels">
+        <h2>Section I — Isogonal &amp; Isotomic Conjugates and Antiparallels<a class="headerlink" href="#section-i-isogonal-isotomic-conjugates-and-antiparallels" title="Link to this heading">¶</a></h2>
+        <p><strong>Definition (:term:`Isogonal Conjugates &lt;isogonal-conjugates&gt;`).</strong> Two straight lines drawn from a vertex of a triangle making equal angles with the internal bisector of that angle are called <em>isogonal conjugates</em>.</p>
+        <div class="enunciation">
+        <p><strong>Supplementary Chapter, Section I, Proposition 1 (Isogonal Concurrency &amp; Pedal Circle).</strong> <em>If three lines drawn from the vertices</em> $A, B, C$ <em>of a triangle concur at a point</em> $P$, <em>their three isogonal conjugates also concur at a single point</em> $P'$ <em>(the Isogonal Conjugate of</em> $P$*); and the six feet of perpendiculars let fall from* $P$ <em>and</em> $P'$ <em>upon the three sides of</em> $\triangle ABC$ <em>lie upon a single circle whose centre is the midpoint of</em> $PP'$.</p>
+        <p><em>Classical Specialization:</em> The circumcentre <span class="geom-ref" data-ref="0205.g1:O" title="O">O</span> and orthocentre $H$ are isogonal conjugates, and their shared six-point pedal circle (the three side midpoints and three altitude feet) is the <strong>Nine-Points Circle</strong> centered at $N = \operatorname{midpoint}(O, H)$!</p>
+        </div>
+        <div class="folio-milestone" id="folio-0193" data-folio="0193" data-page="167">[Folio 0193 | p. 167]</div>
+        <p><strong>Definition (:term:`Isotomic Conjugates &lt;isotomic-conjugates&gt;`).</strong> Two points $D, D'$ on side $BC$ equidistant from its midpoint $M_a$ ($BD = D'C$) are called <em>isotomic</em>; by Ceva’s Theorem, if $AD, BE, CF$ concur at $P$, their isotomic cevians $AD', BE', CF'$ concur at the <em>Isotomic Conjugate</em> of $P$ (for instance, the Gergonne and Nagel points).</p>
+        <div class="folio-milestone" id="folio-0195" data-folio="0195" data-page="169">[Folio 0195 | p. 169]</div>
+        <p><strong>Definition (:term:`Antiparallels &lt;antiparallel&gt;`).</strong> A transversal cutting $AB$ and $AC$ at $D$ and $E$ so that $\angle ADE = \angle ACB$ and $\angle AED = \angle ABC$ is called <em>antiparallel</em> to $BC$ with respect to $\angle A$. Every antiparallel to $BC$ makes a cyclic quadrilateral $BCED$ with $BC$, and is parallel to the tangent to the circumcircle <span class="geom-ref" data-ref="0205.g1:( O A )" title="( O A )">(O A)</span> at <span class="geom-ref" data-ref="0205.g1:A" title="A">A</span> (by Euclid <code class="docutils literal notranslate"><span class="pre">III.32</span></code>).</p>
+        <hr class="docutils" />
+        <div class="folio-milestone" id="folio-0196" data-folio="0196" data-page="170">[Folio 0196 | p. 170]</div>
+        </section>
+        <section class="level-2" id="theory-of-symmedians-lemoine-s-point-k-x-6">
+        <h2>Theory of Symmedians &amp; Lemoine’s Point $K = X(6)$<a class="headerlink" href="#theory-of-symmedians-lemoine-s-point-k-x-6" title="Link to this heading">¶</a></h2>
+        <p><strong>Definition (:term:`Symmedians &lt;symmedian&gt;`).</strong> The isogonal conjugate of a median of a triangle is called a <strong>Symmedian</strong>.</p>
+        <div class="enunciation">
+        <p><strong>Section I, Propositions 5–7 (:person:`Lemoine’s &lt;lemoine&gt;` Symmedian Point &amp; Minimum-Square Property).</strong></p>
+        <ol class="arabic">
+        <li><p><strong>Concurrency at $K$:</strong> <em>The three symmedians</em> <span class="geom-ref" data-ref="0205.g1:[ A K ]" title="[ A K ]">[A K]</span>, <span class="geom-ref" data-ref="0205.g1:[ B K ]" title="[ B K ]">[B K]</span>, <span class="geom-ref" data-ref="0205.g1:[ C K ]" title="[ C K ]">[C K]</span> <em>of</em> <span class="geom-ref" data-ref="0205.g1:&lt; A B C &gt;" title="&lt; A B C &gt;">△ABC</span> <em>concur at a single point</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> (<em>the Symmedian Point or Lemoine’s Point,</em> $X(6)$, <em>isogonal conjugate of the Centroid</em> $G$).</p></li>
+        <li><p><strong>Antiparallel Bisection &amp; Tangency Construction:</strong> <em>Each symmedian</em> <span class="geom-ref" data-ref="0205.g1:[ A K ]" title="[ A K ]">[A K]</span> <em>bisects every antiparallel to</em> $BC$, <em>passes through the pole of</em> $BC$ <em>with respect to the circumcircle</em> <span class="geom-ref" data-ref="0205.g1:( O A )" title="( O A )">(O A)</span> <em>(the intersection of the circumcircle tangents at</em> $B$ <em>and</em> $C$*), and divides the opposite side* $BC$ <em>in the ratio of the squares of the adjacent sides</em> ($c^2 : b^2$).</p></li>
+        <li><p><strong>Proportional Distances &amp; Lagrange’s Minimum:</strong> <em>The perpendicular distances</em> $(x, y, z)$ <em>from</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>upon the sides</em> $(a, b, c)$ <em>are directly proportional to the lengths of those sides:</em></p>
+        <p>$$
+              \frac{x}{a} = \frac{y}{b} = \frac{z}{c} = \frac{2\Delta}{a^2 + b^2 + c^2},
+              $$</p>
+        <p><em>and among all points in the plane,</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>strictly minimizes the sum of squares of perpendicular distances to the sides,</em> $x^2 + y^2 + z^2 \ge \frac{4\Delta^2}{a^2 + b^2 + c^2}$.</p>
+        </li>
+        </ol>
+        </div>
+        <p><strong>Demonstration of Minimum Property.</strong> By Cauchy’s / Lagrange’s identity,</p>
+        <p>$$
+        (a^2 + b^2 + c^2)(x^2 + y^2 + z^2) - (ax + by + cz)^2 = (bx - ay)^2 + (cy - bz)^2 + (az - cx)^2 \ge 0.
+        $$</p>
+        <p>Since $ax + by + cz = 2\Delta$ is constant for every interior point, $x^2 + y^2 + z^2$ attains its unique minimum $\frac{4\Delta^2}{a^2 + b^2 + c^2}$ if and only if $x : y : z = a : b : c$, which uniquely characterizes <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span>. Q.E.D.</p>
+        <hr class="docutils" />
+        <div class="folio-milestone" id="folio-0205" data-folio="0205" data-page="179">[Folio 0205 | p. 179]</div>
+        </section>
+        <section class="level-2" id="section-iii-part-1-lemoine-s-first-circle-the-cosine-circle">
+        <h2>Section III (Part 1) — Lemoine’s First Circle &amp; the Cosine Circle<a class="headerlink" href="#section-iii-part-1-lemoine-s-first-circle-the-cosine-circle" title="Link to this heading">¶</a></h2>
+        <div class="enunciation">
+        <p><strong>Section III, Proposition 1 (:term:`Lemoine’s First Circle / Triplicate-Ratio Circle &lt;lemoine-circle&gt;`).</strong> <em>If through the Symmedian Point</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>three straight lines</em> <span class="geom-ref" data-ref="0205.g1:[ parBC ]" title="[ parBC ]">[parBC]</span>, <span class="geom-ref" data-ref="0205.g1:[ parCA ]" title="[ parCA ]">[parCA]</span>, <span class="geom-ref" data-ref="0205.g1:[ parAB ]" title="[ parAB ]">[parAB]</span> <em>be drawn parallel respectively to the sides</em> <span class="geom-ref" data-ref="0205.g1:[ B C ]" title="[ B C ]">[BC]</span>, <span class="geom-ref" data-ref="0205.g1:[ C A ]" title="[ C A ]">[CA]</span>, <span class="geom-ref" data-ref="0205.g1:[ A B ]" title="[ A B ]">[AB]</span>, <em>meeting the sides in six points</em> <span class="geom-ref" data-ref="0205.g1:D1" title="D1">D1</span>, <span class="geom-ref" data-ref="0205.g1:D2" title="D2">D2</span> <em>on</em> $BC$, <span class="geom-ref" data-ref="0205.g1:E1" title="E1">E1</span>, <span class="geom-ref" data-ref="0205.g1:E2" title="E2">E2</span> <em>on</em> $CA$, <em>and</em> <span class="geom-ref" data-ref="0205.g1:F1" title="F1">F1</span>, <span class="geom-ref" data-ref="0205.g1:F2" title="F2">F2</span> <em>on</em> $AB$:</p>
+        <ol class="arabic simple">
+        <li><p><em>All six points lie upon a single circle—Lemoine’s First Circle</em> <span class="geom-ref" data-ref="0205.g1:( Ml D1 )" title="( Ml D1 )">(Ml D1)</span>;</p></li>
+        <li><p><em>Its centre</em> <span class="geom-ref" data-ref="0205.g1:Ml" title="Ml">Ml</span> ($X(182)$) <em>is the midpoint of the segment joining the Circumcentre</em> <span class="geom-ref" data-ref="0205.g1:O" title="O">O</span> <em>and Symmedian Point</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span>;</p></li>
+        <li><p><em>The three chords</em> $|D_1 D_2|, |E_1 E_2|, |F_1 F_2|$ <em>cut off upon the sides</em> $BC, CA, AB$ <em>are directly proportional to the</em> <strong>cubes</strong> <em>of those sides</em> ($a^3 : b^3 : c^3$, <em>hence :person:`Tucker’s &lt;tucker&gt;` name “Triplicate-Ratio Circle”).</em></p></li>
+        </ol>
+        </div>
+        <figure class="photon-picture photon-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0205.g1" role="img" aria-label="Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle">
+          <title>Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle</title>
+          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
+          <g id="elements">
+            <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="182.5,339 497.5,339 295,69" data-ref="&lt; A B C &gt;" />
+              <circle class="geom-circle" cx="340" cy="246.19" r="182.81" data-ref="( O A )" data-aliases="( O ) | ( O B ) | ( O C ) | ( A B C )" fill="none"><title>( O A ): (x - 7)**2 + (y - 33/8)**2 - 4225/64 = 0</title></circle>
+              <circle class="geom-circle featured-circle" cx="325.05" cy="247.75" r="105.19" data-ref="( Ml D1 )" data-aliases="( Ml ) | ( Ml D2 ) | ( Ml E1 ) | ( Ml E2 ) | ( Ml F1 ) | ( Ml F2 ) | ( D1 D2 E1 )" fill="none"><title>( Ml D1 ): (x - 1869/295)**2 + (y - 19143/4720)**2 - 19477081/891136 = 0</title></circle>
+              <circle class="geom-circle secondary-circle" cx="310.1" cy="249.31" r="104.11" data-ref="( K Cb2 )" data-aliases="( K )" fill="none"><title>( K Cb2 ): (x - 1673/295)**2 + (y - 1176/295)**2 - 74529/3481 = 0</title></circle>
+              <path class="geom-line carrier-line" d="M 592.75 466 L 423.25 240 L 253.75 14" data-ref="[ B C ]" data-aliases="/ B C / | [ B D1 ] | / B D1 / | [ B D2 ] | / B D2 / | [ C D1 ] | / C D1 / | [ C D2 ] | / C D2 / | [ D1 D2 ] | / D1 D2 /" fill="none"><title>[ B C ]: -12*x - 9*y + 168 = 0</title></path>
+              <path class="geom-line carrier-line" d="M 129.58 466 L 223.75 240 L 317.92 14" data-ref="[ C A ]" data-aliases="[ A C ] | / A C / | [ A E1 ] | / A E1 / | [ A E2 ] | / A E2 / | [ C E1 ] | / C E1 / | [ C E2 ] | / C E2 / | [ E1 E2 ] | / E1 E2 /" fill="none"><title>[ C A ]: 12*x - 5*y = 0</title></path>
+              <path class="geom-line carrier-line" d="M 14 339 L 340 339 L 666 339" data-ref="[ A B ]" data-aliases="/ A B / | [ A F1 ] | / A F1 / | [ A F2 ] | / A F2 / | [ B F1 ] | / B F1 / | [ B F2 ] | / B F2 / | [ F1 F2 ] | / F1 F2 /" fill="none"><title>[ A B ]: y = 0</title></path>
+              <path class="geom-line symmedian-line" d="M 14 457.44 L 329.43 235.72 L 644.85 14" data-ref="[ A K ]" data-aliases="/ A K /" fill="none"><title>[ A K ]: -84*x/5 + 239*y/10 = 0</title></path>
+              <path class="geom-line symmedian-line" d="M 14 107.58 L 340 263.62 L 666 419.65" data-ref="[ B K ]" data-aliases="/ B K /" fill="none"><title>[ B K ]: -28*x/3 - 39*y/2 + 392/3 = 0</title></path>
+              <path class="geom-line symmedian-line" d="M 328.25 466 L 309.32 240 L 290.39 14" data-ref="[ C K ]" data-aliases="/ C K /" fill="none"><title>[ C K ]: 788*x/33 + 2*y - 4732/33 = 0</title></path>
+              <path class="geom-line cross-line" d="M 472.62 466 L 303.12 240 L 133.62 14" data-ref="[ parBC ]" data-aliases="[ K E2 ] | / K E2 / | [ K F1 ] | / K F1 / | [ E2 F1 ] | / E2 F1 /" fill="none"><title>[ parBC ]: -12*x - 9*y + 6132/59 = 0</title></path>
+              <path class="geom-line cross-line" d="M 219.81 466 L 313.98 240 L 408.15 14" data-ref="[ parCA ]" data-aliases="[ K D1 ] | / K D1 / | [ K F2 ] | / K F2 / | [ D1 F2 ] | / D1 F2 /" fill="none"><title>[ parCA ]: 12*x - 5*y - 14196/295 = 0</title></path>
+              <path class="geom-line cross-line" d="M 14 249.31 L 340 249.31 L 666 249.31" data-ref="[ parAB ]" data-aliases="[ K D2 ] | / K D2 / | [ K E1 ] | / K E1 / | [ D2 E1 ] | / D2 E1 /" fill="none"><title>[ parAB ]: y - 1176/295 = 0</title></path>
+            </g>
+            <g id="highlights"></g>
+            <g id="points">
+              <circle class="geom-point" cx="182.5" cy="339" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
+              <circle class="geom-point" cx="497.5" cy="339" r="4.4" data-ref="B" data-latex-x="14" data-latex-y="0"><title>B = (14, 0)</title></circle>
+              <circle class="geom-point" cx="295" cy="69" r="4.4" data-ref="C" data-latex-x="5" data-latex-y="12"><title>C = (5, 12)</title></circle>
+              <circle class="geom-point-halo" cx="340" cy="246.19" r="8.3" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+              <circle class="geom-point center-point" cx="340" cy="246.19" r="4.3" data-ref="O" data-latex-x="7" data-latex-y="\frac{33}{8}"><title>O = (7, 33/8)</title></circle>
+              <circle class="geom-point-halo" cx="310.1" cy="249.31" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+              <circle class="geom-point highlight-point" cx="310.1" cy="249.31" r="5.5" data-ref="K" data-latex-x="\frac{1673}{295}" data-latex-y="\frac{1176}{295}"><title>K = (1673/295, 1176/295)</title></circle>
+              <circle class="geom-point" cx="353" cy="146.34" r="3.9" data-ref="D1" data-latex-x="\frac{4471}{590}" data-latex-y="\frac{2526}{295}"><title>D1 = (4471/590, 2526/295)</title></circle>
+              <circle class="geom-point" cx="430.23" cy="249.31" r="3.9" data-ref="D2" data-latex-x="\frac{3248}{295}" data-latex-y="\frac{1176}{295}"><title>D2 = (3248/295, 1176/295)</title></circle>
+              <circle class="geom-point" cx="219.87" cy="249.31" r="3.9" data-ref="E1" data-latex-x="\frac{98}{59}" data-latex-y="\frac{1176}{295}"><title>E1 = (98/59, 1176/295)</title></circle>
+              <circle class="geom-point" cx="252.1" cy="171.97" r="3.9" data-ref="E2" data-latex-x="\frac{365}{118}" data-latex-y="\frac{438}{59}"><title>E2 = (365/118, 438/59)</title></circle>
+              <circle class="geom-point" cx="377.37" cy="339" r="3.9" data-ref="F1" data-latex-x="\frac{511}{59}" data-latex-y="0"><title>F1 = (511/59, 0)</title></circle>
+              <circle class="geom-point" cx="272.73" cy="339" r="3.9" data-ref="F2" data-latex-x="\frac{1183}{295}" data-latex-y="0"><title>F2 = (1183/295, 0)</title></circle>
+              <circle class="geom-point-halo" cx="325.05" cy="247.75" r="8.3" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+              <circle class="geom-point center-point" cx="325.05" cy="247.75" r="4.3" data-ref="Ml" data-latex-x="\frac{1869}{295}" data-latex-y="\frac{19143}{4720}"><title>Ml = (1869/295, 19143/4720)</title></circle>
+            </g>
+            <g id="labels">
+              <text class="geom-label" x="158.3" y="335.38" data-ref="A">A</text>
+              <text class="geom-label" x="491.74" y="362.86" data-ref="B">B</text>
+              <text class="geom-label" x="307.68" y="81.8" data-ref="C">C</text>
+              <text class="geom-label" x="352.59" y="242.61" data-ref="O">O</text>
+              <text class="geom-label" x="284.91" y="262.57" data-ref="K">K</text>
+              <text class="geom-label" x="364.43" y="142.93" data-ref="D1">D<tspan class="geom-label-sub" dy="3">1</tspan></text>
+              <text class="geom-label" x="435.78" y="239.43" data-ref="D2">D<tspan class="geom-label-sub" dy="3">2</tspan></text>
+              <text class="geom-label" x="225.42" y="268.36" data-ref="E1">E<tspan class="geom-label-sub" dy="3">1</tspan></text>
+              <text class="geom-label" x="265.62" y="176.56" data-ref="E2">E<tspan class="geom-label-sub" dy="3">2</tspan></text>
+              <text class="geom-label" x="368.91" y="362.36" data-ref="F1">F<tspan class="geom-label-sub" dy="3">1</tspan></text>
+              <text class="geom-label" x="284.16" y="335.6" data-ref="F2">F<tspan class="geom-label-sub" dy="3">2</tspan></text>
+              <text class="geom-label" x="316.59" y="233.16" data-ref="Ml">M<tspan class="geom-label-sub" dy="3">L</tspan></text>
+            </g>
+          </g>
+        </svg>
+        </figure>
+        <p><strong>Demonstration.</strong> In parallelogram $A F_2 K E_1$ ($K E_1 \parallel AB$ and $K F_2 \parallel AC$), the diagonal $AK$ lies along the symmedian <span class="geom-ref" data-ref="0205.g1:[ A K ]" title="[ A K ]">[A K]</span>. Because the adjacent sides of $A F_2 K E_1$ are proportional to the distances from $K$ to $AC, AB$ divided by $\sin A$—hence proportional to $b : c$—triangle $\triangle A F_2 E_1$ is inversely similar to $\triangle ABC$, so the chord $E_1 F_2$ is <strong>antiparallel</strong> to $BC$! Meanwhile $E_2 F_1$ passes through $K$ <strong>parallel</strong> to $BC$; hence $F_2 F_1 E_2 E_1$ is an isosceles-angle cyclic trapezium, making $E_1, E_2, F_1, F_2$ concyclic. By cyclic symmetry, $F_1, F_2, D_1, D_2$ and $D_1, D_2, E_1, E_2$ are each concyclic; since any two of these three circles share two points on one side and would otherwise have three non-concurrent radical chords $BC, CA, AB$, all six points $D_1, D_2, E_1, E_2, F_1, F_2$ lie on a single circle <span class="geom-ref" data-ref="0205.g1:( Ml D1 )" title="( Ml D1 )">(Ml D1)</span>. Moreover, the perpendicular bisectors of the three antiparallel chords $D_2 E_1, E_2 F_1, F_2 D_1$ bisect segment $OK$, fixing the centre at <span class="geom-ref" data-ref="0205.g1:Ml" title="Ml">Ml</span> $= \operatorname{midpoint}(O, K)$. Finally, since $K = (a^2 : b^2 : c^2)$, the parallel intercepts cut off middle segment $|D_1 D_2| = \frac{a^3}{a^2 + b^2 + c^2}$, proportional to $a^3 : b^3 : c^3$. Q.E.D.</p>
+        <div class="folio-milestone" id="folio-0209" data-folio="0209" data-page="183">[Folio 0209 | p. 183]</div>
+        <div class="porism">
+        <p><strong>Proposition 1, Corollary 4 (:term:`The Cosine Circle / Second Lemoine Circle &lt;cosine-circle&gt;`).</strong> <em>If through</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>three straight lines be drawn</em> <strong>antiparallel</strong> <em>respectively to</em> $BC, CA, AB$, <em>each is bisected at</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>and all three antiparallel segments have equal length! Consequently their six extremities on the sides of</em> $\triangle ABC$ <em>lie on a single circle</em> <span class="geom-ref" data-ref="0205.g1:( K Cb2 )" title="( K Cb2 )">(K Cb2)</span> <em>centered at</em> <span class="geom-ref" data-ref="0205.g1:K" title="K">K</span> <em>itself, cutting off chords on</em> $BC, CA, AB$ <em>proportional to</em> $\cos A : \cos B : \cos C$ <em>(hence called the Cosine Circle).</em></p>
+        </div>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../unit-4/unit-4-en.html" title="Unit 4: Book VI Extensions, Part B &amp; Book III Props. 25, 27 — Inversion, Casey’s &amp; Feuerbach’s Theorems, Poles &amp; Polars">&larr; <span class="nav-label">Unit 4: Book VI Extensions, Part B & Book III Props. 25, 27 — Inversion, Casey’s & Feuerbach’s Theorems, Poles & Polars</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">A Sequel to the First Six Books of the Elements of Euclid</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../unit-6/unit-6-en.html" title="Unit 6: Supplementary Chapter, Secs. II–VII &amp; Misc. — Brocard Geometry, Tucker/Taylor Circles &amp; Associated Points"><span class="nav-label">Unit 6: Supplementary Chapter, Secs. II–VII & Misc. — Brocard Geometry, Tucker/Taylor Circles & Associated Points</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../tags/casey.html">casey</a></li>
+        <li><a href="../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../tags/codex.html">codex</a></li>
+        <li><a href="../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,545 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../../../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>geometor.casey.invariants &mdash; GEOMETOR • casey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/css/styles.css?v=66998e95" />
+  <link rel="stylesheet" type="text/css" href="../../../../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../../../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../../../../_static/favicon.ico" />
+</head>
+
+<body class="book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../../../../index.html">
+        <h1>GEOMETOR • casey</h1>
+      </a>
+      <div class="org-repo">
+        <span class="org">GEOMETOR</span>
+        •
+        <span class="repo">casey</span>
+      </div>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../../../../../sequel_to_euclid/index.html"  >A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID</a>
+        </li>
+        <li>
+          <a href="../../../../../mission/index.html"  >Mission</a>
+        </li>
+        <li>
+          <a href="../../../../../about/index.html"  >About John Casey & the Digital Edition</a>
+        </li>
+        <li>
+          <a href="../../../../../demos/index.html"  >Constructive Demonstrations</a>
+        </li>
+        <li>
+          <a href="../../../../../log/index.html"  >log</a>
+        </li>
+        <li>
+          <a href="../../../../index.html" class="is-active" aria-selected="true" >modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <div class="book-header-identity">
+            <a class="book-portal-link" href="../../../../../index.html" title="Return to Project Portal">&larr; casey</a>
+            <span class="book-header-sep">/</span>
+            <a class="book-title-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-header-breadcrumbs book-header-badges" role="navigation" aria-label="Breadcrumbs">
+            <a class="book-crumb-link" href="../../../../index.html">modules</a>
+          </div>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../feuerbach/index.html" title="geometor.casey.feuerbach">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../poles_polars/index.html" title="geometor.casey.poles_polars"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content" role="main">
+        <section class="level-1" id="module-geometor.casey.invariants">
+        <span id="geometor-casey-invariants"></span><h1>geometor.casey.invariants<a class="headerlink" href="#module-geometor.casey.invariants" title="Link to this heading">¶</a></h1>
+        <p>Exact symbolic circle, inversion, polar, and Euclidean helper invariants for Casey’s <em>Sequel</em>.</p>
+        <p>All algebraic predicates and compass-and-straightedge sub-constructions operate strictly over
+        exact SymPy expressions (<code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Rational</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.Integer</span></code>, and closed-form
+        radicals) without floating-point approximations.</p>
+        <section class="level-2" id="attributes">
+        <h2>Attributes<a class="headerlink" href="#attributes" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.HERONIAN_VERTICES" title="geometor.casey.invariants.HERONIAN_VERTICES"><code class="xref py py-obj docutils literal notranslate"><span class="pre">HERONIAN_VERTICES</span></code></a></p></td>
+        <td><p>Canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> scalene triangle <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>.</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="functions">
+        <h2>Functions<a class="headerlink" href="#functions" title="Link to this heading">¶</a></h2>
+        <table class="autosummary longtable docutils align-default">
+        <tbody>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.signed_triangle_area" title="geometor.casey.invariants.signed_triangle_area"><code class="xref py py-obj docutils literal notranslate"><span class="pre">signed_triangle_area</span></code></a>(a_pt, b_pt, c_pt) → sympy.Expr</p></td>
+        <td><p>Compute the exact signed area of oriented triangle <code class="docutils literal notranslate"><span class="pre">ABC</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.circle_power" title="geometor.casey.invariants.circle_power"><code class="xref py py-obj docutils literal notranslate"><span class="pre">circle_power</span></code></a>(pt, circ) → sympy.Expr</p></td>
+        <td><p>Compute the exact power <code class="docutils literal notranslate"><span class="pre">|PO|^2</span> <span class="pre">-</span> <span class="pre">r^2</span></code> of point <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.are_orthogonal_circles" title="geometor.casey.invariants.are_orthogonal_circles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">are_orthogonal_circles</span></code></a>(c1, c2) → bool</p></td>
+        <td><p>Return <code class="docutils literal notranslate"><span class="pre">True</span></code> iff circles <code class="docutils literal notranslate"><span class="pre">c1</span></code> and <code class="docutils literal notranslate"><span class="pre">c2</span></code> cut orthogonally (Casey Book III, Prop. 22).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.bitangent_quadrance" title="geometor.casey.invariants.bitangent_quadrance"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bitangent_quadrance</span></code></a>(c1, c2, *[, internal]) → sympy.Expr</p></td>
+        <td><p>Compute the exact squared common-tangent length <code class="docutils literal notranslate"><span class="pre">t_12^2</span></code> between circles or null-circles.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.bitangent_length" title="geometor.casey.invariants.bitangent_length"><code class="xref py py-obj docutils literal notranslate"><span class="pre">bitangent_length</span></code></a>(c1, c2, *[, internal]) → sympy.Expr</p></td>
+        <td><p>Compute the exact common-tangent length <code class="docutils literal notranslate"><span class="pre">t_12</span></code> between two circles or points.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.invert_point" title="geometor.casey.invariants.invert_point"><code class="xref py py-obj docutils literal notranslate"><span class="pre">invert_point</span></code></a>(pt, center, radius_sq) → sympy.geometry.Point</p></td>
+        <td><p>Compute the exact circular inverse of <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">(center,</span> <span class="pre">sqrt(radius_sq))</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.polar_line" title="geometor.casey.invariants.polar_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">polar_line</span></code></a>(pt, circ) → sympy.geometry.Line</p></td>
+        <td><p>Compute the exact polar line of <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code> (Casey Book III, Def. p. 44).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.pole_of_line" title="geometor.casey.invariants.pole_of_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pole_of_line</span></code></a>(line, circ) → sympy.geometry.Point</p></td>
+        <td><p>Compute the exact pole of <code class="docutils literal notranslate"><span class="pre">line</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code> (Casey Book III, Def. p. 44).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.radical_axis_line" title="geometor.casey.invariants.radical_axis_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">radical_axis_line</span></code></a>(c1, c2) → sympy.geometry.Line</p></td>
+        <td><p>Compute the exact radical axis of two non-concentric circles (Casey Book III, Prop. 23).</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.barycentric_point" title="geometor.casey.invariants.barycentric_point"><code class="xref py py-obj docutils literal notranslate"><span class="pre">barycentric_point</span></code></a>(a_pt, b_pt, c_pt, w_a, w_b, w_c) → sympy.geometry.Point</p></td>
+        <td><p>Compute the exact homogeneous barycentric point <code class="docutils literal notranslate"><span class="pre">(w_a</span> <span class="pre">:</span> <span class="pre">w_b</span> <span class="pre">:</span> <span class="pre">w_c)</span></code> on <code class="docutils literal notranslate"><span class="pre">ABC</span></code>.</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.compass_perp_bisector" title="geometor.casey.invariants.compass_perp_bisector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compass_perp_bisector</span></code></a>(model, p1, p2, *[, ID, classes, ...]) → sympy.geometry.Line</p></td>
+        <td><p>Construct the perpendicular bisector of <code class="docutils literal notranslate"><span class="pre">p1</span> <span class="pre">p2</span></code> by Euclid I.10 symmetric circles.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.compass_midpoint" title="geometor.casey.invariants.compass_midpoint"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compass_midpoint</span></code></a>(model, p1, p2, *[, ID, classes]) → sympy.geometry.Point</p></td>
+        <td><p>Construct the exact midpoint of <code class="docutils literal notranslate"><span class="pre">p1</span> <span class="pre">p2</span></code> by straightedge and compass (Euclid I.10).</p></td>
+        </tr>
+        <tr class="row-odd"><td><p><a class="reference internal" href="#geometor.casey.invariants.compass_perpendicular_line" title="geometor.casey.invariants.compass_perpendicular_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compass_perpendicular_line</span></code></a>(model, line_p1, line_p2, ...) → sympy.geometry.Line</p></td>
+        <td><p>Construct the perpendicular to line <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span></code> through <code class="docutils literal notranslate"><span class="pre">through</span></code>.</p></td>
+        </tr>
+        <tr class="row-even"><td><p><a class="reference internal" href="#geometor.casey.invariants.compass_parallel_line" title="geometor.casey.invariants.compass_parallel_line"><code class="xref py py-obj docutils literal notranslate"><span class="pre">compass_parallel_line</span></code></a>(model, line_p1, line_p2, through, *) → sympy.geometry.Line</p></td>
+        <td><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">through</span></code> parallel to <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span></code> (Euclid I.31).</p></td>
+        </tr>
+        </tbody>
+        </table>
+        </section>
+        <section class="level-2" id="module-contents">
+        <h2>Module Contents<a class="headerlink" href="#module-contents" title="Link to this heading">¶</a></h2>
+        <dl class="py data">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.HERONIAN_VERTICES">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">HERONIAN_VERTICES</span></span><span class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span><span class="p"><span class="pre">]</span></span></span><a class="headerlink" href="#geometor.casey.invariants.HERONIAN_VERTICES" title="Link to this definition">¶</a></dt>
+        <dd><p>Canonical Heronian <code class="docutils literal notranslate"><span class="pre">(15,</span> <span class="pre">13,</span> <span class="pre">14)</span></code> scalene triangle <code class="docutils literal notranslate"><span class="pre">A=(0,0),</span> <span class="pre">B=(14,0),</span> <span class="pre">C=(5,12)</span></code>.</p>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.signed_triangle_area">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">signed_triangle_area</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.casey.invariants.signed_triangle_area" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact signed area of oriented triangle <code class="docutils literal notranslate"><span class="pre">ABC</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>a_pt</strong> – First vertex <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>b_pt</strong> – Second vertex <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>c_pt</strong> – Third vertex <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact symbolic signed area <code class="docutils literal notranslate"><span class="pre">((B.x</span> <span class="pre">-</span> <span class="pre">A.x)*(C.y</span> <span class="pre">-</span> <span class="pre">A.y)</span> <span class="pre">-</span> <span class="pre">(B.y</span> <span class="pre">-</span> <span class="pre">A.y)*(C.x</span> <span class="pre">-</span> <span class="pre">A.x))</span> <span class="pre">/</span> <span class="pre">2</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.circle_power">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">circle_power</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">circ</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.casey.invariants.circle_power" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact power <code class="docutils literal notranslate"><span class="pre">|PO|^2</span> <span class="pre">-</span> <span class="pre">r^2</span></code> of point <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code>.</p>
+        <p>Corresponds to Casey, Book III, Props. 20–24 (pp. 41–44): for exterior points,
+        equals the square of the tangent from <code class="docutils literal notranslate"><span class="pre">pt</span></code> to <code class="docutils literal notranslate"><span class="pre">circ</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>pt</strong> – Query point <code class="docutils literal notranslate"><span class="pre">P</span></code>.</p></li>
+        <li><p><strong>circ</strong> – Reference circle <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">r)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact symbolic expression <code class="docutils literal notranslate"><span class="pre">(P.x</span> <span class="pre">-</span> <span class="pre">O.x)^2</span> <span class="pre">+</span> <span class="pre">(P.y</span> <span class="pre">-</span> <span class="pre">O.y)^2</span> <span class="pre">-</span> <span class="pre">r^2</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.are_orthogonal_circles">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">are_orthogonal_circles</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">bool</span></span></span><a class="headerlink" href="#geometor.casey.invariants.are_orthogonal_circles" title="Link to this definition">¶</a></dt>
+        <dd><p>Return <code class="docutils literal notranslate"><span class="pre">True</span></code> iff circles <code class="docutils literal notranslate"><span class="pre">c1</span></code> and <code class="docutils literal notranslate"><span class="pre">c2</span></code> cut orthogonally (Casey Book III, Prop. 22).</p>
+        <p>Two circles cut orthogonally iff the square of the distance between their centres
+        equals the sum of the squares of their radii: <code class="docutils literal notranslate"><span class="pre">|O1</span> <span class="pre">O2|^2</span> <span class="pre">=</span> <span class="pre">r1^2</span> <span class="pre">+</span> <span class="pre">r2^2</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>c1</strong> – First circle <code class="docutils literal notranslate"><span class="pre">(O1,</span> <span class="pre">r1)</span></code>.</p></li>
+        <li><p><strong>c2</strong> – Second circle <code class="docutils literal notranslate"><span class="pre">(O2,</span> <span class="pre">r2)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p><code class="docutils literal notranslate"><span class="pre">True</span></code> if <code class="docutils literal notranslate"><span class="pre">|O1</span> <span class="pre">O2|^2</span> <span class="pre">-</span> <span class="pre">r1^2</span> <span class="pre">-</span> <span class="pre">r2^2</span> <span class="pre">==</span> <span class="pre">0</span></code> symbolically.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.bitangent_quadrance">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">bitangent_quadrance</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">internal</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.casey.invariants.bitangent_quadrance" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact squared common-tangent length <code class="docutils literal notranslate"><span class="pre">t_12^2</span></code> between circles or null-circles.</p>
+        <p>In Casey’s Generalized Ptolemy Theorem (Book VI, Sec. IV, Prop. 10, pp. 103–104), a point
+        is treated as a circle of radius <code class="docutils literal notranslate"><span class="pre">0</span></code>. For two circles soaked in the same sense (external
+        common tangent), <code class="docutils literal notranslate"><span class="pre">t_12^2</span> <span class="pre">=</span> <span class="pre">|O1</span> <span class="pre">O2|^2</span> <span class="pre">-</span> <span class="pre">(r1</span> <span class="pre">-</span> <span class="pre">r2)^2</span></code>; for transverse (internal) contact,
+        <code class="docutils literal notranslate"><span class="pre">t_12^2</span> <span class="pre">=</span> <span class="pre">|O1</span> <span class="pre">O2|^2</span> <span class="pre">-</span> <span class="pre">(r1</span> <span class="pre">+</span> <span class="pre">r2)^2</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>c1</strong> – First <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> or null-circle <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code>.</p></li>
+        <li><p><strong>c2</strong> – Second <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code> or null-circle <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code>.</p></li>
+        <li><p><strong>internal</strong> – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, use <code class="docutils literal notranslate"><span class="pre">(r1</span> <span class="pre">+</span> <span class="pre">r2)^2</span></code> (internal bitangent); otherwise <code class="docutils literal notranslate"><span class="pre">(r1</span> <span class="pre">-</span> <span class="pre">r2)^2</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact symbolic squared bitangent length.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.bitangent_length">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">bitangent_length</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">internal</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.Expr</span></span></span><a class="headerlink" href="#geometor.casey.invariants.bitangent_length" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact common-tangent length <code class="docutils literal notranslate"><span class="pre">t_12</span></code> between two circles or points.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>c1</strong> – First circle or null-circle point.</p></li>
+        <li><p><strong>c2</strong> – Second circle or null-circle point.</p></li>
+        <li><p><strong>internal</strong> – If <code class="docutils literal notranslate"><span class="pre">True</span></code>, return the internal common-tangent length; else external.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact symbolic principal square root <code class="docutils literal notranslate"><span class="pre">sqrt(bitangent_quadrance(c1,</span> <span class="pre">c2))</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.invert_point">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">invert_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">center</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">radius_sq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Expr</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.casey.invariants.invert_point" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact circular inverse of <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">(center,</span> <span class="pre">sqrt(radius_sq))</span></code>.</p>
+        <p>Implements Casey, Book III, Def. (p. 41) &amp; Book VI, Sec. IV, Def. (p. 95):
+        collinear with <code class="docutils literal notranslate"><span class="pre">center</span></code> and <code class="docutils literal notranslate"><span class="pre">pt</span></code> on the same ray such that <code class="docutils literal notranslate"><span class="pre">|O</span> <span class="pre">P|</span> <span class="pre">*</span> <span class="pre">|O</span> <span class="pre">P'|</span> <span class="pre">=</span> <span class="pre">k^2</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>pt</strong> – Point <code class="docutils literal notranslate"><span class="pre">P</span></code> distinct from <code class="docutils literal notranslate"><span class="pre">center</span></code>.</p></li>
+        <li><p><strong>center</strong> – Centre of inversion <code class="docutils literal notranslate"><span class="pre">O</span></code>.</p></li>
+        <li><p><strong>radius_sq</strong> – Square <code class="docutils literal notranslate"><span class="pre">k^2</span></code> of the radius of inversion.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact inverted <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code> <code class="docutils literal notranslate"><span class="pre">P'</span></code>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">pt</span></code> coincides with <code class="docutils literal notranslate"><span class="pre">center</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.polar_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">polar_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">circ</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.invariants.polar_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact polar line of <code class="docutils literal notranslate"><span class="pre">pt</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code> (Casey Book III, Def. p. 44).</p>
+        <p>By Casey’s definition, the polar of <code class="docutils literal notranslate"><span class="pre">P</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">r)</span></code> is the perpendicular
+        to ray <code class="docutils literal notranslate"><span class="pre">OP</span></code> erected at the inverse point <code class="docutils literal notranslate"><span class="pre">P'</span></code> of <code class="docutils literal notranslate"><span class="pre">P</span></code>. Note that <code class="docutils literal notranslate"><span class="pre">sympy.geometry.Circle</span></code>
+        natively lacks <code class="docutils literal notranslate"><span class="pre">polar_line</span></code> and <code class="docutils literal notranslate"><span class="pre">pole_of_line</span></code> methods.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>pt</strong> – Pole <code class="docutils literal notranslate"><span class="pre">P</span></code> distinct from <code class="docutils literal notranslate"><span class="pre">circ.center</span></code>.</p></li>
+        <li><p><strong>circ</strong> – Reference circle <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">r)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> representing <code class="docutils literal notranslate"><span class="pre">polar(P)</span></code>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">pt</span></code> coincides with <code class="docutils literal notranslate"><span class="pre">circ.center</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.pole_of_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">pole_of_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Line</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">circ</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.casey.invariants.pole_of_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact pole of <code class="docutils literal notranslate"><span class="pre">line</span></code> with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code> (Casey Book III, Def. p. 44).</p>
+        <p>Constructed algebraically as the circular inverse of the orthogonal foot of <code class="docutils literal notranslate"><span class="pre">circ.center</span></code>
+        upon <code class="docutils literal notranslate"><span class="pre">line</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>line</strong> – Non-diametral <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code>.</p></li>
+        <li><p><strong>circ</strong> – Reference circle <code class="docutils literal notranslate"><span class="pre">(O,</span> <span class="pre">r)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code> whose polar with respect to <code class="docutils literal notranslate"><span class="pre">circ</span></code> is <code class="docutils literal notranslate"><span class="pre">line</span></code>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">line</span></code> passes through <code class="docutils literal notranslate"><span class="pre">circ.center</span></code> (pole is at infinity).</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.radical_axis_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">radical_axis_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">c1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Circle</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.invariants.radical_axis_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact radical axis of two non-concentric circles (Casey Book III, Prop. 23).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>c1</strong> – First circle <code class="docutils literal notranslate"><span class="pre">(O1,</span> <span class="pre">r1)</span></code>.</p></li>
+        <li><p><strong>c2</strong> – Second circle <code class="docutils literal notranslate"><span class="pre">(O2,</span> <span class="pre">r2)</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> locus of equal circle powers.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">c1</span></code> and <code class="docutils literal notranslate"><span class="pre">c2</span></code> are concentric.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.barycentric_point">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">barycentric_point</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">a_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">b_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">c_pt</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w_a</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Expr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w_b</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Expr</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">w_c</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.Expr</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.casey.invariants.barycentric_point" title="Link to this definition">¶</a></dt>
+        <dd><p>Compute the exact homogeneous barycentric point <code class="docutils literal notranslate"><span class="pre">(w_a</span> <span class="pre">:</span> <span class="pre">w_b</span> <span class="pre">:</span> <span class="pre">w_c)</span></code> on <code class="docutils literal notranslate"><span class="pre">ABC</span></code>.</p>
+        <p>Implements Casey’s Centre of Mean Position (Book I, Props. 17–18, pp. 12–13) and
+        symmedian/Brocard weights (Supplementary Chapter, Secs. I–II).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>a_pt</strong> – First vertex <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>b_pt</strong> – Second vertex <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>c_pt</strong> – Third vertex <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        <li><p><strong>w_a</strong> – Weight attached to <code class="docutils literal notranslate"><span class="pre">A</span></code>.</p></li>
+        <li><p><strong>w_b</strong> – Weight attached to <code class="docutils literal notranslate"><span class="pre">B</span></code>.</p></li>
+        <li><p><strong>w_c</strong> – Weight attached to <code class="docutils literal notranslate"><span class="pre">C</span></code>.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code> <code class="docutils literal notranslate"><span class="pre">(w_a*A</span> <span class="pre">+</span> <span class="pre">w_b*B</span> <span class="pre">+</span> <span class="pre">w_c*C)</span> <span class="pre">/</span> <span class="pre">(w_a</span> <span class="pre">+</span> <span class="pre">w_b</span> <span class="pre">+</span> <span class="pre">w_c)</span></code>.</p>
+        </dd>
+        <dt class="field-odd">Raises<span class="colon">:</span></dt>
+        <dd class="field-odd"><p><strong>ValueError</strong> – If <code class="docutils literal notranslate"><span class="pre">w_a</span> <span class="pre">+</span> <span class="pre">w_b</span> <span class="pre">+</span> <span class="pre">w_c</span> <span class="pre">==</span> <span class="pre">0</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.compass_perp_bisector">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">compass_perp_bisector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.invariants.compass_perp_bisector" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the perpendicular bisector of <code class="docutils literal notranslate"><span class="pre">p1</span> <span class="pre">p2</span></code> by Euclid I.10 symmetric circles.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>p1</strong> – First endpoint.</p></li>
+        <li><p><strong>p2</strong> – Second endpoint.</p></li>
+        <li><p><strong>ID</strong> – Optional explicit line identifier.</p></li>
+        <li><p><strong>classes</strong> – Optional semantic CSS classes.</p></li>
+        <li><p><strong>guide</strong> – Whether the resulting bisector should remain a guide.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact perpendicular bisector <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.compass_midpoint">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">compass_midpoint</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Point</span></span></span><a class="headerlink" href="#geometor.casey.invariants.compass_midpoint" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the exact midpoint of <code class="docutils literal notranslate"><span class="pre">p1</span> <span class="pre">p2</span></code> by straightedge and compass (Euclid I.10).</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>p1</strong> – First endpoint.</p></li>
+        <li><p><strong>p2</strong> – Second endpoint.</p></li>
+        <li><p><strong>ID</strong> – Optional explicit point identifier.</p></li>
+        <li><p><strong>classes</strong> – Optional semantic CSS classes.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact midpoint <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Point</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.compass_perpendicular_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">compass_perpendicular_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">through</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">off_line_ref</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.invariants.compass_perpendicular_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the perpendicular to line <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span></code> through <code class="docutils literal notranslate"><span class="pre">through</span></code>.</p>
+        <p>Uses rational circle reflection (Euclid I.12) when <code class="docutils literal notranslate"><span class="pre">through</span></code> lies off the line, and
+        Thales’s semicircle construction (Euclid III.31) via <code class="docutils literal notranslate"><span class="pre">off_line_ref</span></code> (or equilateral
+        fallback) when <code class="docutils literal notranslate"><span class="pre">through</span></code> lies on the line—preserving rational fields without extraneous
+        nested radicals whenever <code class="docutils literal notranslate"><span class="pre">off_line_ref</span></code> is provided.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>line_p1</strong> – First point defining the base line.</p></li>
+        <li><p><strong>line_p2</strong> – Second point defining the base line.</p></li>
+        <li><p><strong>through</strong> – Point through which the perpendicular is drawn.</p></li>
+        <li><p><strong>off_line_ref</strong> – Optional known point not lying on <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span></code> for Thales III.31.</p></li>
+        <li><p><strong>ID</strong> – Optional explicit line identifier.</p></li>
+        <li><p><strong>classes</strong> – Optional semantic CSS classes.</p></li>
+        <li><p><strong>guide</strong> – Whether the perpendicular line should remain a guide.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact perpendicular <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> passing through <code class="docutils literal notranslate"><span class="pre">through</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        <dl class="py function">
+        <dt class="sig sig-object py" id="geometor.casey.invariants.compass_parallel_line">
+        <span class="sig-prename descclassname"><span class="pre">geometor.casey.invariants.</span></span><span class="sig-name descname"><span class="pre">compass_parallel_line</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">model</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">geometor.model.Model</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line_p1</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line_p2</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">through</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">sympy.geometry.Point</span></span></em>, <em class="sig-param"><span class="keyword-only-separator o"><abbr title="Keyword-only parameters separator (PEP 3102)"><span class="pre">*</span></abbr></span></em>, <em class="sig-param"><span class="n"><span class="pre">ID</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">classes</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="w"> </span><span class="p"><span class="pre">|</span></span><span class="w"> </span><span class="pre">None</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">guide</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">sympy.geometry.Line</span></span></span><a class="headerlink" href="#geometor.casey.invariants.compass_parallel_line" title="Link to this definition">¶</a></dt>
+        <dd><p>Construct the line through <code class="docutils literal notranslate"><span class="pre">through</span></code> parallel to <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span></code> (Euclid I.31).</p>
+        <p>Constructs the fourth vertex <code class="docutils literal notranslate"><span class="pre">Q</span> <span class="pre">=</span> <span class="pre">line_p2</span> <span class="pre">+</span> <span class="pre">through</span> <span class="pre">-</span> <span class="pre">line_p1</span></code> of parallelogram
+        <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">line_p2</span> <span class="pre">Q</span> <span class="pre">through</span></code> by bisecting diagonal <code class="docutils literal notranslate"><span class="pre">line_p2</span> <span class="pre">through</span></code> at <code class="docutils literal notranslate"><span class="pre">M</span></code> and
+        doubling <code class="docutils literal notranslate"><span class="pre">line_p1</span> <span class="pre">M</span></code> via circle <code class="docutils literal notranslate"><span class="pre">(M,</span> <span class="pre">line_p1)</span></code>.</p>
+        <dl class="field-list simple">
+        <dt class="field-odd">Parameters<span class="colon">:</span></dt>
+        <dd class="field-odd"><ul class="simple">
+        <li><p><strong>model</strong> – Target <code class="xref py py-class docutils literal notranslate"><span class="pre">Model</span></code>.</p></li>
+        <li><p><strong>line_p1</strong> – First point on the reference line.</p></li>
+        <li><p><strong>line_p2</strong> – Second point on the reference line.</p></li>
+        <li><p><strong>through</strong> – Exterior point through which the parallel is drawn.</p></li>
+        <li><p><strong>ID</strong> – Optional explicit line identifier.</p></li>
+        <li><p><strong>classes</strong> – Optional semantic CSS classes.</p></li>
+        <li><p><strong>guide</strong> – Whether the parallel line should remain a guide.</p></li>
+        </ul>
+        </dd>
+        <dt class="field-even">Returns<span class="colon">:</span></dt>
+        <dd class="field-even"><p>Exact parallel <code class="xref py py-class docutils literal notranslate"><span class="pre">sympy.geometry.Line</span></code> passing through <code class="docutils literal notranslate"><span class="pre">through</span></code>.</p>
+        </dd>
+        </dl>
+        </dd></dl>
+
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="../feuerbach/index.html" title="geometor.casey.feuerbach">&larr; <span class="nav-label">geometor.casey.feuerbach</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../../../../../index.html">GEOMETOR • casey</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="../poles_polars/index.html" title="geometor.casey.poles_polars"><span class="nav-label">geometor.casey.poles_polars</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../../../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../../../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../../../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../../../../tags/casey.html">casey</a></li>
+        <li><a href="../../../../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../../../../tags/codex.html">codex</a></li>
+        <li><a href="../../../../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../../../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../../../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../../../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../../../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../../../../_static/documentation_options.js?v=01f34227"></script>
+  <script src="../../../../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../../../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../../../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../../../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
