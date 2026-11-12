@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging / virtualenvs
+build/
+dist/
+*.egg-info/
+.venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Archival large binaries & temporary raster scans
+*.pdf
+resources/**/scans/
+resources/**/pages/
+resources/**/*.png
+scratch/
+
+# Compiled Sphinx HTML output is tracked only if desired; keep doctrees ignored
+docs/.doctrees/
+docs/.buildinfo
