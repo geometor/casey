@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 6 Summary — Brocard Circle, Steiner, Tarry & Longchamps
 
 .. _sequel-unit-6-summary:

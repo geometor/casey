@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 2 Summary — Circle Power, Radical Axis & Coaxal Pencils
 
 .. _sequel-unit-2-summary:

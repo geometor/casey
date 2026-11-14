@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 3 — Transversals, Similitude, Harmonic & Anharmonic Ratios
 
 .. _sequel-unit-3-en:

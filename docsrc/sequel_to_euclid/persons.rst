@@ -1,14 +1,48 @@
-:layout: book
-:title: Index of Persons
+:navigation: header
+:order: 5
+:nav_title: People
+:title: People
 
 .. _persons:
 
-Prosopographical Index of Geometers
-===================================
+People
+======
 
 .. rubric:: 33 Ancient, Early Modern & Nineteenth-Century Geometers in Casey's *Sequel*
 
 Every ``:person:`` reference across the 3-Track Book Codex resolves to its biographical anchor below.
+
+Authors, Translators & Editors
+------------------------------
+
+.. _person-casey:
+
+John Casey (1820–1891)
+----------------------
+
+* **Role**: Irish Geometer, Professor of Higher Mathematics at the Catholic University of Ireland, Fellow of the Royal University of Ireland, F.R.S.
+* **Historical & Geometric Context**: Born May 12, 1820, in Kilbehenny, County Limerick; died January 3, 1891, in Dublin. Casey stands alongside George Salmon, Richard Townsend, and Robert Stawell Ball at the summit of the nineteenth-century Dublin school of pure geometry. Educated first in local Munster schools and largely self-taught in higher mathematics while serving as headmaster of the Kilkenny Central Model Schools, Casey entered Trinity College Dublin as a pensioner in 1858 at the age of thirty-eight—having already communicated original discoveries on the geometry of the triangle and circle to Richard Townsend and George Salmon. Electing Scholarship in 1861 and graduating B.A. in 1862, he subsequently served as Professor of Higher Mathematics and Mathematical Physics at the Catholic University of Ireland (from 1873) and Fellow of the Royal University of Ireland (from 1882), elected Fellow of the Royal Society in 1875.
+
+  In 1861, as an undergraduate (*Quarterly Journal of Pure and Applied Mathematics* 4, pp. 245–252), Casey discovered his celebrated three-line circular-inversion proof of **Feuerbach's Theorem**—inverting the incircle and the $A$-excircle into themselves from the midpoint $M_a$ of $BC$ with squared radius $\frac{1}{4}(b - c)^2$ so that the fourth common tangent maps directly onto the nine-points circle. In 1866 (*Proceedings of the Royal Irish Academy*, vol. 9, pp. 396–423), he published his famous generalization of **Ptolemy's Theorem** for four circles tangent to a fifth. His *Sequel to Euclid* (1st ed. 1881; 4th ed. 1886 adding the *Supplementary Chapter*; 5th ed. 1888; 6th ed. 1892) introduced generations of English-speaking students worldwide to inversion, coaxal circles, poles and polars, and Lemoine–Brocard modern triangle geometry.
+
+.. _person-dowling:
+
+Patrick A. E. Dowling (fl. 1888–1892)
+-------------------------------------
+
+* **Role**: Irish Mathematician, Pupil & Son-in-Law of John Casey, Editor of the 6th Edition of Casey's *Sequel*
+* **Historical & Geometric Context**: Mathematical collaborator and son-in-law of John Casey who posthumously saw through the press and revised the Sixth Edition of *A Sequel to the First Six Books of the Elements of Euclid* (Dublin: Hodges, Figgis, & Co.; London: Longmans, Green, & Co., 1892; pp. i–xviii, 1–248). Dowling scrupulously preserved the exact proposition and section numbering of Casey's 1888 Fifth Edition while adding supplementary examples and errata corrections. His 1892 text stands as the canonical witness cited as ``[casey:sequel:1892]`` in Nathan Altshiller-Court's *College Geometry*.
+
+.. _person-euclid:
+
+Euclid of Alexandria (fl. c. 300 BC)
+------------------------------------
+
+* **Role**: Author of the Elements (*Stoicheia*)
+* **Historical & Geometric Context**: Author of the *Stoicheia*, whose first six planar books serve as the direct structural foundation for Casey's *Sequel*. Casey arranges his modern developments book-by-book alongside the classical Euclidean canon.
+
+Cited Geometers, Philosophers & Scholars
+----------------------------------------
 
 .. _person-altshiller-court:
 
@@ -42,14 +76,6 @@ Henri Brocard (1845–1922)
 * **Role**: French Meteorological Officer & Co-Founder of Recent Triangle Geometry
 * **Historical & Geometric Context**: Discovered the properties of the Brocard points (Ω, Ω'), the Brocard angle ω, Brocard's First and Second Triangles, and the seven-point Brocard Circle (AFAS Alger, 1881), expounded systematically in Casey's Supplementary Chapter (Secs. II & V).
 
-.. _person-casey:
-
-John Casey (1820–1891)
-----------------------
-
-* **Role**: Irish Geometer, Professor at the Catholic University of Ireland, F.R.S.
-* **Historical & Geometric Context**: Born in Kilbehenny, Co. Limerick; entered Trinity College Dublin at age 38 after teaching in Kilkenny National Schools. Discovered his inversion proof of Feuerbach's Theorem as an undergraduate (1860–1861) and his Generalized Ptolemy Theorem for four circles tangent to a fifth (Proc. R.I.A., 1866). His Sequel to Euclid (1st ed. 1881; 5th ed. 1888; 6th ed. 1892) introduced English-speaking students worldwide to inversion, coaxal circles, harmonic/anharmonic projectivity, and Lemoine–Brocard triangle geometry.
-
 .. _person-ceva:
 
 Giovanni Ceva (1647–1734)
@@ -73,22 +99,6 @@ Girard Desargues (1591–1661)
 
 * **Role**: French Architect & Founder of Projective Geometry
 * **Historical & Geometric Context**: Established perspective homology of triangles, involution on secants, and harmonic pole-polar properties. Casey proves Desargues's Theorem both by Menelaus/anharmonic ratios (Book VI, Sec. VI) and by polar reciprocation (Sec. VII, p. 142).
-
-.. _person-dowling:
-
-Patrick A. E. Dowling (fl. 1888–1892)
--------------------------------------
-
-* **Role**: Irish Mathematician & Editor of the 6th Edition of Casey's Sequel
-* **Historical & Geometric Context**: Son-in-law and mathematical collaborator of John Casey who edited and saw through the press the posthumous Sixth Edition of A Sequel to Euclid (1892).
-
-.. _person-euclid:
-
-Euclid of Alexandria (fl. c. 300 BC)
-------------------------------------
-
-* **Role**: Author of the Elements
-* **Historical & Geometric Context**: Author of the Stoicheia, whose first six planar books serve as the direct structural framework for Casey's Sequel.
 
 .. _person-euler:
 

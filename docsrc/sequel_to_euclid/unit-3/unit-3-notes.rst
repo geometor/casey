@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 3 Notes — Pappus, Chasles, Desargues & Pascal
 
 .. _sequel-unit-3-notes:

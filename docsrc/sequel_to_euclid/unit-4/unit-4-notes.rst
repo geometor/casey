@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 4 Notes — Casey (1861, 1866), Hart (1861) & La Hire (1685)
 
 .. _sequel-unit-4-notes:
