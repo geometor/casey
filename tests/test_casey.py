@@ -69,7 +69,7 @@ def _assert_model_exact(model: Model) -> None:
 
 def test_package_version_and_invariants() -> None:
     """Verify exact circle power, orthogonality, bitangents, inversion, poles/polars, and barycentrics."""
-    assert casey.__version__ == "0.1.1"
+    assert casey.__version__ == "0.1.3"
     a_pt, b_pt, c_pt = HERONIAN_VERTICES
     assert signed_triangle_area(a_pt, b_pt, c_pt) == sp.Integer(84)
 
