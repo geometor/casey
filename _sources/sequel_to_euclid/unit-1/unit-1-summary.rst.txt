@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 1 Summary — Triangles, Euler Line & Nine-Points Circle
 
 .. _sequel-unit-1-summary:

@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 6 Notes — Brocard (1881), Neuberg, Casey's Harmonic Polygons & ETC
 
 .. _sequel-unit-6-notes:

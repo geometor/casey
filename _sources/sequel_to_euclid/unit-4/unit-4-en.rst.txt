@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 4 — Inversion, Casey's & Feuerbach's Theorems, Poles & Polars
 
 .. _sequel-unit-4-en:

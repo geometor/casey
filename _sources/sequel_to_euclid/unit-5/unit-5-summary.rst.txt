@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 5 Summary — Symmedians, Lemoine's Point & Lemoine Circles
 
 .. _sequel-unit-5-summary:

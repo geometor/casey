@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 1 Notes — Historical & Cross-Canon Commentary
 
 .. _sequel-unit-1-notes:

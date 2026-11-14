@@ -1,4 +1,5 @@
-:layout: book
+:navigation: footer
+:nav_title: Glossary
 :title: Technical Glossary
 
 .. _glossary:

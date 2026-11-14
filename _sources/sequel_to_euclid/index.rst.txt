@@ -1,5 +1,6 @@
 :navigation: header
 :order: 1
+:nav_title: Sequel to Euclid
 :layout: book
 :title: A Sequel to Euclid
 :book_title: A Sequel to the First Six Books of the Elements of Euclid
@@ -13,17 +14,18 @@
 .. _casey-index:
 .. _sequel-to-euclid-index:
 
-A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID
+A Sequel to the First Six Books of the Elements of Euclid
 =========================================================
 
 .. rubric:: Containing an Easy Introduction to Modern Geometry, with Numerous Examples (1888 / 1892)
 
 .. container:: title-page
 
-   | :person:`JOHN CASEY, LL.D., F.R.S. <casey>` (1820–1891)
+   | **Author:** :person:`John Casey, LL.D., F.R.S. <casey>` (1820–1891)
    | *Fellow of the Royal University of Ireland; Member of the Council of the Royal Irish Academy*
-   | *Fifth Edition, Revised and Enlarged* — Hodges, Figgis, & Co., Dublin; Longmans, Green, & Co., London, 1888 (pp. i–xviii, 1–251; 276 folios)
-   | *Sixth Edition, Revised and Enlarged*, edited by :person:`PATRICK A. E. DOWLING, B.A. <dowling>` — Dublin / London, 1892 (``[casey:sequel:1892]``)
+   | **Fifth Edition (Dublin / London, 1888):** Revised and Enlarged — Hodges, Figgis, & Co., Dublin; Longmans, Green, & Co., London, 1888 (pp. i–xviii, 1–251; 276 folios)
+   | **Sixth Edition (Dublin / London, 1892):** Edited by :person:`Patrick A. E. Dowling, B.A. <dowling>` (``[casey:sequel:1892]``)
+   | **Digital Critical Codex:** Synchronized 3-track edition (*English · Summary · Notes*) with calibrated ``.euclid-graphic`` SVGs and exact ``geometor.model`` demonstrations.
 
 .. epigraph::
 
@@ -33,8 +35,8 @@ A SEQUEL TO THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID
 
 ----
 
-Conspectus of the 3-Track Digital Edition
------------------------------------------
+Table of Contents
+-----------------
 
 Each unit below is published as a synchronized **3-Track Book Codex** (**English** | **Summary** | **Notes**) with track-preserving navigation, multimodal scan-verified marginal folio milestones (`PDF Folio = Printed Page + 26`), calibrated interactive ``.euclid-graphic`` SVGs, and hoverable ``:person:``, ``:cite:``, and ``:term:`` apparatus cards.
 
@@ -70,8 +72,8 @@ Each unit below is published as a synchronized **3-Track Book Codex** (**English
 
 ----
 
-Apparatus Criticus & Cross-Repository Indices
----------------------------------------------
+Scholarly Apparatus
+-------------------
 
 * :ref:`Euclid–Casey–Altshiller-Court–ETC–Pappus Master Concordance & SymPy Circle Audit <concordance>`
 * :ref:`Systematic Bibliography & Editions <bibliography>`
@@ -111,7 +113,7 @@ Apparatus Criticus & Cross-Repository Indices
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Critical Apparatus
+   :caption: Scholarly Apparatus
 
    concordance
    bibliography
