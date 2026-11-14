@@ -1,0 +1,879 @@
+{
+  "_meta": {
+    "work": "A Sequel to the First Six Books of the Elements of Euclid",
+    "edition": "Fifth Edition, Revised and Enlarged",
+    "year": 1888,
+    "author": "John Casey, LL.D., F.R.S.",
+    "publisher": "Hodges, Figgis, & Co. / Longmans, Green, & Co.",
+    "scan_directory": "resources/sequel_to_euclid",
+    "folio_offset_law": "PDF Folio = Printed Body Page + 26 (pp. 1\u2013248 <-> folios 0027\u20130274)",
+    "source_archive_id": "asequeltofirsts00casegoog",
+    "total_referenced_scans": 48
+  },
+  "folios": {
+    "0033": {
+      "default": "resources/sequel_to_euclid/0033.png",
+      "en": "resources/sequel_to_euclid/0033.png",
+      "scan": "resources/sequel_to_euclid/0033.png",
+      "printed_page": 7
+    },
+    "7": {
+      "default": "resources/sequel_to_euclid/0033.png",
+      "en": "resources/sequel_to_euclid/0033.png",
+      "folio": "0033",
+      "printed_page": 7
+    },
+    "p. 7": {
+      "default": "resources/sequel_to_euclid/0033.png",
+      "en": "resources/sequel_to_euclid/0033.png",
+      "folio": "0033",
+      "printed_page": 7
+    },
+    "0034": {
+      "default": "resources/sequel_to_euclid/0034.png",
+      "en": "resources/sequel_to_euclid/0034.png",
+      "scan": "resources/sequel_to_euclid/0034.png",
+      "printed_page": 8
+    },
+    "8": {
+      "default": "resources/sequel_to_euclid/0034.png",
+      "en": "resources/sequel_to_euclid/0034.png",
+      "folio": "0034",
+      "printed_page": 8
+    },
+    "p. 8": {
+      "default": "resources/sequel_to_euclid/0034.png",
+      "en": "resources/sequel_to_euclid/0034.png",
+      "folio": "0034",
+      "printed_page": 8
+    },
+    "0038": {
+      "default": "resources/sequel_to_euclid/0038.png",
+      "en": "resources/sequel_to_euclid/0038.png",
+      "scan": "resources/sequel_to_euclid/0038.png",
+      "printed_page": 12
+    },
+    "12": {
+      "default": "resources/sequel_to_euclid/0038.png",
+      "en": "resources/sequel_to_euclid/0038.png",
+      "folio": "0038",
+      "printed_page": 12
+    },
+    "p. 12": {
+      "default": "resources/sequel_to_euclid/0038.png",
+      "en": "resources/sequel_to_euclid/0038.png",
+      "folio": "0038",
+      "printed_page": 12
+    },
+    "0041": {
+      "default": "resources/sequel_to_euclid/0041.png",
+      "en": "resources/sequel_to_euclid/0041.png",
+      "scan": "resources/sequel_to_euclid/0041.png",
+      "printed_page": 15
+    },
+    "15": {
+      "default": "resources/sequel_to_euclid/0041.png",
+      "en": "resources/sequel_to_euclid/0041.png",
+      "folio": "0041",
+      "printed_page": 15
+    },
+    "p. 15": {
+      "default": "resources/sequel_to_euclid/0041.png",
+      "en": "resources/sequel_to_euclid/0041.png",
+      "folio": "0041",
+      "printed_page": 15
+    },
+    "0046": {
+      "default": "resources/sequel_to_euclid/0046.png",
+      "en": "resources/sequel_to_euclid/0046.png",
+      "scan": "resources/sequel_to_euclid/0046.png",
+      "printed_page": 20
+    },
+    "20": {
+      "default": "resources/sequel_to_euclid/0046.png",
+      "en": "resources/sequel_to_euclid/0046.png",
+      "folio": "0046",
+      "printed_page": 20
+    },
+    "p. 20": {
+      "default": "resources/sequel_to_euclid/0046.png",
+      "en": "resources/sequel_to_euclid/0046.png",
+      "folio": "0046",
+      "printed_page": 20
+    },
+    "0048": {
+      "default": "resources/sequel_to_euclid/0048.png",
+      "en": "resources/sequel_to_euclid/0048.png",
+      "scan": "resources/sequel_to_euclid/0048.png",
+      "printed_page": 22
+    },
+    "22": {
+      "default": "resources/sequel_to_euclid/0048.png",
+      "en": "resources/sequel_to_euclid/0048.png",
+      "folio": "0048",
+      "printed_page": 22
+    },
+    "p. 22": {
+      "default": "resources/sequel_to_euclid/0048.png",
+      "en": "resources/sequel_to_euclid/0048.png",
+      "folio": "0048",
+      "printed_page": 22
+    },
+    "0049": {
+      "default": "resources/sequel_to_euclid/0049.png",
+      "en": "resources/sequel_to_euclid/0049.png",
+      "scan": "resources/sequel_to_euclid/0049.png",
+      "printed_page": 23
+    },
+    "23": {
+      "default": "resources/sequel_to_euclid/0049.png",
+      "en": "resources/sequel_to_euclid/0049.png",
+      "folio": "0049",
+      "printed_page": 23
+    },
+    "p. 23": {
+      "default": "resources/sequel_to_euclid/0049.png",
+      "en": "resources/sequel_to_euclid/0049.png",
+      "folio": "0049",
+      "printed_page": 23
+    },
+    "0051": {
+      "default": "resources/sequel_to_euclid/0051.png",
+      "en": "resources/sequel_to_euclid/0051.png",
+      "scan": "resources/sequel_to_euclid/0051.png",
+      "printed_page": 25
+    },
+    "25": {
+      "default": "resources/sequel_to_euclid/0051.png",
+      "en": "resources/sequel_to_euclid/0051.png",
+      "folio": "0051",
+      "printed_page": 25
+    },
+    "p. 25": {
+      "default": "resources/sequel_to_euclid/0051.png",
+      "en": "resources/sequel_to_euclid/0051.png",
+      "folio": "0051",
+      "printed_page": 25
+    },
+    "0052": {
+      "default": "resources/sequel_to_euclid/0052.png",
+      "en": "resources/sequel_to_euclid/0052.png",
+      "scan": "resources/sequel_to_euclid/0052.png",
+      "printed_page": 26
+    },
+    "26": {
+      "default": "resources/sequel_to_euclid/0052.png",
+      "en": "resources/sequel_to_euclid/0052.png",
+      "folio": "0052",
+      "printed_page": 26
+    },
+    "p. 26": {
+      "default": "resources/sequel_to_euclid/0052.png",
+      "en": "resources/sequel_to_euclid/0052.png",
+      "folio": "0052",
+      "printed_page": 26
+    },
+    "0056": {
+      "default": "resources/sequel_to_euclid/0056.png",
+      "en": "resources/sequel_to_euclid/0056.png",
+      "scan": "resources/sequel_to_euclid/0056.png",
+      "printed_page": 30
+    },
+    "30": {
+      "default": "resources/sequel_to_euclid/0056.png",
+      "en": "resources/sequel_to_euclid/0056.png",
+      "folio": "0056",
+      "printed_page": 30
+    },
+    "p. 30": {
+      "default": "resources/sequel_to_euclid/0056.png",
+      "en": "resources/sequel_to_euclid/0056.png",
+      "folio": "0056",
+      "printed_page": 30
+    },
+    "0067": {
+      "default": "resources/sequel_to_euclid/0067.png",
+      "en": "resources/sequel_to_euclid/0067.png",
+      "scan": "resources/sequel_to_euclid/0067.png",
+      "printed_page": 41
+    },
+    "41": {
+      "default": "resources/sequel_to_euclid/0067.png",
+      "en": "resources/sequel_to_euclid/0067.png",
+      "folio": "0067",
+      "printed_page": 41
+    },
+    "p. 41": {
+      "default": "resources/sequel_to_euclid/0067.png",
+      "en": "resources/sequel_to_euclid/0067.png",
+      "folio": "0067",
+      "printed_page": 41
+    },
+    "0068": {
+      "default": "resources/sequel_to_euclid/0068.png",
+      "en": "resources/sequel_to_euclid/0068.png",
+      "scan": "resources/sequel_to_euclid/0068.png",
+      "printed_page": 42
+    },
+    "42": {
+      "default": "resources/sequel_to_euclid/0068.png",
+      "en": "resources/sequel_to_euclid/0068.png",
+      "folio": "0068",
+      "printed_page": 42
+    },
+    "p. 42": {
+      "default": "resources/sequel_to_euclid/0068.png",
+      "en": "resources/sequel_to_euclid/0068.png",
+      "folio": "0068",
+      "printed_page": 42
+    },
+    "0069": {
+      "default": "resources/sequel_to_euclid/0069.png",
+      "en": "resources/sequel_to_euclid/0069.png",
+      "scan": "resources/sequel_to_euclid/0069.png",
+      "printed_page": 43
+    },
+    "43": {
+      "default": "resources/sequel_to_euclid/0069.png",
+      "en": "resources/sequel_to_euclid/0069.png",
+      "folio": "0069",
+      "printed_page": 43
+    },
+    "p. 43": {
+      "default": "resources/sequel_to_euclid/0069.png",
+      "en": "resources/sequel_to_euclid/0069.png",
+      "folio": "0069",
+      "printed_page": 43
+    },
+    "0070": {
+      "default": "resources/sequel_to_euclid/0070.png",
+      "en": "resources/sequel_to_euclid/0070.png",
+      "scan": "resources/sequel_to_euclid/0070.png",
+      "printed_page": 44
+    },
+    "44": {
+      "default": "resources/sequel_to_euclid/0070.png",
+      "en": "resources/sequel_to_euclid/0070.png",
+      "folio": "0070",
+      "printed_page": 44
+    },
+    "p. 44": {
+      "default": "resources/sequel_to_euclid/0070.png",
+      "en": "resources/sequel_to_euclid/0070.png",
+      "folio": "0070",
+      "printed_page": 44
+    },
+    "0071": {
+      "default": "resources/sequel_to_euclid/0071.png",
+      "en": "resources/sequel_to_euclid/0071.png",
+      "scan": "resources/sequel_to_euclid/0071.png",
+      "printed_page": 45
+    },
+    "45": {
+      "default": "resources/sequel_to_euclid/0071.png",
+      "en": "resources/sequel_to_euclid/0071.png",
+      "folio": "0071",
+      "printed_page": 45
+    },
+    "p. 45": {
+      "default": "resources/sequel_to_euclid/0071.png",
+      "en": "resources/sequel_to_euclid/0071.png",
+      "folio": "0071",
+      "printed_page": 45
+    },
+    "0083": {
+      "default": "resources/sequel_to_euclid/0083.png",
+      "en": "resources/sequel_to_euclid/0083.png",
+      "scan": "resources/sequel_to_euclid/0083.png",
+      "printed_page": 57
+    },
+    "57": {
+      "default": "resources/sequel_to_euclid/0083.png",
+      "en": "resources/sequel_to_euclid/0083.png",
+      "folio": "0083",
+      "printed_page": 57
+    },
+    "p. 57": {
+      "default": "resources/sequel_to_euclid/0083.png",
+      "en": "resources/sequel_to_euclid/0083.png",
+      "folio": "0083",
+      "printed_page": 57
+    },
+    "0084": {
+      "default": "resources/sequel_to_euclid/0084.png",
+      "en": "resources/sequel_to_euclid/0084.png",
+      "scan": "resources/sequel_to_euclid/0084.png",
+      "printed_page": 58
+    },
+    "58": {
+      "default": "resources/sequel_to_euclid/0084.png",
+      "en": "resources/sequel_to_euclid/0084.png",
+      "folio": "0084",
+      "printed_page": 58
+    },
+    "p. 58": {
+      "default": "resources/sequel_to_euclid/0084.png",
+      "en": "resources/sequel_to_euclid/0084.png",
+      "folio": "0084",
+      "printed_page": 58
+    },
+    "0093": {
+      "default": "resources/sequel_to_euclid/0093.png",
+      "en": "resources/sequel_to_euclid/0093.png",
+      "scan": "resources/sequel_to_euclid/0093.png",
+      "printed_page": 67
+    },
+    "67": {
+      "default": "resources/sequel_to_euclid/0093.png",
+      "en": "resources/sequel_to_euclid/0093.png",
+      "folio": "0093",
+      "printed_page": 67
+    },
+    "p. 67": {
+      "default": "resources/sequel_to_euclid/0093.png",
+      "en": "resources/sequel_to_euclid/0093.png",
+      "folio": "0093",
+      "printed_page": 67
+    },
+    "0095": {
+      "default": "resources/sequel_to_euclid/0095.png",
+      "en": "resources/sequel_to_euclid/0095.png",
+      "scan": "resources/sequel_to_euclid/0095.png",
+      "printed_page": 69
+    },
+    "69": {
+      "default": "resources/sequel_to_euclid/0095.png",
+      "en": "resources/sequel_to_euclid/0095.png",
+      "folio": "0095",
+      "printed_page": 69
+    },
+    "p. 69": {
+      "default": "resources/sequel_to_euclid/0095.png",
+      "en": "resources/sequel_to_euclid/0095.png",
+      "folio": "0095",
+      "printed_page": 69
+    },
+    "0108": {
+      "default": "resources/sequel_to_euclid/0108.png",
+      "en": "resources/sequel_to_euclid/0108.png",
+      "scan": "resources/sequel_to_euclid/0108.png",
+      "printed_page": 82
+    },
+    "82": {
+      "default": "resources/sequel_to_euclid/0108.png",
+      "en": "resources/sequel_to_euclid/0108.png",
+      "folio": "0108",
+      "printed_page": 82
+    },
+    "p. 82": {
+      "default": "resources/sequel_to_euclid/0108.png",
+      "en": "resources/sequel_to_euclid/0108.png",
+      "folio": "0108",
+      "printed_page": 82
+    },
+    "0112": {
+      "default": "resources/sequel_to_euclid/0112.png",
+      "en": "resources/sequel_to_euclid/0112.png",
+      "scan": "resources/sequel_to_euclid/0112.png",
+      "printed_page": 86
+    },
+    "86": {
+      "default": "resources/sequel_to_euclid/0112.png",
+      "en": "resources/sequel_to_euclid/0112.png",
+      "folio": "0112",
+      "printed_page": 86
+    },
+    "p. 86": {
+      "default": "resources/sequel_to_euclid/0112.png",
+      "en": "resources/sequel_to_euclid/0112.png",
+      "folio": "0112",
+      "printed_page": 86
+    },
+    "0113": {
+      "default": "resources/sequel_to_euclid/0113.png",
+      "en": "resources/sequel_to_euclid/0113.png",
+      "scan": "resources/sequel_to_euclid/0113.png",
+      "printed_page": 87
+    },
+    "87": {
+      "default": "resources/sequel_to_euclid/0113.png",
+      "en": "resources/sequel_to_euclid/0113.png",
+      "folio": "0113",
+      "printed_page": 87
+    },
+    "p. 87": {
+      "default": "resources/sequel_to_euclid/0113.png",
+      "en": "resources/sequel_to_euclid/0113.png",
+      "folio": "0113",
+      "printed_page": 87
+    },
+    "0117": {
+      "default": "resources/sequel_to_euclid/0117.png",
+      "en": "resources/sequel_to_euclid/0117.png",
+      "scan": "resources/sequel_to_euclid/0117.png",
+      "printed_page": 91
+    },
+    "91": {
+      "default": "resources/sequel_to_euclid/0117.png",
+      "en": "resources/sequel_to_euclid/0117.png",
+      "folio": "0117",
+      "printed_page": 91
+    },
+    "p. 91": {
+      "default": "resources/sequel_to_euclid/0117.png",
+      "en": "resources/sequel_to_euclid/0117.png",
+      "folio": "0117",
+      "printed_page": 91
+    },
+    "0121": {
+      "default": "resources/sequel_to_euclid/0121.png",
+      "en": "resources/sequel_to_euclid/0121.png",
+      "scan": "resources/sequel_to_euclid/0121.png",
+      "printed_page": 95
+    },
+    "95": {
+      "default": "resources/sequel_to_euclid/0121.png",
+      "en": "resources/sequel_to_euclid/0121.png",
+      "folio": "0121",
+      "printed_page": 95
+    },
+    "p. 95": {
+      "default": "resources/sequel_to_euclid/0121.png",
+      "en": "resources/sequel_to_euclid/0121.png",
+      "folio": "0121",
+      "printed_page": 95
+    },
+    "0129": {
+      "default": "resources/sequel_to_euclid/0129.png",
+      "en": "resources/sequel_to_euclid/0129.png",
+      "scan": "resources/sequel_to_euclid/0129.png",
+      "printed_page": 103
+    },
+    "103": {
+      "default": "resources/sequel_to_euclid/0129.png",
+      "en": "resources/sequel_to_euclid/0129.png",
+      "folio": "0129",
+      "printed_page": 103
+    },
+    "p. 103": {
+      "default": "resources/sequel_to_euclid/0129.png",
+      "en": "resources/sequel_to_euclid/0129.png",
+      "folio": "0129",
+      "printed_page": 103
+    },
+    "0130": {
+      "default": "resources/sequel_to_euclid/0130.png",
+      "en": "resources/sequel_to_euclid/0130.png",
+      "scan": "resources/sequel_to_euclid/0130.png",
+      "printed_page": 104
+    },
+    "104": {
+      "default": "resources/sequel_to_euclid/0130.png",
+      "en": "resources/sequel_to_euclid/0130.png",
+      "folio": "0130",
+      "printed_page": 104
+    },
+    "p. 104": {
+      "default": "resources/sequel_to_euclid/0130.png",
+      "en": "resources/sequel_to_euclid/0130.png",
+      "folio": "0130",
+      "printed_page": 104
+    },
+    "0131": {
+      "default": "resources/sequel_to_euclid/0131.png",
+      "en": "resources/sequel_to_euclid/0131.png",
+      "scan": "resources/sequel_to_euclid/0131.png",
+      "printed_page": 105
+    },
+    "105": {
+      "default": "resources/sequel_to_euclid/0131.png",
+      "en": "resources/sequel_to_euclid/0131.png",
+      "folio": "0131",
+      "printed_page": 105
+    },
+    "p. 105": {
+      "default": "resources/sequel_to_euclid/0131.png",
+      "en": "resources/sequel_to_euclid/0131.png",
+      "folio": "0131",
+      "printed_page": 105
+    },
+    "0132": {
+      "default": "resources/sequel_to_euclid/0132.png",
+      "en": "resources/sequel_to_euclid/0132.png",
+      "scan": "resources/sequel_to_euclid/0132.png",
+      "printed_page": 106
+    },
+    "106": {
+      "default": "resources/sequel_to_euclid/0132.png",
+      "en": "resources/sequel_to_euclid/0132.png",
+      "folio": "0132",
+      "printed_page": 106
+    },
+    "p. 106": {
+      "default": "resources/sequel_to_euclid/0132.png",
+      "en": "resources/sequel_to_euclid/0132.png",
+      "folio": "0132",
+      "printed_page": 106
+    },
+    "0139": {
+      "default": "resources/sequel_to_euclid/0139.png",
+      "en": "resources/sequel_to_euclid/0139.png",
+      "scan": "resources/sequel_to_euclid/0139.png",
+      "printed_page": 113
+    },
+    "113": {
+      "default": "resources/sequel_to_euclid/0139.png",
+      "en": "resources/sequel_to_euclid/0139.png",
+      "folio": "0139",
+      "printed_page": 113
+    },
+    "p. 113": {
+      "default": "resources/sequel_to_euclid/0139.png",
+      "en": "resources/sequel_to_euclid/0139.png",
+      "folio": "0139",
+      "printed_page": 113
+    },
+    "0140": {
+      "default": "resources/sequel_to_euclid/0140.png",
+      "en": "resources/sequel_to_euclid/0140.png",
+      "scan": "resources/sequel_to_euclid/0140.png",
+      "printed_page": 114
+    },
+    "114": {
+      "default": "resources/sequel_to_euclid/0140.png",
+      "en": "resources/sequel_to_euclid/0140.png",
+      "folio": "0140",
+      "printed_page": 114
+    },
+    "p. 114": {
+      "default": "resources/sequel_to_euclid/0140.png",
+      "en": "resources/sequel_to_euclid/0140.png",
+      "folio": "0140",
+      "printed_page": 114
+    },
+    "0153": {
+      "default": "resources/sequel_to_euclid/0153.png",
+      "en": "resources/sequel_to_euclid/0153.png",
+      "scan": "resources/sequel_to_euclid/0153.png",
+      "printed_page": 127
+    },
+    "127": {
+      "default": "resources/sequel_to_euclid/0153.png",
+      "en": "resources/sequel_to_euclid/0153.png",
+      "folio": "0153",
+      "printed_page": 127
+    },
+    "p. 127": {
+      "default": "resources/sequel_to_euclid/0153.png",
+      "en": "resources/sequel_to_euclid/0153.png",
+      "folio": "0153",
+      "printed_page": 127
+    },
+    "0157": {
+      "default": "resources/sequel_to_euclid/0157.png",
+      "en": "resources/sequel_to_euclid/0157.png",
+      "scan": "resources/sequel_to_euclid/0157.png",
+      "printed_page": 131
+    },
+    "131": {
+      "default": "resources/sequel_to_euclid/0157.png",
+      "en": "resources/sequel_to_euclid/0157.png",
+      "folio": "0157",
+      "printed_page": 131
+    },
+    "p. 131": {
+      "default": "resources/sequel_to_euclid/0157.png",
+      "en": "resources/sequel_to_euclid/0157.png",
+      "folio": "0157",
+      "printed_page": 131
+    },
+    "0161": {
+      "default": "resources/sequel_to_euclid/0161.png",
+      "en": "resources/sequel_to_euclid/0161.png",
+      "scan": "resources/sequel_to_euclid/0161.png",
+      "printed_page": 135
+    },
+    "135": {
+      "default": "resources/sequel_to_euclid/0161.png",
+      "en": "resources/sequel_to_euclid/0161.png",
+      "folio": "0161",
+      "printed_page": 135
+    },
+    "p. 135": {
+      "default": "resources/sequel_to_euclid/0161.png",
+      "en": "resources/sequel_to_euclid/0161.png",
+      "folio": "0161",
+      "printed_page": 135
+    },
+    "0167": {
+      "default": "resources/sequel_to_euclid/0167.png",
+      "en": "resources/sequel_to_euclid/0167.png",
+      "scan": "resources/sequel_to_euclid/0167.png",
+      "printed_page": 141
+    },
+    "141": {
+      "default": "resources/sequel_to_euclid/0167.png",
+      "en": "resources/sequel_to_euclid/0167.png",
+      "folio": "0167",
+      "printed_page": 141
+    },
+    "p. 141": {
+      "default": "resources/sequel_to_euclid/0167.png",
+      "en": "resources/sequel_to_euclid/0167.png",
+      "folio": "0167",
+      "printed_page": 141
+    },
+    "0191": {
+      "default": "resources/sequel_to_euclid/0191.png",
+      "en": "resources/sequel_to_euclid/0191.png",
+      "scan": "resources/sequel_to_euclid/0191.png",
+      "printed_page": 165
+    },
+    "165": {
+      "default": "resources/sequel_to_euclid/0191.png",
+      "en": "resources/sequel_to_euclid/0191.png",
+      "folio": "0191",
+      "printed_page": 165
+    },
+    "p. 165": {
+      "default": "resources/sequel_to_euclid/0191.png",
+      "en": "resources/sequel_to_euclid/0191.png",
+      "folio": "0191",
+      "printed_page": 165
+    },
+    "0193": {
+      "default": "resources/sequel_to_euclid/0193.png",
+      "en": "resources/sequel_to_euclid/0193.png",
+      "scan": "resources/sequel_to_euclid/0193.png",
+      "printed_page": 167
+    },
+    "167": {
+      "default": "resources/sequel_to_euclid/0193.png",
+      "en": "resources/sequel_to_euclid/0193.png",
+      "folio": "0193",
+      "printed_page": 167
+    },
+    "p. 167": {
+      "default": "resources/sequel_to_euclid/0193.png",
+      "en": "resources/sequel_to_euclid/0193.png",
+      "folio": "0193",
+      "printed_page": 167
+    },
+    "0195": {
+      "default": "resources/sequel_to_euclid/0195.png",
+      "en": "resources/sequel_to_euclid/0195.png",
+      "scan": "resources/sequel_to_euclid/0195.png",
+      "printed_page": 169
+    },
+    "169": {
+      "default": "resources/sequel_to_euclid/0195.png",
+      "en": "resources/sequel_to_euclid/0195.png",
+      "folio": "0195",
+      "printed_page": 169
+    },
+    "p. 169": {
+      "default": "resources/sequel_to_euclid/0195.png",
+      "en": "resources/sequel_to_euclid/0195.png",
+      "folio": "0195",
+      "printed_page": 169
+    },
+    "0196": {
+      "default": "resources/sequel_to_euclid/0196.png",
+      "en": "resources/sequel_to_euclid/0196.png",
+      "scan": "resources/sequel_to_euclid/0196.png",
+      "printed_page": 170
+    },
+    "170": {
+      "default": "resources/sequel_to_euclid/0196.png",
+      "en": "resources/sequel_to_euclid/0196.png",
+      "folio": "0196",
+      "printed_page": 170
+    },
+    "p. 170": {
+      "default": "resources/sequel_to_euclid/0196.png",
+      "en": "resources/sequel_to_euclid/0196.png",
+      "folio": "0196",
+      "printed_page": 170
+    },
+    "0201": {
+      "default": "resources/sequel_to_euclid/0201.png",
+      "en": "resources/sequel_to_euclid/0201.png",
+      "scan": "resources/sequel_to_euclid/0201.png",
+      "printed_page": 175
+    },
+    "175": {
+      "default": "resources/sequel_to_euclid/0201.png",
+      "en": "resources/sequel_to_euclid/0201.png",
+      "folio": "0201",
+      "printed_page": 175
+    },
+    "p. 175": {
+      "default": "resources/sequel_to_euclid/0201.png",
+      "en": "resources/sequel_to_euclid/0201.png",
+      "folio": "0201",
+      "printed_page": 175
+    },
+    "0202": {
+      "default": "resources/sequel_to_euclid/0202.png",
+      "en": "resources/sequel_to_euclid/0202.png",
+      "scan": "resources/sequel_to_euclid/0202.png",
+      "printed_page": 176
+    },
+    "176": {
+      "default": "resources/sequel_to_euclid/0202.png",
+      "en": "resources/sequel_to_euclid/0202.png",
+      "folio": "0202",
+      "printed_page": 176
+    },
+    "p. 176": {
+      "default": "resources/sequel_to_euclid/0202.png",
+      "en": "resources/sequel_to_euclid/0202.png",
+      "folio": "0202",
+      "printed_page": 176
+    },
+    "0205": {
+      "default": "resources/sequel_to_euclid/0205.png",
+      "en": "resources/sequel_to_euclid/0205.png",
+      "scan": "resources/sequel_to_euclid/0205.png",
+      "printed_page": 179
+    },
+    "179": {
+      "default": "resources/sequel_to_euclid/0205.png",
+      "en": "resources/sequel_to_euclid/0205.png",
+      "folio": "0205",
+      "printed_page": 179
+    },
+    "p. 179": {
+      "default": "resources/sequel_to_euclid/0205.png",
+      "en": "resources/sequel_to_euclid/0205.png",
+      "folio": "0205",
+      "printed_page": 179
+    },
+    "0207": {
+      "default": "resources/sequel_to_euclid/0207.png",
+      "en": "resources/sequel_to_euclid/0207.png",
+      "scan": "resources/sequel_to_euclid/0207.png",
+      "printed_page": 181
+    },
+    "181": {
+      "default": "resources/sequel_to_euclid/0207.png",
+      "en": "resources/sequel_to_euclid/0207.png",
+      "folio": "0207",
+      "printed_page": 181
+    },
+    "p. 181": {
+      "default": "resources/sequel_to_euclid/0207.png",
+      "en": "resources/sequel_to_euclid/0207.png",
+      "folio": "0207",
+      "printed_page": 181
+    },
+    "0209": {
+      "default": "resources/sequel_to_euclid/0209.png",
+      "en": "resources/sequel_to_euclid/0209.png",
+      "scan": "resources/sequel_to_euclid/0209.png",
+      "printed_page": 183
+    },
+    "183": {
+      "default": "resources/sequel_to_euclid/0209.png",
+      "en": "resources/sequel_to_euclid/0209.png",
+      "folio": "0209",
+      "printed_page": 183
+    },
+    "p. 183": {
+      "default": "resources/sequel_to_euclid/0209.png",
+      "en": "resources/sequel_to_euclid/0209.png",
+      "folio": "0209",
+      "printed_page": 183
+    },
+    "0213": {
+      "default": "resources/sequel_to_euclid/0213.png",
+      "en": "resources/sequel_to_euclid/0213.png",
+      "scan": "resources/sequel_to_euclid/0213.png",
+      "printed_page": 187
+    },
+    "187": {
+      "default": "resources/sequel_to_euclid/0213.png",
+      "en": "resources/sequel_to_euclid/0213.png",
+      "folio": "0213",
+      "printed_page": 187
+    },
+    "p. 187": {
+      "default": "resources/sequel_to_euclid/0213.png",
+      "en": "resources/sequel_to_euclid/0213.png",
+      "folio": "0213",
+      "printed_page": 187
+    },
+    "0220": {
+      "default": "resources/sequel_to_euclid/0220.png",
+      "en": "resources/sequel_to_euclid/0220.png",
+      "scan": "resources/sequel_to_euclid/0220.png",
+      "printed_page": 194
+    },
+    "194": {
+      "default": "resources/sequel_to_euclid/0220.png",
+      "en": "resources/sequel_to_euclid/0220.png",
+      "folio": "0220",
+      "printed_page": 194
+    },
+    "p. 194": {
+      "default": "resources/sequel_to_euclid/0220.png",
+      "en": "resources/sequel_to_euclid/0220.png",
+      "folio": "0220",
+      "printed_page": 194
+    },
+    "0227": {
+      "default": "resources/sequel_to_euclid/0227.png",
+      "en": "resources/sequel_to_euclid/0227.png",
+      "scan": "resources/sequel_to_euclid/0227.png",
+      "printed_page": 201
+    },
+    "201": {
+      "default": "resources/sequel_to_euclid/0227.png",
+      "en": "resources/sequel_to_euclid/0227.png",
+      "folio": "0227",
+      "printed_page": 201
+    },
+    "p. 201": {
+      "default": "resources/sequel_to_euclid/0227.png",
+      "en": "resources/sequel_to_euclid/0227.png",
+      "folio": "0227",
+      "printed_page": 201
+    },
+    "0231": {
+      "default": "resources/sequel_to_euclid/0231.png",
+      "en": "resources/sequel_to_euclid/0231.png",
+      "scan": "resources/sequel_to_euclid/0231.png",
+      "printed_page": 205
+    },
+    "205": {
+      "default": "resources/sequel_to_euclid/0231.png",
+      "en": "resources/sequel_to_euclid/0231.png",
+      "folio": "0231",
+      "printed_page": 205
+    },
+    "p. 205": {
+      "default": "resources/sequel_to_euclid/0231.png",
+      "en": "resources/sequel_to_euclid/0231.png",
+      "folio": "0231",
+      "printed_page": 205
+    },
+    "0245": {
+      "default": "resources/sequel_to_euclid/0245.png",
+      "en": "resources/sequel_to_euclid/0245.png",
+      "scan": "resources/sequel_to_euclid/0245.png",
+      "printed_page": 219
+    },
+    "219": {
+      "default": "resources/sequel_to_euclid/0245.png",
+      "en": "resources/sequel_to_euclid/0245.png",
+      "folio": "0245",
+      "printed_page": 219
+    },
+    "p. 219": {
+      "default": "resources/sequel_to_euclid/0245.png",
+      "en": "resources/sequel_to_euclid/0245.png",
+      "folio": "0245",
+      "printed_page": 219
+    }
+  }
+}
