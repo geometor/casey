@@ -33,7 +33,7 @@ Constructive Demonstrations & Scholarly Apparatus
 
 * **Exact Symbolic Demonstrations**: :doc:`4 Runnable SymPy / geometor.model Construction Suites <demos/index>` (Casey & Feuerbach, Coaxal Pencils & Limiting Points, Poles/Polars & La Hire Reciprocity, and Symmedian–Lemoine–Brocard Geometry).
 * **Scholarly Apparatus**: :doc:`People </sequel_to_euclid/persons>` · :doc:`Bibliography </sequel_to_euclid/bibliography>` · :ref:`Euclid–Casey–Altshiller-Court–ETC–Pappus Concordance & SymPy Circle Audit <concordance>` · :ref:`Technical Glossary <glossary>`.
-* **Architecture & Reference**: :doc:`Mission & Scope <mission/index>` · :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`About John Casey & Digital Methodology <about/index>` · :doc:`Python API Reference <modules/index>` · :doc:`Curation Log <log/index>`.
+* **Architecture & Reference**: :doc:`About This Edition <about/index>` · :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`Python API Reference <modules/index>` · :doc:`Curation Log <log/index>`.
 
 .. toctree::
    :maxdepth: 2
@@ -42,7 +42,7 @@ Constructive Demonstrations & Scholarly Apparatus
    sequel_to_euclid/index
    sequel_to_euclid/persons
    sequel_to_euclid/bibliography
-   mission/index
+   about/index
    usage/index
    demos/index
    log/index
