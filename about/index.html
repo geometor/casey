@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About John Casey &amp; the Digital Edition &mdash; GEOMETOR • casey</title>
+  <title>About &mdash; GEOMETOR • casey</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
@@ -46,7 +46,7 @@
           <a href="../sequel_to_euclid/bibliography.html"  >Bibliography</a>
         </li>
         <li>
-          <a href="../mission/index.html"  >Mission</a>
+          <a href="#" class="is-active" aria-selected="true" aria-current="page">About</a>
         </li>
         <li>
           <a href="../usage/index.html"  >Usage</a>
@@ -76,20 +76,38 @@
         </div>
         <div class="book-header-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/casey/render/index.html" title="geometor.casey.render">&larr; <span class="nav-label">Prev</span></a>
+            <a class="book-nav-btn" href="../sequel_to_euclid/glossary.html" title="Technical Glossary of Circle, Projective &amp; Triangle Geometry">&larr; <span class="nav-label">Prev</span></a>
           </div>
           <div class="book-nav-center">
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Next</span> &rarr;</a>
           </div>
         </div>
       </header>
       <div class="content body book-content" role="main">
-        <section class="level-1" id="about-john-casey-the-digital-edition">
-        <span id="about-casey"></span><h1>About John Casey &amp; the Digital Edition<a class="headerlink" href="#about-john-casey-the-digital-edition" title="Link to this heading">¶</a></h1>
-        <p class="rubric">Life of John Casey (1820–1891), Editorial Lineage of the <em>Sequel</em> (1881–1892), and Digital Scriptorium Methodology</p>
-        <section class="level-2" id="john-casey-ll-d-f-r-s-18201891">
-        <h2>John Casey, LL.D., F.R.S. (1820–1891)<a class="headerlink" href="#john-casey-ll-d-f-r-s-18201891" title="Link to this heading">¶</a></h2>
+        <section class="level-1" id="about-casey">
+        <span id="about-index"></span><span id="about"></span><span id="id1"></span><h1>About<a class="headerlink" href="#about-casey" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Extracting Historical Semantic Knowledge &amp; Repurposing It for Exact Symbolic Reasoning</p>
+        <section class="level-2" id="about-this-edition">
+        <h2>About This Edition<a class="headerlink" href="#about-this-edition" title="Link to this heading">¶</a></h2>
+        <p><code class="docutils literal notranslate"><span class="pre">geometor/casey</span></code> establishes the authoritative Digital Scriptorium edition and exact symbolic engine for <strong>John Casey’s</strong> landmark nineteenth-century treatise, <em>A Sequel to the First Six Books of the Elements of Euclid</em> (1888 / 1892). Casey (1820–1891), Fellow of the Royal Society and Professor of Higher Mathematics at the Catholic University of Ireland, stood alongside George Salmon, Richard Townsend, and Robert Stawell Ball at the summit of the nineteenth-century Dublin school of pure geometry.</p>
+        <p>Before Nathan Altshiller-Court codified <em>College Geometry</em> (1925 / 1952, <code class="docutils literal notranslate"><span class="pre">geometor/altshiller-court</span></code>) and Clark Kimberling catalogued thousands of triangle centers (<code class="docutils literal notranslate"><span class="pre">geometor/etc</span></code>), Casey’s <em>Sequel</em> was the premier English-language work organizing modern post-Euclidean synthetic geometry book-by-book directly onto Euclid’s <em>Elements</em> (<code class="docutils literal notranslate"><span class="pre">geometor/euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor/elements</span></code>) while absorbing the projective methods of Poncelet, Chasles, Monge, Desargues, Pascal, and Brianchon (<code class="docutils literal notranslate"><span class="pre">geometor/pappus</span></code>). It systematically develops the theory of coaxal circles, poles and polars, circular inversion, Casey’s celebrated generalized Ptolemy theorem, and the modern geometry of the triangle (the symmedian point, Brocard figures, and Lemoine circles).</p>
+        <p>Following GEOMETOR Digital Scriptorium standards, this edition extracts the treatise into a synchronized 6-unit <strong>3-Track Book Codex</strong> (<code class="docutils literal notranslate"><span class="pre">docsrc/sequel_to_euclid/</span></code>): pairing faithful historical enunciations and demonstrations with calibrated interactive <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVGs, structured mathematical summaries with algebraic invariant ledgers, and comprehensive collation notes. In accordance with strict content/code separation, the running text contains zero embedded execution scripts, while runnable, machine-verified constructions and symbolic proofs live cleanly in <code class="docutils literal notranslate"><span class="pre">src/geometor/casey/</span></code> and <code class="docutils literal notranslate"><span class="pre">demos/</span></code>.</p>
+        </section>
+        <section class="level-2" id="the-geometor-mission">
+        <h2>The GEOMETOR Mission<a class="headerlink" href="#the-geometor-mission" title="Link to this heading">¶</a></h2>
+        <p>The <strong>GEOMETOR</strong> initiative, founded by <strong>phi ARCHITECT</strong>, is dedicated to a three-fold synthesis of classical geometry, exact symbolic computation, and modern knowledge architecture:</p>
+        <ul class="simple">
+        <li><p><strong>Extracting Historical Semantic Knowledge</strong>: Moving beyond passive page scans and static OCR to recover the living deductive structure of 2,300+ years of geometric, axiomatic, and philosophical treatises. We elevate running prose, marginal citations, primary-source folios (via <code class="docutils literal notranslate"><span class="pre">publish</span> <span class="pre">folio</span></code>), and calibrated Ink-to-Vector <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> diagrams into structured, machine-addressable semantic graphs where every enunciation, proof step, and historical cross-reference is individually referenceable.</p></li>
+        <li><p><strong>Exact Symbolic Grounding (``geometor.model``)</strong>: Anchoring geometric constructions in 100% exact symbolic algebra (via <code class="docutils literal notranslate"><span class="pre">SymPy</span></code>) and Rational Trigonometry invariants (quadrance, spread, cross-ratio) over exact algebraic number fields rather than lossy floating-point approximations. Every geometric theorem is treated as an exact algebraic truth verifiable through computational modeling.</p></li>
+        <li><p><strong>Repurposing Knowledge Across Mediums</strong>: Re-deploying extracted semantic and algebraic structures across synchronized multi-track <strong>Book Codices</strong> and EPUB 3 editions (via <code class="docutils literal notranslate"><span class="pre">photon-platform/publish</span></code>), computable deductive canons (<code class="docutils literal notranslate"><span class="pre">geometor.elements</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.etc</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.pappus</span></code>, <code class="docutils literal notranslate"><span class="pre">geometor.divine</span></code>), interactive SVG laboratories (<code class="docutils literal notranslate"><span class="pre">geometor.explorer</span></code>), QHD visual broadcasts, and neuro-symbolic program synthesis (<code class="docutils literal notranslate"><span class="pre">geometor.seer</span></code>) across <a class="reference external" href="https://geometor.com">geometor.com</a>.</p></li>
+        </ul>
+        </section>
+        <section class="level-2" id="sources-provenance-methodology">
+        <h2>Sources, Provenance &amp; Methodology<a class="headerlink" href="#sources-provenance-methodology" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="john-casey-ll-d-f-r-s-18201891">
+        <h3>John Casey, LL.D., F.R.S. (1820–1891)<a class="headerlink" href="#john-casey-ll-d-f-r-s-18201891" title="Link to this heading">¶</a></h3>
         <p><strong>John Casey</strong> (born May 12, 1820, Kilbehenny, County Limerick; died January 3, 1891, Dublin) stands alongside George Salmon, Richard Townsend, and Robert Stawell Ball at the summit of the nineteenth-century Dublin school of pure geometry. Educated first in local Munster schools and largely self-taught in higher mathematics while serving as headmaster of the Kilkenny Central Model Schools, Casey entered <strong>Trinity College Dublin</strong> as a pensioner in 1858 at the age of thirty-eight—having already communicated original discoveries on the geometry of the triangle and circle to Richard Townsend and George Salmon. Electing Scholarship in 1861 and graduating B.A. in 1862, he subsequently served as Professor of Higher Mathematics and Mathematical Physics at the Catholic University of Ireland (from 1873) and Fellow of the Royal University of Ireland (from 1882), elected Fellow of the Royal Society in 1875.</p>
         <p>In <strong>1866</strong> (<em>Proceedings of the Royal Irish Academy</em>, vol. 9, pp. 396–423), Casey published his celebrated <strong>generalization of Ptolemy’s Theorem</strong> (Book VI, Section IV, Proposition 10): four circles $O_1, O_2, O_3, O_4$ are tangent to a fifth circle (or straight line) if and only if the six pairwise common tangents $\overline{ij}$ satisfy a vanishing Cayley–Menger / Ptolemy relation</p>
         <p>$$
@@ -97,8 +115,8 @@
         $$</p>
         <p>Already as an undergraduate in <em>Quarterly Journal of Pure and Applied Mathematics</em> <strong>4</strong> (1861), pp. 245–252, Casey had discovered the three-line circular-inversion proof of <strong>Feuerbach’s Theorem</strong>—inverting the incircle and the $A$-excircle into themselves from the midpoint $M_a$ of $BC$ with squared radius $\frac{1}{4}(b - c)^2$ so that the fourth common tangent maps directly onto the nine-points circle!</p>
         </section>
-        <section class="level-2" id="editions-of-the-sequel-18811892">
-        <h2>Editions of the <em>Sequel</em> (1881–1892)<a class="headerlink" href="#editions-of-the-sequel-18811892" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="editions-of-the-sequel-18811892">
+        <h3>Editions of the <em>Sequel</em> (1881–1892)<a class="headerlink" href="#editions-of-the-sequel-18811892" title="Link to this heading">¶</a></h3>
         <p>Published in the <em>Dublin University Press Series</em> (Dublin: Hodges, Figgis, &amp; Co.; London: Longmans, Green, &amp; Co.):</p>
         <ul class="simple">
         <li><p><strong>1st–3rd Editions (1881–1884)</strong>: Books I–IV and Book VI Sections I–VII, culminating in inversion, Casey’s theorem, Feuerbach’s theorem, Hart’s circle, poles and polars, and coaxal circles.</p></li>
@@ -107,13 +125,22 @@
         <li><p><strong>6th Edition (1892)</strong>: Posthumously seen through the press and revised by Casey’s pupil and son-in-law <strong>Patrick A. E. Dowling, B.A.</strong> (pp. i–xviii, 1–248), preserving the exact proposition and section numbering of the 5th edition; cited canonically as <code class="docutils literal notranslate"><span class="pre">[casey:sequel:1892]</span></code> in Nathan Altshiller-Court’s <em>College Geometry</em> (1952).</p></li>
         </ul>
         </section>
-        <section class="level-2" id="digital-scriptorium-verification-protocol">
-        <h2>Digital Scriptorium Verification Protocol<a class="headerlink" href="#digital-scriptorium-verification-protocol" title="Link to this heading">¶</a></h2>
+        <section class="level-3" id="digital-scriptorium-verification-protocol">
+        <h3>Digital Scriptorium Verification Protocol<a class="headerlink" href="#digital-scriptorium-verification-protocol" title="Link to this heading">¶</a></h3>
         <p>Every unit in <code class="docutils literal notranslate"><span class="pre">docsrc/sequel_to_euclid/</span></code> obeys the GEOMETOR Multimodal Scan Vision protocol:</p>
         <ol class="arabic simple">
         <li><p>Archival page images rendered at 300 DPI (<cite>PDF Folio = Printed Page + 26</cite> in the 1888 5th-edition witness) were visually inspected directly via multimodal scan vision rather than OCR layers.</p></li>
         <li><p>Each unit pairs synchronized <strong>English</strong> (historical enunciations, demonstrations, corollaries, and calibrated <code class="docutils literal notranslate"><span class="pre">.euclid-graphic</span></code> SVGs), <strong>Summary</strong> (mathematical synthesis and invariants ledger), and <strong>Notes</strong> (historical provenance, Dowling 1892 collation, and cross-references to <code class="docutils literal notranslate"><span class="pre">euclid</span></code>, <code class="docutils literal notranslate"><span class="pre">elements</span></code>, <code class="docutils literal notranslate"><span class="pre">altshiller-court</span></code>, <code class="docutils literal notranslate"><span class="pre">etc</span></code>, and <code class="docutils literal notranslate"><span class="pre">pappus</span></code>).</p></li>
         </ol>
+        <p>Scholarly Apparatus &amp; References:</p>
+        <ul class="simple">
+        <li><p><a class="reference internal" href="../usage/index.html"><span class="doc">Reader’s Guide and Usage</span></a></p></li>
+        <li><p><a class="reference internal" href="../sequel_to_euclid/index.html"><span class="doc">Sequel to Euclid Codex</span></a></p></li>
+        <li><p><a class="reference internal" href="../demos/index.html"><span class="doc">Exact Symbolic Demonstrations</span></a></p></li>
+        <li><p><a class="reference internal" href="../sequel_to_euclid/persons.html"><span class="doc">Biographical Register of Persons</span></a></p></li>
+        <li><p><a class="reference internal" href="../sequel_to_euclid/bibliography.html"><span class="doc">Systematic Bibliography</span></a></p></li>
+        </ul>
+        </section>
         </section>
         </section>
 
@@ -122,12 +149,13 @@
         <div class="book-footer-ornament">&#10086;</div>
         <div class="book-footer-nav">
           <div class="book-nav-prev">
-            <a class="book-nav-btn" href="../modules/api/geometor/casey/render/index.html" title="geometor.casey.render">&larr; <span class="nav-label">geometor.casey.render</span></a>
+            <a class="book-nav-btn" href="../sequel_to_euclid/glossary.html" title="Technical Glossary of Circle, Projective &amp; Triangle Geometry">&larr; <span class="nav-label">Technical Glossary of Circle, Projective & Triangle Geometry</span></a>
           </div>
           <div class="book-nav-center">
             <a class="book-toc-link" href="../index.html">GEOMETOR • casey</a>
           </div>
           <div class="book-nav-next">
+            <a class="book-nav-btn" href="../usage/index.html" title="Using This Edition"><span class="nav-label">Using This Edition</span> &rarr;</a>
           </div>
         </div>
       </footer>
@@ -180,7 +208,6 @@
   <footer>
     <div class="footer-nav">
       <ul>
-        <li><a href="#" class="is-active" aria-selected="true" aria-current="page">About</a></li>
         <li><a href="../sequel_to_euclid/concordance.html"  >Concordance</a></li>
         <li><a href="../sequel_to_euclid/glossary.html"  >Glossary</a></li>
       </ul>
@@ -195,7 +222,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=92734c54"></script>
+  <script src="../_static/documentation_options.js?v=360bc84d"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
