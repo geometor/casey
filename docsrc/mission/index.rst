@@ -1,5 +1,6 @@
 :navigation: header
 :order: 10
+:nav_title: Mission
 :title: Mission
 
 .. _casey-mission:

@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 2 — Power of a Point, Orthogonal & Coaxal Circles
 
 .. _sequel-unit-2-en:

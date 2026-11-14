@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 4 Summary — Inversion, Casey's Theorem, Feuerbach & Polar Duality
 
 .. _sequel-unit-4-summary:

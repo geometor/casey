@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 1 — Books I, II & IV Extensions
 
 .. _sequel-unit-1-en:

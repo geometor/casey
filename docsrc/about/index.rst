@@ -1,5 +1,5 @@
-:navigation: header
-:order: 15
+:navigation: footer
+:nav_title: About
 :title: About
 
 .. _about-casey:

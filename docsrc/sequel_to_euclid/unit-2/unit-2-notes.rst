@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 2 Notes — Gaultier, Steiner, Poncelet & SymPy Gaps
 
 .. _sequel-unit-2-notes:

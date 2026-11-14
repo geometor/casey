@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 3 Summary — Projective Ratios, Similitude & Complete Quadrilaterals
 
 .. _sequel-unit-3-summary:

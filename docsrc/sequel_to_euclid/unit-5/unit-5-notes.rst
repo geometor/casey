@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 5 Notes — Grebe, Lemoine (1873), d'Ocagne & Tucker
 
 .. _sequel-unit-5-notes:

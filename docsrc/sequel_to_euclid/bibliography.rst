@@ -1,10 +1,12 @@
-:layout: book
-:title: Systematic Bibliography
+:navigation: header
+:order: 6
+:nav_title: Bibliography
+:title: Bibliography
 
 .. _bibliography:
 
-Systematic Bibliography & Editions
-==================================
+Bibliography
+============
 
 .. rubric:: Primary Editions, Classical Sources & Nineteenth-Century Memoirs Cited in Casey's *Sequel*
 

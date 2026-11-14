@@ -9,13 +9,13 @@ Digital critical edition, calibrated interactive ``.euclid-graphic`` geometric d
 
 ----
 
-Featured Treatise
------------------
+Book Codex
+----------
 
 :doc:`A Sequel to the First Six Books of the Elements of Euclid (1888 / 1892) <sequel_to_euclid/index>`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Fifth Edition, Revised and Enlarged* (Dublin: Hodges, Figgis, & Co.; London: Longmans, Green, & Co., 1888; 276 archival folios) collated with the *Sixth Edition, Revised and Enlarged*, edited by **Patrick A. E. Dowling, B.A.** (Dublin / London, 1892 — cited as ``[casey:sequel:1892]`` in Nathan Altshiller-Court's *College Geometry*).
+*Fifth Edition, Revised and Enlarged* (Dublin: Hodges, Figgis, & Co.; London: Longmans, Green, & Co., 1888; 276 archival folios) collated with the *Sixth Edition, Revised and Enlarged*, edited by :person:`Patrick A. E. Dowling, B.A. <dowling>` (Dublin / London, 1892 — cited as ``[casey:sequel:1892]`` in Nathan Altshiller-Court's *College Geometry*).
 
 The foundational English-language bridge from classical Euclidean constructions (``geometor/euclid``, ``geometor/elements``) to 19th-century synthetic circle, projective, and triangle geometry:
 
@@ -32,5 +32,18 @@ Constructive Demonstrations & Scholarly Apparatus
 -------------------------------------------------
 
 * **Exact Symbolic Demonstrations**: :doc:`4 Runnable SymPy / geometor.model Construction Suites <demos/index>` (Casey & Feuerbach, Coaxal Pencils & Limiting Points, Poles/Polars & La Hire Reciprocity, and Symmedian–Lemoine–Brocard Geometry).
-* **Critical Apparatus**: :ref:`Euclid–Casey–Altshiller-Court–ETC–Pappus Concordance & SymPy Circle Audit <concordance>` · :ref:`Systematic Bibliography <bibliography>` · :ref:`Index of Persons <persons>` · :ref:`Technical Glossary <glossary>`.
-* **Architecture & Reference**: :doc:`Mission & Scope <mission/index>` · :doc:`John Casey & Editorial Methodology <about/index>` · :doc:`Python API Reference <modules/index>` · :doc:`Curation Log <log/index>`.
+* **Scholarly Apparatus**: :doc:`People </sequel_to_euclid/persons>` · :doc:`Bibliography </sequel_to_euclid/bibliography>` · :ref:`Euclid–Casey–Altshiller-Court–ETC–Pappus Concordance & SymPy Circle Audit <concordance>` · :ref:`Technical Glossary <glossary>`.
+* **Architecture & Reference**: :doc:`Mission & Scope <mission/index>` · :doc:`Using This Edition (Reader's Guide) <usage/index>` · :doc:`About John Casey & Digital Methodology <about/index>` · :doc:`Python API Reference <modules/index>` · :doc:`Curation Log <log/index>`.
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   sequel_to_euclid/index
+   sequel_to_euclid/persons
+   sequel_to_euclid/bibliography
+   mission/index
+   usage/index
+   demos/index
+   log/index
+   modules/index

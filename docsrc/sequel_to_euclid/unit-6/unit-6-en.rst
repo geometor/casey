@@ -1,4 +1,3 @@
-:layout: book
 :title: Unit 6 — Brocard Geometry, Tucker/Taylor Circles, Harmonic Polygons & Associated Points
 
 .. _sequel-unit-6-en:

@@ -1,4 +1,5 @@
-:layout: book
+:navigation: footer
+:nav_title: Concordance
 :title: Master Concordance & SymPy Circle Audit
 
 .. _concordance:
