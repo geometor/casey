@@ -18,7 +18,6 @@ dist/
 *.pdf
 resources/**/scans/
 resources/**/pages/
-resources/**/*.png
 scratch/
 
 # Compiled Sphinx HTML output & generated AutoAPI RST
