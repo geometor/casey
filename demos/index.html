@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=ea5fcf70" />
-  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=8713e751" />
+  <link rel="stylesheet" type="text/css" href="../_static/css/styles.css?v=99410eb1" />
   <link rel="stylesheet" type="text/css" href="../_static/graphviz.css?v=4ae1632d" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
@@ -109,9 +109,33 @@
         <li><p><strong>Casey’s 1861 Inversion Circle</strong>: Circle $(M_a, T_a)$ centered at $M_a = \left(\frac{19}{2}, 6\right)$ of radius $\frac{1}{2} = \frac{|b - c|}{2}$ cuts both the incircle $(I, 4)$ and $A$-excircle $(I_a, 14)$ orthogonally and inverts $T_s = \left(\frac{614}{65}, \frac{392}{65}\right)$ on the fourth common tangent directly onto $F_e = (6, 8)$.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0083.g1" role="img" aria-label="Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0083.g1" role="img" aria-label="Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle" width="680" height="480" data-svg-scope="s-570f54ac">
+          <style>
+            svg[data-svg-scope="s-570f54ac"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-570f54ac"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-570f54ac"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-570f54ac"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-570f54ac"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-570f54ac"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-570f54ac"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-570f54ac"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-570f54ac"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-570f54ac"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-570f54ac"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-570f54ac"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-570f54ac"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-570f54ac"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-570f54ac"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-570f54ac"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-570f54ac"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-570f54ac"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
@@ -170,9 +194,33 @@
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0130.g1" role="img" aria-label="Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0130.g1" role="img" aria-label="Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)" width="680" height="480" data-svg-scope="s-8dd24789">
+          <style>
+            svg[data-svg-scope="s-8dd24789"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-8dd24789"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-8dd24789"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-8dd24789"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-8dd24789"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-8dd24789"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-8dd24789"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-8dd24789"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-8dd24789"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-8dd24789"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-8dd24789"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-8dd24789"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-8dd24789"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-8dd24789"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-8dd24789"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-8dd24789"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-8dd24789"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-8dd24789"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
@@ -363,9 +411,33 @@
         <span id="demo-coaxial-pencil"></span><h2>2. Radical Axis, Radical Centre &amp; Coaxal Pencil with Poncelet Limiting Points<a class="headerlink" href="#radical-axis-radical-centre-coaxal-pencil-with-poncelet-limiting-points" title="Link to this heading">¶</a></h2>
         <p>Executes <code class="docutils literal notranslate"><span class="pre">demos/coaxial_pencil_and_limiting_points.py</span></code> (<a class="reference internal" href="../modules/api/geometor/casey/coaxial/index.html#module-geometor.casey.coaxial" title="geometor.casey.coaxial"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey.coaxial</span></code></a>), constructing the radical axis of two non-intersecting circles via an auxiliary secant circle (Casey Book III, Prop. 21, p. 43), verifying Casey’s Fundamental Difference-of-Powers Theorem (Prop. 24), and constructing <strong>Poncelet’s Limiting Points</strong> $L_1 = (-8, 0), L_2 = (8, 0)$ and the orthogonal circle centered at the Radical Centre $R_c = (0, -6)$ (Book VI, Sec. V, Props. 1–6):</p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0069.g1" role="img" aria-label="Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0069.g1" role="img" aria-label="Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points" width="680" height="480" data-svg-scope="s-07cd6f40">
+          <style>
+            svg[data-svg-scope="s-07cd6f40"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-07cd6f40"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-07cd6f40"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-07cd6f40"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-07cd6f40"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-07cd6f40"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-07cd6f40"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-07cd6f40"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-07cd6f40"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-07cd6f40"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-07cd6f40"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-07cd6f40"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-07cd6f40"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-07cd6f40"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <circle class="geom-circle" cx="147.35" cy="250.7" r="64.22" data-ref="( O1 P1 )" data-aliases="( O1 ) | ( O1 T1 )" fill="none"><title>( O1 P1 ): y**2 + (x + 10)**2 - 36 = 0</title></circle>
@@ -485,9 +557,33 @@
         <span id="demo-poles-polars"></span><h2>3. Complete Quadrilateral Harmonic Ranges, Poles &amp; Polars, and La Hire Reciprocity<a class="headerlink" href="#complete-quadrilateral-harmonic-ranges-poles-polars-and-la-hire-reciprocity" title="Link to this heading">¶</a></h2>
         <p>Executes <code class="docutils literal notranslate"><span class="pre">demos/poles_polars_lahire.py</span></code> (<a class="reference internal" href="../modules/api/geometor/casey/poles_polars/index.html#module-geometor.casey.poles_polars" title="geometor.casey.poles_polars"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey.poles_polars</span></code></a>), demonstrating pure-straightedge projective harmonic division on the Complete Quadrilateral (Book VI, Sec. III, Prop. 7, p. 91) and inscribed-quadrangle polar construction, Self-Conjugate Triangle $\triangle DUV$, harmonic secant division $(G_i, H_i; J_i, D) = -1$, and <strong>La Hire’s Reciprocity</strong> $Q \in \operatorname{polar}(D) \iff D \in \operatorname{polar}(Q)$ (Book III, Props. 25, 27 &amp; Book VI, Sec. VII):</p>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0117.g1" role="img" aria-label="Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0117.g1" role="img" aria-label="Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section" width="680" height="480" data-svg-scope="s-d2d09b9b">
+          <style>
+            svg[data-svg-scope="s-d2d09b9b"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-d2d09b9b"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-d2d09b9b"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-d2d09b9b"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-d2d09b9b"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-d2d09b9b"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-d2d09b9b"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-d2d09b9b"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-d2d09b9b"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-d2d09b9b"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon primary-poly" points="305.26,396.32 513.68,396.32 444.21,326.84 374.74,292.11" data-ref="&lt; A B C D &gt;" />
@@ -529,9 +625,33 @@
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0071.g1" role="img" aria-label="Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0071.g1" role="img" aria-label="Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity" width="680" height="480" data-svg-scope="s-97a4ebc6">
+          <style>
+            svg[data-svg-scope="s-97a4ebc6"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-97a4ebc6"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-97a4ebc6"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-97a4ebc6"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-97a4ebc6"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-97a4ebc6"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-97a4ebc6"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-97a4ebc6"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-97a4ebc6"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-97a4ebc6"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <circle class="geom-circle featured-circle" cx="307" cy="295" r="110" data-ref="( O H2 )" data-aliases="( O ) | ( O G1 ) | ( O H1 ) | ( O G2 ) | ( G1 H1 G2 )" fill="none"><title>( O H2 ): x**2 + y**2 - 25 = 0</title></circle>
@@ -683,9 +803,33 @@
         <li><p><strong>Associated Points</strong>: <strong>Steiner Point</strong> $S_t = X(99) = \left(\frac{17253}{2353}, -\frac{9396}{2353}\right)$, <strong>Tarry Point</strong> $T_r = X(98) = \left(\frac{15689}{2353}, \frac{115233}{9412}\right)$, and <strong>de Longchamps Point</strong> $X(20) = \left(9, \frac{9}{2}\right)$.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0205.g1" role="img" aria-label="Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0205.g1" role="img" aria-label="Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle" width="680" height="480" data-svg-scope="s-a463d3c3">
+          <style>
+            svg[data-svg-scope="s-a463d3c3"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-a463d3c3"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-a463d3c3"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-a463d3c3"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-a463d3c3"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-a463d3c3"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-a463d3c3"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-a463d3c3"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-a463d3c3"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-a463d3c3"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-a463d3c3"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-a463d3c3"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-a463d3c3"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-a463d3c3"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon primary-poly" points="182.5,339 497.5,339 295,69" data-ref="&lt; A B C &gt;" />
@@ -738,9 +882,33 @@
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" data-graphic-id="0220.g1" role="img" aria-label="Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0220.g1" role="img" aria-label="Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)" width="680" height="480" data-svg-scope="s-7122c8da">
+          <style>
+            svg[data-svg-scope="s-7122c8da"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-7122c8da"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
+            svg[data-svg-scope="s-7122c8da"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-7122c8da"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
+            svg[data-svg-scope="s-7122c8da"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
+            svg[data-svg-scope="s-7122c8da"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
+            svg[data-svg-scope="s-7122c8da"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-7122c8da"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
+            svg[data-svg-scope="s-7122c8da"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
+            svg[data-svg-scope="s-7122c8da"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
+            svg[data-svg-scope="s-7122c8da"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
+            svg[data-svg-scope="s-7122c8da"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-7122c8da"] .center-point { fill: #0369a1; fill: var(--pt-center) }
+            svg[data-svg-scope="s-7122c8da"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-7122c8da"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
+            svg[data-svg-scope="s-7122c8da"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
+            svg[data-svg-scope="s-7122c8da"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-7122c8da"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+          </style>
           <title>Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)</title>
-          <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
           <g id="elements">
             <g id="graphics">
               <polygon class="geom-polygon primary-poly" points="183.39,337.32 496.61,337.32 295.25,68.85" data-ref="&lt; A B C &gt;" />
@@ -969,7 +1137,7 @@
 
   <script src="../_static/jquery.js?v=5d32c60e"></script>
   <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
-  <script src="../_static/documentation_options.js?v=fd825880"></script>
+  <script src="../_static/documentation_options.js?v=59fadc99"></script>
   <script src="../_static/doctools.js?v=fd6eb6e6"></script>
   <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
   <script src="../_static/js/collection_controls.js?v=b6b5297a"></script>
