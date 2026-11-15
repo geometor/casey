@@ -29,7 +29,6 @@ project = "GEOMETOR • casey"
 author = "John Casey · Patrick A. E. Dowling · Digital Edition GEOMETOR"
 copyright = "1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR"
 
-html_logo = None
 html_static_path = ["_static"]
 
 # Restrict AutoAPI strictly to `src/geometor` and avoid duplicate root index with modules/index.rst
