@@ -1,0 +1,231 @@
+
+
+<!DOCTYPE html>
+<html lang="en" data-content_root="../../">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Book VI, Section II Notes: Monge’s Theorem &amp; The Circle of Similitude — A Sequel to the First Six Books of the Elements of Euclid • GEOMETOR</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="canonical" href="https://geometor.github.io/casey/sequel_to_euclid/book_06/section_02-notes.html" />
+  <meta name="description" content="Gaspard Monge discovered the theorem of the three collinear centres of similitude in 1798 using a brilliant 3D projection argument:" />
+  <meta property="og:site_name" content="GEOMETOR" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Book VI, Section II Notes: Monge’s Theorem &amp; The Circle of Similitude — A Sequel to the First Six Books of the Elements of Euclid • GEOMETOR" />
+  <meta property="og:description" content="Gaspard Monge discovered the theorem of the three collinear centres of similitude in 1798 using a brilliant 3D projection argument:" />
+  <meta property="og:url" content="https://geometor.github.io/casey/sequel_to_euclid/book_06/section_02-notes.html" />
+  <meta property="og:image" content="https://geometor.github.io/casey/_static/social/sequel_to_euclid.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="John Casey — GEOMETOR" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Book VI, Section II Notes: Monge’s Theorem &amp; The Circle of Similitude — A Sequel to the First Six Books of the Elements of Euclid • GEOMETOR" />
+  <meta name="twitter:description" content="Gaspard Monge discovered the theorem of the three collinear centres of similitude in 1798 using a brilliant 3D projection argument:" />
+  <meta name="twitter:image" content="https://geometor.github.io/casey/_static/social/sequel_to_euclid.png" />
+  <meta name="twitter:image:alt" content="John Casey — GEOMETOR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&family=Fira+Sans+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=ea5fcf70" />
+  <link rel="stylesheet" type="text/css" href="../../_static/css/styles.css?v=81e79cc0" />
+  <link rel="stylesheet" type="text/css" href="../../_static/graphviz.css?v=4ae1632d" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" />
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="../../_static/css/print.css" type="text/css" media="print" />
+  <link rel="icon" href="../../_static/favicon.ico" />
+</head>
+
+<body class="is-book-page book-theme-classical-serif">
+  <header>
+    <div class="logo">
+      <a href="../../index.html" title="Home">
+        <img src="../../_static/logo.png" class="logo" alt="GEOMETOR casey"/>
+        <div class="org-repo">
+          <span class="org">GEOMETOR</span>
+          <span class="sep" aria-hidden="true">&bull;</span>
+          <span class="repo">casey</span>
+        </div>
+      </a>
+    </div>
+    <nav aria-label="Header">
+      <input type="checkbox" id="nav-Header-toggle" >
+      <label for="nav-Header-toggle" >Header</label>
+      <ul>
+        <li>
+          <a href="../index.html" class="is-active" aria-selected="true" >Sequel to Euclid</a>
+        </li>
+        <li>
+          <a href="../persons.html"  >People</a>
+        </li>
+        <li>
+          <a href="../bibliography.html"  >Bibliography</a>
+        </li>
+        <li>
+          <a href="../../about/index.html"  >About</a>
+        </li>
+        <li>
+          <a href="../../usage/index.html"  >Usage</a>
+        </li>
+        <li>
+          <a href="../../demos/index.html"  >Demos</a>
+        </li>
+        <li>
+          <a href="../../log/index.html"  >Log</a>
+        </li>
+        <li>
+          <a href="../../modules/index.html"  >Modules</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="motto"></div>
+  </header>
+  <main class="book-main">
+    <article class="book-layout book-reading-pane">
+      <header class="book-header">
+        <div class="book-header-bar">
+          <nav class="book-breadcrumbs" aria-label="Breadcrumb">
+            <a class="book-section-home-link" href="../index.html">Sequel to Euclid</a>
+            <span class="book-crumb-sep" aria-hidden="true">/</span>
+            <a class="book-crumb-link" href="section_02-en.html">Book VI, Section II</a>
+          </nav>
+        </div>
+        <div class="book-header-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="section_01-en.html" title="Book VI, Section I: Theory of Concurrent Lines &amp; Transversals">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <nav class="book-tracks-nav" aria-label="Document Tracks">
+              <a class="book-track-item" href="section_02-en.html">English</a>
+              <span class="book-track-sep">&middot;</span>
+              <a class="book-track-item" href="section_02-summary.html">Summary</a>
+              <span class="book-track-sep">&middot;</span>
+              <strong class="book-track-item is-active" aria-current="page">Notes</strong>
+            </nav>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="section_03-notes.html" title="Section III: Theory of Harmonic Section"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </header>
+      <div class="content body book-content folio-book-page" role="main">
+        <section class="level-1" id="book-vi-section-ii-notes-monge-s-theorem-the-circle-of-similitude">
+        <span id="casey-book-06-sec-02-notes"></span><h1>Book VI, Section II Notes: Monge’s Theorem &amp; The Circle of Similitude<a class="headerlink" href="#book-vi-section-ii-notes-monge-s-theorem-the-circle-of-similitude" title="Link to this heading">¶</a></h1>
+        <p class="rubric">Historical Context &amp; Cross-Canon Lineage</p>
+        <section class="level-2" id="monge-s-theorem-1798">
+        <h2>1. Monge’s Theorem (1798)<a class="headerlink" href="#monge-s-theorem-1798" title="Link to this heading">¶</a></h2>
+        <p><a class="person-ref" id="occ-person-monge-1" href="../persons.html#person-monge" data-person="monge" title="Gaspard Monge (1746–1818) — French Geometer &amp; Creator of Descriptive Geometry">Gaspard Monge</a> discovered the theorem of the three collinear centres of similitude in 1798 using a brilliant 3D projection argument:</p>
+        <ul class="simple">
+        <li><p>Regard three coplanar circles as the equatorial sections of three spheres of the same radii in 3-space.</p></li>
+        <li><p>Enclose the three spheres in a common tangent cone or plane.</p></li>
+        <li><p>The vertices of the circumscribed tangent cones are the centres of similitude of the equatorial circles, and the apexes must lie in the plane tangent to all three spheres—intersecting the plane of circles along a straight line!</p></li>
+        </ul>
+        <p>Casey’s proof in Section II, Prop. 3 (pp. 84–85) is purely 2-dimensional and synthetic, deriving Monge’s theorem directly from Menelaus’s transversal theorem applied to the triangle of centres $\triangle ABC$.</p>
+        </section>
+        <hr class="docutils" />
+        <section class="level-2" id="circle-of-similitude-apollonius">
+        <h2>2. Circle of Similitude &amp; Apollonius<a class="headerlink" href="#circle-of-similitude-apollonius" title="Link to this heading">¶</a></h2>
+        <p>The Circle of Similitude (Prop. 5) directly realizes <a class="term-ref glossary-term" id="occ-term-circle-of-similitude-1" href="../glossary.html#term-circle-of-similitude" data-term="circle-of-similitude" title="Term: circle-of-similitude">Apollonius's circle locus</a> for the ratio $r_1 : r_2$. Because $S_e$ and $S_i$ divide the line of centres internally and externally in the same ratio, segment $S_e S_i$ forms a harmonic diameter with respect to the two centres $O_1, O_2$.</p>
+        </section>
+        <section class="level-2" id="concordance-with-altshiller-court">
+        <h2>3. Concordance with Altshiller-Court<a class="headerlink" href="#concordance-with-altshiller-court" title="Link to this heading">¶</a></h2>
+        <p>This section corresponds to Nathan Altshiller-Court’s <em>College Geometry</em> (1952), Chapter II (<em>Similitude and Homothecy</em>, §§ 40–53):
+        * § 40: Centres of similitude;
+        * § 44: Homologous points on circles;
+        * § 49: Monge’s Theorem on collinearity of similitude centres;
+        * § 53: Circle of similitude as the locus of equal angular subtense.</p>
+        </section>
+        </section>
+
+      </div>
+      <footer class="book-footer">
+        <div class="book-footer-ornament">&#10086;</div>
+        <div class="book-footer-nav">
+          <div class="book-nav-prev">
+            <a class="book-nav-btn" href="section_01-en.html" title="Book VI, Section I: Theory of Concurrent Lines &amp; Transversals">&larr; <span class="nav-label">Prev</span></a>
+          </div>
+          <div class="book-nav-center">
+            <a class="book-toc-link" href="../index.html">Sequel to Euclid</a>
+          </div>
+          <div class="book-nav-next">
+            <a class="book-nav-btn" href="section_03-notes.html" title="Section III: Theory of Harmonic Section"><span class="nav-label">Next</span> &rarr;</a>
+          </div>
+        </div>
+      </footer>
+    </article>
+  </main>
+  <div class="asides">
+    <aside class="aside-search">
+      <h3>Search</h3>
+      <div id="searchbox" role="search">
+        <form id="rtd-search-form" class="wy-form search-form" action="../../search.html" method="get">
+          <div class="search-field">
+            <input type="search" name="q" placeholder="Search docs..." aria-label="Search docs" autocomplete="off" />
+            <button type="submit" class="search-submit" aria-label="Search" title="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+          </div>
+          <input type="hidden" name="check_keywords" value="yes" />
+          <input type="hidden" name="area" value="default" />
+        </form>
+      </div>
+    </aside>
+    <aside class="aside-recent-logs">
+      <h3>Recent Logs</h3>
+      <ul>
+        <li><a href="../../log/26.316-initial-codex/index.html">Initial 3-Track Book Codex & Exact Symbolic Engine (v0.1.0)</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-tags">
+      <h3>Tags</h3>
+      <ul>
+        <li><a href="../../tags/brocard.html">brocard</a></li>
+        <li><a href="../../tags/casey.html">casey</a></li>
+        <li><a href="../../tags/coaxial-circles.html">coaxial-circles</a></li>
+        <li><a href="../../tags/codex.html">codex</a></li>
+        <li><a href="../../tags/feuerbach.html">feuerbach</a></li>
+        <li><a href="../../tags/poles-polars.html">poles-polars</a></li>
+        <li><a href="../../tags/sympy.html">sympy</a></li>
+      </ul>
+    </aside>
+    <aside class="aside-types">
+      <h3>Types</h3>
+      <ul>
+        <li><a href="../../types/book.html">book</a></li>
+        <li><a href="../../types/log.html">log</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="../concordance.html"  >Concordance</a></li>
+        <li><a href="../glossary.html"  >Glossary</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div role="contentinfo">
+      <p>
+        &copy; Copyright 1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR.
+      </p>
+    </div>
+  </footer>
+
+  <script src="../../_static/jquery.js?v=5d32c60e"></script>
+  <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+  <script src="../../_static/documentation_options.js?v=59fadc99"></script>
+  <script src="../../_static/doctools.js?v=fd6eb6e6"></script>
+  <script src="../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+  <script src="../../_static/js/collection_controls.js?v=b6b5297a"></script>
+  <script src="../../_static/js/geometor_interactive.js?v=b2892320"></script>
+  <script src="../../_static/js/search_highlight.js"></script>
+
+</body>
+</html>
