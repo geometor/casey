@@ -25,7 +25,9 @@ repo_name = "casey"
 
 setup_globals(org, org_name, repo, repo_name)  # noqa: F405
 
-project = "GEOMETOR • casey"
+site_title = "John Casey"
+project = site_title
+html_title = f"{site_title} • {org_name}"
 author = "John Casey · Patrick A. E. Dowling · Digital Edition GEOMETOR"
 copyright = "1888 / 1892 Hodges, Figgis, & Co. / Longmans, Green, & Co. · Digital Codex GEOMETOR"
 
