@@ -1,5 +1,5 @@
 :title: Book VI, Section II — Centres and Axes of Similitude
-:tracks: section_02-summary section_02-notes
+:tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-06-sec-02:
 .. _casey-book-06-sec-02-en:

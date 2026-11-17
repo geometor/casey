@@ -3,6 +3,11 @@ GEOMETOR • casey
 
 **Visit the Online Archive:** https://geometor.github.io/casey/
 
+.. image:: docsrc/_static/figures/unit1_euler_nine_point.svg
+   :alt: GEOMETOR • casey featured geometric construction
+   :target: https://geometor.github.io/casey/
+   :align: center
+
 **John Casey • A Sequel to the First Six Books of the Elements of Euclid • semantic digital archive**
 
 Mission
