@@ -2,7 +2,7 @@
 :order: 1
 :layout: section
 :folio: 0079
-:tracks: section_01-summary, section_01-notes
+:tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-04-sec-01:
 .. _casey-book-04-sec-01-en:

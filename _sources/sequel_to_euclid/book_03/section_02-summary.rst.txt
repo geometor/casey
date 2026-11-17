@@ -2,10 +2,7 @@
 :layout: section
 :order: 2
 :folio: 0075
-:tracks:
-   - en: section_02-en
-   - summary: section_02-summary
-   - notes: section_02-notes
+:tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-03-sec-02-summary:
 

@@ -1,5 +1,5 @@
 :title: Book VI, Section III Notes — Pappus, Chasles & Harmonic Section
-:tracks: section_03-en section_03-summary
+:tracks: English: section_03-en | Summary: section_03-summary | Notes: section_03-notes
 
 .. _casey-book-06-sec-03-notes:
 
