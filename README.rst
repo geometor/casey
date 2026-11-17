@@ -18,7 +18,7 @@ Mission
 Books in This Archive
 ---------------------
 
-- **`A Sequel to the First Six Books of the Elements of Euclid <https://geometor.github.io/casey/sequel_to_euclid/>`_** — Containing an Easy Introduction to Modern Geometry, with Numerous Examples (1888), covering circle powers, inversion, coaxials, poles and polars, and the modern geometry of the triangle.
+- `A Sequel to the First Six Books of the Elements of Euclid <https://geometor.github.io/casey/sequel_to_euclid/>`_ — Containing an Easy Introduction to Modern Geometry, with Numerous Examples (1888), covering circle powers, inversion, coaxials, poles and polars, and the modern geometry of the triangle.
 
 Repository Contents
 -------------------
