@@ -20,20 +20,6 @@ Books in This Archive
 
 - `A Sequel to the First Six Books of the Elements of Euclid <https://geometor.github.io/casey/sequel_to_euclid/>`_ — Containing an Easy Introduction to Modern Geometry, with Numerous Examples (1888), covering circle powers, inversion, coaxials, poles and polars, and the modern geometry of the triangle.
 
-Python Package & Modules
-------------------------
-
-The ``geometor-casey`` Python package (``import geometor.casey``) provides the executable symbolic geometry, construction, and compilation modules powering this archive:
-
-- ``brocard.py`` — Exact symbolic constructions and proofs for Symmedians, Lemoine Circles & Brocard Geometry.
-- ``coaxial.py`` — Exact straightedge-and-compass constructions for Radical Axes, Coaxal Systems & Limiting Points.
-- ``concordance.py`` — Cross-repository concordance and SymPy capability audit for Casey's *Sequel to Euclid*.
-- ``feuerbach.py`` — Exact symbolic proofs and compass-and-straightedge constructions of Casey's & Feuerbach's Theorems.
-- ``invariants.py`` — Exact symbolic circle, inversion, polar, and Euclidean helper invariants for Casey's *Sequel*.
-- ``poles_polars.py`` — Exact straightedge-and-compass constructions for Harmonic Section, Poles, Polars & Reciprocity.
-- ``render.py`` — Publication-grade interactive ``.euclid-graphic`` SVG renderer for Casey's *Sequel*.
-
-See the `API Reference <https://geometor.github.io/casey/modules/>`_ for full module documentation.
 
 Repository Contents
 -------------------
