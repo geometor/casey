@@ -52,7 +52,7 @@ The sidebar exposes faceted taxonomy browsing:
 6. People, Bibliography & Glossary Tooltips
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Prosopographical Hover Cards**: Links marked with ``:person:`` (e.g., :person:`John Casey <casey>`, :person:`Patrick A. E. Dowling <dowling>`, :person:`Karl Wilhelm Feuerbach <feuerbach>`, :person:`Émile Lemoine <lemoine>`, :person:`Henri Brocard <brocard>`) open instant biographical profiles and direct links to the :doc:`People </sequel_to_euclid/persons>` register.
+* **Prosopographical Hover Cards**: Links marked with ``:person:`` (e.g., :person:`John Casey <casey>`, :person:`Patrick A. E. Dowling <dowling>`, :person:`Karl Wilhelm Feuerbach <feuerbach>`, :person:`Émile Lemoine <lemoine>`, :person:`Henri Brocard <brocard>`) open instant biographical profiles and direct links to the :doc:`People </sequel_to_euclid/people/index>` register.
 * **Bibliographic Citations**: Citations formatted with ``:cite:`` link directly to the :doc:`Bibliography </sequel_to_euclid/bibliography>`.
 * **Glossary Tooltips**: Technical terms linked with ``:term:`` provide instant geometric definitions.
 * **Light / Dark Theme**: Toggle visual themes using the control in the upper navigation bar.

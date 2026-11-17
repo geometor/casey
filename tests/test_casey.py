@@ -256,7 +256,10 @@ def test_svg_renderer_and_apparatus_concordance(tmp_path: Path) -> None:
     ):
         reg = load_apparatus_registry(kind)
         assert len(reg) >= 20
-        rst_text = (doc_dir / rst_name).read_text(encoding="utf-8")
+        if rst_name == "persons.rst":
+            rst_text = "\n".join(p.read_text(encoding="utf-8") for p in sorted((doc_dir / "people").glob("*.rst")))
+        else:
+            rst_text = (doc_dir / rst_name).read_text(encoding="utf-8")
         for key in reg:
             slug = re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")
             assert f".. _{prefix}-{slug}:" in rst_text
