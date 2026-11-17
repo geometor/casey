@@ -68,5 +68,5 @@ Scholarly Apparatus & References:
 * :doc:`Reader's Guide and Usage </usage/index>`
 * :doc:`Sequel to Euclid Codex </sequel_to_euclid/index>`
 * :doc:`Exact Symbolic Demonstrations </demos/index>`
-* :doc:`Biographical Register of Persons </sequel_to_euclid/persons>`
+* :doc:`Biographical Register of Persons </sequel_to_euclid/people/index>`
 * :doc:`Systematic Bibliography </sequel_to_euclid/bibliography>`
