@@ -1,0 +1,22 @@
+{
+  "repository": "geometor/casey",
+  "rights_category": "public-domain",
+  "sources": [
+    {
+      "id": "casey-1888-5ed",
+      "title": "A Sequel to the First Six Books of the Elements of Euclid (5th ed., 1888)",
+      "author": "John Casey",
+      "year": "1888",
+      "era": "Google Books",
+      "languages": [
+        "English"
+      ],
+      "site_url": "https://books.google.com/books?q=A+Sequel+to+the+First+Six+Books+of+the+Elements+of+Euclid+John+Casey+1888",
+      "local_path": "resources/sequel_to_euclid/pdfs/casey_sequel_1888_5ed.pdf",
+      "pages": 276,
+      "publisher": "Hodges, Figgis & Co., Dublin / Longmans, London",
+      "rights": "Public Domain (1888)",
+      "excerpt": "5th revised edition (1888), 276 pp., digitized via Google Books."
+    }
+  ]
+}
