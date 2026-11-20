@@ -3,6 +3,12 @@ GEOMETOR • casey
 
 **Visit the Online Archive:** https://geometor.github.io/casey/
 
+.. image:: docsrc/_static/logo.png
+   :alt: GEOMETOR • casey Medallion
+   :target: https://geometor.github.io/casey/
+   :width: 180px
+   :align: center
+
 .. image:: docsrc/_static/figures/unit1_euler_nine_point.svg
    :alt: GEOMETOR • casey featured geometric construction
    :target: https://geometor.github.io/casey/
