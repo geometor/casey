@@ -60,4 +60,8 @@ THEORY OF :term:`HARMONIC POLYGONS <harmonic-polygon>`.
 .. folio:: 0245
    :page: 219
 
-**Generalized Brocard & Lemoine Circles for Harmonic Polygons (ff. ``0237–0248``).** Extending Sections I–III to $n$-gons, Casey proves that every harmonic $n$-gon possesses two **Brocard Points** $\Omega, \Omega'$ (on equal Brocard angle $\omega$), a **Brocard Circle** on $[OK]$, a **Lemoine First Circle** whose chords are proportional to the cubes of the $n$ sides, and an associated **Cosine Circle** centered at $K$!
+**Prop. 13.—The centres of similitude of the pairs of consecutive sides of a harmonic polygon form the vertices of a harmonic polygon.—(TARRY.)**
+
+**Dem.**—Let $A$ be a vertex of the harmonic polygon, $K$ its harmonic pole. Join $AK$, and produce to meet the Brocard circle in $M$. Join $MS$, cutting the Brocard circle in $N$, and $AS$, cutting the circumcircle in $A'$. Join $ON$. Now the polar $PQ$ of $S$ passes through the intersection of $MK$ and $ON$; and since the points $P, S$ are harmonic conjugates to $A, A'$, and $S', S$ to $K, O$, the pencils $Q(SKS'O), Q(SAPA')$, are equal, and they have three common rays, viz. $QS, QA, QP$. Hence their fourth rays, $QO, QA'$, coincide; therefore the points $Q, O, A'$ are collinear. Again, $A'$, being the inverse of $A$ with respect to $Z$, is a vertex of a regular polygon inscribed in $Z$. Hence $N$ is the vertex of a regular polygon inscribed in the Brocard circle.
+
+As in the case of the triangle (Sections I–III), every harmonic $n$-gon possesses two **Brocard Points** $\Omega, \Omega'$ with equal Brocard angle $\omega$, a **Brocard Circle** on the diameter $OK$, a **Lemoine First Circle** whose chords are proportional to the cubes of the $n$ sides, and a **Cosine Circle** centred at $K$ (ff. ``0237–0248``).
