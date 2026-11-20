@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book I, Section II Summary
 :order: 2
+:folio: 0043–0046 (p. 17–20)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-01-sec-02-summary:
@@ -10,6 +11,9 @@ Book I, Section II Summary: Exercises
 =====================================
 
 .. rubric:: Structured Decomposition & Invariant Ledger for Casey's Book I Section II Exercises (pp. 17–20)
+
+.. folio:: 0043
+   :page: 17
 
 1. Architectural Overview
 -------------------------

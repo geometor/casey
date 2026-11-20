@@ -1,7 +1,8 @@
 :title: Book IV, Section I: Additional Propositions (Props. 1–9)
+:layout: book
+:canonical_id: Book IV, Section I
 :order: 1
-:layout: section
-:folio: 0079
+:folio: 0079–0089 (p. 53–63)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-04-sec-01:
@@ -29,6 +30,12 @@ therefore
 $$AE = s - a.$$
 In like manner
 $$BD = s - b; \quad CE = s - c.$$
+
+.. picture:: 0079.g1.png
+   :caption: Archival woodcut (1888, f. 0079, p. 53) — Book IV, Prop. 1: incircle tangency segments.
+
+.. picture:: 0079.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book IV, Prop. 1: Incircle contact points D, E, F with s - a, s - b, s - c segments.
 
 *Cor.* 1.—If $r$ denote the radius of the inscribed $\odot$, the area of the triangle $= rs$.
 
@@ -159,7 +166,11 @@ This follows from supposing the point $P$ to coincide with each angular point in
 
 **Dem.**—Join $HK, HG, IK, IG$; then, because $AO$ is bisected in $K$, and $AC$ in $H$, $HK$ is $\parallel$ to $CO$. In like manner, $HG$ is $\parallel$ to $AB$. Hence the $\angle GHK$ is equal to the $\angle$ between $CO$ and $AB$; $\therefore$ it is a right $\angle$; consequently, the $\odot$ described on $GK$ as diameter passes through $H$. In like manner, it passes through $I$; and since the $\angle KDG$ is right, it passes through $D$; $\therefore$ the
 
+.. picture:: 0084.g1.png
+   :caption: Archival woodcut (1888, f. 0084, p. 58) — Book IV, Prop. 5: the Nine-Points Circle through D, E, F; G, H, I; K, L, M.
+
 .. picture:: 0083.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book IV, Prop. 5: Euler Line (O, G, N, H) & Nine-Points Circle.
 
 circle through the three points $G, H, I$, passes through the two points $D, K$. In like manner, it may be proved that it passes through the pairs of points $E, L$; $F, M$. Hence it passes through the nine points.
 

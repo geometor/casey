@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section VIII Summary
 :order: 8
+:folio: 0174–0190 (p. 148–164)
 :tracks: English: section_08-en | Summary: section_08-summary | Notes: section_08-notes
 
 .. _casey-book-06-sec-08-summary:
@@ -10,6 +11,9 @@ Book VI, Section VIII Summary: Miscellaneous Exercises
 ======================================================
 
 .. rubric:: Mathematical Synthesis of Casey's Book VI, Section VIII (pp. 148–164)
+
+.. folio:: 0174
+   :page: 148
 
 1. Mathematical Scope of the Miscellaneous Exercises
 ----------------------------------------------------

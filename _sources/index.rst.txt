@@ -8,6 +8,10 @@
 John Casey
 ==========
 
+.. image:: _static/medallion.svg
+   :alt: John Casey Medallion
+   :class: repo-medallion-hero
+
 The mission of this project is to capture a semantic digital library of the works of :person:`John Casey <casey>` (1820–1891), Fellow of the Royal University of Ireland and author of foundational treatises extending Euclidean geometry into modern synthetic circle, projective, and triangle geometry. Within the interconnected `GEOMETOR <https://geometor.com/books/>`_ semantic digital archive, this work is liberated from static print bounds—decomposed into addressable semantic units, calibrated vector diagrams, primary-source folio provenance, and cross-corpus citations speaking one shared geometric language.
 
 .. reference-directory::

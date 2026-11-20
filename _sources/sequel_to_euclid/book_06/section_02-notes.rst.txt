@@ -1,4 +1,8 @@
 :title: Book VI, Section II Notes — Monge, Homothecy & Axes of Similitude
+:layout: book
+:canonical_id: Book VI, Section II Notes
+:order: 2
+:folio: 0108–0112 (p. 82–86)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-06-sec-02-notes:
@@ -7,6 +11,9 @@ Book VI, Section II Notes: Monge's Theorem & The Circle of Similitude
 =====================================================================
 
 .. rubric:: Historical Context & Cross-Canon Lineage
+
+.. folio:: 0108
+   :page: 82
 
 1. Monge's Theorem (1798)
 -------------------------

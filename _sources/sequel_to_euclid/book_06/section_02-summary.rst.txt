@@ -1,4 +1,8 @@
 :title: Book VI, Section II Summary — Centres and Axes of Similitude
+:layout: book
+:canonical_id: Book VI, Section II Summary
+:order: 2
+:folio: 0108–0112 (p. 82–86)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-06-sec-02-summary:
@@ -7,6 +11,9 @@ Book VI, Section II Summary: Centres and Axes of Similitude
 ===========================================================
 
 .. rubric:: Modern Geometric & Invariant Analysis of Casey's Book VI, Section II (pp. 82–86)
+
+.. folio:: 0108
+   :page: 82
 
 1. Centres of Similitude as Homothecy Centres
 ---------------------------------------------

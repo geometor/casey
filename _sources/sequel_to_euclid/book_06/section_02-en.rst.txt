@@ -1,4 +1,8 @@
 :title: Book VI, Section II — Centres and Axes of Similitude
+:layout: book
+:canonical_id: Book VI, Section II
+:order: 2
+:folio: 0108–0112 (p. 82–86)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-06-sec-02:
@@ -44,6 +48,12 @@ OT : O'T :: OP : O'P'.
 $$
 
 Hence the line $OO'$ is divided externally in $T$ in the ratio of the radii of the circles; and therefore $T$ is the external centre of similitude.
+
+.. picture:: 0109.g1.png
+   :caption: Archival woodcut (1888, f. 0109, p. 83) — Book VI, Sec. II, Prop. 1: direct common tangent passing through external centre of similitude T.
+
+.. picture:: 0109.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. II, Prop. 1: External & Internal Centres of Similitude of two circles.
 
 **Cor. 1.**—It may be proved, in like manner, that the transverse common tangent passes through the internal centre of similitude.
 
@@ -114,6 +124,9 @@ $$
 $$
 
 Hence the product of the ratios in this case also is negative unity; and $\therefore A', B'', C''$ are collinear; and the same holds for $A'', B', C''$; $A'', B'', C'$. Hence the collinearity of centres of similitude will be one external and two internal, or three external centres of similitude.
+
+.. picture:: 0111.g1.png
+   :caption: Archival woodcut (1888, f. 0111, p. 85) — Book VI, Sec. II, Prop. 3: Monge's four axes of similitude of three circles.
 
 **Cor. 1.**—If a variable $\odot$ touch two fixed $\odot\text{s}$, the line joining the points of contact passes through a fixed point, namely—a centre of similitude of the two $\odot\text{s}$; for the points of contact are centres of similitude.
 

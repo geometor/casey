@@ -89,16 +89,33 @@ $$
 
 ----
 
+.. folio:: 0050
+   :page: 24
+
+**Prop. 8.—If perpendiculars be drawn from the angular points of a square to any line, the sum of the squares of the perpendiculars from one pair of opposite angles exceeds twice the rectangle of the perpendiculars from the other pair of opposite angles by the area of the square.**
+
+**Dem.**—Let $ABCD$ be the square, $L$ the line; let fall the $\perp\text{s } AM, BN, CP, DQ$ on $L$; through $A$ draw $EF \parallel$ to $L$. Then $BN^2 + DQ^2 - 2 AM \cdot CP = (a + b)^2 + (a + c)^2 - 2a(a + b + c) = b^2 + c^2 = BE^2 + DF^2 = BE^2 + EA^2 = BA^2 = \text{area of square}$.
+
+**Prop. 9 (:person:`Stewart's <stewart>` Theorem).—If the base $AB$ of a triangle be divided in $D$, so that $m\,AD = n\,DB$; then**
+
+$$
+m\,AC^2 + n\,BC^2 = m\,AD^2 + n\,BD^2 + (m + n)\,CD^2.
+$$
+
+.. picture:: 0050.g1.png
+   :caption: Archival woodcut (1888, f. 0050, p. 24) — Book II, Prop. 9: Stewart's Theorem on divided triangle base.
+
+.. picture:: 0050.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book II, Prop. 9: Stewart's Theorem m·AC² + n·BC² = m·AD² + n·BD² + (m+n)·CD².
+
+**Dem.**—Let fall the $\perp CE$; then $m\,AC^2 = m(AD^2 + DC^2 + 2 AD \cdot DE)$ and $n\,BC^2 = n(BD^2 + DC^2 - 2 DB \cdot DE)$ by Euclid ``II.12`` and ``II.13``.
+
+----
+
 .. folio:: 0051
    :page: 25
 
-**Prop. 7 (:person:`Stewart's <stewart>` Theorem).—If a point $P$ be taken in the base $BC$ of a triangle $ABC$, dividing it into segments $m$ and $n$, then**
-
-$$
-AB^2 \cdot CP + AC^2 \cdot BP = BC(AP^2 + BP \cdot CP).
-$$
-
-**Dem.**—Let fall the $\perp$ $AD$ upon $BC$. By Euclid II.12 and II.13, express $AB^2$ and $AC^2$ in terms of $AP^2, PD$, and the segments $BP, CP$. Multiplying by $CP$ and $BP$ respectively and adding eliminates the projection term $2 PD \cdot BP \cdot CP$, yielding directly $AB^2 \cdot n + AC^2 \cdot m = (m + n)(AP^2 + mn)$.
+Adding these two relations eliminates the signed projection term $2(m\,AD - n\,DB)\,DE = 0$, giving $m\,AC^2 + n\,BC^2 = m\,AD^2 + n\,BD^2 + (m + n)\,CD^2$. Q.E.D.
 
 ----
 

@@ -127,36 +127,59 @@
         <li><p><strong>Casey’s 1861 Inversion Circle</strong>: Circle $(M_a, T_a)$ centered at $M_a = \left(\frac{19}{2}, 6\right)$ of radius $\frac{1}{2} = \frac{|b - c|}{2}$ cuts both the incircle $(I, 4)$ and $A$-excircle $(I_a, 14)$ orthogonally and inverts $T_s = \left(\frac{614}{65}, \frac{392}{65}\right)$ on the fourth common tangent directly onto $F_e = (6, 8)$.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0083.g1" role="img" aria-label="Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle" width="680" height="480" data-svg-scope="s-570f54ac">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0083.g1" role="img" aria-label="Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle" data-svg-scope="s-570f54ac">
           <style>
-            svg[data-svg-scope="s-570f54ac"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-570f54ac"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-570f54ac"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-570f54ac"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-570f54ac"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-570f54ac"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-570f54ac"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-570f54ac"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-570f54ac"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-570f54ac"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-570f54ac"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-570f54ac"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-570f54ac"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-570f54ac"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-570f54ac"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-570f54ac"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-570f54ac"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-570f54ac"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-570f54ac"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-570f54ac"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-570f54ac"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-570f54ac"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-570f54ac"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-570f54ac"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-570f54ac"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-570f54ac"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-570f54ac"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-570f54ac"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-570f54ac"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-570f54ac"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-570f54ac"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-570f54ac"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-570f54ac"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-570f54ac"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-570f54ac"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-570f54ac"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-570f54ac"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-570f54ac"] [data-ref]:hover, svg[data-svg-scope="s-570f54ac"] .highlight, svg[data-svg-scope="s-570f54ac"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-570f54ac"] text[data-ref]:hover, svg[data-svg-scope="s-570f54ac"] text.highlight, svg[data-svg-scope="s-570f54ac"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-570f54ac"] .geom-point:hover, svg[data-svg-scope="s-570f54ac"] .geom-point.highlight, svg[data-svg-scope="s-570f54ac"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-570f54ac"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-570f54ac"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-570f54ac"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-570f54ac"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-570f54ac"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-570f54ac"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Book IV Prop. 5 — Euler Line &amp; Nine-Points Circle</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
-              <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
               <circle class="geom-circle" cx="340" cy="246.05" r="178.75" data-ref="( O A )" data-aliases="( O ) | ( O B ) | ( O C ) | ( A B C )" fill="none"><title>( O A ): (x - 7)**2 + (y - 33/8)**2 - 4225/64 = 0</title></circle>
               <circle class="geom-circle featured-circle" cx="318" cy="250.18" r="89.38" data-ref="( N Ma )" data-aliases="( N ) | ( N Mb ) | ( N Mc ) | ( N Da ) | ( N Db ) | ( N Dc ) | ( N Ea ) | ( N Eb ) | ( N Ec ) | ( Ma Mb Mc )" fill="none"><title>( N Ma ): (x - 6)**2 + (y - 63/16)**2 - 4225/256 = 0</title></circle>
               <path class="geom-line carrier-line" d="M 590.9 466 L 421.4 240 L 251.9 14" data-ref="[ B C ]" data-aliases="/ B C / | [ B Ma ] | / B Ma / | [ B Da ] | / B Da / | [ C Ma ] | / C Ma / | [ C Da ] | / C Da / | [ Ma Da ] | / Ma Da /" fill="none"><title>[ B C ]: -12*x - 9*y + 168 = 0</title></path>
@@ -166,9 +189,12 @@
               <path class="geom-line cross-line" d="M 14 136.8 L 340 272.63 L 666 408.47" data-ref="[ B Db ]" data-aliases="/ B Db / | [ B H ] | / B H / | [ B Eb ] | / B Eb / | [ Db H ] | / Db H / | [ Db Eb ] | / Db Eb / | [ H Eb ] | / H Eb /" fill="none"><title>[ B Db ]: -1680*x/169 - 4032*y/169 + 23520/169 = 0</title></path>
               <path class="geom-line cross-line" d="M 296 466 L 296 240 L 296 14" data-ref="[ C Dc ]" data-aliases="/ C Dc / | [ C H ] | / C H / | [ C Ec ] | / C Ec / | [ Dc H ] | / Dc H / | [ Dc Ec ] | / Dc Ec / | [ H Ec ] | / H Ec /" fill="none"><title>[ C Dc ]: x - 5 = 0</title></path>
               <path class="geom-line highlight-line" d="M 14 307.18 L 340 246.05 L 666 184.92" data-ref="[ O H ]" data-aliases="[ G H ] | / G H / | [ G O ] | / G O / | [ G N ] | / G N / | [ H O ] | / H O / | [ H N ] | / H N / | [ O N ] | / O N /" fill="none"><title>[ O H ]: 3*x/8 - 2*y + 45/8 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point" cx="186" cy="336.8" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
               <circle class="geom-point" cx="494" cy="336.8" r="4.4" data-ref="B" data-latex-x="14" data-latex-y="0"><title>B = (14, 0)</title></circle>
               <circle class="geom-point" cx="296" cy="72.8" r="4.4" data-ref="C" data-latex-x="5" data-latex-y="12"><title>C = (5, 12)</title></circle>
@@ -189,8 +215,8 @@
               <circle class="geom-point" cx="296" cy="163.55" r="3.9" data-ref="Ec" data-latex-x="5" data-latex-y="\frac{63}{8}"><title>Ec = (5, 63/8)</title></circle>
               <circle class="geom-point-halo" cx="318" cy="250.18" r="8.3" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point center-point" cx="318" cy="250.18" r="4.3" data-ref="N" data-latex-x="6" data-latex-y="\frac{63}{16}"><title>N = (6, 63/16)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="161.8" y="333.18" data-ref="A">A</text>
               <text class="geom-label" x="488.24" y="360.66" data-ref="B">B</text>
               <text class="geom-label" x="271.8" y="69.18" data-ref="C">C</text>
@@ -207,41 +233,63 @@
               <text class="geom-label" x="386.54" y="318.91" data-ref="Eb">E<tspan class="geom-label-sub" dy="3">b</tspan></text>
               <text class="geom-label" x="301.55" y="153.67" data-ref="Ec">E<tspan class="geom-label-sub" dy="3">c</tspan></text>
               <text class="geom-label" x="299.31" y="239.99" data-ref="N">N</text>
-            </g>
           </g>
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0130.g1" role="img" aria-label="Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)" width="680" height="480" data-svg-scope="s-8dd24789">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0130.g1" role="img" aria-label="Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)" data-svg-scope="s-8dd24789">
           <style>
-            svg[data-svg-scope="s-8dd24789"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-8dd24789"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-8dd24789"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-8dd24789"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-8dd24789"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-8dd24789"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-8dd24789"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-8dd24789"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-8dd24789"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-8dd24789"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-8dd24789"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-8dd24789"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-8dd24789"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-8dd24789"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-8dd24789"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-8dd24789"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-8dd24789"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-8dd24789"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-8dd24789"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-8dd24789"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-8dd24789"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-8dd24789"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-8dd24789"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-8dd24789"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-8dd24789"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-8dd24789"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-8dd24789"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-8dd24789"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-8dd24789"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-8dd24789"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-8dd24789"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-8dd24789"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-8dd24789"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-8dd24789"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-8dd24789"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-8dd24789"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-8dd24789"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-8dd24789"] [data-ref]:hover, svg[data-svg-scope="s-8dd24789"] .highlight, svg[data-svg-scope="s-8dd24789"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-8dd24789"] text[data-ref]:hover, svg[data-svg-scope="s-8dd24789"] text.highlight, svg[data-svg-scope="s-8dd24789"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-8dd24789"] .geom-point:hover, svg[data-svg-scope="s-8dd24789"] .geom-point.highlight, svg[data-svg-scope="s-8dd24789"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-8dd24789"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-8dd24789"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-8dd24789"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-8dd24789"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-8dd24789"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-8dd24789"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Book VI Sec. IV Prop. 10 Cor. 2 — Casey&#x27;s Inversion &amp; Feuerbach Tangency at X(11)</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
-              <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
               <circle class="geom-circle" cx="340" cy="246.05" r="178.75" data-ref="( O A )" data-aliases="( O ) | ( O B ) | ( O C ) | ( A B C )" fill="none"><title>( O A ): (x - 7)**2 + (y - 33/8)**2 - 4225/64 = 0</title></circle>
               <circle class="geom-circle featured-circle" cx="318" cy="250.18" r="89.38" data-ref="( N Ma )" data-aliases="( N ) | ( N Mb ) | ( N Mc ) | ( N Da ) | ( N Db ) | ( N Dc ) | ( N Ea ) | ( N Eb ) | ( N Ec ) | ( N Fe ) | ( Ma Mb Mc )" fill="none"><title>( N Ma ): (x - 6)**2 + (y - 63/16)**2 - 4225/256 = 0</title></circle>
               <circle class="geom-circle featured-circle" cx="318" cy="248.8" r="88" data-ref="( I Ta )" data-aliases="( I ) | ( I Tb ) | ( I Tc ) | ( I Ts ) | ( I Fe ) | ( Ta Tb Tc )" fill="none"><title>( I Ta ): (x - 6)**2 + (y - 4)**2 - 16 = 0</title></circle>
@@ -254,9 +302,12 @@
               <path class="geom-line cross-line" d="M 296 466 L 296 240 L 296 14" data-ref="[ C Dc ]" data-aliases="/ C Dc / | [ C H ] | / C H / | [ C Ec ] | / C Ec / | [ Dc H ] | / Dc H / | [ Dc Ec ] | / Dc Ec / | [ H Ec ] | / H Ec /" fill="none"><title>[ C Dc ]: x - 5 = 0</title></path>
               <path class="geom-line highlight-line" d="M 14 307.18 L 340 246.05 L 666 184.92" data-ref="[ O H ]" data-aliases="[ G H ] | / G H / | [ G O ] | / G O / | [ G N ] | / G N / | [ H O ] | / H O / | [ H N ] | / H N / | [ O N ] | / O N /" fill="none"><title>[ O H ]: 3*x/8 - 2*y + 45/8 = 0</title></path>
               <path class="geom-line cross-line" d="M 548.14 466 L 414.96 240 L 281.78 14" data-ref="[ L4 ]" fill="none"><title>[ L4 ]: 448*x/65 + 264*y/65 - 448/5 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="186,336.8 494,336.8 296,72.8" data-ref="&lt; A B C &gt;" />
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point" cx="186" cy="336.8" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
               <circle class="geom-point" cx="494" cy="336.8" r="4.4" data-ref="B" data-latex-x="14" data-latex-y="0"><title>B = (14, 0)</title></circle>
               <circle class="geom-point" cx="296" cy="72.8" r="4.4" data-ref="C" data-latex-x="5" data-latex-y="12"><title>C = (5, 12)</title></circle>
@@ -283,8 +334,8 @@
               <circle class="geom-point" cx="393.82" cy="204.12" r="3.9" data-ref="Ts" data-latex-x="\frac{614}{65}" data-latex-y="\frac{392}{65}"><title>Ts = (614/65, 392/65)</title></circle>
               <circle class="geom-point-halo" cx="318" cy="160.8" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point highlight-point" cx="318" cy="160.8" r="5.5" data-ref="Fe" data-latex-x="6" data-latex-y="8"><title>Fe = (6, 8)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="161.8" y="333.18" data-ref="A">A</text>
               <text class="geom-label" x="488.24" y="322.12" data-ref="B">B</text>
               <text class="geom-label" x="271.8" y="69.18" data-ref="C">C</text>
@@ -307,7 +358,6 @@
               <text class="geom-label" x="309.54" y="360.16" data-ref="Tc">T<tspan class="geom-label-sub" dy="3">c</tspan></text>
               <text class="geom-label" x="399.37" y="194.25" data-ref="Ts">T<tspan class="geom-label-sub" dy="3">s</tspan></text>
               <text class="geom-label" x="309.54" y="145.02" data-ref="Fe">F<tspan class="geom-label-sub" dy="3">e</tspan></text>
-            </g>
           </g>
         </svg>
         </figure>
@@ -429,35 +479,59 @@
         <span id="demo-coaxial-pencil"></span><h2>2. Radical Axis, Radical Centre &amp; Coaxal Pencil with Poncelet Limiting Points<a class="headerlink" href="#radical-axis-radical-centre-coaxal-pencil-with-poncelet-limiting-points" title="Link to this heading">¶</a></h2>
         <p>Executes <code class="docutils literal notranslate"><span class="pre">demos/coaxial_pencil_and_limiting_points.py</span></code> (<a class="reference internal" href="../modules/api/geometor/casey/coaxial/index.html#module-geometor.casey.coaxial" title="geometor.casey.coaxial"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey.coaxial</span></code></a>), constructing the radical axis of two non-intersecting circles via an auxiliary secant circle (Casey Book III, Prop. 21, p. 43), verifying Casey’s Fundamental Difference-of-Powers Theorem (Prop. 24), and constructing <strong>Poncelet’s Limiting Points</strong> $L_1 = (-8, 0), L_2 = (8, 0)$ and the orthogonal circle centered at the Radical Centre $R_c = (0, -6)$ (Book VI, Sec. V, Props. 1–6):</p>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0069.g1" role="img" aria-label="Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points" width="680" height="480" data-svg-scope="s-07cd6f40">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0069.g1" role="img" aria-label="Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points" data-svg-scope="s-07cd6f40">
           <style>
-            svg[data-svg-scope="s-07cd6f40"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-07cd6f40"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-07cd6f40"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-07cd6f40"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-07cd6f40"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-07cd6f40"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-07cd6f40"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-07cd6f40"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-07cd6f40"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-07cd6f40"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-07cd6f40"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-07cd6f40"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-07cd6f40"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-07cd6f40"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-07cd6f40"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-07cd6f40"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-07cd6f40"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-07cd6f40"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-07cd6f40"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-07cd6f40"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-07cd6f40"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-07cd6f40"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-07cd6f40"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-07cd6f40"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-07cd6f40"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-07cd6f40"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-07cd6f40"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-07cd6f40"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-07cd6f40"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-07cd6f40"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-07cd6f40"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-07cd6f40"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-07cd6f40"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-07cd6f40"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-07cd6f40"] [data-ref]:hover, svg[data-svg-scope="s-07cd6f40"] .highlight, svg[data-svg-scope="s-07cd6f40"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-07cd6f40"] text[data-ref]:hover, svg[data-svg-scope="s-07cd6f40"] text.highlight, svg[data-svg-scope="s-07cd6f40"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-07cd6f40"] .geom-point:hover, svg[data-svg-scope="s-07cd6f40"] .geom-point.highlight, svg[data-svg-scope="s-07cd6f40"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-07cd6f40"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-07cd6f40"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-07cd6f40"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-07cd6f40"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-07cd6f40"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-07cd6f40"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Book III Props. 23–28 — Disjoint Radical Axis, Orthogonal Pencil &amp; Poncelet Limiting Points</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
               <circle class="geom-circle" cx="147.35" cy="250.7" r="64.22" data-ref="( O1 P1 )" data-aliases="( O1 ) | ( O1 T1 )" fill="none"><title>( O1 P1 ): y**2 + (x + 10)**2 - 36 = 0</title></circle>
               <circle class="geom-circle" cx="436.32" cy="250.7" r="160.54" data-ref="( O2 P2 )" data-aliases="( O2 )" fill="none"><title>( O2 P2 ): y**2 + (x - 17)**2 - 225 = 0</title></circle>
               <circle class="geom-circle secondary-circle" cx="361.41" cy="250.7" r="64.22" data-ref="( O3 P3 )" data-aliases="( O3 )" fill="none"><title>( O3 P3 ): y**2 + (x - 10)**2 - 36 = 0</title></circle>
@@ -468,9 +542,11 @@
               <path class="geom-line cross-line" d="M 355.1 466 L 204.43 240 L 53.77 14" data-ref="[ U1 V1 ]" fill="none"><title>[ U1 V1 ]: 72*x/13 + 48*y/13 + 288/13 = 0</title></path>
               <path class="geom-line cross-line" d="M 173.8 466 L 294.34 240 L 414.87 14" data-ref="[ U2 V2 ]" fill="none"><title>[ U2 V2 ]: -360*sqrt(154)*x/289 + 192*sqrt(154)*y/289 + 1152*sqrt(154)/289 = 0</title></path>
               <path class="geom-line highlight-line" d="M 254.38 466 L 254.38 240 L 254.38 14" data-ref="[ Rc D ]" data-aliases="/ Rc D /" fill="none"><title>[ Rc D ]: x = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point center-point" cx="147.35" cy="250.7" r="4.3" data-ref="O1" data-latex-x="-10" data-latex-y="0"><title>O1 = (-10, 0)</title></circle>
               <circle class="geom-point center-point" cx="436.32" cy="250.7" r="4.3" data-ref="O2" data-latex-x="17" data-latex-y="0"><title>O2 = (17, 0)</title></circle>
               <circle class="geom-point center-point" cx="361.41" cy="250.7" r="4.3" data-ref="O3" data-latex-x="10" data-latex-y="0"><title>O3 = (10, 0)</title></circle>
@@ -483,8 +559,8 @@
               <circle class="geom-point highlight-point" cx="168.76" cy="250.7" r="5.5" data-ref="L1" data-latex-x="-8" data-latex-y="0"><title>L1 = (-8, 0)</title></circle>
               <circle class="geom-point-halo" cx="340" cy="250.7" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point highlight-point" cx="340" cy="250.7" r="5.5" data-ref="L2" data-latex-x="8" data-latex-y="0"><title>L2 = (8, 0)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="138.89" y="236.12" data-ref="O1">O<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="427.86" y="236.12" data-ref="O2">O<tspan class="geom-label-sub" dy="3">2</tspan></text>
               <text class="geom-label" x="367.21" y="240.52" data-ref="O3">O<tspan class="geom-label-sub" dy="3">3</tspan></text>
@@ -494,7 +570,6 @@
               <text class="geom-label" x="177.42" y="185.14" data-ref="T1">T<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="145.27" y="270.99" data-ref="L1">L<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="310.2" y="246.62" data-ref="L2">L<tspan class="geom-label-sub" dy="3">2</tspan></text>
-            </g>
           </g>
         </svg>
         </figure>
@@ -575,36 +650,59 @@
         <span id="demo-poles-polars"></span><h2>3. Complete Quadrilateral Harmonic Ranges, Poles &amp; Polars, and La Hire Reciprocity<a class="headerlink" href="#complete-quadrilateral-harmonic-ranges-poles-polars-and-la-hire-reciprocity" title="Link to this heading">¶</a></h2>
         <p>Executes <code class="docutils literal notranslate"><span class="pre">demos/poles_polars_lahire.py</span></code> (<a class="reference internal" href="../modules/api/geometor/casey/poles_polars/index.html#module-geometor.casey.poles_polars" title="geometor.casey.poles_polars"><code class="xref py py-mod docutils literal notranslate"><span class="pre">geometor.casey.poles_polars</span></code></a>), demonstrating pure-straightedge projective harmonic division on the Complete Quadrilateral (Book VI, Sec. III, Prop. 7, p. 91) and inscribed-quadrangle polar construction, Self-Conjugate Triangle $\triangle DUV$, harmonic secant division $(G_i, H_i; J_i, D) = -1$, and <strong>La Hire’s Reciprocity</strong> $Q \in \operatorname{polar}(D) \iff D \in \operatorname{polar}(Q)$ (Book III, Props. 25, 27 &amp; Book VI, Sec. VII):</p>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0117.g1" role="img" aria-label="Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section" width="680" height="480" data-svg-scope="s-d2d09b9b">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0117.g1" role="img" aria-label="Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section" data-svg-scope="s-d2d09b9b">
           <style>
-            svg[data-svg-scope="s-d2d09b9b"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-d2d09b9b"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-d2d09b9b"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-d2d09b9b"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-d2d09b9b"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-d2d09b9b"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-d2d09b9b"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-d2d09b9b"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-d2d09b9b"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-d2d09b9b"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-d2d09b9b"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-d2d09b9b"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-d2d09b9b"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-d2d09b9b"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-d2d09b9b"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-d2d09b9b"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-d2d09b9b"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-d2d09b9b"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-d2d09b9b"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-d2d09b9b"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-d2d09b9b"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-d2d09b9b"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-d2d09b9b"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-d2d09b9b"] [data-ref]:hover, svg[data-svg-scope="s-d2d09b9b"] .highlight, svg[data-svg-scope="s-d2d09b9b"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-d2d09b9b"] text[data-ref]:hover, svg[data-svg-scope="s-d2d09b9b"] text.highlight, svg[data-svg-scope="s-d2d09b9b"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-point:hover, svg[data-svg-scope="s-d2d09b9b"] .geom-point.highlight, svg[data-svg-scope="s-d2d09b9b"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-d2d09b9b"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-d2d09b9b"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-d2d09b9b"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-d2d09b9b"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-d2d09b9b"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-d2d09b9b"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Book VI Sec. III Prop. 7 — Complete Quadrilateral Harmonic Section</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
-              <polygon class="geom-polygon primary-poly" points="305.26,396.32 513.68,396.32 444.21,326.84 374.74,292.11" data-ref="&lt; A B C D &gt;" />
               <path class="geom-line carrier-line" d="M 14 396.32 L 340 396.32 L 666 396.32" data-ref="[ A B ]" data-aliases="/ A B / | [ A E ] | / A E / | [ B E ] | / B E /" fill="none"><title>[ A B ]: y = 0</title></path>
               <path class="geom-line carrier-line" d="M 583.37 466 L 357.37 240 L 131.37 14" data-ref="[ B C ]" data-aliases="/ B C / | [ B F ] | / B F / | [ C F ] | / C F /" fill="none"><title>[ B C ]: -2*x - 2*y + 12 = 0</title></path>
               <path class="geom-line carrier-line" d="M 14 111.74 L 340 274.74 L 666 437.74" data-ref="[ C D ]" data-aliases="/ C D / | [ C E ] | / C E / | [ D E ] | / D E /" fill="none"><title>[ C D ]: -x - 2*y + 8 = 0</title></path>
@@ -612,9 +710,12 @@
               <path class="geom-line cross-line" d="M 666 215.95 L 415.95 340.97 L 165.89 466" data-ref="[ A C ]" data-aliases="/ A C / | [ A P ] | / A P / | [ A Qa ] | / A Qa / | [ C P ] | / C P / | [ C Qa ] | / C Qa / | [ P Qa ] | / P Qa /" fill="none"><title>[ A C ]: -2*x + 4*y = 0</title></path>
               <path class="geom-line cross-line" d="M 14 21.55 L 310.3 243.78 L 606.6 466" data-ref="[ B D ]" data-aliases="/ B D / | [ B P ] | / B P / | [ B Qb ] | / B Qb / | [ D P ] | / D P / | [ D Qb ] | / D Qb / | [ P Qb ] | / P Qb /" fill="none"><title>[ B D ]: -3*x - 4*y + 18 = 0</title></path>
               <path class="geom-line highlight-line" d="M 14 30.43 L 340 240 L 666 449.57" data-ref="[ E F ]" data-aliases="/ E F / | [ E Qa ] | / E Qa / | [ E Qb ] | / E Qb / | [ F Qa ] | / F Qa / | [ F Qb ] | / F Qb / | [ Qa Qb ] | / Qa Qb /" fill="none"><title>[ E F ]: -18*x/5 - 28*y/5 + 144/5 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="305.26,396.32 513.68,396.32 444.21,326.84 374.74,292.11" data-ref="&lt; A B C D &gt;" />
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point" cx="305.26" cy="396.32" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
               <circle class="geom-point" cx="513.68" cy="396.32" r="4.4" data-ref="B" data-latex-x="6" data-latex-y="0"><title>B = (6, 0)</title></circle>
               <circle class="geom-point" cx="444.21" cy="326.84" r="4.4" data-ref="C" data-latex-x="4" data-latex-y="2"><title>C = (4, 2)</title></circle>
@@ -627,8 +728,8 @@
               <circle class="geom-point highlight-point" cx="461.58" cy="318.16" r="5.5" data-ref="Qa" data-latex-x="\frac{9}{2}" data-latex-y="\frac{9}{4}"><title>Qa = (9/2, 9/4)</title></circle>
               <circle class="geom-point-halo" cx="96.84" cy="83.68" r="9.5" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point highlight-point" cx="96.84" cy="83.68" r="5.5" data-ref="Qb" data-latex-x="-6" data-latex-y="9"><title>Qb = (-6, 9)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="286.51" y="386.05" data-ref="A">A</text>
               <text class="geom-label" x="507.92" y="381.63" data-ref="B">B</text>
               <text class="geom-label" x="438.45" y="350.71" data-ref="C">C</text>
@@ -638,40 +739,63 @@
               <text class="geom-label" x="424.56" y="357.85" data-ref="P">P</text>
               <text class="geom-label" x="453.12" y="302.37" data-ref="Qa">Q<tspan class="geom-label-sub" dy="3">a</tspan></text>
               <text class="geom-label" x="88.38" y="67.9" data-ref="Qb">Q<tspan class="geom-label-sub" dy="3">b</tspan></text>
-            </g>
           </g>
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0071.g1" role="img" aria-label="Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity" width="680" height="480" data-svg-scope="s-97a4ebc6">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0071.g1" role="img" aria-label="Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity" data-svg-scope="s-97a4ebc6">
           <style>
-            svg[data-svg-scope="s-97a4ebc6"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-97a4ebc6"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-97a4ebc6"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-97a4ebc6"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-97a4ebc6"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-97a4ebc6"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-97a4ebc6"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-97a4ebc6"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-97a4ebc6"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-97a4ebc6"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-97a4ebc6"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-97a4ebc6"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-97a4ebc6"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-97a4ebc6"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-97a4ebc6"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-97a4ebc6"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-97a4ebc6"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-97a4ebc6"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-97a4ebc6"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-97a4ebc6"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-97a4ebc6"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-97a4ebc6"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-97a4ebc6"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-97a4ebc6"] [data-ref]:hover, svg[data-svg-scope="s-97a4ebc6"] .highlight, svg[data-svg-scope="s-97a4ebc6"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-97a4ebc6"] text[data-ref]:hover, svg[data-svg-scope="s-97a4ebc6"] text.highlight, svg[data-svg-scope="s-97a4ebc6"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-point:hover, svg[data-svg-scope="s-97a4ebc6"] .geom-point.highlight, svg[data-svg-scope="s-97a4ebc6"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-97a4ebc6"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-97a4ebc6"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-97a4ebc6"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-97a4ebc6"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-97a4ebc6"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-97a4ebc6"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Book III Prop. 25 &amp; VI.VII — Pole, Polar, Self-Conjugate Triangle &amp; La Hire Reciprocity</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
               <circle class="geom-circle featured-circle" cx="307" cy="295" r="110" data-ref="( O H2 )" data-aliases="( O ) | ( O G1 ) | ( O H1 ) | ( O G2 ) | ( G1 H1 G2 )" fill="none"><title>( O H2 ): x**2 + y**2 - 25 = 0</title></circle>
               <path class="geom-line carrier-line" d="M 14 38.5 L 340 201.5 L 666 364.5" data-ref="[ G1 H1 ]" data-aliases="/ G1 H1 / | [ G1 D ] | / G1 D / | [ G1 J1 ] | / G1 J1 / | [ H1 D ] | / H1 D / | [ H1 J1 ] | / H1 J1 / | [ D J1 ] | / D J1 /" fill="none"><title>[ G1 H1 ]: 2*x + 4*y - 20 = 0</title></path>
               <path class="geom-line carrier-line" d="M 666 170.5 L 370.5 318.25 L 75 466" data-ref="[ G2 H2 ]" data-aliases="/ G2 H2 / | [ G2 D ] | / G2 D / | [ G2 J2 ] | / G2 J2 / | [ H2 D ] | / H2 D / | [ H2 J2 ] | / H2 J2 / | [ D J2 ] | / D J2 /" fill="none"><title>[ G2 H2 ]: -4*x + 8*y + 20 = 0</title></path>
@@ -681,9 +805,11 @@
               <path class="geom-line cross-line" d="M 474 466 L 398.67 240 L 323.33 14" data-ref="[ H1 H2 ]" data-aliases="/ H1 H2 / | [ H1 V ] | / H1 V / | [ H2 V ] | / H2 V /" fill="none"><title>[ H1 H2 ]: 3*x + y - 15 = 0</title></path>
               <path class="geom-line highlight-line" d="M 408.83 466 L 371.17 240 L 333.5 14" data-ref="[ U V ]" data-aliases="/ U V / | [ U J1 ] | / U J1 / | [ U J2 ] | / U J2 / | [ U Q ] | / U Q / | [ V J1 ] | / V J1 / | [ V J2 ] | / V J2 / | [ V Q ] | / V Q / | [ J1 J2 ] | / J1 J2 / | [ J1 Q ] | / J1 Q / | [ J2 Q ] | / J2 Q /" fill="none"><title>[ U V ]: -8*x - 4*y/3 + 80/3 = 0</title></path>
               <path class="geom-line cross-line" d="M 666 73.5 L 469.75 269.75 L 273.5 466" data-ref="[ polarQ ]" fill="none"><title>[ polarQ ]: -5*sqrt(7)*x/4 + 5*sqrt(7)*y/4 + 125*sqrt(7)/16 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point center-point" cx="307" cy="295" r="4.3" data-ref="O" data-latex-x="0" data-latex-y="0"><title>O = (0, 0)</title></circle>
               <circle class="geom-point" cx="307" cy="185" r="4.4" data-ref="G1" data-latex-x="0" data-latex-y="5"><title>G1 = (0, 5)</title></circle>
               <circle class="geom-point" cx="395" cy="229" r="4.4" data-ref="H1" data-latex-x="4" data-latex-y="3"><title>H1 = (4, 3)</title></circle>
@@ -700,8 +826,8 @@
               <circle class="geom-point-halo" cx="395" cy="383" r="8.6" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point harmonic-point" cx="395" cy="383" r="4.6" data-ref="Q" data-latex-x="4" data-latex-y="-4"><title>Q = (4, -4)</title></circle>
               <circle class="geom-point" cx="351" cy="339" r="3.9" data-ref="C" data-latex-x="2" data-latex-y="-2"><title>C = (2, -2)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="301.24" y="280.41" data-ref="O">O</text>
               <text class="geom-label" x="318.88" y="181.38" data-ref="G1">G<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="409.02" y="233.59" data-ref="H1">H<tspan class="geom-label-sub" dy="3">1</tspan></text>
@@ -714,7 +840,6 @@
               <text class="geom-label" x="360.24" y="301.51" data-ref="J2">J<tspan class="geom-label-sub" dy="3">2</tspan></text>
               <text class="geom-label" x="402.36" y="372.58" data-ref="Q">Q</text>
               <text class="geom-label" x="345.24" y="362.36" data-ref="C">C</text>
-            </g>
           </g>
         </svg>
         </figure>
@@ -821,36 +946,59 @@
         <li><p><strong>Associated Points</strong>: <strong>Steiner Point</strong> $S_t = X(99) = \left(\frac{17253}{2353}, -\frac{9396}{2353}\right)$, <strong>Tarry Point</strong> $T_r = X(98) = \left(\frac{15689}{2353}, \frac{115233}{9412}\right)$, and <strong>de Longchamps Point</strong> $X(20) = \left(9, \frac{9}{2}\right)$.</p></li>
         </ul>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0205.g1" role="img" aria-label="Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle" width="680" height="480" data-svg-scope="s-a463d3c3">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0205.g1" role="img" aria-label="Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle" data-svg-scope="s-a463d3c3">
           <style>
-            svg[data-svg-scope="s-a463d3c3"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-a463d3c3"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-a463d3c3"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-a463d3c3"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-a463d3c3"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-a463d3c3"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-a463d3c3"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-a463d3c3"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-a463d3c3"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-a463d3c3"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-a463d3c3"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-a463d3c3"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-a463d3c3"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-a463d3c3"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-a463d3c3"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-a463d3c3"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-a463d3c3"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-a463d3c3"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-a463d3c3"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-a463d3c3"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-a463d3c3"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-a463d3c3"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-a463d3c3"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-a463d3c3"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-a463d3c3"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-a463d3c3"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-a463d3c3"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-a463d3c3"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-a463d3c3"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-a463d3c3"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-a463d3c3"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-a463d3c3"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-a463d3c3"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-a463d3c3"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-a463d3c3"] [data-ref]:hover, svg[data-svg-scope="s-a463d3c3"] .highlight, svg[data-svg-scope="s-a463d3c3"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-a463d3c3"] text[data-ref]:hover, svg[data-svg-scope="s-a463d3c3"] text.highlight, svg[data-svg-scope="s-a463d3c3"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-a463d3c3"] .geom-point:hover, svg[data-svg-scope="s-a463d3c3"] .geom-point.highlight, svg[data-svg-scope="s-a463d3c3"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-a463d3c3"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-a463d3c3"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-a463d3c3"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-a463d3c3"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-a463d3c3"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-a463d3c3"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Supp. Ch. Secs. I &amp; III — Symmedian Point K, First Lemoine Circle &amp; Cosine Circle</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
-              <polygon class="geom-polygon primary-poly" points="182.5,339 497.5,339 295,69" data-ref="&lt; A B C &gt;" />
               <circle class="geom-circle" cx="340" cy="246.19" r="182.81" data-ref="( O A )" data-aliases="( O ) | ( O B ) | ( O C ) | ( A B C )" fill="none"><title>( O A ): (x - 7)**2 + (y - 33/8)**2 - 4225/64 = 0</title></circle>
               <circle class="geom-circle featured-circle" cx="325.05" cy="247.75" r="105.19" data-ref="( Ml D1 )" data-aliases="( Ml ) | ( Ml D2 ) | ( Ml E1 ) | ( Ml E2 ) | ( Ml F1 ) | ( Ml F2 ) | ( D1 D2 E1 )" fill="none"><title>( Ml D1 ): (x - 1869/295)**2 + (y - 19143/4720)**2 - 19477081/891136 = 0</title></circle>
               <circle class="geom-circle secondary-circle" cx="310.1" cy="249.31" r="104.11" data-ref="( K Cb2 )" data-aliases="( K )" fill="none"><title>( K Cb2 ): (x - 1673/295)**2 + (y - 1176/295)**2 - 74529/3481 = 0</title></circle>
@@ -863,9 +1011,12 @@
               <path class="geom-line cross-line" d="M 472.62 466 L 303.12 240 L 133.62 14" data-ref="[ parBC ]" data-aliases="[ K E2 ] | / K E2 / | [ K F1 ] | / K F1 / | [ E2 F1 ] | / E2 F1 /" fill="none"><title>[ parBC ]: -12*x - 9*y + 6132/59 = 0</title></path>
               <path class="geom-line cross-line" d="M 219.81 466 L 313.98 240 L 408.15 14" data-ref="[ parCA ]" data-aliases="[ K D1 ] | / K D1 / | [ K F2 ] | / K F2 / | [ D1 F2 ] | / D1 F2 /" fill="none"><title>[ parCA ]: 12*x - 5*y - 14196/295 = 0</title></path>
               <path class="geom-line cross-line" d="M 14 249.31 L 340 249.31 L 666 249.31" data-ref="[ parAB ]" data-aliases="[ K D2 ] | / K D2 / | [ K E1 ] | / K E1 / | [ D2 E1 ] | / D2 E1 /" fill="none"><title>[ parAB ]: y - 1176/295 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="182.5,339 497.5,339 295,69" data-ref="&lt; A B C &gt;" />
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point" cx="182.5" cy="339" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
               <circle class="geom-point" cx="497.5" cy="339" r="4.4" data-ref="B" data-latex-x="14" data-latex-y="0"><title>B = (14, 0)</title></circle>
               <circle class="geom-point" cx="295" cy="69" r="4.4" data-ref="C" data-latex-x="5" data-latex-y="12"><title>C = (5, 12)</title></circle>
@@ -881,8 +1032,8 @@
               <circle class="geom-point" cx="272.73" cy="339" r="3.9" data-ref="F2" data-latex-x="\frac{1183}{295}" data-latex-y="0"><title>F2 = (1183/295, 0)</title></circle>
               <circle class="geom-point-halo" cx="325.05" cy="247.75" r="8.3" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point center-point" cx="325.05" cy="247.75" r="4.3" data-ref="Ml" data-latex-x="\frac{1869}{295}" data-latex-y="\frac{19143}{4720}"><title>Ml = (1869/295, 19143/4720)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="158.3" y="335.38" data-ref="A">A</text>
               <text class="geom-label" x="491.74" y="362.86" data-ref="B">B</text>
               <text class="geom-label" x="307.68" y="81.8" data-ref="C">C</text>
@@ -895,42 +1046,63 @@
               <text class="geom-label" x="368.91" y="362.36" data-ref="F1">F<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="284.16" y="335.6" data-ref="F2">F<tspan class="geom-label-sub" dy="3">2</tspan></text>
               <text class="geom-label" x="316.59" y="233.16" data-ref="Ml">M<tspan class="geom-label-sub" dy="3">L</tspan></text>
-            </g>
           </g>
         </svg>
         </figure>
         <figure class="photon-picture photon-svg">
-            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" data-graphic-id="0220.g1" role="img" aria-label="Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)" width="680" height="480" data-svg-scope="s-7122c8da">
+            <svg class="euclid-graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0220.g1" role="img" aria-label="Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)" data-svg-scope="s-7122c8da">
           <style>
-            svg[data-svg-scope="s-7122c8da"] { --svg-bg: #fafaf9; --ink: #1c1917; --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: #d97706; --polar-line: #059669; --symmedian-line: #db2777; --tri-fill: #0284c7; --brocard-fill: #7c3aed; --pt-given: #0f172a; --pt-center: #0369a1; --pt-highlight: #d97706; --pt-brocard: #7c3aed; --pt-harmonic: #059669; font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
-            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-7122c8da"] { --svg-bg: #141417; --ink: #f4f4f5; --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --highlight-line: #fbbf24; --polar-line: #34d399; --symmedian-line: #f472b6; --tri-fill: #38bdf8; --brocard-fill: #c084fc; --pt-given: #e2e8f0; --pt-center: #38bdf8; --pt-highlight: #fbbf24; --pt-brocard: #c084fc; --pt-harmonic: #34d399 }
-            svg[data-svg-scope="s-7122c8da"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9 }
+            svg[data-svg-scope="s-7122c8da"] { --svg-bg: var(--geom-bg); --ink: var(--geom-fg); --label-halo: rgba(250, 250, 249, 0.92); --carrier: #475569; --circle-base: #0369a1; --circle-featured: #b45309; --circle-secondary: #0f766e; --circle-orth: #7c3aed; --circle-aux: #64748b; --highlight-line: var(--geom-accent); --polar-line: var(--geom-assert); --symmedian-line: #db2777; --tri-fill: var(--geom-poly-fill); --brocard-fill: #7c3aed; --pt-given: var(--geom-fg); --pt-center: #0369a1; --pt-highlight: var(--geom-accent); --pt-brocard: #7c3aed; --pt-harmonic: var(--geom-assert); font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif }
+            body:not(.light-mode):not([data-theme="light"]) svg[data-svg-scope="s-7122c8da"] { --label-halo: rgba(20, 20, 23, 0.92); --carrier: #94a3b8; --circle-base: #38bdf8; --circle-featured: #fbbf24; --circle-secondary: #2dd4bf; --circle-orth: #c084fc; --circle-aux: #94a3b8; --symmedian-line: #f472b6; --brocard-fill: #c084fc; --pt-center: #38bdf8; --pt-brocard: #c084fc }
+            svg[data-svg-scope="s-7122c8da"] .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-7122c8da"] .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96 }
             svg[data-svg-scope="s-7122c8da"] .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5 }
             svg[data-svg-scope="s-7122c8da"] .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5 }
             svg[data-svg-scope="s-7122c8da"] .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72 }
-            svg[data-svg-scope="s-7122c8da"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round }
+            svg[data-svg-scope="s-7122c8da"] .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s }
             svg[data-svg-scope="s-7122c8da"] .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92 }
             svg[data-svg-scope="s-7122c8da"] .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3 }
-            svg[data-svg-scope="s-7122c8da"] .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5 }
-            svg[data-svg-scope="s-7122c8da"] .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4 }
+            svg[data-svg-scope="s-7122c8da"] .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5 }
+            svg[data-svg-scope="s-7122c8da"] .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4 }
             svg[data-svg-scope="s-7122c8da"] .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86 }
             svg[data-svg-scope="s-7122c8da"] .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72 }
-            svg[data-svg-scope="s-7122c8da"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round }
-            svg[data-svg-scope="s-7122c8da"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round }
-            svg[data-svg-scope="s-7122c8da"] .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5 }
+            svg[data-svg-scope="s-7122c8da"] .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-7122c8da"] .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s }
+            svg[data-svg-scope="s-7122c8da"] .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s }
             svg[data-svg-scope="s-7122c8da"] .center-point { fill: #0369a1; fill: var(--pt-center) }
-            svg[data-svg-scope="s-7122c8da"] .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9 }
+            svg[data-svg-scope="s-7122c8da"] .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9 }
             svg[data-svg-scope="s-7122c8da"] .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9 }
-            svg[data-svg-scope="s-7122c8da"] .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8 }
-            svg[data-svg-scope="s-7122c8da"] .geom-label { fill: #1c1917; fill: var(--ink); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
+            svg[data-svg-scope="s-7122c8da"] .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8 }
+            svg[data-svg-scope="s-7122c8da"] .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none }
+            svg[data-svg-scope="s-7122c8da"] .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease }
+            svg[data-svg-scope="s-7122c8da"] .geom-label { fill: #1c1917; fill: var(--geom-fg); font-size: 13px; font-weight: 650; paint-order: stroke fill; stroke: #fafaf9; stroke: var(--label-halo); stroke-width: 3.5px; stroke-linejoin: round; user-select: none }
             svg[data-svg-scope="s-7122c8da"] .geom-label-sub { font-size: 9.8px; font-weight: 650 }
+            svg[data-svg-scope="s-7122c8da"] [data-ref]:hover, svg[data-svg-scope="s-7122c8da"] .highlight, svg[data-svg-scope="s-7122c8da"] .geom-highlight-active { opacity: 1 !important; stroke: var(--geom-accent) !important; cursor: pointer }
+            svg[data-svg-scope="s-7122c8da"] text[data-ref]:hover, svg[data-svg-scope="s-7122c8da"] text.highlight, svg[data-svg-scope="s-7122c8da"] text.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important; stroke: var(--label-halo) !important }
+            svg[data-svg-scope="s-7122c8da"] .geom-point:hover, svg[data-svg-scope="s-7122c8da"] .geom-point.highlight, svg[data-svg-scope="s-7122c8da"] circle.geom-point.geom-highlight-active { opacity: 1 !important; fill: var(--geom-accent) !important }
+            svg[data-svg-scope="s-7122c8da"] .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important }
+            svg[data-svg-scope="s-7122c8da"] text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-7122c8da"] circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important }
+            svg[data-svg-scope="s-7122c8da"] path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1) }
+            svg[data-svg-scope="s-7122c8da"] path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2) }
+            svg[data-svg-scope="s-7122c8da"] path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3) }
           </style>
           <title>Casey Supp. Ch. Secs. II, V &amp; VII — Brocard Points Ω, Ω′, Brocard Circle, Steiner X(99) &amp; Tarry X(98)</title>
+          <defs>
+            <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+              <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+            </marker>
+            <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+              <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+              <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+              <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+            </marker>
+          </defs>
           <g id="elements">
-            <g id="graphics">
-              <polygon class="geom-polygon primary-poly" points="183.39,337.32 496.61,337.32 295.25,68.85" data-ref="&lt; A B C &gt;" />
-              <polygon class="geom-polygon brocard-poly" points="319.49,260.42 315.77,234.94 340,248.13" data-ref="&lt; A1 B1 C1 &gt;" />
               <circle class="geom-circle" cx="340" cy="245.03" r="181.78" data-ref="( O A )" data-aliases="( O ) | ( O B ) | ( O C ) | ( O St ) | ( O Tr ) | ( A B C )" fill="none"><title>( O A ): (x - 7)**2 + (y - 33/8)**2 - 4225/64 = 0</title></circle>
               <circle class="geom-circle featured-circle" cx="325.14" cy="246.58" r="14.95" data-ref="( Ml O )" data-aliases="( Ml ) | ( Ml K ) | ( Ml Om1 ) | ( Ml Om2 ) | ( Ml A1 ) | ( Ml B1 ) | ( Ml C1 ) | ( O K Om1 )" fill="none"><title>( Ml O ): (x - 1869/295)**2 + (y - 19143/4720)**2 - 397657/891136 = 0</title></circle>
               <circle class="geom-circle secondary-circle" cx="325.14" cy="246.58" r="104.6" data-ref="( Ml D1 )" data-aliases="( Ml )" fill="none"><title>( Ml D1 ): (x - 1869/295)**2 + (y - 19143/4720)**2 - 19477081/891136 = 0</title></circle>
@@ -944,9 +1116,13 @@
               <path class="geom-line brocard-ray" d="M 345.49 466 L 316.9 240 L 288.32 14" data-ref="[ C Om2 ]" data-aliases="/ C Om2 / | [ C A1 ] | / C A1 / | [ Om2 A1 ] | / Om2 A1 /" fill="none"><title>[ C Om2 ]: 853788*x/115249 + 107991*y/115249 - 5564832/115249 = 0</title></path>
               <path class="geom-line brocard-ray" d="M 17.01 466 L 309.22 240 L 601.43 14" data-ref="[ A Om2 ]" data-aliases="/ A Om2 / | [ A B1 ] | / A B1 / | [ Om2 B1 ] | / Om2 B1 /" fill="none"><title>[ A Om2 ]: -529200*x/115249 + 684236*y/115249 = 0</title></path>
               <path class="geom-line brocard-ray" d="M 14 62.48 L 340 248.13 L 666 433.79" data-ref="[ B Om2 ]" data-aliases="/ B Om2 / | [ B C1 ] | / B C1 / | [ Om2 C1 ] | / Om2 C1 /" fill="none"><title>[ B Om2 ]: -529200*x/115249 - 929250*y/115249 + 7408800/115249 = 0</title></path>
-            </g>
-            <g id="highlights"></g>
-            <g id="points">
+          </g>
+          <g id="graphics">
+              <polygon class="geom-polygon primary-poly" points="183.39,337.32 496.61,337.32 295.25,68.85" data-ref="&lt; A B C &gt;" />
+              <polygon class="geom-polygon brocard-poly" points="319.49,260.42 315.77,234.94 340,248.13" data-ref="&lt; A1 B1 C1 &gt;" />
+          </g>
+          <g id="highlights" style="pointer-events: none;"></g>
+          <g id="points">
               <circle class="geom-point" cx="183.39" cy="337.32" r="4.4" data-ref="A" data-latex-x="0" data-latex-y="0"><title>A = (0, 0)</title></circle>
               <circle class="geom-point" cx="496.61" cy="337.32" r="4.4" data-ref="B" data-latex-x="14" data-latex-y="0"><title>B = (14, 0)</title></circle>
               <circle class="geom-point" cx="295.25" cy="68.85" r="4.4" data-ref="C" data-latex-x="5" data-latex-y="12"><title>C = (5, 12)</title></circle>
@@ -965,8 +1141,8 @@
               <circle class="geom-point brocard-point" cx="347.44" cy="426.66" r="5" data-ref="St" data-latex-x="\frac{17253}{2353}" data-latex-y="- \frac{9396}{2353}"><title>St = (17253/2353, -9396/2353)</title></circle>
               <circle class="geom-point-halo" cx="332.56" cy="63.41" r="9" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
               <circle class="geom-point brocard-point" cx="332.56" cy="63.41" r="5" data-ref="Tr" data-latex-x="\frac{15689}{2353}" data-latex-y="\frac{115233}{9412}"><title>Tr = (15689/2353, 115233/9412)</title></circle>
-            </g>
-            <g id="labels">
+          </g>
+          <g id="labels">
               <text class="geom-label" x="159.19" y="333.71" data-ref="A">A</text>
               <text class="geom-label" x="490.85" y="361.19" data-ref="B">B</text>
               <text class="geom-label" x="307.93" y="81.64" data-ref="C">C</text>
@@ -980,7 +1156,6 @@
               <text class="geom-label" x="353.52" y="252.72" data-ref="C1">C<tspan class="geom-label-sub" dy="3">1</tspan></text>
               <text class="geom-label" x="353.69" y="415.94" data-ref="St">S<tspan class="geom-label-sub" dy="3">t</tspan></text>
               <text class="geom-label" x="324.1" y="48.12" data-ref="Tr">T<tspan class="geom-label-sub" dy="3">r</tspan></text>
-            </g>
           </g>
         </svg>
         </figure>

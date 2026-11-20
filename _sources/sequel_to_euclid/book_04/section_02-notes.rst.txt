@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book IV, Section II Notes
 :order: 2
+:folio: 0090–0092 (p. 64–66)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-04-sec-02-notes:
@@ -10,6 +11,9 @@ Book IV, Section II Notes: Historical Commentary
 ================================================
 
 .. rubric:: Historical Provenance of Exercises and the Tritangent System
+
+.. folio:: 0090
+   :page: 64
 
 1. The Tritangent Configuration & Exercise 31
 ---------------------------------------------

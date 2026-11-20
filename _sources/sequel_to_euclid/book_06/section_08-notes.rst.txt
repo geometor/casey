@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section VIII Notes
 :order: 8
+:folio: 0174–0190 (p. 148–164)
 :tracks: English: section_08-en | Summary: section_08-summary | Notes: section_08-notes
 
 .. _casey-book-06-sec-08-notes:
@@ -10,6 +11,9 @@ Book VI, Section VIII Notes: Miscellaneous Exercises
 ====================================================
 
 .. rubric:: Historical Context & Advanced Invariants
+
+.. folio:: 0174
+   :page: 148
 
 1. Historical Context: Steiner, Weill & Graham
 ----------------------------------------------

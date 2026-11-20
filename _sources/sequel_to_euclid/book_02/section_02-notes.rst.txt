@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book II, Section II Notes
 :order: 2
+:folio: 0053–0054 (p. 27–28)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-02-sec-02-notes:
@@ -10,6 +11,9 @@ Book II, Section II Notes: Exercises Commentary
 ===============================================
 
 .. rubric:: Historical Provenance of the Book II Exercises
+
+.. folio:: 0053
+   :page: 27
 
 1. The Law of Cosines in Geometric Algebra
 ------------------------------------------

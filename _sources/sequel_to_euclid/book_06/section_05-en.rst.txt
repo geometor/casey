@@ -54,6 +54,12 @@ If the given circles have not real points of intersection, we proceed as follows
 
 Let $X$ and $Y$ be the given $\odot$s, $P$ and $Q$ their centres: draw $AB$, the radical axis of $X$ and $Y$, intersecting $PQ$ in $O$: from $O$ draw two tangents $OC, OD$ to $X$ and $Y$; then $OC = OD$, and the $\odot$ described with $O$ as centre and $OD$ as radius will cut the two $\odot$s $X$ and $Y$ orthogonally. Now take any point $E$ in this orthogonal $\odot$, and draw the tangent $ER$ meeting the line $PQ$ in $R$: from $R$ as centre, and $RE$ as radius, describe a $\odot Z$; then $Z$ will be coaxal with $X$ and $Y$. For the line $ER$ being a tangent to the $\odot CDE$, the $\angle OER$ is right, $\therefore OE$ is a tangent to $Z$; and since $OD = OE$, the tangents from $O$ to the $\odot$s $Y$ and $Z$ are equal:
 
+.. picture:: 0140.g1.png
+   :caption: Archival woodcut (1888, f. 0140, p. 114) — Book VI, Sec. V, Prop. 2: construction of coaxal system and orthogonal circle through limiting points.
+
+.. picture:: 0140.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. V, Prop. 2: Coaxal pencil & orthogonal limiting circle.
+
 .. folio:: 0141
    :page: 115
 
@@ -217,6 +223,9 @@ Now, consider the circle $X$, and the three circles $ABC, DEF, A'B'C'$; the radi
    :page: 122
 
 $B, B'; C, C'$ are given points. And we have the following construction, viz.: *Describe the orthogonal circle of $X, Y, Z$, and draw the three chords of intersection of this circle with $X, Y, Z$ respectively; and from the points where these chords meet the axis of similitude of $X, Y, Z$ draw pairs of tangents to $X, Y, Z$; then the two circles described through these six points of contact will be tangential to $X, Y, Z$.*
+
+.. picture:: 0148.g1.png
+   :caption: Archival woodcut (1888, f. 0148, p. 122) — Book VI, Sec. V, Prop. 10: Apollonius's problem solved via radical centre, orthogonal circle, and axes of similitude.
 
 **Cor. 1.**—*Since there are four axes of similitude of $X, Y, Z$, we shall have eight circles tangential to $X, Y, Z$.*
 

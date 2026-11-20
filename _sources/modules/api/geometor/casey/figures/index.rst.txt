@@ -1,0 +1,168 @@
+geometor.casey.figures
+======================
+
+.. py:module:: geometor.casey.figures
+
+.. autoapi-nested-parse::
+
+   Exact symbolic 5-layer ``.euclid-graphic`` SVG figure builders for Casey's *Sequel to Euclid*.
+
+   Builds and exports all 21 interactive calibrated ``.g1.svg`` plates paired with
+   the 1888 archival bitmap plates across Books I, II, III, IV, VI, and the
+   Supplementary Chapter. Every point, line, circle, polygon, and intersection is
+   constructed strictly over exact SymPy rationals / closed-form expressions
+   (never ``float`` or ``sympy.Float``) using ``Model(..., auto_intersect=False)``.
+
+
+
+Classes
+-------
+
+.. autoapisummary::
+
+   geometor.casey.figures.FigureResult
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   geometor.casey.figures.construct_parallelogram_diagonals
+   geometor.casey.figures.construct_euler_concurrence
+   geometor.casey.figures.construct_mean_centre
+   geometor.casey.figures.construct_stewart
+   geometor.casey.figures.construct_cyclic_quad_perps
+   geometor.casey.figures.construct_simson_line
+   geometor.casey.figures.construct_incircle_contacts
+   geometor.casey.figures.construct_ceva
+   geometor.casey.figures.construct_menelaus
+   geometor.casey.figures.construct_centres_of_similitude
+   geometor.casey.figures.construct_coaxal_intersecting_orth
+   geometor.casey.figures.construct_pascal_hexagon
+   geometor.casey.figures.construct_desargues
+   geometor.casey.figures.construct_isogonal_conjugates
+   geometor.casey.figures.generate_all_figures
+
+
+Module Contents
+---------------
+
+.. py:class:: FigureResult
+
+   Constructed symbolic figure ready for SVG export.
+
+
+   .. py:attribute:: model
+      :type:  geometor.model.Model
+
+
+   .. py:attribute:: graphic_id
+      :type:  str
+
+
+   .. py:attribute:: title
+      :type:  str
+
+
+   .. py:attribute:: subdir
+      :type:  str
+
+
+   .. py:attribute:: bbox
+      :type:  tuple[float, float, float, float] | None
+      :value: None
+
+
+
+   .. py:attribute:: focus_points
+      :type:  tuple[sympy.geometry.Point, ...]
+      :value: ()
+
+
+
+   .. py:attribute:: highlight_point_ids
+      :type:  tuple[str, ...]
+      :value: ()
+
+
+
+.. py:function:: construct_parallelogram_diagonals() -> FigureResult
+
+   Book I, Prop. 1 (p. 2): Diagonals of a parallelogram bisect each other.
+
+
+.. py:function:: construct_euler_concurrence() -> FigureResult
+
+   Book I, Prop. 12 Cor. 1 (p. 9): Concurrence of Circumcentre O, Centroid G & Orthocentre H.
+
+
+.. py:function:: construct_mean_centre() -> FigureResult
+
+   Book I, Prop. 16 (p. 12): Mean centre perpendiculars (m+n)AH = m*BD + n*CE.
+
+
+.. py:function:: construct_stewart() -> FigureResult
+
+   Book II, Prop. 9 (p. 24): Stewart's Theorem m*AC^2 + n*BC^2 = m*AD^2 + n*BD^2 + (m+n)*CD^2.
+
+
+.. py:function:: construct_cyclic_quad_perps() -> FigureResult
+
+   Book III, Prop. 11 (p. 34): Product of perpendiculars on opposite sides equals diagonals.
+
+
+.. py:function:: construct_simson_line() -> FigureResult
+
+   Book III, Prop. 12 (pp. 34–35): Simson's Pedal Line of triangle ABC from circumcircle point P.
+
+
+.. py:function:: construct_incircle_contacts() -> FigureResult
+
+   Book IV, Prop. 1 (p. 53): Incircle contact segments s-a, s-b, s-c.
+
+
+.. py:function:: construct_ceva() -> FigureResult
+
+   Book VI, Prop. 2 (p. 67): Ceva's Theorem on concurrent triangle cevians.
+
+
+.. py:function:: construct_menelaus() -> FigureResult
+
+   Book VI, Prop. 4 (p. 69): Menelaus's Theorem on a transversal line.
+
+
+.. py:function:: construct_centres_of_similitude() -> FigureResult
+
+   Book VI, Sec. III (p. 83): External Centre of Similitude & Common Tangent.
+
+
+.. py:function:: construct_coaxal_intersecting_orth() -> FigureResult
+
+   Book VI, Sec. IV Prop. 15 (p. 114): Intersecting Coaxal Circles & Orthogonal Circle.
+
+
+.. py:function:: construct_pascal_hexagon() -> FigureResult
+
+   Book VI, Sec. VI Prop. 3 (p. 130): Pascal's Hexagrammum Mysticum in a Circle.
+
+
+.. py:function:: construct_desargues() -> FigureResult
+
+   Book VI, Sec. VI Prop. 4 Cor. 2 (p. 131): Desargues's Perspective Triangles.
+
+
+.. py:function:: construct_isogonal_conjugates() -> FigureResult
+
+   Supplementary Chapter, Sec. I Prop. 1 (p. 165): Isogonal Conjugates P, Q & Pedal Circle.
+
+
+.. py:function:: generate_all_figures(docsrc_root: pathlib.Path | None = None) -> list[pathlib.Path]
+
+   Build and export all 21 exact symbolic 5-layer ``.euclid-graphic`` SVGs.
+
+   :param docsrc_root: Path to ``docsrc`` (defaults to repository ``docsrc/``).
+
+   :returns: List of all written SVG file paths.
+
+

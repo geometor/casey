@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" viewBox="0 0 680 480" width="680" height="480" data-graphic-id="0156.g1" role="img" aria-label="Casey Book VI Sec. VI Prop. 3 — Pascal&#x27;s Hexagrammum Mysticum &amp; Pascal Line">
+  <title>Casey Book VI Sec. VI Prop. 3 — Pascal&#x27;s Hexagrammum Mysticum &amp; Pascal Line</title>
+  <style>
+:root {
+    --geom-fg: #1c1917;
+    --geom-bg: #fafaf9;
+    --geom-point-stroke: #fafaf9;
+    --geom-poly-fill: #0284c7;
+    --geom-accent: #d97706;
+    --geom-assert: #059669;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --geom-fg: #e4e4e7;
+      --geom-bg: #141417;
+      --geom-point-stroke: #141417;
+      --geom-poly-fill: #38bdf8;
+      --geom-accent: #fbbf24;
+      --geom-assert: #34d399;
+    }
+  }
+  .euclid-graphic {
+    --svg-bg: var(--geom-bg);
+    --ink: var(--geom-fg);
+    --label-halo: rgba(250, 250, 249, 0.92);
+    --carrier: #475569;
+    --circle-base: #0369a1;
+    --circle-featured: #b45309;
+    --circle-secondary: #0f766e;
+    --circle-orth: #7c3aed;
+    --circle-aux: #64748b;
+    --highlight-line: var(--geom-accent);
+    --polar-line: var(--geom-assert);
+    --symmedian-line: #db2777;
+    --tri-fill: var(--geom-poly-fill);
+    --brocard-fill: #7c3aed;
+    --pt-given: var(--geom-fg);
+    --pt-center: #0369a1;
+    --pt-highlight: var(--geom-accent);
+    --pt-brocard: #7c3aed;
+    --pt-harmonic: var(--geom-assert);
+    font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif;
+    background-color: var(--geom-bg);
+  }
+  @media (prefers-color-scheme: dark) {
+    .euclid-graphic {
+      --label-halo: rgba(20, 20, 23, 0.92);
+      --carrier: #94a3b8;
+      --circle-base: #38bdf8;
+      --circle-featured: #fbbf24;
+      --circle-secondary: #2dd4bf;
+      --circle-orth: #c084fc;
+      --circle-aux: #94a3b8;
+      --symmedian-line: #f472b6;
+      --brocard-fill: #c084fc;
+      --pt-center: #38bdf8;
+      --pt-brocard: #c084fc;
+    }
+  }
+  .euclid-graphic .svg-bg { fill: #fafaf9; fill: var(--geom-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s; }
+  .euclid-graphic .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96; }
+  .euclid-graphic .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5; }
+  .euclid-graphic .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5; }
+  .euclid-graphic .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72; }
+  .euclid-graphic .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s; }
+  .euclid-graphic .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92; }
+  .euclid-graphic .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3; }
+  .euclid-graphic .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5; }
+  .euclid-graphic .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4; }
+  .euclid-graphic .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86; }
+  .euclid-graphic .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72; }
+  .euclid-graphic .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s; }
+  .euclid-graphic .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s; }
+  .euclid-graphic .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s; }
+  .euclid-graphic .center-point { fill: #0369a1; fill: var(--pt-center); }
+  .euclid-graphic .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9; }
+  .euclid-graphic .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9; }
+  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8; }
+  .euclid-graphic .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none; }
+  .euclid-graphic .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
+  .euclid-graphic .geom-label {
+    fill: #1c1917;
+    fill: var(--geom-fg);
+    font-size: 13px;
+    font-weight: 650;
+    paint-order: stroke fill;
+    stroke: #fafaf9;
+    stroke: var(--label-halo);
+    stroke-width: 3.5px;
+    stroke-linejoin: round;
+    user-select: none;
+  }
+  .euclid-graphic .geom-label-sub { font-size: 9.8px; font-weight: 650; }
+  .euclid-graphic [data-ref]:hover,
+  .euclid-graphic .highlight,
+  .euclid-graphic .geom-highlight-active {
+    opacity: 1 !important;
+    stroke: var(--geom-accent) !important;
+    cursor: pointer;
+  }
+  .euclid-graphic text[data-ref]:hover,
+  .euclid-graphic text.highlight,
+  .euclid-graphic text.geom-highlight-active {
+    opacity: 1 !important;
+    fill: var(--geom-accent) !important;
+    stroke: var(--label-halo) !important;
+  }
+  .euclid-graphic .geom-point:hover,
+  .euclid-graphic .geom-point.highlight,
+  .euclid-graphic circle.geom-point.geom-highlight-active {
+    opacity: 1 !important;
+    fill: var(--geom-accent) !important;
+  }
+  .euclid-graphic .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important; }
+  .euclid-graphic text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important; }
+  .euclid-graphic circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important; }
+  .euclid-graphic path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1); }
+  .euclid-graphic path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2); }
+  .euclid-graphic path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3); }
+  </style>
+  <defs>
+    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />
+      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />
+    </marker>
+    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">
+      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />
+      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />
+      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />
+    </marker>
+  </defs>
+  <rect class="svg-bg" x="0" y="0" width="680" height="480" rx="6" />
+  <g id="elements">
+      <circle class="geom-circle" cx="291.26" cy="261.32" r="152.31" data-ref="(O B)" data-aliases="( O ) | ( O A ) | ( O B ) | ( O C ) | ( O D ) | ( O E ) | ( O F ) | ( A B C )" fill="none"><title>(O B): x**2 + y**2 - 25 = 0</title></circle>
+      <path class="geom-line" d="M 112.77 466 L 225.77 240 L 338.77 14" data-ref="[A B]" data-aliases="[ A B ] | / A B / | [ A L ] | / A L / | [ B L ] | / B L /" fill="none"><title>[A B]: -8*x + 4*y - 20 = 0</title></path>
+      <path class="geom-line" d="M 648.25 466 L 422.25 240 L 196.25 14" data-ref="[B C]" data-aliases="[ B C ] | / B C / | [ B M ] | / B M / | [ C M ] | / C M /" fill="none"><title>[B C]: 5*x + 5*y - 25 = 0</title></path>
+      <path class="geom-line" d="M 341.23 466 L 454.23 240 L 567.23 14" data-ref="[C D]" data-aliases="[ C D ] | / C D / | [ C N ] | / C N / | [ D N ] | / D N /" fill="none"><title>[C D]: 4*x - 2*y - 20 = 0</title></path>
+      <path class="geom-line" d="M 444.77 466 L 275.27 240 L 105.77 14" data-ref="[D E]" data-aliases="[ D E ] | / D E / | [ D L ] | / D L / | [ E L ] | / E L /" fill="none"><title>[D E]: -8*x - 6*y = 0</title></path>
+      <path class="geom-line" d="M 14 112.92 L 340 159.49 L 666 206.07" data-ref="[E F]" data-aliases="[ E F ] | / E F / | [ E M ] | / E M / | [ F M ] | / F M /" fill="none"><title>[E F]: x + 7*y - 25 = 0</title></path>
+      <path class="geom-line" d="M 18.36 466 L 319.69 240 L 621.03 14" data-ref="[F A]" data-aliases="[ A F ] | / A F / | [ A N ] | / A N / | [ F N ] | / F N /" fill="none"><title>[F A]: 6*x - 8*y = 0</title></path>
+      <path class="geom-line" d="M 14 297.9 L 340 160.64 L 666 23.38" data-ref="[L M N]" data-aliases="[ L M ] | / L M / | [ L N ] | / L N / | [ M N ] | / M N /" fill="none"><title>[L M N]: -4*x + 19*y/2 - 25 = 0</title></path>
+  </g>
+  <g id="graphics">
+  </g>
+  <g id="highlights" style="pointer-events: none;"></g>
+  <g id="points">
+      <circle class="geom-point" cx="169.42" cy="352.71" r="3.9" data-ref="A" data-latex-x="-4" data-latex-y="-3"><title>A = (-4, -3)</title></circle>
+      <circle class="geom-point" cx="291.26" cy="109.02" r="3.9" data-ref="B" data-latex-x="0" data-latex-y="5"><title>B = (0, 5)</title></circle>
+      <circle class="geom-point" cx="443.57" cy="261.32" r="3.9" data-ref="C" data-latex-x="5" data-latex-y="0"><title>C = (5, 0)</title></circle>
+      <circle class="geom-point" cx="382.65" cy="383.17" r="3.9" data-ref="D" data-latex-x="3" data-latex-y="-4"><title>D = (3, -4)</title></circle>
+      <circle class="geom-point" cx="199.88" cy="139.48" r="3.9" data-ref="E" data-latex-x="-3" data-latex-y="4"><title>E = (-3, 4)</title></circle>
+      <circle class="geom-point" cx="413.11" cy="169.94" r="3.9" data-ref="F" data-latex-x="4" data-latex-y="3"><title>F = (4, 3)</title></circle>
+      <circle class="geom-point-halo" cx="245.57" cy="200.4" r="7.9" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point" cx="245.57" cy="200.4" r="3.9" data-ref="L" data-latex-x="- \frac{3}{2}" data-latex-y="2"><title>L = (-3/2, 2)</title></circle>
+      <circle class="geom-point-halo" cx="342.03" cy="159.78" r="7.9" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point" cx="342.03" cy="159.78" r="3.9" data-ref="M" data-latex-x="\frac{5}{3}" data-latex-y="\frac{10}{3}"><title>M = (5/3, 10/3)</title></circle>
+      <circle class="geom-point-halo" cx="534.95" cy="78.55" r="7.9" fill="none" stroke="currentColor" stroke-opacity="0.38" stroke-width="1.6" />
+      <circle class="geom-point" cx="534.95" cy="78.55" r="3.9" data-ref="N" data-latex-x="8" data-latex-y="6"><title>N = (8, 6)</title></circle>
+  </g>
+  <g id="labels">
+      <text class="geom-label" x="183.54" y="357.3" data-ref="A">A</text>
+      <text class="geom-label" x="303.49" y="105.61" data-ref="B">B</text>
+      <text class="geom-label" x="457.69" y="265.91" data-ref="C">C</text>
+      <text class="geom-label" x="396.77" y="387.76" data-ref="D">D</text>
+      <text class="geom-label" x="194.12" y="125.29" data-ref="E">E</text>
+      <text class="geom-label" x="407.35" y="155.75" data-ref="F">F</text>
+      <text class="geom-label" x="257.8" y="212.98" data-ref="L">L</text>
+      <text class="geom-label" x="336.27" y="145.6" data-ref="M">M</text>
+      <text class="geom-label" x="516.52" y="68.68" data-ref="N">N</text>
+  </g>
+</svg>

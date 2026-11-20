@@ -1,41 +1,47 @@
-:title: Supplementary Chapter, Section I Summary — Symmedians & Lemoine Circles
+:title: Supplementary Chapter, Section I Summary — Isogonal Conjugates & Symmedians
 :layout: book
 :canonical_id: Supplementary Chapter, Section I Summary
 :order: 1
+:folio: 0191–0199 (p. 165–173)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-supp-sec-01-summary:
 .. _sequel-unit-5-summary:
 
-Supplementary Chapter, Section I Summary: Symmedians & Lemoine Circles
-=======================================================================
+Supplementary Chapter, Section I Summary: Isogonal Conjugates & Symmedians
+==========================================================================
 
-.. rubric:: Mathematical Synthesis of Casey's Supplementary Chapter, Sections I & III (Part 1)
+.. rubric:: Mathematical Synthesis of Casey's Supplementary Chapter, Section I (pp. 165–173)
+
+.. folio:: 0191
+   :page: 165
 
 1. Core Algebraic & Geometric Structure
 ---------------------------------------
 
-Section I opens Casey's celebrated *Supplementary Chapter on the Recent Elementary Geometry of the Triangle*:
+Section I opens Casey's *Supplementary Chapter on the Recent Elementary Geometry of the Triangle* with the projective-metric foundations of conjugates, antiparallels, and symmedians:
 
-* **Isogonal Transformation:** In homogeneous trilinear coordinates $(\alpha : \beta : \gamma)$, isogonal conjugation acts as componentwise inversion $(1/\alpha : 1/\beta : 1/\gamma)$; in barycentric coordinates $(u : v : w)$, it acts as $(a^2/u : b^2/v : c^2/w)$.
+* **Isogonal Transformation (`0191.g1.svg`):** In homogeneous trilinear coordinates $(\alpha : \beta : \gamma)$, isogonal conjugation acts as componentwise inversion $(1/\alpha : 1/\beta : 1/\gamma)$; in barycentric coordinates $(u : v : w)$, it acts as $(a^2/u : b^2/v : c^2/w)$. Any point $P$ and its isogonal conjugate $Q$ share a single six-point **Pedal Circle** centered at $M_p = \frac{1}{2}(P + Q)$.
+* **Isotomic Transformation (f. ``0193``):** Mapping $(u : v : w) \mapsto (1/u : 1/v : 1/w)$ swaps cevians symmetrically across side midpoints (pairing Gergonne $X(7)$ and Nagel $X(8)$).
+* **Antiparallels & Symmedians (f. ``0195–0199``):** An antiparallel to $BC$ across $\angle A$ is parallel to the circumcircle tangent at $A$. The isogonal conjugate of median $AM_a$ bisects all antiparallels to $BC$ and divides $BC$ in ratio $c^2 : b^2$.
 * **Lemoine's Symmedian Point $K = X(6)$:** Mapping the Centroid $G = (1 : 1 : 1)$ under isogonal conjugation yields $K = (a^2 : b^2 : c^2)$, whose trilinear distances $(x, y, z) = \frac{2\Delta}{a^2+b^2+c^2}(a, b, c)$ minimize $x^2 + y^2 + z^2$.
-* **Lemoine's Two Six-Point Circles:**
-  - **First Lemoine Circle (`(Ml D1)`):** Cut by the three **parallels** to the sides through $K$; centered at $M_L = X(182) = \operatorname{midpoint}(O, K)$ with side chords $\frac{a^3}{a^2+b^2+c^2}, \frac{b^3}{a^2+b^2+c^2}, \frac{c^3}{a^2+b^2+c^2}$ in triplicate ratio $a^3 : b^3 : c^3$.
-  - **Cosine (Second Lemoine) Circle (`(K Cb2)`):** Cut by the three **antiparallels** to the sides through $K$; centered at $K$ itself with radius $R\tan\omega = \frac{abc}{a^2+b^2+c^2}$ and side chords proportional to $\cos A : \cos B : \cos C$.
 
 ----
+
+.. folio:: 0196
+   :page: 170
 
 2. Verified Exact Ledger on $\triangle ABC$ $(15, 13, 14)$ (:mod:`geometor.casey.brocard`)
 ------------------------------------------------------------------------------------------
 
-Constructed in :func:`~geometor.casey.brocard.construct_symmedian_and_lemoine_circles` (`0205.g1.svg`):
+Verified in :func:`~geometor.casey.brocard.construct_symmedian_and_lemoine_circles`:
 
-.. list-table:: Exact Rational Symmedian & Lemoine Circle Quantities on $(15, 13, 14)$
+.. list-table:: Exact Rational Symmedian & Conjugate Quantities on $(15, 13, 14)$
    :header-rows: 1
    :widths: 36 30 34
 
    * - Geometric Object
-     - Symbol
+     - Symbol / ETC Index
      - Exact Symbolic Value
    * - Sum of Squares of Sides
      - $a^2 + b^2 + c^2$
@@ -46,15 +52,6 @@ Constructed in :func:`~geometor.casey.brocard.construct_symmedian_and_lemoine_ci
    * - Minimum Squared-Distance Sum
      - $d_a^2 + d_b^2 + d_c^2$
      - $\frac{4\Delta^2}{a^2+b^2+c^2} = \frac{14112}{295}$
-   * - **First Lemoine Circle Centre**
-     - $M_L = X(182)$
-     - $\left(\frac{1869}{295}, \frac{19143}{4720}\right)$
-   * - First Lemoine Squared Radius
-     - $R_{L_1}^2$
-     - $\frac{19477081}{891136}$
-   * - Triplicate-Ratio Chords
-     - $|D_1 D_2| : |E_1 E_2| : |F_1 F_2|$
-     - $3375 : 2197 : 2744 = 15^3 : 13^3 : 14^3$
-   * - **Cosine Circle Squared Radius**
-     - $R_{\cos}^2 = R^2 \tan^2\omega$
-     - $\left(\frac{273}{59}\right)^2 = \frac{74529}{3481}$
+   * - Centroid / Circumcentre / Orthocentre
+     - $G = X(2), \; O = X(3), \; H = X(4)$
+     - Isogonal pairs $(O, H)$ and $(G, K)$

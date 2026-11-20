@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section I Summary
 :order: 1
+:folio: 0093–0107 (p. 67–81)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-06-sec-01-summary:
@@ -11,6 +12,9 @@ Book VI, Section I Summary: Concurrent Lines & Transversals
 ============================================================
 
 .. rubric:: Mathematical Synthesis of Casey's Book VI, Section I (pp. 67–81)
+
+.. folio:: 0093
+   :page: 67
 
 1. Architectural Overview
 -------------------------

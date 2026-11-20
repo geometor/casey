@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section VII Notes
 :order: 7
+:folio: 0167–0173 (p. 141–147)
 :tracks: English: section_07-en | Summary: section_07-summary | Notes: section_07-notes
 
 .. _casey-book-06-sec-07-notes:
@@ -11,6 +12,9 @@ Book VI, Section VII Notes: Poles, Polars & Reciprocation
 =========================================================
 
 .. rubric:: Historical Context & Projective Foundations
+
+.. folio:: 0167
+   :page: 141
 
 1. Historical Foundations: Poncelet, Chasles & Brianchon
 --------------------------------------------------------

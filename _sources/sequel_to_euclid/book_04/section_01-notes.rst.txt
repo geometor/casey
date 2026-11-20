@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book IV, Section I Notes
 :order: 1
+:folio: 0079–0089 (p. 53–63)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-04-sec-01-notes:
@@ -10,6 +11,9 @@ Book IV, Section I Notes: Historical & Mathematical Commentary
 ==============================================================
 
 .. rubric:: Historical Provenance, Inversion Geometry, and the Nine-Points Circle
+
+.. folio:: 0079
+   :page: 53
 
 1. Lineage of the Nine-Points Circle (Brianchon–Poncelet 1821 & Feuerbach 1822)
 -------------------------------------------------------------------------------

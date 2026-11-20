@@ -33,6 +33,9 @@ The two following Propositions are interesting applications of this Proposition:
 
 Let $ABC, A'B'C'$ be the two self-conjugate $\triangle\text{s}$; it is required to prove that the pencil $(C\,.\,ABA'B') = (C'\,.\,ABA'B')$.
 
+.. picture:: 0167.g1.png
+   :caption: Archival woodcut (1888, f. 0167, p. 141) — Book VI, Sec. VII, Prop. 1: equianharmonic division by two self-conjugate triangles.
+
 **Dem.**—Let $A'C', B'C'$ meet $AB$ produced in $D$ and $E$. Join $A'C, B'C, AC', BC'$. Now, since $A'C'$ is the polar of $B'$, and $AB$ the polar of $C$, their point of intersection $D$ is the pole of $B'C$ (see Cor., Prop. 25, Section I., Book III.). In like manner, the point $E$ is the pole of $A'C$; hence the four points $B, A, E, D$ are the poles of the four lines $CA, CB, CA', CB'$. Therefore the anharmonic ratio of the four points $B$,
 
 .. folio:: 0168

@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book IV, Section I Summary
 :order: 1
+:folio: 0079–0089 (p. 53–63)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-04-sec-01-summary:
@@ -10,6 +11,9 @@ Book IV, Section I Summary: Additional Propositions
 ====================================================
 
 .. rubric:: Structured Decomposition & Invariant Ledger for Casey's Book IV Section I (pp. 53–63)
+
+.. folio:: 0079
+   :page: 53
 
 1. Architectural Overview
 -------------------------

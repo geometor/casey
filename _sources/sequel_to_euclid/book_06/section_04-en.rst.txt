@@ -49,6 +49,9 @@ $$
 
 Hence the locus of $P'$ is a circle whose diameter is $OC'$, and which passes through the centre of inversion.
 
+.. picture:: 0121.g1.png
+   :caption: Archival woodcut (1888, f. 0121, p. 95) — Book VI, Sec. IV, Prop. 1: inverse of a straight line is a circle through the centre of inversion.
+
 .. folio:: 0122
    :page: 96
 
@@ -248,6 +251,9 @@ $$
 \frac{t'_{12}^{\,2}}{r'_1 r'_2} = \frac{t_{12}^2}{r_1 r_2}.
 $$
 
+.. picture:: 0128.g1.png
+   :caption: Archival woodcut (1888, f. 0128, p. 102) — Book VI, Sec. IV, Prop. 9: invariant common-tangent ratio t₁₂² / (r₁ r₂) under inversion.
+
 .. folio:: 0129
    :page: 103
 
@@ -282,7 +288,11 @@ Dividing through by $2\sqrt{r_1' r_2' r_3' r_4'}$ and applying Proposition 9 ($A
 
    **Prop. 10, Cor. 2 (:person:`Feuerbach's <feuerbach>` Theorem — Both Proofs by :person:`Casey <casey>`).—In any triangle :g:`△ABC <0130.g1:< A B C >>`, the :term:`Nine-Points Circle <nine-points-circle>` :g:`(N Ma) <0130.g1:( N Ma )>` touches the Incircle :g:`(I Ta) <0130.g1:( I Ta )>` internally at the :term:`Feuerbach Point <feuerbach-point>` :g:`Fe <0130.g1:Fe>` and touches each of the three Excircles externally.**
 
+.. picture:: 0131.g1.png
+   :caption: Archival woodcut (1888, f. 0131, p. 105) — Book VI, Sec. IV, Prop. 10 Cor. 2: Casey's orthogonal-inversion proof of Feuerbach's Theorem.
+
 .. picture:: 0130.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. IV, Prop. 10 Cor. 2: Nine-Points Circle, Incircle, and Feuerbach Point Fe.
 
 **First Proof (Immediate Corollary of Casey's Theorem, pp. 104–105).**—Regard the three side midpoints :g:`Ma <0130.g1:Ma>`, :g:`Mb <0130.g1:Mb>`, :g:`Mc <0130.g1:Mc>` as three point-circles ($r_1 = r_2 = r_3 = 0$) and the Incircle :g:`(I Ta) <0130.g1:( I Ta )>` as the fourth circle $O_4$. Their mutual "common tangents" are:
 

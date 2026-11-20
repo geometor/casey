@@ -81,6 +81,16 @@ $$
 
 ----
 
+.. folio:: 0178
+   :page: 152
+
+42. *(:person:`Miquel's <miquel>` Pentagram Theorem.)* If a pentagram $AFBGCHDKEL$ be inscribed in a circle, the five points of intersection $P, Q, R, S, T$ of the circumcircles of the exterior triangles lie upon a common circle!
+
+.. picture:: 0178.g1.png
+   :caption: Archival woodcut (1888, f. 0178, p. 152) — Book VI, Sec. VIII, Ex. 42: Miquel's pentagram circle theorem.
+
+----
+
 .. folio:: 0190
    :page: 164
 

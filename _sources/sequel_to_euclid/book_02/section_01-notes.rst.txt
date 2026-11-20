@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book II, Section I Notes
 :order: 1
+:folio: 0047–0052 (p. 21–26)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-02-sec-01-notes:
@@ -10,6 +11,9 @@ Book II, Section I Notes: Historical Provenance & Cross-Repository Commentary
 =============================================================================
 
 .. rubric:: Quadratic Geometric Algebra and Links to ``pappus``, ``altshiller-court``, and ``euler``
+
+.. folio:: 0047
+   :page: 21
 
 1. Apollonius's Median Theorem & Pappus VII.122
 -----------------------------------------------

@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section IV Summary
 :order: 4
+:folio: 0121–0138 (p. 95–112)
 :tracks: English: section_04-en | Summary: section_04-summary | Notes: section_04-notes
 
 .. _casey-book-06-sec-04-summary:
@@ -11,6 +12,9 @@ Book VI, Section IV Summary: Theory of Inversion
 ================================================
 
 .. rubric:: Mathematical Synthesis of Casey's Book VI, Section IV (pp. 95–112)
+
+.. folio:: 0121
+   :page: 95
 
 1. Crown Jewels of Casey's Theory of Inversion
 ----------------------------------------------

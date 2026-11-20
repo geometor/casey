@@ -2,15 +2,18 @@
 :layout: book
 :canonical_id: Book VI, Section VI Summary
 :order: 6
+:folio: 0152–0166 (p. 126–140)
 :tracks: English: section_06-en | Summary: section_06-summary | Notes: section_06-notes
 
 .. _casey-book-06-sec-06-summary:
-.. _sequel-unit-3-summary:
 
 Book VI, Section VI Summary: Theory of Anharmonic Section
 =========================================================
 
 .. rubric:: Mathematical Synthesis of Casey's Book VI, Section VI (pp. 126–140)
+
+.. folio:: 0152
+   :page: 126
 
 1. Cross-Ratio, Projection & Concyclic Points
 ---------------------------------------------
