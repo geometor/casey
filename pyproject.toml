@@ -9,7 +9,7 @@ authors = [
   { name = "phi ARCHITECT", email = "phi@geometor.com" },
 ]
 description = "Scholarly Digital Scriptorium Book Codex and exact symbolic demonstrations for John Casey's A Sequel to the First Six Books of the Elements of Euclid (1888 / 1892)."
-readme = "README.rst"
+readme = "README.md"
 requires-python = ">=3.13"
 license = { text = "MIT" }
 classifiers = [
