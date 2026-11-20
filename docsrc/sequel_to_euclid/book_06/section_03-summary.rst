@@ -1,4 +1,8 @@
 :title: Book VI, Section III Summary — Harmonic Section & Complete Quadrilateral
+:layout: book
+:canonical_id: Book VI, Section III Summary
+:order: 3
+:folio: 0113–0120 (p. 87–94)
 :tracks: English: section_03-en | Summary: section_03-summary | Notes: section_03-notes
 
 .. _casey-book-06-sec-03-summary:
@@ -7,6 +11,9 @@ Book VI, Section III Summary: Harmonic Section & The Complete Quadrilateral
 ===========================================================================
 
 .. rubric:: Modern Geometric & Invariant Analysis of Casey's Book VI, Section III (pp. 87–94)
+
+.. folio:: 0113
+   :page: 87
 
 1. Definitions & Metric Criteria
 --------------------------------

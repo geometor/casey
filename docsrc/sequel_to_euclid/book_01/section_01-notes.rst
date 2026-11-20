@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book I, Section I Notes
 :order: 1
+:folio: 0027–0042 (p. 1–16)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-01-sec-01-notes:
@@ -11,6 +12,9 @@ Book I, Section I Notes: Historical Provenance & Cross-Repository Commentary
 ============================================================================
 
 .. rubric:: Collation of the 1888 & 1892 Editions and Links to ``euclid``, ``elements``, ``altshiller-court``, and ``etc``
+
+.. folio:: 0027
+   :page: 1
 
 1. Why Casey Attaches Orthocentre & Mean Centres Directly to Book I
 -------------------------------------------------------------------

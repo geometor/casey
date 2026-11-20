@@ -2,15 +2,18 @@
 :layout: book
 :canonical_id: Book VI, Section V Summary
 :order: 5
+:folio: 0139–0152 (p. 113–126)
 :tracks: English: section_05-en | Summary: section_05-summary | Notes: section_05-notes
 
 .. _casey-book-06-sec-05-summary:
-.. _sequel-unit-2-summary:
 
 Book VI, Section V Summary: Coaxal Circles
 ==========================================
 
 .. rubric:: Mathematical Synthesis of Casey's Book VI, Section V (pp. 113–126)
+
+.. folio:: 0139
+   :page: 113
 
 1. Synthetic & Projective Foundations of Coaxal Systems
 -------------------------------------------------------

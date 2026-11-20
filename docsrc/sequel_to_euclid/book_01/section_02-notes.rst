@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book I, Section II Notes
 :order: 2
+:folio: 0043–0046 (p. 17–20)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-01-sec-02-notes:
@@ -10,6 +11,9 @@ Book I, Section II Notes: Exercises Commentary
 ==============================================
 
 .. rubric:: Historical Provenance of the Book I Exercises
+
+.. folio:: 0043
+   :page: 17
 
 1. The Incentre and Excentres in Euclidean Pedagogy
 ---------------------------------------------------

@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section IV Notes
 :order: 4
+:folio: 0121–0138 (p. 95–112)
 :tracks: English: section_04-en | Summary: section_04-summary | Notes: section_04-notes
 
 .. _casey-book-06-sec-04-notes:
@@ -11,6 +12,9 @@ Book VI, Section IV Notes: Casey's Dublin Memoirs & Hart's Circle
 =================================================================
 
 .. rubric:: Historical Context of Casey's Discoveries & Cross-Canon Links
+
+.. folio:: 0121
+   :page: 95
 
 1. John Casey's Two Famous Memoirs (1861 & 1866)
 ------------------------------------------------

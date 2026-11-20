@@ -25,9 +25,27 @@ __all__ = [
 ]
 
 EMBEDDED_SVG_STYLE: str = """
+  :root {
+    --geom-fg: #1c1917;
+    --geom-bg: #fafaf9;
+    --geom-point-stroke: #fafaf9;
+    --geom-poly-fill: #0284c7;
+    --geom-accent: #d97706;
+    --geom-assert: #059669;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --geom-fg: #e4e4e7;
+      --geom-bg: #141417;
+      --geom-point-stroke: #141417;
+      --geom-poly-fill: #38bdf8;
+      --geom-accent: #fbbf24;
+      --geom-assert: #34d399;
+    }
+  }
   .euclid-graphic {
-    --svg-bg: #fafaf9;
-    --ink: #1c1917;
+    --svg-bg: var(--geom-bg);
+    --ink: var(--geom-fg);
     --label-halo: rgba(250, 250, 249, 0.92);
     --carrier: #475569;
     --circle-base: #0369a1;
@@ -35,22 +53,21 @@ EMBEDDED_SVG_STYLE: str = """
     --circle-secondary: #0f766e;
     --circle-orth: #7c3aed;
     --circle-aux: #64748b;
-    --highlight-line: #d97706;
-    --polar-line: #059669;
+    --highlight-line: var(--geom-accent);
+    --polar-line: var(--geom-assert);
     --symmedian-line: #db2777;
-    --tri-fill: #0284c7;
+    --tri-fill: var(--geom-poly-fill);
     --brocard-fill: #7c3aed;
-    --pt-given: #0f172a;
+    --pt-given: var(--geom-fg);
     --pt-center: #0369a1;
-    --pt-highlight: #d97706;
+    --pt-highlight: var(--geom-accent);
     --pt-brocard: #7c3aed;
-    --pt-harmonic: #059669;
+    --pt-harmonic: var(--geom-assert);
     font-family: "Inter", "Fira Sans", "Segoe UI", system-ui, sans-serif;
+    background-color: var(--geom-bg);
   }
   @media (prefers-color-scheme: dark) {
     .euclid-graphic {
-      --svg-bg: #141417;
-      --ink: #f4f4f5;
       --label-halo: rgba(20, 20, 23, 0.92);
       --carrier: #94a3b8;
       --circle-base: #38bdf8;
@@ -58,41 +75,37 @@ EMBEDDED_SVG_STYLE: str = """
       --circle-secondary: #2dd4bf;
       --circle-orth: #c084fc;
       --circle-aux: #94a3b8;
-      --highlight-line: #fbbf24;
-      --polar-line: #34d399;
       --symmedian-line: #f472b6;
-      --tri-fill: #38bdf8;
       --brocard-fill: #c084fc;
-      --pt-given: #e2e8f0;
       --pt-center: #38bdf8;
-      --pt-highlight: #fbbf24;
       --pt-brocard: #c084fc;
-      --pt-harmonic: #34d399;
     }
   }
-  .euclid-graphic .svg-bg { fill: #fafaf9; fill: var(--svg-bg); }
-  .euclid-graphic .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; }
+  .euclid-graphic .svg-bg { fill: #fafaf9; fill: var(--geom-bg); }
+  .euclid-graphic .geom-circle { fill: none; stroke: #0369a1; stroke: var(--circle-base); stroke-width: 1.95; opacity: 0.9; transition: stroke 0.15s, stroke-width 0.15s; }
   .euclid-graphic .geom-circle.featured-circle { stroke: #b45309; stroke: var(--circle-featured); stroke-width: 2.55; opacity: 0.96; }
   .euclid-graphic .geom-circle.secondary-circle { stroke: #0f766e; stroke: var(--circle-secondary); stroke-width: 1.9; stroke-dasharray: 6 3.5; }
   .euclid-graphic .geom-circle.orth-circle { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 2.15; stroke-dasharray: 7 3.5; }
   .euclid-graphic .geom-circle.aux-circle { stroke: #64748b; stroke: var(--circle-aux); stroke-width: 1.35; stroke-dasharray: 4 3; opacity: 0.72; }
-  .euclid-graphic .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; }
+  .euclid-graphic .geom-line { fill: none; stroke: #475569; stroke: var(--carrier); stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; transition: stroke 0.15s, stroke-width 0.15s; }
   .euclid-graphic .carrier-line { stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; opacity: 0.92; }
   .euclid-graphic .cross-line { stroke: #475569; stroke: var(--carrier); stroke-width: 1.25; stroke-opacity: 0.62; stroke-dasharray: 4 3; }
-  .euclid-graphic .highlight-line { stroke: #d97706; stroke: var(--highlight-line); stroke-width: 2.5; }
-  .euclid-graphic .polar-line { stroke: #059669; stroke: var(--polar-line); stroke-width: 2.4; }
+  .euclid-graphic .highlight-line { stroke: #d97706; stroke: var(--geom-accent); stroke-width: 2.5; }
+  .euclid-graphic .polar-line { stroke: #059669; stroke: var(--geom-assert); stroke-width: 2.4; }
   .euclid-graphic .symmedian-line { stroke: #db2777; stroke: var(--symmedian-line); stroke-width: 1.85; stroke-opacity: 0.86; }
   .euclid-graphic .brocard-ray { stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.45; stroke-opacity: 0.72; }
-  .euclid-graphic .geom-polygon.primary-poly { fill: #0284c7; fill: var(--tri-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; }
-  .euclid-graphic .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; }
-  .euclid-graphic .geom-point { fill: #0f172a; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--svg-bg); stroke-width: 1.5; }
+  .euclid-graphic .geom-polygon.primary-poly { fill: #0284c7; fill: var(--geom-poly-fill); fill-opacity: 0.06; stroke: #475569; stroke: var(--carrier); stroke-width: 2.0; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s; }
+  .euclid-graphic .geom-polygon.brocard-poly { fill: #7c3aed; fill: var(--brocard-fill); fill-opacity: 0.09; stroke: #7c3aed; stroke: var(--circle-orth); stroke-width: 1.85; stroke-linejoin: round; transition: fill-opacity 0.15s, stroke 0.15s; }
+  .euclid-graphic .geom-point { fill: #1c1917; fill: var(--pt-given); stroke: #fafaf9; stroke: var(--geom-point-stroke); stroke-width: 1.5; transition: fill 0.15s, r 0.15s; }
   .euclid-graphic .center-point { fill: #0369a1; fill: var(--pt-center); }
-  .euclid-graphic .highlight-point { fill: #d97706; fill: var(--pt-highlight); stroke-width: 1.9; }
+  .euclid-graphic .highlight-point { fill: #d97706; fill: var(--geom-accent); stroke-width: 1.9; }
   .euclid-graphic .brocard-point { fill: #7c3aed; fill: var(--pt-brocard); stroke-width: 1.9; }
-  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--pt-harmonic); stroke-width: 1.8; }
+  .euclid-graphic .harmonic-point { fill: #059669; fill: var(--geom-assert); stroke-width: 1.8; }
+  .euclid-graphic .geom-tick-mark { stroke: var(--geom-assert); stroke-width: 2; stroke-linecap: round; fill: none; }
+  .euclid-graphic .geom-overlay { opacity: 0; pointer-events: none; transition: opacity 0.12s ease; }
   .euclid-graphic .geom-label {
     fill: #1c1917;
-    fill: var(--ink);
+    fill: var(--geom-fg);
     font-size: 13px;
     font-weight: 650;
     paint-order: stroke fill;
@@ -103,6 +116,32 @@ EMBEDDED_SVG_STYLE: str = """
     user-select: none;
   }
   .euclid-graphic .geom-label-sub { font-size: 9.8px; font-weight: 650; }
+  .euclid-graphic [data-ref]:hover,
+  .euclid-graphic .highlight,
+  .euclid-graphic .geom-highlight-active {
+    opacity: 1 !important;
+    stroke: var(--geom-accent) !important;
+    cursor: pointer;
+  }
+  .euclid-graphic text[data-ref]:hover,
+  .euclid-graphic text.highlight,
+  .euclid-graphic text.geom-highlight-active {
+    opacity: 1 !important;
+    fill: var(--geom-accent) !important;
+    stroke: var(--label-halo) !important;
+  }
+  .euclid-graphic .geom-point:hover,
+  .euclid-graphic .geom-point.highlight,
+  .euclid-graphic circle.geom-point.geom-highlight-active {
+    opacity: 1 !important;
+    fill: var(--geom-accent) !important;
+  }
+  .euclid-graphic .geom-assert-active { opacity: 1 !important; stroke: var(--geom-assert) !important; }
+  .euclid-graphic text.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important; }
+  .euclid-graphic circle.geom-point.geom-assert-active { opacity: 1 !important; fill: var(--geom-assert) !important; }
+  .euclid-graphic path.geom-assert-active.geom-tick-1 { marker-mid: url(#geom-tick-1); }
+  .euclid-graphic path.geom-assert-active.geom-tick-2 { marker-mid: url(#geom-tick-2); }
+  .euclid-graphic path.geom-assert-active.geom-tick-3 { marker-mid: url(#geom-tick-3); }
 """.strip()
 
 DEFAULT_LABEL_OVERRIDES: dict[str, tuple[str, str]] = {
@@ -579,26 +618,41 @@ def render_svg_string(
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" class="euclid-graphic" '
-        f'viewBox="0 0 {width} {height}" data-graphic-id="{html.escape(graphic_id)}" '
+        f'viewBox="0 0 {width} {height}" width="{width}" height="{height}" '
+        f'data-graphic-id="{html.escape(graphic_id)}" '
         f'role="img" aria-label="{html.escape(title)}">',
         f"  <title>{html.escape(title)}</title>",
         "  <style>",
         EMBEDDED_SVG_STYLE,
         "  </style>",
+        "  <defs>",
+        '    <marker id="geom-tick-1" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">',
+        '      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />',
+        "    </marker>",
+        '    <marker id="geom-tick-2" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">',
+        '      <line x1="-1.8" y1="-4.5" x2="-1.8" y2="4.5" class="geom-tick-mark" />',
+        '      <line x1="1.8" y1="-4.5" x2="1.8" y2="4.5" class="geom-tick-mark" />',
+        "    </marker>",
+        '    <marker id="geom-tick-3" viewBox="-6 -6 12 12" refX="0" refY="0" markerWidth="12" markerHeight="12" markerUnits="userSpaceOnUse" orient="auto">',
+        '      <line x1="-3.2" y1="-4.5" x2="-3.2" y2="4.5" class="geom-tick-mark" />',
+        '      <line x1="0" y1="-4.5" x2="0" y2="4.5" class="geom-tick-mark" />',
+        '      <line x1="3.2" y1="-4.5" x2="3.2" y2="4.5" class="geom-tick-mark" />',
+        "    </marker>",
+        "  </defs>",
         f'  <rect class="svg-bg" x="0" y="0" width="{width}" height="{height}" rx="6" />',
         '  <g id="elements">',
-        '    <g id="graphics">',
-        *polygon_elems,
         *circle_elems,
         *line_elems,
-        "    </g>",
-        '    <g id="highlights"></g>',
-        '    <g id="points">',
+        "  </g>",
+        '  <g id="graphics">',
+        *polygon_elems,
+        "  </g>",
+        '  <g id="highlights" style="pointer-events: none;"></g>',
+        '  <g id="points">',
         *point_elems,
-        "    </g>",
-        '    <g id="labels">',
+        "  </g>",
+        '  <g id="labels">',
         *label_elems,
-        "    </g>",
         "  </g>",
         "</svg>",
         "",

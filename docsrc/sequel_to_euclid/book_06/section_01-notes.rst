@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section I Notes
 :order: 1
+:folio: 0093–0107 (p. 67–81)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-06-sec-01-notes:
@@ -11,6 +12,9 @@ Book VI, Section I Notes: From Menelaus & Ceva to Modern Projective Geometry
 ============================================================================
 
 .. rubric:: Historical Provenance & Cross-Repository Links to ``geometor/pappus``, ``altshiller-court``, and ``etc``
+
+.. folio:: 0093
+   :page: 67
 
 1. Ancient Roots & Modern Revival (Menelaus & Ceva)
 ---------------------------------------------------

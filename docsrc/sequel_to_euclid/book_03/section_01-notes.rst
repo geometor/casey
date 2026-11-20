@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book III, Section I Notes
 :order: 1
+:folio: 0055–0074 (p. 29–48)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-03-sec-01-notes:
@@ -11,6 +12,9 @@ Book III, Section I Notes: Historical Provenance & Cross-Repository Commentary
 ==============================================================================
 
 .. rubric:: Provenance of the Radical Axis, Poncelet's Limiting Points, and La Hire's Reciprocity
+
+.. folio:: 0055
+   :page: 29
 
 1. Louis Gaultier de Tours & the Radical Axis (1813)
 ----------------------------------------------------
@@ -26,3 +30,11 @@ In his foundational *Traité des propriétés projectives des figures* (Paris, 1
 ------------------------------------------------------------
 
 :person:`Philippe de La Hire <la-hire>` established the harmonic theory of poles and polars in his *Sectiones Conicae* (Paris, 1685, Lib. II). Proposition 25 encapsulates **La Hire's Reciprocal Theorem**: the pole of a line connecting two points is the intersection of their polars, and the polar of the intersection of two lines is the connector of their poles. This duality is the synthetic precursor to modern projective duality.
+
+.. folio:: 0061
+   :page: 35
+
+4. Wallace (Simson's Line) & Miquel's Complete Quadrilateral Point
+------------------------------------------------------------------
+
+Proposition 12 (f. ``0060–0061``) gives the classical pedal-line theorem universally attributed to Robert Simson (though actually published by William Wallace in Thomas Leybourn's *Mathematical Repository*, 1799). In Corollary 2 (f. ``0061``), Casey immediately derives the common circumcircle concurrency point $P$ of the four triangles formed by a complete quadrilateral—the **Miquel Point** (:person:`Auguste Miquel <miquel>`, 1838)—showing directly from cyclic pedal geometry why all four circumcircles concur and all four orthocentres align parallel to the common pedal line (Prop. 14 Cor., f. ``0062``).

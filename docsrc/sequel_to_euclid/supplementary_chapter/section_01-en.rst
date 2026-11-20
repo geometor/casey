@@ -1,8 +1,8 @@
-:title: Supplementary Chapter, Section I: Symmedians, Lemoine's Point & Lemoine Circles (1888 English)
+:title: Supplementary Chapter, Section I: Isogonal & Isotomic Conjugates, Antiparallels & Symmedians (1888 English)
 :layout: book
 :canonical_id: Supplementary Chapter, Section I
 :order: 1
-:folio: 0191–0209 (p. 165–183)
+:folio: 0191–0199 (p. 165–173)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-supp-sec-01:
@@ -10,12 +10,11 @@
 .. _sequel-unit-5-en:
 .. _unit-5-conjugates-antiparallels:
 .. _unit-5-symmedians-lemoine:
-.. _unit-5-lemoine-circles:
 
-Supplementary Chapter, Section I: Symmedians, Lemoine's Point & Lemoine Circles
-===============================================================================
+Supplementary Chapter, Section I: Isogonal & Isotomic Conjugates, Antiparallels & Symmedians
+============================================================================================
 
-.. rubric:: John Casey — *Supplementary Chapter on the Recent Elementary Geometry of the Triangle* (5th ed., 1888, pp. 165–183)
+.. rubric:: John Casey — *Supplementary Chapter on the Recent Elementary Geometry of the Triangle* (5th ed., 1888, pp. 165–173)
 
 .. contents:: In This Section
    :local:
@@ -27,26 +26,43 @@ Supplementary Chapter, Section I: Symmedians, Lemoine's Point & Lemoine Circles
 .. folio:: 0191
    :page: 165
 
-Section I — Isogonal & Isotomic Conjugates and Antiparallels
-------------------------------------------------------------
+SECTION I.
+----------
 
-**Definition (:term:`Isogonal Conjugates <isogonal-conjugates>`).** Two straight lines drawn from a vertex of a triangle making equal angles with the internal bisector of that angle are called *isogonal conjugates*.
+THEORY OF ISOGONAL AND ISOTOMIC POINTS, AND OF ANTIPARALLEL AND SYMMEDIAN LINES.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+**Definition (:term:`Isogonal Conjugates <isogonal-conjugates>`).** Two straight lines $AX, AY$ are said to be *Isogonal Conjugates*, with respect to an angle $BAC$, when they make equal angles with its bisector.
 
 .. enunciation::
 
-   **Supplementary Chapter, Section I, Proposition 1 (Isogonal Concurrency & Pedal Circle).** *If three lines drawn from the vertices* $A, B, C$ *of a triangle concur at a point* $P$, *their three isogonal conjugates also concur at a single point* $P'$ *(the Isogonal Conjugate of* $P$*); and the six feet of perpendiculars let fall from* $P$ *and* $P'$ *upon the three sides of* $\triangle ABC$ *lie upon a single circle whose centre is the midpoint of* $PP'$.
+   **Section I, Proposition 1 (Isogonal Pairs & Pedal Circle).** *If from two points $X, Y$ on two lines $AX, AY$, which are isogonal conjugates with respect to a given angle $BAC$, perpendiculars $XM, YN, XP, YQ$ be drawn to its sides; then—*
 
-   *Classical Specialization:* The circumcentre :g:`O <0205.g1:O>` and orthocentre $H$ are isogonal conjugates, and their shared six-point pedal circle (the three side midpoints and three altitude feet) is the **Nine-Points Circle** centered at $N = \operatorname{midpoint}(O, H)$!
+   1. *The rectangle $XM \cdot YN = XP \cdot YQ$.*
+   2. *The points $M, N, P, Q$ are concyclic.*
+   3. *$MP$ is perpendicular to $AY$, and $NQ$ to $AX$.*
+
+   **Six-Point Pedal Circle Theorem (Prop. 2).** *If three lines drawn from the vertices* :g:`A <0191.g1:A>`, :g:`B <0191.g1:B>`, :g:`C <0191.g1:C>` *of* :g:`△ABC <0191.g1:< A B C >>` *concur at a point* :g:`P <0191.g1:P>`, *their three isogonal conjugates concur at its isogonal conjugate* :g:`Q <0191.g1:Q>`, *and the six pedal projections* :g:`X, Y, Z <0191.g1:X>`, :g:`X′, Y′, Z′ <0191.g1:X'>` *upon the sides lie upon the common Pedal Circle* :g:`(Mp X) <0191.g1:(Mp X)>` *centered at* :g:`Mp <0191.g1:Mp>` $= \operatorname{midpoint}(P, Q)$.
+
+.. picture:: 0191.g1.png
+   :caption: Archival woodcut (1888, f. 0191, p. 165) — Supplementary Chapter, Sec. I, Prop. 1: isogonal conjugates AX, AY and concyclic feet M, N, P, Q.
+
+.. picture:: 0191.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Supplementary Chapter, Sec. I, Props. 1–2: Isogonal Conjugate Pair P, Q & Six-Point Pedal Circle centered at Mp.
+
+----
 
 .. folio:: 0193
    :page: 167
 
-**Definition (:term:`Isotomic Conjugates <isotomic-conjugates>`).** Two points $D, D'$ on side $BC$ equidistant from its midpoint $M_a$ ($BD = D'C$) are called *isotomic*; by Ceva's Theorem, if $AD, BE, CF$ concur at $P$, their isotomic cevians $AD', BE', CF'$ concur at the *Isotomic Conjugate* of $P$ (for instance, the Gergonne and Nagel points).
+**Definition (:term:`Isotomic Conjugates <isotomic-conjugates>`).** Two points $D, D'$ on side $BC$ equidistant from its midpoint $M_a$ ($BD = D'C$) are called *isotomic*; by Ceva's Theorem, if $AD, BE, CF$ concur at $P$, their isotomic cevians $AD', BE', CF'$ concur at the *Isotomic Conjugate* of $P$ (Prop. 3, f. ``0193``—for instance, the Gergonne and Nagel points).
+
+----
 
 .. folio:: 0195
    :page: 169
 
-**Definition (:term:`Antiparallels <antiparallel>`).** A transversal cutting $AB$ and $AC$ at $D$ and $E$ so that $\angle ADE = \angle ACB$ and $\angle AED = \angle ABC$ is called *antiparallel* to $BC$ with respect to $\angle A$. Every antiparallel to $BC$ makes a cyclic quadrilateral $BCED$ with $BC$, and is parallel to the tangent to the circumcircle :g:`(O A) <0205.g1:( O A )>` at :g:`A <0205.g1:A>` (by Euclid ``III.32``).
+**Definition (:term:`Antiparallels <antiparallel>`).** A transversal cutting $AB$ and $AC$ at $D$ and $E$ so that $\angle ADE = \angle ACB$ and $\angle AED = \angle ABC$ is called *antiparallel* to $BC$ with respect to $\angle A$. Every antiparallel to $BC$ makes a cyclic quadrilateral $BCED$ with $BC$, and is parallel to the tangent to the circumcircle at $A$ (Euclid ``III.32``).
 
 ----
 
@@ -56,53 +72,34 @@ Section I — Isogonal & Isotomic Conjugates and Antiparallels
 Theory of Symmedians & Lemoine's Point $K = X(6)$
 -------------------------------------------------
 
-**Definition (:term:`Symmedians <symmedian>`).** The isogonal conjugate of a median of a triangle is called a **Symmedian**.
+**Definition (:term:`Symmedians <symmedian>`).** *The isogonal conjugate of a median $AM$ of a triangle is called a* **Symmedian**.
+
+It follows from Prop. 2 that the three symmedians of a triangle are concurrent. The point of concurrence ($K$) is called *the symmedian point of the triangle*.
 
 .. enunciation::
 
-   **Section I, Propositions 5–7 (:person:`Lemoine's <lemoine>` Symmedian Point & Minimum-Square Property).**
+   **Section I, Proposition 5 (:person:`Lemoine's <lemoine>` Symmedian Point & Perpendiculars).** *The perpendiculars $x, y, z$ from the symmedian point $K$ on the sides $a, b, c$ of the triangle are proportional to the sides:*
 
-   1. **Concurrency at $K$:** *The three symmedians* :g:`[A K] <0205.g1:[ A K ]>`, :g:`[B K] <0205.g1:[ B K ]>`, :g:`[C K] <0205.g1:[ C K ]>` *of* :g:`△ABC <0205.g1:< A B C >>` *concur at a single point* :g:`K <0205.g1:K>` (*the Symmedian Point or Lemoine's Point,* $X(6)$, *isogonal conjugate of the Centroid* $G$).
-   2. **Antiparallel Bisection & Tangency Construction:** *Each symmedian* :g:`[A K] <0205.g1:[ A K ]>` *bisects every antiparallel to* $BC$, *passes through the pole of* $BC$ *with respect to the circumcircle* :g:`(O A) <0205.g1:( O A )>` *(the intersection of the circumcircle tangents at* $B$ *and* $C$*), and divides the opposite side* $BC$ *in the ratio of the squares of the adjacent sides* ($c^2 : b^2$).
-   3. **Proportional Distances & Lagrange's Minimum:** *The perpendicular distances* $(x, y, z)$ *from* :g:`K <0205.g1:K>` *upon the sides* $(a, b, c)$ *are directly proportional to the lengths of those sides:*
+   $$
+   \frac{x}{a} = \frac{y}{b} = \frac{z}{c} = \frac{2\Delta}{a^2 + b^2 + c^2},
+   $$
 
-      $$
-      \frac{x}{a} = \frac{y}{b} = \frac{z}{c} = \frac{2\Delta}{a^2 + b^2 + c^2},
-      $$
+   *and among all points in the plane, $K$ strictly minimizes the sum of squares of perpendicular distances to the sides,* $x^2 + y^2 + z^2 \ge \frac{4\Delta^2}{a^2 + b^2 + c^2}$.
 
-      *and among all points in the plane,* :g:`K <0205.g1:K>` *strictly minimizes the sum of squares of perpendicular distances to the sides,* $x^2 + y^2 + z^2 \ge \frac{4\Delta^2}{a^2 + b^2 + c^2}$.
-
-**Demonstration of Minimum Property.** By Cauchy's / Lagrange's identity,
+**Dem.**—Let the perpendiculars from the median midpoint $M$ on the sides $AB, AC$ be $MD, ME$, and from $K$ on the three sides $x, y, z$. Then (Prop. 1, $1^\circ$) $MD \cdot z = ME \cdot y$; but $MD \cdot AB = ME \cdot AC$ since $M$ bisects $BC$. Hence $y : z :: AC : AB$, and by Lagrange's identity,
 
 $$
 (a^2 + b^2 + c^2)(x^2 + y^2 + z^2) - (ax + by + cz)^2 = (bx - ay)^2 + (cy - bz)^2 + (az - cx)^2 \ge 0.
 $$
 
-Since $ax + by + cz = 2\Delta$ is constant for every interior point, $x^2 + y^2 + z^2$ attains its unique minimum $\frac{4\Delta^2}{a^2 + b^2 + c^2}$ if and only if $x : y : z = a : b : c$, which uniquely characterizes :g:`K <0205.g1:K>`. Q.E.D.
+Because $ax + by + cz = 2\Delta$ is constant for every interior point, $x^2 + y^2 + z^2$ attains its unique minimum iff $x : y : z = a : b : c$. Q.E.D.
+
+.. picture:: 0196.g1.png
+   :caption: Archival woodcut (1888, f. 0196, p. 170) — Supplementary Chapter, Sec. I, Prop. 5: tangential triangle A'B'C', median AM, and symmedian AK through Lemoine point K.
 
 ----
 
-.. folio:: 0205
-   :page: 179
+.. folio:: 0199
+   :page: 173
 
-Section III (Part 1) — Lemoine's First Circle & the Cosine Circle
------------------------------------------------------------------
-
-.. enunciation::
-
-   **Section III, Proposition 1 (:term:`Lemoine's First Circle / Triplicate-Ratio Circle <lemoine-circle>`).** *If through the Symmedian Point* :g:`K <0205.g1:K>` *three straight lines* :g:`[parBC] <0205.g1:[ parBC ]>`, :g:`[parCA] <0205.g1:[ parCA ]>`, :g:`[parAB] <0205.g1:[ parAB ]>` *be drawn parallel respectively to the sides* :g:`[BC] <0205.g1:[ B C ]>`, :g:`[CA] <0205.g1:[ C A ]>`, :g:`[AB] <0205.g1:[ A B ]>`, *meeting the sides in six points* :g:`D1 <0205.g1:D1>`, :g:`D2 <0205.g1:D2>` *on* $BC$, :g:`E1 <0205.g1:E1>`, :g:`E2 <0205.g1:E2>` *on* $CA$, *and* :g:`F1 <0205.g1:F1>`, :g:`F2 <0205.g1:F2>` *on* $AB$:
-
-   1. *All six points lie upon a single circle—Lemoine's First Circle* :g:`(Ml D1) <0205.g1:( Ml D1 )>`;
-   2. *Its centre* :g:`Ml <0205.g1:Ml>` ($X(182)$) *is the midpoint of the segment joining the Circumcentre* :g:`O <0205.g1:O>` *and Symmedian Point* :g:`K <0205.g1:K>`;
-   3. *The three chords* $|D_1 D_2|, |E_1 E_2|, |F_1 F_2|$ *cut off upon the sides* $BC, CA, AB$ *are directly proportional to the* **cubes** *of those sides* ($a^3 : b^3 : c^3$, *hence :person:`Tucker's <tucker>` name "Triplicate-Ratio Circle").*
-
-.. picture:: 0205.g1.svg
-
-**Demonstration.** In parallelogram $A F_2 K E_1$ ($K E_1 \parallel AB$ and $K F_2 \parallel AC$), the diagonal $AK$ lies along the symmedian :g:`[A K] <0205.g1:[ A K ]>`. Because the adjacent sides of $A F_2 K E_1$ are proportional to the distances from $K$ to $AC, AB$ divided by $\sin A$—hence proportional to $b : c$—triangle $\triangle A F_2 E_1$ is inversely similar to $\triangle ABC$, so the chord $E_1 F_2$ is **antiparallel** to $BC$! Meanwhile $E_2 F_1$ passes through $K$ **parallel** to $BC$; hence $F_2 F_1 E_2 E_1$ is an isosceles-angle cyclic trapezium, making $E_1, E_2, F_1, F_2$ concyclic. By cyclic symmetry, $F_1, F_2, D_1, D_2$ and $D_1, D_2, E_1, E_2$ are each concyclic; since any two of these three circles share two points on one side and would otherwise have three non-concurrent radical chords $BC, CA, AB$, all six points $D_1, D_2, E_1, E_2, F_1, F_2$ lie on a single circle :g:`(Ml D1) <0205.g1:( Ml D1 )>`. Moreover, the perpendicular bisectors of the three antiparallel chords $D_2 E_1, E_2 F_1, F_2 D_1$ bisect segment $OK$, fixing the centre at :g:`Ml <0205.g1:Ml>` $= \operatorname{midpoint}(O, K)$. Finally, since $K = (a^2 : b^2 : c^2)$, the parallel intercepts cut off middle segment $|D_1 D_2| = \frac{a^3}{a^2 + b^2 + c^2}$, proportional to $a^3 : b^3 : c^3$. Q.E.D.
-
-.. folio:: 0209
-   :page: 183
-
-.. porism::
-
-   **Proposition 1, Corollary 4 (:term:`The Cosine Circle / Second Lemoine Circle <cosine-circle>`).** *If through* :g:`K <0205.g1:K>` *three straight lines be drawn* **antiparallel** *respectively to* $BC, CA, AB$, *each is bisected at* :g:`K <0205.g1:K>` *and all three antiparallel segments have equal length! Consequently their six extremities on the sides of* $\triangle ABC$ *lie on a single circle* :g:`(K Cb2) <0205.g1:( K Cb2 )>` *centered at* :g:`K <0205.g1:K>` *itself, cutting off chords on* $BC, CA, AB$ *proportional to* $\cos A : \cos B : \cos C$ *(hence called the Cosine Circle).*
+**Concluding Antiparallel Properties of $K$ (Props. 6–8).**—Each symmedian $AK$ bisects every antiparallel to $BC$, passes through the circumcircle tangent intersection $A'$ (pole of $BC$), and divides $BC$ internally in the squared ratio of the adjacent sides ($c^2 : b^2$), completing Section I before passing to two figures directly similar.

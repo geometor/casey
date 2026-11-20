@@ -1,4 +1,8 @@
 :title: Book VI, Section III Notes — Pappus, Chasles & Harmonic Section
+:layout: book
+:canonical_id: Book VI, Section III Notes
+:order: 3
+:folio: 0113–0120 (p. 87–94)
 :tracks: English: section_03-en | Summary: section_03-summary | Notes: section_03-notes
 
 .. _casey-book-06-sec-03-notes:
@@ -7,6 +11,9 @@ Book VI, Section III Notes: From Pappus Book VII to Chasles
 ===========================================================
 
 .. rubric:: Historical Provenance & Cross-Canon Lineage
+
+.. folio:: 0113
+   :page: 87
 
 1. Ancient Roots in Pappus Book VII (`geometor/pappus`)
 -------------------------------------------------------

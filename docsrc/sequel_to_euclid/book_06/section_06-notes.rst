@@ -2,15 +2,18 @@
 :layout: book
 :canonical_id: Book VI, Section VI Notes
 :order: 6
+:folio: 0152–0166 (p. 126–140)
 :tracks: English: section_06-en | Summary: section_06-summary | Notes: section_06-notes
 
 .. _casey-book-06-sec-06-notes:
-.. _sequel-unit-3-notes:
 
 Book VI, Section VI Notes: Desargues, Pascal & the Projective Revolution
 ========================================================================
 
 .. rubric:: Historical Provenance & Projective Foundations
+
+.. folio:: 0152
+   :page: 126
 
 1. The Emergence of Projective Geometry
 ---------------------------------------

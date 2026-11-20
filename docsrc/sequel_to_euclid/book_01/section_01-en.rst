@@ -41,6 +41,12 @@ Let $ABCD$ be the $\Box$, its diagonals $AC, BD$ bisect each other.
 
 **Dem.**—Because $AC$ meets the $\parallel$s $AB, CD$, the $\angle BAO = DCO$. In like manner, the $\angle ABO = CDO$ (xxix.), and the side $AB = \text{side } CD$ (xxxiv.); $\therefore AO = OC$; $BO = OD$ (xxvi.).
 
+.. picture:: 0028.g1.png
+   :caption: Archival woodcut (1888, f. 0028, p. 2) — Book I, Prop. 1: diagonals of a parallelogram bisecting at O.
+
+.. picture:: 0028.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book I, Prop. 1: parallelogram diagonals bisecting at O.
+
 *Cor. 1.*—If the diagonals of a quadrilateral bisect each other it is a $\Box$.
 
 *Cor. 2.*—If the diagonals of a quadrilateral divide it into four equal triangles, it is a $\Box$.
@@ -95,6 +101,25 @@ Let $AD, BE$ be two medians of $\triangle ABC$ intersecting in $G$. Join $D, E$;
 
 ----
 
+.. folio:: 0035
+   :page: 9
+
+**Prop. 12.—The three perpendiculars to the sides of a triangle at their middle points are concurrent.**
+
+**Dem.**—Let the middle points be $D, E, F$. Draw $FG, EG \perp$ to $AB, AC$, and let these $\perp\text{s}$ meet in $G$; join $GD$: the prop. will be proved by showing that $GD$ is $\perp$ to $BC$. Join $AG, BG, CG$. Now, in the $\triangle\text{s } AFG$ and $BFG$, since $AF = FB$, and $FG$ common, and the $\angle AFG = BFG$, $AG$ is $= GB$ (iv.). In like manner $AG = GC$; hence $BG = GC$. And since the $\triangle\text{s } BDG, CDG$ have the side $BD = DC$ and $DG$ common, and the base $BG = GC$, the $\angle BDG = CDG$ (viii.); $\therefore GD$ is $\perp$ to $BC$.
+
+*Cor. 1.*—If the bisectors of the sides of the $\triangle$ meet in $H$, and $GH$ be joined and produced to meet any of the three $\perp\text{s}$ from the $\angle\text{s}$ on the opposite sides; for instance, the $\perp$ from $A$ to $BC$, in the point $I$, suppose; then $GH = \frac{1}{2} HI$. For $DH = \frac{1}{2} HA$ (*Cor.*, Prop. 4).
+
+.. picture:: 0035.g1.png
+   :caption: Archival woodcut (1888, f. 0035, p. 9) — Book I, Prop. 12 Cor. 1: Euler's concurrency of circumcentre G, centroid H, and orthocentre I.
+
+.. picture:: 0035.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book I, Prop. 12: Circumcentre G, Centroid H, and Orthocentre I collinearity (Euler line).
+
+*Cor. 2.*—Hence the $\perp\text{s}$ of the $\triangle$ pass through the point $I$. This is another proof that the $\perp\text{s}$ of a $\triangle$ are concurrent.
+
+----
+
 .. _unit-1-mean-centres:
 
 .. folio:: 0038
@@ -108,6 +133,12 @@ Centres of Mean Position
 $$
 \bar{x} = \frac{n\,x_1 + m\,x_2}{m + n}.
 $$
+
+.. picture:: 0038.g1.png
+   :caption: Archival woodcut (1888, f. 0038, p. 12) — Book I, Prop. 16: perpendicular projections for Centre of Mean Position.
+
+.. picture:: 0038.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book I, Prop. 16: Centre of Mean Position perpendiculars onto axis MN.
 
 .. folio:: 0039
    :page: 13

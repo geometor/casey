@@ -2,15 +2,18 @@
 :layout: book
 :canonical_id: Book VI, Section V Notes
 :order: 5
+:folio: 0139–0152 (p. 113–126)
 :tracks: English: section_05-en | Summary: section_05-summary | Notes: section_05-notes
 
 .. _casey-book-06-sec-05-notes:
-.. _sequel-unit-2-notes:
 
 Book VI, Section V Notes: Poncelet's Porism, Hart's Proof & Apollonius
 ======================================================================
 
 .. rubric:: Historical Context & Modern Connections
+
+.. folio:: 0139
+   :page: 113
 
 1. Historical Provenance: Poncelet, Jacobi, Hart & Casey
 --------------------------------------------------------

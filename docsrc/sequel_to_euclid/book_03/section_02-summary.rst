@@ -1,7 +1,8 @@
 :title: Book III — Section II: Summary
-:layout: section
+:layout: book
+:canonical_id: Book III, Section II Summary
 :order: 2
-:folio: 0075
+:folio: 0075–0078 (p. 49–52)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-03-sec-02-summary:
@@ -9,7 +10,10 @@
 Book III — Section II: Summary
 ==============================
 
-.. rubric:: Structured Decomposition of Book III Exercises (Exercises 1–49, pp. 48–52)
+.. rubric:: Structured Decomposition of Book III Exercises (Exercises 1–49, pp. 49–52)
+
+.. folio:: 0075
+   :page: 49
 
 Overview of Geometric Themes
 ----------------------------

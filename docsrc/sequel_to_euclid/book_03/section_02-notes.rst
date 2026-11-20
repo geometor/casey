@@ -1,7 +1,8 @@
 :title: Book III — Section II: Notes
-:layout: section
+:layout: book
+:canonical_id: Book III, Section II Notes
 :order: 2
-:folio: 0075
+:folio: 0075–0078 (p. 49–52)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-03-sec-02-notes:
@@ -10,6 +11,9 @@ Book III — Section II: Notes
 ============================
 
 .. rubric:: Historical and Mathematical Commentary on Book III Exercises
+
+.. folio:: 0075
+   :page: 49
 
 Fermat-Torricelli Point & Napoleon's Theorem
 --------------------------------------------

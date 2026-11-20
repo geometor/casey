@@ -1,7 +1,8 @@
 :title: Book IV, Section II: Exercises (Ex. 1–34)
+:layout: book
+:canonical_id: Book IV, Section II
 :order: 2
-:layout: section
-:folio: 0090
+:folio: 0090–0092 (p. 64–66)
 :tracks: English: section_02-en | Summary: section_02-summary | Notes: section_02-notes
 
 .. _casey-book-04-sec-02:

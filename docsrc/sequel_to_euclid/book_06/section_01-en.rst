@@ -70,6 +70,12 @@ $$
 
 Hence, multiplying out, we get the product equal to unity.
 
+.. picture:: 0093.g1.png
+   :caption: Archival woodcut (1888, f. 0093, p. 67) — Book VI, Sec. I, Prop. 2: Ceva's concurrence of cevians at O.
+
+.. picture:: 0093.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. I, Prop. 2: Ceva's Theorem concurrent cevians at O.
+
 *Cor.*—This may be written
 
 $$
@@ -128,6 +134,12 @@ $$
 $$
 
 and the product of these is evidently equal unity. Hence the proposition is proved.
+
+.. picture:: 0095.g1.png
+   :caption: Archival woodcut (1888, f. 0095, p. 69) — Book VI, Sec. I, Prop. 4: Menelaus's collinear transversal across sides of triangle ABC.
+
+.. picture:: 0095.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. I, Prop. 4: Menelaus's Theorem transversal and perpendicular ratios.
 
 *Observation.*—If we introduce the signs plus and minus, in this Proposition, it is evident that one of the three ratios must be negative. And when the transversal cuts all the sides of the triangle externally, all three will be negative. Hence their product will, in all cases, be equal to negative unity.
 

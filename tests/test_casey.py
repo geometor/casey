@@ -267,8 +267,96 @@ def test_svg_renderer_and_apparatus_concordance(tmp_path: Path) -> None:
     # Verify zero embedded Python code blocks inside historical codex .rst files
     for rst_path in doc_dir.rglob("*.rst"):
         txt = rst_path.read_text(encoding="utf-8")
+        assert ".. py_file::" not in txt, f"Disallowed py_file in {rst_path}"
         assert ".. code-block:: python" not in txt
         assert "literalinclude::" not in txt
 
     assert cli_main(["summary"]) == 0
     assert cli_main(["concordance"]) == 0
+
+
+def test_book_codex_leaf_continuity_and_plates() -> None:
+    """Verify all 72 Book Codex leaf pages, 8 supplementary sections, plates, and 5-layer SVGs."""
+    doc_dir = _REPO_ROOT / "docsrc" / "sequel_to_euclid"
+    expected_books = {
+        "book_01": 2,
+        "book_02": 2,
+        "book_03": 2,
+        "book_04": 2,
+        "book_06": 8,
+        "supplementary_chapter": 8,
+    }
+    expected_tracks = ("en", "summary", "notes")
+    all_leaves: list[Path] = []
+    for folder, sec_count in expected_books.items():
+        for sec in range(1, sec_count + 1):
+            for track in expected_tracks:
+                all_leaves.append(doc_dir / folder / f"section_{sec:02d}-{track}.rst")
+
+    assert len(all_leaves) == 72
+
+    referenced_plates: set[Path] = set()
+    picture_re = re.compile(r"^\.\.\s+picture::\s+(\S+)", re.MULTILINE)
+
+    for leaf in all_leaves:
+        assert leaf.is_file(), f"Missing codex leaf {leaf}"
+        txt = leaf.read_text(encoding="utf-8")
+        assert ":layout: book" in txt, f"Missing :layout: book in {leaf}"
+        assert re.search(r"^:folio:\s+\S+", txt, re.MULTILINE), f"Missing :folio: in {leaf}"
+        assert ".. folio::" in txt, f"Missing .. folio:: directive in {leaf}"
+
+        for match in picture_re.finditer(txt):
+            rel_img = match.group(1)
+            img_path = (leaf.parent / rel_img).resolve()
+            assert img_path.is_file(), f"Broken .. picture:: {rel_img} in {leaf}"
+            referenced_plates.add(img_path)
+            # Check option block immediately following .. picture::
+            after = txt[match.end() :].split("\n\n", 1)[0]
+            assert ":align:" not in after, f"Disallowed :align: on .. picture:: in {leaf}"
+            assert ":width:" not in after, f"Disallowed :width: on .. picture:: in {leaf}"
+
+    # Verify every archival .g*.png and calibrated .g*.svg in book/section dirs is embedded
+    all_section_pngs = {
+        p.resolve()
+        for folder in expected_books
+        for p in (doc_dir / folder).glob("*.g*.png")
+    }
+    assert len(all_section_pngs) >= 39
+    unreferenced_pngs = all_section_pngs - referenced_plates
+    assert not unreferenced_pngs, f"Unreferenced archival bitmaps: {unreferenced_pngs}"
+
+    all_section_svgs = {
+        p.resolve()
+        for folder in expected_books
+        for p in (doc_dir / folder).glob("*.g*.svg")
+    }
+    assert len(all_section_svgs) >= 21
+    unreferenced_svgs = all_section_svgs - referenced_plates
+    assert not unreferenced_svgs, f"Unreferenced SVG graphics: {unreferenced_svgs}"
+
+    # Validate 5-layer .euclid-graphic DOM on every calibrated SVG
+    for svg_path in sorted(all_section_svgs):
+        raw = svg_path.read_text(encoding="utf-8")
+        assert "--geom-fg:" in raw, f"Missing --geom- variables in {svg_path}"
+        assert "geom-tick-1" in raw, f"Missing <defs> tick marks in {svg_path}"
+        root = ET.fromstring(raw)
+        assert "euclid-graphic" in root.attrib.get("class", ""), f"Missing .euclid-graphic in {svg_path}"
+        groups = [
+            el.attrib.get("id", "")
+            for el in root.findall("{http://www.w3.org/2000/svg}g")
+        ]
+        for layer in ("elements", "graphics", "highlights", "points", "labels"):
+            assert layer in groups, f"Missing SVG layer {layer!r} in {svg_path}"
+        # Verify 3-vertex midpoint paths (M x y L mx my L x2 y2) in elements layer
+        elem_layer = next(
+            el for el in root.findall("{http://www.w3.org/2000/svg}g")
+            if el.attrib.get("id") == "elements"
+        )
+        paths = [
+            el.attrib.get("d", "")
+            for el in elem_layer.findall("{http://www.w3.org/2000/svg}path")
+        ]
+        assert any(d.startswith("M ") and d.count(" L ") == 2 for d in paths), (
+            f"Expected 3-vertex midpoint path in {svg_path}"
+        )
+

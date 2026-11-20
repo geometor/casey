@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book VI, Section VI
 :order: 6
+:folio: 0152–0166 (p. 126–140)
 :tracks: English: section_06-en | Summary: section_06-summary | Notes: section_06-notes
 
 .. _casey-book-06-sec-06:
@@ -140,11 +141,20 @@ Let $ABCDEFA$ be the hexagon. The points $L, N, M$ are collinear.
 
 **Dem.**—Join $EN$. Then the pencil $(N\,.\,FMCE) =$ the pencil $(C\,.\,FBDE)$, because they have a common transversal $EF$ (*Cor.* 3, Prop. 2). In like manner, the pencil $(A\,.\,FBDE) = (N\,.\,ALDE)$; but $(A\,.\,FBDE) = (C\,.\,FBDE)$ (Prop. 2, *Cor.* 4). Hence the pencils $(N\,.\,FMCE), (N\,.\,ALDE)$ are equal; and therefore (*Cor.* 2, Prop. 2) the points $L, N, M$ are collinear.
 
+.. picture:: 0156.g1.png
+   :caption: Archival woodcut (1888, f. 0156, p. 130) — Book VI, Sec. VI, Prop. 4: Pascal's Mystic Hexagon in a circle.
+
+.. picture:: 0156.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. VI, Prop. 4: Pascal's Hexagon & collinear intersections L, M, N.
+
 *Cor.* 1.—With six points on the circumference of a circle, sixty hexagons can be formed. For, starting with any point, say $A$, we could go from $A$ to one of the remaining points in five ways. Suppose we select $B$, then we could go from $B$ to a third point in four different ways, and so on; hence it is evident that we could join $A$ to another point, and that again to another, and so on, and finally return to $A$ in $5 \times 4 \times 3 \times 2 \times 1$ different ways. Hence we shall have that number of hexagons; but each is evidently counted twice, and we shall therefore have half the number, that is, sixty distinct hexagons.
 
 *Cor.* 2.—Pascal's Theorem holds for each of the sixty hexagons.
 
 *Cor.* 3.—Pascal's Theorem holds for six points,
+
+.. picture:: 0156.g2.png
+   :caption: Archival woodcut (1888, f. 0156, p. 130) — Book VI, Sec. VI, Prop. 4 Cor. 3: Pappus's degenerate case on two lines.
 
 .. folio:: 0157
    :page: 131
@@ -158,6 +168,12 @@ Let the pencils be $(O\,.\,O'ABC), (O'\,.\,OABC)$, having the common ray $OO'$; 
 *Cor.* 1.—If $A, B, C; A', B', C'$ be two triads of points on two lines intersecting in $O$, and if the anharmonic ratio $(OABC) = (OA'B'C')$, the three lines $AA', BB', CC'$ are concurrent. For, let $AA', BB'$, intersect in $D$; join $CD$, intersecting $OA'$ in $E$; then the anharmonic ratio $(OA'B'E) = (OABC) = (OA'B'C')$ by hypothesis; therefore the point $E$ coincides with $C'$. Hence the Proposition is proved.
 
 *Cor.* 2.—:person:`Desargues's <desargues>` Theorem.—*If two* $\Delta\text{s}$ $ABC, A'B'C'$ *have lines joining corresponding vertices concurrent, the intersections of corresponding sides must be collinear.* For, join $P$, the point of intersection of the sides $BC, B'C'$,
+
+.. picture:: 0157.g1.png
+   :caption: Archival woodcut (1888, f. 0157, p. 131) — Book VI, Sec. VI, Prop. 5 Cor. 2: Desargues's perspective triangles theorem.
+
+.. picture:: 0157.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. VI, Prop. 5 Cor. 2: Desargues's perspective triangles & axis.
 
 .. folio:: 0158
    :page: 132

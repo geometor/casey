@@ -1,4 +1,8 @@
 :title: Book VI, Section III — Theory of Harmonic Section
+:layout: book
+:canonical_id: Book VI, Section III
+:order: 3
+:folio: 0113–0120 (p. 87–94)
 :tracks: English: section_03-en | Summary: section_03-summary | Notes: section_03-notes
 
 .. _casey-book-06-sec-03:
@@ -148,7 +152,11 @@ For, through $C'$ draw $G'H' \parallel$ to $GH$; then, by Prop. 3, Section I., $
 
 Let $ABCD$ be the quadrilateral whose two sides :g:`[AD] <0117.g1:[ D A ]>`, :g:`[BC] <0117.g1:[ B C ]>` meet in :g:`F <0117.g1:F>`; then the line $FO$, and the third diagonal :g:`[FE] <0117.g1:[ E F ]>`, form a pair of conjugate rays with $FA$ and $FB$.
 
+.. picture:: 0117.g1.png
+   :caption: Archival woodcut (1888, f. 0117, p. 91) — Book VI, Sec. III, Prop. 7: harmonic pencil of the complete quadrilateral.
+
 .. picture:: 0117.g1.svg
+   :caption: Calibrated 5-layer .euclid-graphic SVG — Book VI, Sec. III, Prop. 7: Complete Quadrilateral harmonic diagonals.
 
 **Dem.**—Through $O$ draw $OH \parallel$ to $AD$; meet $BC$ in $G$, and the third diagonal in $H$. Then $OG = GH$ (Prop. 8, Section I.). Hence the pencil $(F\,.\,AOBE)$ is harmonic. In like manner the pencil $(E\,.\,AODF)$ is harmonic.
 

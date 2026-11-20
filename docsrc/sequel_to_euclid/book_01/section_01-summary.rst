@@ -2,6 +2,7 @@
 :layout: book
 :canonical_id: Book I, Section I Summary
 :order: 1
+:folio: 0027–0042 (p. 1–16)
 :tracks: English: section_01-en | Summary: section_01-summary | Notes: section_01-notes
 
 .. _casey-book-01-sec-01-summary:
@@ -11,6 +12,9 @@ Book I, Section I Summary: Additional Propositions
 ==================================================
 
 .. rubric:: Structured Decomposition & Invariant Ledger for Casey's Book I Section I (pp. 1–16)
+
+.. folio:: 0027
+   :page: 1
 
 1. Architectural Overview
 -------------------------
