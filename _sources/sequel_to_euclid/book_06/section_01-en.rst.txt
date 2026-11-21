@@ -228,5 +228,4 @@ Let $abc, a'b'c', a''b''c''$ be three $\triangle$s, having the point $O$ as a co
 
 *Cor.*—The two systems of $\triangle$s, viz., that formed by the lines $ab, a'b', a''b''$; $bc, b'c', b''c''$; $ca, c'a', c''a''$; and the system $abc, a'b'c', a''b''c''$, have corresponding properties—namely, the three axes of perspective of either system meet in the centre of perspective of the other system.
 
-**Prop. 15.—Solutions of Geometrical Problems (pp. 78–81).**
-Casey concludes Section I with systematic constructions applying transversals and ratio division to classic geometric problems: inscribing a square or rectangle in a triangle, constructing a triangle given its angles and perimeter, and drawing lines through given points to concur on given boundaries.
+**Prop. 15.—We shall conclude this section with the solution of a few Problems** (pp. 78–81): inscribing a square or rectangle in a given triangle, constructing a triangle given its angles and perimeter, and drawing lines through given points to concur upon given boundaries.
